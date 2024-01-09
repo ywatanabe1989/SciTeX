@@ -60,8 +60,8 @@ function print_success() {
 }
 
 function store_old_pdf() {
-    mkdir -p ./old_versions/
+    mkdir -p ./old_pdfs/
     if [ -f ./build/main.pdf ]; then
-        mv ./build/main.pdf "./old_versions/main-$(date +%Y-%m%d-%I:%M%p).pdf"
+        mv ./build/main.pdf "./old_pdfs/main-$(date +%Y-%m%d-%I:%M%p).pdf"
     fi
 }

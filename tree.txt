@@ -16,8 +16,19 @@
 │   ├── main.out
 │   ├── main.spl
 │   └── syntax_warnings.log
-├── main.pdf -> ./build/main.pdf
-├── media
+├── old_pdfs
+│   ├── main-2024-0109-09:03PM.pdf
+│   └── main-2024-0110-08:33AM.pdf
+├── README.md
+├── scripts
+│   ├── checks.sh
+│   ├── cleanup.sh
+│   ├── compile.sh
+│   ├── figures.sh
+│   ├── install_latex_on_ubuntu.sh
+│   ├── pdf.sh
+│   └── tables.sh
+├── src
 │   ├── figures
 │   │   ├── legend
 │   │   │   ├── Figure_ID_01.tex
@@ -44,16 +55,10 @@
 │           ├── Table_ID_01.xlsx
 │           ├── Table_ID_02.xlsx
 │           └── Table_ID_03.xlsx
-├── old_versions
-│   └── main-2024-0109-09:03PM.pdf
-├── README.md
-├── scripts
-│   ├── checks.sh
-│   ├── cleanup.sh
-│   ├── compile.sh
-│   ├── figures.sh
-│   ├── pdf.sh
-│   └── tables.sh
+├── styles
+│   ├── bibliography.tex
+│   ├── formatting.tex
+│   └── packages.tex
 ├── text
 │   ├── additional
 │   │   ├── additional_info.tex
@@ -70,10 +75,6 @@
 │       ├── highlights.tex
 │       ├── keywords.tex
 │       └── title.tex
-├── styles
-│   ├── bibliography.tex
-│   ├── formatting.tex
-│   └── packages.tex
 └── tree.txt
 
-16 directories, 60 files
+16 directories, 61 files
