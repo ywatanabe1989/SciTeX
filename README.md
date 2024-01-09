@@ -30,6 +30,8 @@ $ ./compile.sh
 
 ## Which Files to Edit?
 
+The following files will be edited and can also be navigated through links in the [`./to_edit/`](./to_edit/) directory.
+
 #### Basic structure
 [`./build/main.tex`](./build/main.tex/): Defines the manuscript's structure such as IMRaD.
 
