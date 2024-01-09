@@ -94,7 +94,7 @@ sudo apt-get install tree -y
 
 
 
-## What do you need to edit?
+## Which files should be edited?
 
 #### Generates a PDF file
 `./compile.sh`: Generates `./build/main.pdf` by compiling the tex and bib files.
