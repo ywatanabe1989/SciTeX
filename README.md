@@ -69,7 +69,7 @@ sudo apt-get install tree -y
 │   ├── figures.sh
 │   ├── pdf.sh
 │   └── tables.sh
-├── src
+├── text
 │   ├── additional
 │   │   ├── additional_info.tex
 │   │   └── appendices.tex
@@ -112,7 +112,7 @@ sudo apt-get install tree -y
 `./media/tables/`: Where you store Excel (xlsx) files and their legends.
 
 #### Manuscript
-`./src/`: Where you write your manuscript.
+`./text/`: Where you write your manuscript.
 
 #### Styles
 `./styles/`: Where you controls styles like citation styles.

@@ -54,7 +54,7 @@
 │   ├── figures.sh
 │   ├── pdf.sh
 │   └── tables.sh
-├── src
+├── text
 │   ├── additional
 │   │   ├── additional_info.tex
 │   │   └── appendices.tex
