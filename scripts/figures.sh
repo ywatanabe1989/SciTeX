@@ -1,22 +1,22 @@
 #!/bin/bash
 
 function hide_figures() {
-    for fig_tex in ./media/figures/.tex/Figure_*.tex; do
+    for fig_tex in ./src/figures/.tex/Figure_*.tex; do
         sed -i 's/\\includegraphics/% \\includegraphics/g' $fig_tex
     done
 }
 
 function add_figures() {
-    for fig_tex in ./media/figures/.tex/Figure_*.tex; do    
+    for fig_tex in ./src/figures/.tex/Figure_*.tex; do    
         sed -i 's/% \\includegraphics/\\includegraphics/g' $fig_tex
     done
 }
 
 function cvt_tif2png() {
-    mkdir -p ./media/figures/.png/
-    for file in ./media/figures/tif/*.tif; do
+    mkdir -p ./src/figures/.png/
+    for file in ./src/figures/tif/*.tif; do
         if [ -f "$file" ]; then
-            convert "$file" -resample 150x150 "./media/figures/.png/$(basename "$file" .tif).png"
+            convert "$file" -resample 150x150 "./src/figures/.png/$(basename "$file" .tif).png"
         fi
     done
 }
@@ -26,7 +26,7 @@ function toggle_figure_visibility() {
         hide_figures
     else
         cvt_tif2png
-        if ls ./media/figures/.png/*.png 1> /dev/null 2>&1; then
+        if ls ./src/figures/.png/*.png 1> /dev/null 2>&1; then
             add_figures
         else
             hide_figures
@@ -36,9 +36,9 @@ function toggle_figure_visibility() {
 
 function compile_legend() {
 
-    legend_dir="./media/figures/legend"
-    tgt_dir="./media/figures/.tex"
-    figures_dir="./media/figures/.png"
+    legend_dir="./src/figures/legend"
+    tgt_dir="./src/figures/.tex"
+    figures_dir="./src/figures/.png"
 
     mkdir -p "$tgt_dir"  > /dev/null
 
@@ -77,9 +77,9 @@ EOF
 function gather_figures() {
     compile_legend
     
-    rm ./media/figures/.tex/.All_Figures.tex > /dev/null 2>&1    
-	for fig_tex in ./media/figures/.tex/Figure_*.tex; do
+    rm ./src/figures/.tex/.All_Figures.tex > /dev/null 2>&1    
+	for fig_tex in ./src/figures/.tex/Figure_*.tex; do
 	    fname="${fig_tex%.tex}"
-        echo "\input{${fname}}" >> ./media/figures/.tex/.All_Figures.tex
+        echo "\input{${fname}}" >> ./src/figures/.tex/.All_Figures.tex
     done
 }
