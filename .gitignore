@@ -1,0 +1,23 @@
+*.old
+x_old_pdfs/*
+Figures/png/*
+Figures/tif/*
+!Figures/png/.gitkeep
+!Figures/tif/.gitkeep
+*#*#
+
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.spl
+*.dvi
+*.toc
+.main.aux.swp
+
+x_auxiliary_files/*
+!x_auxiliary_files/.gitkeep
+
+# Emacs
+.#*
