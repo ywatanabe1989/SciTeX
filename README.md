@@ -23,31 +23,31 @@ sudo apt-get install texlive-full -y
 sudo apt-get install tree -y
 ```
 
+## How to use?
+[`./compile.sh`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/compile.sh): Generates [`./build/main.pdf`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/main.pdf) by compiling the tex and bib files.
+
 ## Which files to edit?
 
-#### Generates a PDF file
-`./compile.sh`: Generates `./build/main.pdf` by compiling the tex and bib files.
-
 #### Basic structure
-`./build/main.tex`: The structure of the manuscript.
+[`./build/main.tex`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/main.tex/): The structure of the manuscript.
 
 #### References
-`./build/refs.bib`: The database for references.
+[`./build/refs.bib`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/refs.bib/): The database for references.
 
 #### Figures
-`./media/figures/`: Where you store TIFF images and their legends.
+[`./media/figures/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/media/figures//): Where you store TIFF images and their legends.
 
 #### Tables
-`./media/tables/`: Where you store Excel (xlsx) files and their legends.
+[`./media/tables/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/media/tables/): Where you store Excel (xlsx) files and their legends.
 
 #### Manuscript
-`./src/`: Where you write your manuscript.
+[`./src/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/): Where you write your manuscript.
 
 #### Styles
-`./styles/`: Where you controls styles like citation styles.
+[`./styles/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/styles/): Where you controls styles like citation styles.
 
 ### Project Structure
-[tree.txt](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/tree.txt)
+[`./tree.txt`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/tree.txt)
 
 
 ## Contact
