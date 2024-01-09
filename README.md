@@ -35,10 +35,10 @@ $ ./compile.sh
 [`./build/refs.bib`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/refs.bib/): Contains the biblography databse in the bibtex format.
 
 #### Figures
-[`./media/figures/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/media/figures//): Stores TIFF images and their legends, which will be automatically inserted to the final pdf as low-resolution, lighter PNG images.
+[`./src/figures/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/figures//): Stores TIFF images and their legends, which will be automatically inserted to the final pdf as low-resolution, lighter PNG images.
 
 #### Tables
-[`./media/tables/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/media/tables/): Stores Excel (xlsx) files and their legends.
+[`./src/tables/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/tables/): Stores Excel (xlsx) files and their legends.
 
 #### Text
 [`./text/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/): The directory for writing the manuscript.

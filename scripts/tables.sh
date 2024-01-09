@@ -1,11 +1,11 @@
 function excel2tex() {
-    rm ./media/tables/.tex/*.tex > /dev/null
+    rm ./src/tables/.tex/*.tex > /dev/null
     
-    xlsx_directory="./media/tables/xlsx/"
-    csv_directory="./media/tables/.csv/"
-    output_directory_tmp="./media/tables/.tex/.tmp/"
-    output_directory="./media/tables/.tex/"    
-    legend_directory="./media/tables/legend/"
+    xlsx_directory="./src/tables/xlsx/"
+    csv_directory="./src/tables/.csv/"
+    output_directory_tmp="./src/tables/.tex/.tmp/"
+    output_directory="./src/tables/.tex/"    
+    legend_directory="./src/tables/legend/"
 
     mkdir -p $xlsx_directory $csv_directory $output_directory $output_directory_tmp > /dev/null
 
@@ -51,9 +51,9 @@ function excel2tex() {
 
 function gather_tables() {
     excel2tex
-    rm ./media/tables/.tex/.All_Tables.tex > /dev/null 2>&1
-    for table_tex in ./media/tables/.tex/Table_*.tex; do
+    rm ./src/tables/.tex/.All_Tables.tex > /dev/null 2>&1
+    for table_tex in ./src/tables/.tex/Table_*.tex; do
         fname="${table_tex%.tex}"
-	    echo "\input{${fname}}" >> ./media/tables/.tex/.All_Tables.tex
+	    echo "\input{${fname}}" >> ./src/tables/.tex/.All_Tables.tex
 	done
 }
