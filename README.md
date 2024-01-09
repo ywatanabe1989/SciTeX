@@ -4,118 +4,51 @@ This LaTeX template is structured according to the guidelines of an [Elsevier sc
 
 
 ## Why LaTeX?
-- Organized structure and formatting.
-- Enhanced clarity through text and media separation.
-- Easy tracking for version control.
-- Streamlined reference management.
-- Precise mathematical expression formatting.
-- Automated numbering and bookmarking.
-- Productivity will be accelerated by writing with your editor.
-- Compatibility with AI generative models.
+- Provides organized structure and consistent formatting.
+- Facilitates easy and precise formatting of mathematical expressions.
+- Ensures consistency in text editing, leveraging full text editor capabilities.
+- Automates numbering, bookmarking, and reference management.
+- Enhances clarity by separating text and media.
+- Simplifies version tracking with git.
+- Integrates seamlessly with AI tools for language processing.
 
 ## LaTeX Installation on Ubuntu
 
 To install LaTeX on Ubuntu, use the following terminal commands:
 
 ```bash
-sudo apt update
-sudo apt-get install texlive-full -y
-sudo apt-get install tree -y
+$ ./scripts/install_latex_on_ubuntu.sh
 ```
 
-### Project Structure
-
+## How to use?
+```bash
+$ ./compile.sh
 ```
-.
-├── build
-│   ├── main_combined.tex
-│   ├── main.pdf
-│   ├── main.tex
-│   └── refs.bib
-├── compile.sh
-├── logs
-│   └── ...
-├── media
-│   ├── figures
-│   │   ├── legend
-│   │   │   ├── Figure_ID_01.tex
-│   │   │   ├── Figure_ID_02.tex
-│   │   │   │   ...
-│   │   │   └── Figure_ID_07.tex
-│   │   └── tif
-│   │       ├── Figure_ID_01.tif
-│   │       ├── Figure_ID_02.tif
-│   │       │   ...
-│   │       └── Figure_ID_07.tif
-│   └── tables
-│       ├── legend
-│       │   ├── Table_ID_01.tex
-│       │   ├── Table_ID_02.tex
-│       │   └── Table_ID_03.tex
-│       └── xlsx
-│           ├── Table_ID_01.xlsx
-│           ├── Table_ID_02.xlsx
-│           └── Table_ID_03.xlsx
-├── old_versions
-│   ├── main-2024-0109-01:42PM.pdf
-│   ├── main-2024-0109-01:43PM.pdf
-│   │   ...
-│   └── main-2024-0109-03:24PM.pdf
-├── README.md
-├── scripts
-│   ├── checks.sh
-│   ├── cleanup.sh
-│   ├── compile.sh
-│   ├── figures.sh
-│   ├── pdf.sh
-│   └── tables.sh
-├── text
-│   ├── additional
-│   │   ├── additional_info.tex
-│   │   └── appendices.tex
-│   ├── IMRaD
-│   │   ├── 0_abstract.tex
-│   │   ├── 1_introduction.tex
-│   │   ├── 2_methods.tex
-│   │   ├── 3_results.tex
-│   │   └── 4_discussion.tex
-│   └── top
-│       ├── abstract.tex -> ../IMRaD/0_abstract.tex
-│       ├── graphical_abstract.tex
-│       ├── highlights.tex
-│       ├── keywords.tex
-│       └── title.tex
-├── styles
-│   ├── bibliography.tex
-│   ├── formatting.tex
-│   └── packages.tex
-└── tree.txt
-```
+[`./compile.sh`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/compile.sh): Compiles the tex and bib files to generate [`./build/main.pdf`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/main.pdf).
 
-
-
-## What do you need to edit?
-
-#### Generates a PDF file
-`./compile.sh`: Generates `./build/main.pdf` by compiling the tex and bib files.
+## Which Files to Edit?
 
 #### Basic structure
-`./build/main.tex`: The structure of the manuscript.
+[`./build/main.tex`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/main.tex/): Defines the manuscript's structure such as IMRaD.
 
 #### References
-`./build/refs.bib`: The database for references.
+[`./build/refs.bib`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/refs.bib/): Contains the biblography databse in the bibtex format.
 
 #### Figures
-`./media/figures/`: Where you store TIFF images and their legends.
+[`./media/figures/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/media/figures//): Stores TIFF images and their legends, which will be automatically inserted to the final pdf as low-resolution, lighter PNG images.
 
 #### Tables
-`./media/tables/`: Where you store Excel (xlsx) files and their legends.
+[`./media/tables/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/media/tables/): Stores Excel (xlsx) files and their legends.
 
-#### Manuscript
-`./text/`: Where you write your manuscript.
+#### Text
+[`./text/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/): The directory for writing the manuscript.
 
 #### Styles
-`./styles/`: Where you controls styles like citation styles.
+[`./styles/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/styles/): Manages styles such as citation formats.
+
+### Project Structure
+[`./tree.txt`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/tree.txt): Updated automatically each time [`./compile.sh`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/compile.sh) is executed.
+
 
 ## Contact
 
