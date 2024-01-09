@@ -23,77 +23,6 @@ sudo apt-get install texlive-full -y
 sudo apt-get install tree -y
 ```
 
-### Project Structure
-
-```
-.
-├── build
-│   ├── main_combined.tex
-│   ├── main.pdf
-│   ├── main.tex
-│   └── refs.bib
-├── compile.sh
-├── logs
-│   └── ...
-├── media
-│   ├── figures
-│   │   ├── legend
-│   │   │   ├── Figure_ID_01.tex
-│   │   │   ├── Figure_ID_02.tex
-│   │   │   │   ...
-│   │   │   └── Figure_ID_07.tex
-│   │   └── tif
-│   │       ├── Figure_ID_01.tif
-│   │       ├── Figure_ID_02.tif
-│   │       │   ...
-│   │       └── Figure_ID_07.tif
-│   └── tables
-│       ├── legend
-│       │   ├── Table_ID_01.tex
-│       │   ├── Table_ID_02.tex
-│       │   └── Table_ID_03.tex
-│       └── xlsx
-│           ├── Table_ID_01.xlsx
-│           ├── Table_ID_02.xlsx
-│           └── Table_ID_03.xlsx
-├── old_versions
-│   ├── main-2024-0109-09:13PM.pdf
-│   ├── main-2024-0109-09:03PM.pdf
-│   │   ...
-│   └── main-2024-0108-09:32PM.pdf
-├── README.md
-├── scripts
-│   ├── checks.sh
-│   ├── cleanup.sh
-│   ├── compile.sh
-│   ├── figures.sh
-│   ├── pdf.sh
-│   └── tables.sh
-├── src
-│   ├── additional
-│   │   ├── additional_info.tex
-│   │   └── appendices.tex
-│   ├── IMRaD
-│   │   ├── 0_abstract.tex
-│   │   ├── 1_introduction.tex
-│   │   ├── 2_methods.tex
-│   │   ├── 3_results.tex
-│   │   └── 4_discussion.tex
-│   └── top
-│       ├── abstract.tex -> ../IMRaD/0_abstract.tex
-│       ├── graphical_abstract.tex
-│       ├── highlights.tex
-│       ├── keywords.tex
-│       └── title.tex
-├── styles
-│   ├── bibliography.tex
-│   ├── formatting.tex
-│   └── packages.tex
-└── tree.txt
-```
-
-
-
 ## Which files to edit?
 
 #### Generates a PDF file
@@ -116,6 +45,10 @@ sudo apt-get install tree -y
 
 #### Styles
 `./styles/`: Where you controls styles like citation styles.
+
+### Project Structure
+[tree.txt](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/tree.txt)
+
 
 ## Contact
 
