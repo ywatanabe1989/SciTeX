@@ -16,10 +16,10 @@ This LaTeX template is structured according to the guidelines of an [Elsevier sc
 
 ## LaTeX Installation on Ubuntu
 
-To install LaTeX on Ubuntu, use the following terminal commands:
+To install neccessary pacakges on Ubuntu, run [`./scripts/install_on_ubuntu.sh`](./scripts/install_on_ubuntu.sh) as follows:
 
 ```bash
-$ ./scripts/install_latex_on_ubuntu.sh
+$ ./scripts/install_on_ubuntu.sh
 ```
 
 ## How to use?
