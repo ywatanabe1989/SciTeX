@@ -24,30 +24,30 @@ $ ./scripts/install_latex_on_ubuntu.sh
 ```bash
 $ ./compile.sh
 ```
-[`./compile.sh`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/compile.sh): Compiles the tex and bib files to generate [`./build/main.pdf`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/main.pdf).
+[`./compile.sh`](./compile.sh): Compiles the tex and bib files to generate [`./build/main.pdf`](./build/main.pdf).
 
 ## Which Files to Edit?
 
 #### Basic structure
-[`./build/main.tex`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/main.tex/): Defines the manuscript's structure such as IMRaD.
+[`./build/main.tex`](./build/main.tex/): Defines the manuscript's structure such as IMRaD.
 
 #### References
-[`./build/refs.bib`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/build/refs.bib/): Contains the biblography databse in the bibtex format.
+[`./build/refs.bib`](./build/refs.bib/): Contains the biblography databse in the bibtex format.
 
 #### Figures
-[`./src/figures/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/figures//): Stores TIFF images and their legends, which will be automatically inserted to the final pdf as low-resolution, lighter PNG images.
+[`./src/figures/`](./src/figures//): Stores TIFF images and their legends, which will be automatically inserted to the final pdf as low-resolution, lighter PNG images.
 
 #### Tables
-[`./src/tables/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/tables/): Stores Excel (xlsx) files and their legends.
+[`./src/tables/`](./src/tables/): Stores Excel (xlsx) files and their legends.
 
 #### Text
-[`./text/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/src/): The directory for writing the manuscript.
+[`./text/`](./src/): The directory for writing the manuscript.
 
 #### Styles
-[`./styles/`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/styles/): Manages styles such as citation formats.
+[`./styles/`](./styles/): Manages styles such as citation formats.
 
 ### Project Structure
-[`./tree.txt`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/tree.txt): Updated automatically each time [`./compile.sh`](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/blob/main/compile.sh) is executed.
+[`./tree.txt`](./tree.txt): Updated automatically each time [`./compile.sh`](./compile.sh) is executed.
 
 
 ## Contact
