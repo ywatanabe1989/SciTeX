@@ -1,3 +1,5 @@
+![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/main.yml/badge.svg)
+
 ## Scientific Manuscript LaTeX Template (Based on Elsevier's Template)
 
 This LaTeX template is structured according to the guidelines of an [Elsevier scientific manuscript](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions). It can be adapted for use with other journal guidelines as well.
