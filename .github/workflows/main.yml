@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install LaTeX
-      run: ./scripts/install_latex_on_ubuntu.sh
+      run: ./scripts/install_on_ubuntu.sh
       
     - name: Run compile script
       run: ./compile.sh
