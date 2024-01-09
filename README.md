@@ -8,7 +8,7 @@ This LaTeX template is structured according to the guidelines of an [Elsevier sc
 - Facilitates easy and precise formatting of mathematical expressions.
 - Ensures consistency in text editing, leveraging full text editor capabilities.
 - Automates numbering, bookmarking, and reference management.
-- Enhances clarity by separating text and media.
+- Enhances clarity by separating text and Figures & Tables.
 - Simplifies version tracking with git.
 - Integrates seamlessly with AI tools for language processing.
 
