@@ -16,7 +16,7 @@ This LaTeX template is structured according to the guidelines of an [Elsevier sc
 
 ## LaTeX Installation on Ubuntu
 
-To install neccessary pacakges on Ubuntu, run [`./.scripts/install_on_ubuntu.sh`](./scripts/.install_on_ubuntu.sh) as follows:
+To install neccessary pacakges on Ubuntu, run [`./.scripts/install_on_ubuntu.sh`](./.scripts/install_on_ubuntu.sh) as follows:
 
 ```bash
 $ ./.scripts/install_on_ubuntu.sh
@@ -28,7 +28,7 @@ $ ./.scripts/install_on_ubuntu.sh
 $ ./compile.sh
 ```
 
-[`./compile.sh`](./compile.sh): Compiles the tex and bib files to generate [`./main.pdf`](./main.pdf).
+[`./compile.sh`](./.scripts/compile.sh): Compiles the tex and bib files to generate [`./main.pdf`](./main.pdf).
 
 ## Which Files to Edit?
 
