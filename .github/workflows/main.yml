@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install LaTeX
-      run: ./scripts/install_on_ubuntu.sh
+      run: ./.scripts/install_on_ubuntu.sh
       
     - name: Run compile script
       run: ./compile.sh
@@ -14,6 +14,4 @@ jobs:
     - name: Generate tree.txt and update README
       run: |
         tree > tree.txt
-        # Correctly replace the TREE_PLACEHOLDER in the README with the content of tree.txt
-        sed -i '/^```$/,/^```$/{/^```$/!{/^$/!d;};}' README.md
-        sed -i '/^```$/r tree.txt' README.md
+        sed -i '/TREE_PLACEHOLDER/r tree.txt' README.md
