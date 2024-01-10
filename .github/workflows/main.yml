@@ -1,0 +1,18 @@
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install LaTeX
+      run: ./.scripts/install_on_ubuntu.sh
+      
+    - name: Run compile script
+      run: ./compile.sh
+      
+    - name: Generate tree.txt and update README
+      run: |
+        tree > .tree.txt
+        sed -i '/TREE_PLACEHOLDER/r .tree.txt' README.md
+        sed -i '/TREE_PLACEHOLDER/d' README.md
