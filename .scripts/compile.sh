@@ -38,6 +38,6 @@ if [ "$(echo $USER)" = "ywatanabe" ]; then
 fi
 
 # Tree
-tree > ./tree.txt
+tree > ./.tree.txt
 
 ## EOF
