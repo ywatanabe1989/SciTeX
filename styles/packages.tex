@@ -15,8 +15,8 @@
 \usepackage{graphicx}
 \usepackage{calc}
 % for tables
-\usepackage{xlsx2csv}
-\usepackage{csv2latex}
+% \usepackage{xlsx2csv}
+% \usepackage{csv2latex}
 \usepackage[T1]{fontenc} % [REVISED]
 \usepackage[utf8]{inputenc} % [REVISED]
 \usepackage{hyperref}
@@ -26,34 +26,34 @@
 \linespread{1.1}
 % \linenumbers
 
-% Use accsupp package to make line numbers non-selectable/non-copyable in PDF
-\renewcommand\LineNumber{%
-  \BeginAccSupp{method=escape,ActualText={}}%
-  \thelinenumber\ %
-  \EndAccSupp{}%
-}
+% % Use accsupp package to make line numbers non-selectable/non-copyable in PDF
+% \renewcommand\LineNumber{%
+%   \BeginAccSupp{method=escape,ActualText={}}%
+%   \thelinenumber\ %
+%   \EndAccSupp{}%
+% }
 
-% Ensure that listings package is loaded and configured if you want to include code listings
-\usepackage{listings}
-\lstset{
-  numbers=left,
-  numberstyle=\tiny,
-  stepnumber=1,
-  numbersep=5pt,
-  basicstyle=\ttfamily,
-  frame=tb,
-  framesep=5pt,
-  framexleftmargin=15pt,
-  backgroundcolor=\color{gray!10}
-}
+% % Ensure that listings package is loaded and configured if you want to include code listings
+% \usepackage{listings}
+% \lstset{
+%   numbers=left,
+%   numberstyle=\tiny,
+%   stepnumber=1,
+%   numbersep=5pt,
+%   basicstyle=\ttfamily,
+%   frame=tb,
+%   framesep=5pt,
+%   framexleftmargin=15pt,
+%   backgroundcolor=\color{gray!10}
+% }
 
-\makeatletter
-\def\lst@PlaceNumber{%
-  \llap{\normalfont
-    \pdfliteral direct{/Span<</ActualText()>>BDC}%
-    \lst@numberstyle{\thelstnumber}%
-    \pdfliteral direct{EMC}%
-    \kern\lst@numbersep%
-  }%
-}
-\makeatother
+% \makeatletter
+% \def\lst@PlaceNumber{%
+%   \llap{\normalfont
+%     \pdfliteral direct{/Span<</ActualText()>>BDC}%
+%     \lst@numberstyle{\thelstnumber}%
+%     \pdfliteral direct{EMC}%
+%     \kern\lst@numbersep%
+%   }%
+% }
+% \makeatother

@@ -1,22 +1,22 @@
 function compile() {
-    echo -e "\nCompiling ./build/main.tex ..."
+    echo -e "\nCompiling ./main.tex ..."
 
     gather_tables
     gather_figures
 
     # cd build
-    yes '' | pdflatex -shell-escape ./build/main.tex > /dev/null
-    bibtex main > /dev/null
-    yes '' | pdflatex -shell-escape ./build/main.tex > /dev/null
-    yes '' | pdflatex -shell-escape ./build/main.tex > /dev/null
+    yes '' | pdflatex -shell-escape ./main.tex # > /dev/null
+    bibtex main # > /dev/null
+    yes '' | pdflatex -shell-escape ./main.tex # > /dev/null
+    yes '' | pdflatex -shell-escape ./main.tex # > /dev/null
 
-    mv ./main.pdf ./build/main.pdf
+    # mv ./main.pdf ./build/main.pdf
     combine_tex_files    
 }
 
 
 combine_tex_files() {
-    main_file="./build/main.tex"
+    main_file="./main.tex"
     output_file="./build/main_combined.tex"
     cp "$main_file" "$output_file"
 

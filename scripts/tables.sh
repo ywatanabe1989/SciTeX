@@ -28,9 +28,9 @@ function excel2tex() {
         echo "\\pdfbookmark[2]{ID ${table_id}}{id_${table_id}}" >> "$output_directory${base_name}.tex"   
         echo "\\begin{table*}[ht]" >> "$output_directory${base_name}.tex"
         echo "\\centering" >> "$output_directory${base_name}.tex"
-        echo "\\rowcolors{3}{gray!25}{white}" >> "$output_directory${base_name}.tex"
+        # echo "\\rowcolors{3}{gray!25}{white}" >> "$output_directory${base_name}.tex"
         # echo "\\toprule" >> "$output_directory${base_name}.tex"
-        echo "\\rowcolor{white}" >> "$output_directory${base_name}.tex"
+        # echo "\\rowcolor{white}" >> "$output_directory${base_name}.tex"
         # echo "\\midrule"  >> "$output_directory${base_name}.tex"
         # Insert the table data from the temp file
         tail -n +2 "$output_directory_tmp${base_name}.tex" | head -n -2 | grep -v -E '\\usepackage\[T1\]\{fontenc\}|\\usepackage\[utf8\]\{inputenc\}|\\begin\{document\}' >> "$output_directory${base_name}.tex" # [REVISED]
