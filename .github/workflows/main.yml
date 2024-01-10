@@ -13,6 +13,6 @@ jobs:
       
     - name: Generate tree.txt and update README
       run: |
-        tree > tree.txt
-        sed -i '/TREE_PLACEHOLDER/r tree.txt' README.md
+        tree > .tree.txt
+        sed -i '/TREE_PLACEHOLDER/r .tree.txt' README.md
         sed -i '/TREE_PLACEHOLDER/d' README.md
