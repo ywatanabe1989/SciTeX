@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Include external function files
-source ./scripts/checks.sh
-source ./scripts/figures.sh
-source ./scripts/tables.sh
-source ./scripts/compile.sh
-source ./scripts/cleanup.sh
-source ./scripts/pdf.sh
+source ./.scripts/checks.sh
+source ./.scripts/figures.sh
+source ./.scripts/tables.sh
+source ./.scripts/compile.sh
+source ./.scripts/cleanup.sh
+source ./.scripts/pdf.sh
 
 # Checks commands
 check_commands pdflatex bibtex xlsx2csv csv2latex
