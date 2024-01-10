@@ -14,7 +14,7 @@ function add_figures() {
 
 function cvt_tif2png() {
     mkdir -p ./src/figures/.png/
-    for file in ./src/figures/tif/*.tif; do
+    for file in ./src/figures/*.tif; do
         if [ -f "$file" ]; then
             convert "$file" -resample 150x150 "./src/figures/.png/$(basename "$file" .tif).png"
         fi
@@ -36,7 +36,7 @@ function toggle_figure_visibility() {
 
 function compile_legend() {
 
-    legend_dir="./src/figures/legend"
+    legend_dir="./src/figures/"
     tgt_dir="./src/figures/.tex"
     figures_dir="./src/figures/.png"
 

@@ -6,7 +6,16 @@
 ├── main.tex
 ├── old
 │   ├── main-v008.pdf
-│   └── main-v008.tex
+│   ├── main-v008.tex
+│   ├── main-v009.pdf
+│   ├── main-v009.tex
+│   ├── main-v010.pdf
+│   ├── main-v010.tex
+│   ├── main-v011.pdf
+│   ├── main-v011.tex
+│   ├── main-v012.pdf
+│   └── main-v012.tex
+├── #README.md#
 ├── README.md
 ├── src
 │   ├── abstract.tex
@@ -14,25 +23,20 @@
 │   ├── appendices.tex
 │   ├── discussion.tex
 │   ├── figures
-│   │   ├── legend
-│   │   │   ├── Figure_ID_01.tex
-│   │   │   ├── Figure_ID_02.tex
-│   │   │   ├── Figure_ID_03.tex
-│   │   │   ├── Figure_ID_04.tex
-│   │   │   ├── Figure_ID_05.tex
-│   │   │   ├── Figure_ID_06.tex
-│   │   │   ├── Figure_ID_07.tex
-│   │   │   ├── indent.log
-│   │   │   ├── syntax_warnings.log
-│   │   │   └── tree.txt
-│   │   └── tif
-│   │       ├── Figure_ID_01.tif
-│   │       ├── Figure_ID_02.tif
-│   │       ├── Figure_ID_03.tif
-│   │       ├── Figure_ID_04.tif
-│   │       ├── Figure_ID_05.tif
-│   │       ├── Figure_ID_06.tif
-│   │       └── Figure_ID_07.tif
+│   │   ├── Figure_ID_01.tex
+│   │   ├── Figure_ID_01.tif
+│   │   ├── Figure_ID_02.tex
+│   │   ├── Figure_ID_02.tif
+│   │   ├── Figure_ID_03.tex
+│   │   ├── Figure_ID_03.tif
+│   │   ├── Figure_ID_04.tex
+│   │   ├── Figure_ID_04.tif
+│   │   ├── Figure_ID_05.tex
+│   │   ├── Figure_ID_05.tif
+│   │   ├── Figure_ID_06.tex
+│   │   ├── Figure_ID_06.tif
+│   │   ├── Figure_ID_07.tex
+│   │   └── Figure_ID_07.tif
 │   ├── graphical_abstract.tex
 │   ├── highlights.tex
 │   ├── introduction.tex
@@ -45,19 +49,13 @@
 │   │   ├── formatting.tex
 │   │   └── packages.tex
 │   ├── tables
-│   │   ├── csv
-│   │   │   ├── Table_ID_01.csv
-│   │   │   ├── Table_ID_02.csv
-│   │   │   └── Table_ID_03.csv
-│   │   ├── legend
-│   │   │   ├── Table_ID_01.tex
-│   │   │   ├── Table_ID_02.tex
-│   │   │   └── Table_ID_03.tex
-│   │   └── xlsx
-│   │       ├── Table_ID_01.xlsx
-│   │       ├── Table_ID_02.xlsx
-│   │       └── Table_ID_03.xlsx
+│   │   ├── Table_ID_01.csv
+│   │   ├── Table_ID_01.tex
+│   │   ├── Table_ID_02.csv
+│   │   ├── Table_ID_02.tex
+│   │   ├── Table_ID_03.csv
+│   │   └── Table_ID_03.tex
 │   └── title.tex
 └── tree.txt
 
-10 directories, 50 files
+5 directories, 53 files
