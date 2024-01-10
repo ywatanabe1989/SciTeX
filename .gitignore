@@ -2,6 +2,8 @@
 ## Customed
 ################################################################################
 *.old
+old/*
+!old/.gitkeep
 Figures/png/*
 Figures/tif/*
 !Figures/png/.gitkeep

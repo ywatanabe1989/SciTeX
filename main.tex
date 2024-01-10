@@ -4,13 +4,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Settings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./styles/formatting}
-\input{./styles/packages}
+\input{./src/styles/formatting}
+\input{./src/styles/packages}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Journal Name
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\journal{Heliyon}
+\input{./src/journal_name}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Document Starts
@@ -22,23 +22,20 @@
 %% frontmatter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frontmatter}
-	\input{./text/head/highlights}
-	\input{./text/head/title}
-	\input{./text/head/graphical_abstract}
-	\input{./text/head/abstract}
-	\input{./text/head/keywords}
+	\input{./src/highlights}
+	\input{./src/title}
+	\input{./src/graphical_abstract}
+	\input{./src/abstract}
+	\input{./src/keywords}
 \end{frontmatter}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% main
+%% IMRaD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./text/IMRaD/1_introduction}
-
-\input{./text/IMRaD/2_methods}
-
-\input{./text/IMRaD/3_results}
-
-\input{./text/IMRaD/4_discussion}
+\input{./src/introduction}
+\input{./src/methods}
+\input{./src/results}
+\input{./src/discussion}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -46,14 +43,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pdfbookmark[1]{References}{references}
 % \bibliography{./build/refs}
-\bibliography{./refs}
-\input{./styles/bibliography}
+\bibliography{bibliography}
+\input{./src/styles/bibliography}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Additional Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./text/tail/additional_info}
+\input{./src/additional_info}
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,18 +71,12 @@
 \label{figures}
 \pdfbookmark[1]{Figures}{figures}
 \input{./src/figures/.tex/.All_Figures}
-% \input{./src/figures/.tex/Figure_ID_01}
-% \input{./src/figures/.tex/Figure_ID_02}
-% \input{./src/figures/.tex/Figure_ID_03}
-% \input{./src/figures/.tex/Figure_ID_01}
-% \input{./src/figures/.tex/Figure_ID_01}
-% \input{./src/figures/.tex/Figure_ID_01}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Appendices
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./text/tail/appendices}
+\input{./src/appendices}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

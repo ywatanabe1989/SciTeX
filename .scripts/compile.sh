@@ -1,67 +1,43 @@
-function compile() {
-    echo -e "\nCompiling ./main.tex ..."
+#!/bin/bash
 
-    gather_tables
-    gather_figures
+# Include external function files
+source ./.scripts/_check_commands.sh
+source ./.scripts/_cleanup.sh
+source ./.scripts/_compile_tex_and_bib.sh
+source ./.scripts/_combine_tex_files.sh
+source ./.scripts/_figures.sh
+source ./.scripts/_tables.sh
+source ./.scripts/_pdf.sh
+source ./.scripts/_print_success.sh
+source ./.scripts/_store_old_versions.sh 
 
-    # cd build
-    yes '' | pdflatex -shell-escape ./main.tex # > /dev/null
-    bibtex main # > /dev/null
-    yes '' | pdflatex -shell-escape ./main.tex # > /dev/null
-    yes '' | pdflatex -shell-escape ./main.tex # > /dev/null
+# Checks commands
+check_commands pdflatex bibtex xlsx2csv csv2latex
 
-    # mv ./main.pdf ./build/main.pdf
-    combine_tex_files    
-}
+# Check the syntax of ./main.tex file
+chktex -v0 ./main.tex > ./.logs/syntax_warnings.log 2>&1
 
+# Format ./main.tex file
+latexindent -w ./main.tex > /dev/null 2>&1
 
-combine_tex_files() {
-    main_file="./main.tex"
-    output_file="./build/main_combined.tex"
-    cp "$main_file" "$output_file"
+# Store old pdf files
+store_old
 
-    process_input() {
-        local file_path="$1"
-        local temp_file=$(mktemp) # Create a temporary file to avoid reading and writing the same file
+# Main
+compile_tex_and_bib
 
-        while IFS= read -r line; do
-            if [[ "$line" =~ \\input\{(.+)\} ]]; then
-                local input_path="${BASH_REMATCH[1]}.tex"
-                if [[ -f "$input_path" ]]; then
-                    echo "Processing $input_path"
-                    cat "$input_path" >> "$temp_file" # Append the content of the input file to the temp file
-                else
-                    echo "Warning: File $input_path not found."
-                    echo "$line" >> "$temp_file" # Keep the original \input line if the file is not found
-                fi
-            else
-                echo "$line" >> "$temp_file" # Copy the line to the temp file
-            fi
-        done < "$file_path"
+# Success message
+print_success
 
-        mv "$temp_file" "$output_file" # Replace the output file with the temp file
-    }
+# Move unnecessary files
+mv_unnecessary_files
 
-    # Call process_input on the output file and repeat until no \input commands are left
-    while grep -q '\\input{' "$output_file"; do
-        process_input "$output_file"
-    done
+# Open the compiled pdf
+if [ "$(echo $USER)" = "ywatanabe" ]; then
+    open_pdf_or_exit ./main.pdf
+fi
 
-    echo -e "\nCombined file created: $output_file"
-}
+# Tree
+tree > ./tree.txt
 
-function print_success() {
-    echo ''
-    if [ -f ./build/main.pdf ]; then
-        echo "Congratulations! main.pdf is ready."
-    else
-        echo "Something went wrong. Please check log files under logs/"
-    fi
-}
-
-function store_old_pdf() {
-    mkdir -p ./old_pdfs/
-    if [ -f ./build/main.pdf ]; then
-        mv ./build/main.pdf "./old_pdfs/main-$(date +%Y-%m%d-%I:%M%p).pdf"
-    fi
-}
+## EOF

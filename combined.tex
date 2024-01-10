@@ -82,7 +82,6 @@
 %% Journal Name
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \journal{Heliyon}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Document Starts
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,9 +126,8 @@ Hippocampal neural fluctuations between memory encoding and retrieval states dur
 %\end{graphicalabstract}
 \begin{abstract}
 \pdfbookmark[1]{Abstract}{abstract}
-
-Working memory (WM) is indispensable for numerous cognitive functions, although the underlying neural mechanisms have not been fully elucidated. While the hippocampus and sharp-wave ripple complexes (SWRs) -- brief, synchronous neural events within the hippocampus -- are acknowledged for their importance in memory consolidation and retrieval, their association with WM tasks remains unclear. The present study posits that hippocampal multiunit activity patterns, in concert with SWRs, manifest distinct dynamics during WM tasks. We analyzed a dataset comprising intracranial electroencephalogram recordings from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was utilized to extract low-dimensional neural representations, or 'trajectories', within MTL regions during the WM task. Our results reveal that the hippocampus demonstrates the most significant fluctuation in neural trajectory relative to the entorhinal cortex and amygdala. Furthermore, trajectories' dissimilarity measured between encoding and retrieval phases is dependent on memory load. Notably, hippocampal trajectories fluctuate during the retrieval phase and exhibit task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states in the presence of SWRs. These findings reinforce the pivotal role of the hippocampus in WM tasks and suggest a new hypothesis: the hippocampus alters its functional state from encoding to retrieval during SWRs.
-
+Working memory (WM) is crucial for a multitude of cognitive functions, yet the intricacies of the neural mechanisms at play remain to be fully comprehended. Interestingly, the hippocampus and sharp-wave ripple complexes (SWRs) --- succinct, synchronous neural events in the hippocampus --- garner recognition for their significance in memory consolidation and retrieval, albeit their correlation with WM tasks is yet to be clarified. Our current study suggests that multiunit activity patterns in the hippocampus may work in tandem with SWRs, thereby displaying unique dynamics during WM tasks. We examined a dataset comprising intracranial electroencephalogram recordings obtained from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was employed to extract low-dimensional neural representations, termed 'trajectories', within the MTL regions during the WM task. Our findings indicate that the hippocampus exhibits the most pronounced variation in neural trajectory in comparison with the entorhinal cortex and amygdala. Moreover, the dissimilarity in trajectories measured between encoding and retrieval phases was found to be contingent on memory load. Significantly, the hippocampal trajectories oscillate during the retrieval phase, demonstrating task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states concurrent with the occurrence of SWRs. These discoveries reassert the pivotal role of the hippocampus in WM tasks and propose a fresh hypothesis: the hippocampus transitions its functional state from encoding to retrieval in the midst of SWRs.
+% Working memory (WM) is indispensable for numerous cognitive functions, although the underlying neural mechanisms have not been fully elucidated. While the hippocampus and sharp-wave ripple complexes (SWRs) -- brief, synchronous neural events within the hippocampus -- are acknowledged for their importance in memory consolidation and retrieval, their association with WM tasks remains unclear. The present study posits that hippocampal multiunit activity patterns, in concert with SWRs, manifest distinct dynamics during WM tasks. We analyzed a dataset comprising intracranial electroencephalogram recordings from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was utilized to extract low-dimensional neural representations, or 'trajectories', within MTL regions during the WM task. Our results reveal that the hippocampus demonstrates the most significant fluctuation in neural trajectory relative to the entorhinal cortex and amygdala. Furthermore, trajectories' dissimilarity measured between encoding and retrieval phases is dependent on memory load. Notably, hippocampal trajectories fluctuate during the retrieval phase and exhibit task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states in the presence of SWRs. These findings reinforce the pivotal role of the hippocampus in WM tasks and suggest a new hypothesis: the hippocampus alters its functional state from encoding to retrieval during SWRs.
 \end{abstract}% \pdfbookmark[1]{Keywords}{keywords}                
 \begin{keyword}
 working memory \sep WM \sep memory load \sep hippocampus \sep sharp-wave ripples \sep SWR \sep humans
@@ -137,7 +135,7 @@ working memory \sep WM \sep memory load \sep hippocampus \sep sharp-wave ripples
 \end{frontmatter}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% main
+%% IMRaD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %% Introduction
@@ -154,7 +152,6 @@ Moreover, it is getting discovered that hippocampal neurons exhibit low-dimensio
 \indent
 Given these backgrounds, in this study, we investigated the hypothesis that hippocampal neurons exhibit distinct representations in low-dimensional spaces as 'neural trajectory' during WM tasks, with a specific focus on SWR periods. To test this hypothesis, we utilized a dataset of patients performing an eight-second Sternberg task with high temporal resolution (1 s for fixation, 2 s for encoding, 3 s for maintenance, and 2 s for retrieval) while their intrachranial electroencephalography signals (iEEG) in the medial temporal lobe (MTL) were recorded \cite{boran_dataset_2020}. To explore low-dimensional neural trajectories, we employed Gaussian-process factor analysis (GPFA) based on multiunit activities, a proven tool for the analysis of neural population dynamics \cite{yu_gaussian-process_2009}.
 \label{sec:introduction}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Methods
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -183,8 +180,7 @@ Given these backgrounds, in this study, we investigated the hypothesis that hipp
 % \subsection{Statistical evaluation}
 % The Brunner--Munzel test and the Kruskal-Wallis test were executed using the scipy package in Python \cite{virtanen_scipy_2020}. A correlational analysis was undertaken through the determination of the rank of the observed correlation coefficient in the associated set-size-shuffled surrogate, using a custom Python script. Additionally, the bootstrap test was carried out by utilizing an internally developed Python script.
 
-% \label{sec:methods}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \label{sec:methods}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
@@ -243,7 +239,6 @@ By taking the differences between the distribution of $\overrightarrow{\mathrm{r
 \indent
 Additionally, only in Mismatch OUT task, $\overrightarrow{\mathrm{eSWR^+}} \cdot \overrightarrow{\mathrm{rSWR^+}}$ was less than $\overrightarrow{\mathrm{eSWR^-}} \cdot \overrightarrow{\mathrm{rSWR^-}}$ (baseline periods) (Figure 7F; \textit{pink circles}); in other words, eSWR and rSWR directed in the adverse direction solely in Mismatch OUT task but in Match IN task (Figure 7E; \textit{pink circles}).
 \label{sec:results}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Discussion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -274,7 +269,7 @@ In conclusion, our study has demonstrated that hippocampal activity fluctuates b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pdfbookmark[1]{References}{references}
 % \bibliography{./build/refs}
-\bibliography{./refs}
+\bibliography{bibliography}
 % Note Re-compile is required
 
 %% Numbering Style (sorted)
@@ -565,97 +560,6 @@ Neural trajectory directions of SWR based on encoding and retrieval states
 }
 % width=0.5\textwidth
         	\label{fig:07}
-        \end{figure*}
-        \clearpage
-        \begin{figure*}[ht]
-            \pdfbookmark[2]{ID 01}{figure_id_01}
-        	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
-        	\caption{\textbf{
-Local field potential (LFP), multiunit activity, and neural trajectory of the hippocampus during a modified Sternberg task
-}
-\smallskip
-\\
-\textbf{\textit{A.}} Representative wideband LFP traces iEEG signals recorded in the left hippocampal head. The subject conducted a modified Sternberg working memory task, including fixation (1 s, \textit{gray}), encoding (2 s, \textit{blue}), maintenance (3 s, \textit{green}), and retrieval (2 s, \textit{red}). \textbf{\textit{B.}} The corresponding ripple band LFP traces. \textbf{\textit{C.}} The raster plot of multiunit spikes estimated from the LFP traces using a spike sorting algorithm \cite{niediek_reliable_2016}. \textbf{\textit{D.}} Neural trajectory calculated by GPFA on spike counts per unit with 50-ms bins. The dot circles show the coordinate of geometric median for each phase. \textbf{\textit{E.}} Trajectory distance from the origin $O$. Note that \textit{purple} and \textit{yellow} rectangles shows the timings for SWR$^+$ candidates and SWR$^-$ candidates (control for SWR$^+$), respectively.
-}
-% width=1\textwidth
-        	\label{fig:01}
-        \end{figure*}
-        \clearpage
-        \begin{figure*}[ht]
-            \pdfbookmark[2]{ID 02}{figure_id_02}
-        	\centering
-            \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_02.png}
-        	\caption{\textbf{
-State-dependent hippocampal neural trajectory
-}
-\smallskip
-\\
-\textbf{\textit{A.}} Neural trajectory in the first three-dimensional factors calculated by GPFA. Smaller dots indicate coordinates of 50-ms neural trajectory bins. Larger dots with \textit{black} edges represent geometric medians for the following phases in the Sternberg working memory task: fixation (\textit{gray}), encoding (\textit{blue}), maintenance (\textit{green}), and retrieval (\textit{red}). \textbf{\textit{B.}} The log-likelihood of GPFA models in relation to the number of dimensions to embed multiunit spikes in MTL regions. Notably, the optimal dimension was identified as three using the elbow method.  \textbf{\textit{C.}}  Distance of neural trajectory from the origin ($O$) for the hippocampus (Hipp.), entorhinal cortex (EC), and amygdala (Amy.), plotted against the time from probe onset. \textbf{\textit{D.}} Trajectory distance from $O$ in MTL regions, with the hippocampus showing the greatest distance, followed by the EC and the Amygdala. \textbf{\textit{E.}}  Inter-phase trajectory distances in the MTL regions.
-Abbreviations:
-}
-% width=0.5\textwidth
-        	\label{fig:02}
-        \end{figure*}
-        \clearpage
-        \begin{figure*}[ht]
-            \pdfbookmark[2]{ID 03}{figure_id_03}
-        	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_03.png}
-        	\caption{\textbf{
-Memory-load dependency in trajectory distance between encoding and retrieval states in the hippocampus 
-}
-\smallskip
-\\
-\textbf{\textit{A.}} Set size (number of letters to encode) and correct rate in the WM task (coefficient = $-0.20$, ***\textit{p} $<$ 0.001). \textbf{\textit{B.}} Set size and response time (coefficient = 0.23, ***\textit{p} $<$ 0.001).  \textbf{\textit{C.}} Set size and the inter-phase distances between encoding and retrieval phases ($\lVert \mathrm{g_{E}g_{R}} \rVert$) (correlation coefficient = 0.05). \textbf{\textit{D.}} \textit{Red} dots show experimentally observed correlations between set size and the following parameters: correct rate, response time, $\log_{10}{\lVert \mathrm{g_{F}g_{E}} \rVert}$, $\log_{10}{\lVert \mathrm{g_{F}g_{M}} \rVert}$, $\log_{10}{\lVert \mathrm{g_{F}g_{R}} \rVert}$, $\log_{10}{\lVert \mathrm{g_{E}g_{M}} \rVert}$, $\log_{10}{\lVert \mathrm{g_{E}g_{R}} \rVert}$, and $\log_{10}{\lVert \mathrm{g_{M}g_{R}} \rVert}$. The \textit{gray} kernel density plot shows corresponding set-size-shuffled surrogate (\textit{n} = 1,000) (***\textit{p}s $<$ 0.001).
-}
-% width=1\textwidth
-        	\label{fig:03}
-        \end{figure*}
-        \clearpage
-        \begin{figure*}[ht]
-            \pdfbookmark[2]{ID 01}{figure_id_01}
-        	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
-        	\caption{\textbf{
-Local field potential (LFP), multiunit activity, and neural trajectory of the hippocampus during a modified Sternberg task
-}
-\smallskip
-\\
-\textbf{\textit{A.}} Representative wideband LFP traces iEEG signals recorded in the left hippocampal head. The subject conducted a modified Sternberg working memory task, including fixation (1 s, \textit{gray}), encoding (2 s, \textit{blue}), maintenance (3 s, \textit{green}), and retrieval (2 s, \textit{red}). \textbf{\textit{B.}} The corresponding ripple band LFP traces. \textbf{\textit{C.}} The raster plot of multiunit spikes estimated from the LFP traces using a spike sorting algorithm \cite{niediek_reliable_2016}. \textbf{\textit{D.}} Neural trajectory calculated by GPFA on spike counts per unit with 50-ms bins. The dot circles show the coordinate of geometric median for each phase. \textbf{\textit{E.}} Trajectory distance from the origin $O$. Note that \textit{purple} and \textit{yellow} rectangles shows the timings for SWR$^+$ candidates and SWR$^-$ candidates (control for SWR$^+$), respectively.
-}
-% width=1\textwidth
-        	\label{fig:01}
-        \end{figure*}
-        \clearpage
-        \begin{figure*}[ht]
-            \pdfbookmark[2]{ID 01}{figure_id_01}
-        	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
-        	\caption{\textbf{
-Local field potential (LFP), multiunit activity, and neural trajectory of the hippocampus during a modified Sternberg task
-}
-\smallskip
-\\
-\textbf{\textit{A.}} Representative wideband LFP traces iEEG signals recorded in the left hippocampal head. The subject conducted a modified Sternberg working memory task, including fixation (1 s, \textit{gray}), encoding (2 s, \textit{blue}), maintenance (3 s, \textit{green}), and retrieval (2 s, \textit{red}). \textbf{\textit{B.}} The corresponding ripple band LFP traces. \textbf{\textit{C.}} The raster plot of multiunit spikes estimated from the LFP traces using a spike sorting algorithm \cite{niediek_reliable_2016}. \textbf{\textit{D.}} Neural trajectory calculated by GPFA on spike counts per unit with 50-ms bins. The dot circles show the coordinate of geometric median for each phase. \textbf{\textit{E.}} Trajectory distance from the origin $O$. Note that \textit{purple} and \textit{yellow} rectangles shows the timings for SWR$^+$ candidates and SWR$^-$ candidates (control for SWR$^+$), respectively.
-}
-% width=1\textwidth
-        	\label{fig:01}
-        \end{figure*}
-        \clearpage
-        \begin{figure*}[ht]
-            \pdfbookmark[2]{ID 01}{figure_id_01}
-        	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
-        	\caption{\textbf{
-Local field potential (LFP), multiunit activity, and neural trajectory of the hippocampus during a modified Sternberg task
-}
-\smallskip
-\\
-\textbf{\textit{A.}} Representative wideband LFP traces iEEG signals recorded in the left hippocampal head. The subject conducted a modified Sternberg working memory task, including fixation (1 s, \textit{gray}), encoding (2 s, \textit{blue}), maintenance (3 s, \textit{green}), and retrieval (2 s, \textit{red}). \textbf{\textit{B.}} The corresponding ripple band LFP traces. \textbf{\textit{C.}} The raster plot of multiunit spikes estimated from the LFP traces using a spike sorting algorithm \cite{niediek_reliable_2016}. \textbf{\textit{D.}} Neural trajectory calculated by GPFA on spike counts per unit with 50-ms bins. The dot circles show the coordinate of geometric median for each phase. \textbf{\textit{E.}} Trajectory distance from the origin $O$. Note that \textit{purple} and \textit{yellow} rectangles shows the timings for SWR$^+$ candidates and SWR$^-$ candidates (control for SWR$^+$), respectively.
-}
-% width=1\textwidth
-        	\label{fig:01}
         \end{figure*}
 
 
