@@ -14,9 +14,7 @@
 │   ├── main-v011.pdf
 │   ├── main-v011.tex
 │   ├── main-v012.pdf
-│   ├── main-v012.tex
-│   ├── main-v013.pdf
-│   └── main-v013.tex
+│   └── main-v012.tex
 ├── #README.md#
 ├── README.md
 ├── src
@@ -60,4 +58,4 @@
 │   └── title.tex
 └── tree.txt
 
-5 directories, 55 files
+5 directories, 53 files
