@@ -37,7 +37,7 @@ if [ "$(echo $USER)" = "ywatanabe" ]; then
     open_pdf_or_exit ./main.pdf
 fi
 
-# Tree
-tree > ./.tree.txt
+# # Tree
+# tree > ./.tree.txt
 
 ## EOF
