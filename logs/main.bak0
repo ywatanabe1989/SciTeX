@@ -22,16 +22,11 @@
 %% frontmatter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frontmatter}
-	\input{./text/top/highlights}
-
-	\input{./text/top/title}
-
-	\input{./text/top/graphical_abstract}
-
-	\input{./text/top/abstract}
-
-	\input{./text/top/keywords}
-
+	\input{./text/head/highlights}
+	\input{./text/head/title}
+	\input{./text/head/graphical_abstract}
+	\input{./text/head/abstract}
+	\input{./text/head/keywords}
 \end{frontmatter}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,24 +45,25 @@
 %% Reference Styles
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pdfbookmark[1]{References}{references}
-\bibliography{./build/refs}
+% \bibliography{./build/refs}
+\bibliography{./refs}
 \input{./styles/bibliography}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Additional Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./text/additional/additional_info}
+\input{./text/tail/additional_info}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Tables
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\section*{Tables}
-\label{tables}
-\pdfbookmark[1]{Tables}{tables}
-\input{./src/tables/.tex/.All_Tables}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% Tables
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \clearpage
+% \section*{Tables}
+% \label{tables}
+% \pdfbookmark[1]{Tables}{tables}
+% \input{./src/tables/.tex/.All_Tables}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -78,12 +74,18 @@
 \label{figures}
 \pdfbookmark[1]{Figures}{figures}
 \input{./src/figures/.tex/.All_Figures}
+% \input{./src/figures/.tex/Figure_ID_01}
+% \input{./src/figures/.tex/Figure_ID_02}
+% \input{./src/figures/.tex/Figure_ID_03}
+% \input{./src/figures/.tex/Figure_ID_01}
+% \input{./src/figures/.tex/Figure_ID_01}
+% \input{./src/figures/.tex/Figure_ID_01}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Appendices
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./text/additional/appendices}
+\input{./text/tail/appendices}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
