@@ -37,7 +37,6 @@ Please edit files under the [`./src/`](./src/) directory.
 ## Project Structure
 
 ```
-TREE_PLACEHOLDER
 .
 ├── bibliography.bib
 ├── combined.tex

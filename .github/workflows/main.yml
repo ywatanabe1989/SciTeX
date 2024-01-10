@@ -15,3 +15,4 @@ jobs:
       run: |
         tree > tree.txt
         sed -i '/TREE_PLACEHOLDER/r tree.txt' README.md
+        sed -i '/TREE_PLACEHOLDER/d' README.md
