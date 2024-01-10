@@ -1,0 +1,13 @@
+.
+├── Figure_ID_01.tex
+├── Figure_ID_02.tex
+├── Figure_ID_03.tex
+├── Figure_ID_04.tex
+├── Figure_ID_05.tex
+├── Figure_ID_06.tex
+├── Figure_ID_07.tex
+├── indent.log
+├── syntax_warnings.log
+└── tree.txt
+
+0 directories, 10 files

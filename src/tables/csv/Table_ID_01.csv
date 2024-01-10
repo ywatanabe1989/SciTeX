@@ -1,0 +1,12 @@
+,,Hipp. head,,Hipp. Body,,EC,,Amy.,,,
+Subject ID,"# of 
+sessions",AHL,AHR,PHL,PHR,ECL,ECR,AL,AR,,SOZ
+#1,4,o,x,o,o,o,x,o,x,,"AHR, LR"
+#2,7,o,o,o,o,o,o,o,o,,"AHR, PHR"
+#3,3,o,o,o,o,o,o,o,x,,"AHL, PHL"
+#4,2,o,o,o,o,o,o,o,o,,"AHL, AHR, PHL, PHR"
+#5,3,o,x,x,o,x,x,o,x,,DRR
+#6,6,o,o,o,o,o,o,o,o,,"AHL, PHL, ECL, AL"
+#7,4,o,o,o,o,o,o,o,o,,"AHR, PHR"
+#8,5,o,o,o,o,o,o,o,o,,ECR
+#9,2,o,o,o,o,o,o,o,o,,"ECR, AR"
