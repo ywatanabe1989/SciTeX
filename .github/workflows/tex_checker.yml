@@ -1,0 +1,25 @@
+name: TeX syntax checker
+
+on:
+  push:
+    branches:
+      - main      
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Install LaTeX
+      run: ./.scripts/install_on_ubuntu.sh
+
+    - name: Install parallel
+      run: |
+        sudo apt-get install -y parallel
+        
+    - name: Compile LaTeX Documents in Parallel
+      run: |
+        find ./src/ -name '*.tex' | parallel --will-cite pdflatex -interaction=nonstopmode -halt-on-error
