@@ -1,4 +1,4 @@
-name: TeX syntax checker
+name: TeX
 
 on:
   push:
