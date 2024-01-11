@@ -18,16 +18,12 @@ function open_pdf_with_pdfstudio2020_on_WSL() {
     # Construct the Windows path for the copied PDF file
     PDF_PATH_WIN="C:\Users\wyusu\Documents\\${PDF_FILENAME}"
 
-    echo $PDF_PATH_WIN
-
     # Check if PDF Studio is running and open the PDF in a new tab if it is
     if tasklist.exe | grep -q 'pdfstudio2020.exe'; then
-        taskkill /IM "pdfstudio2020.exe" /F
-        cmd.exe /C start "" "${PDF_STUDIO_PATH}" "${PDF_PATH_WIN}"
-    else
-        cmd.exe /C start "" "${PDF_STUDIO_PATH}" "${PDF_PATH_WIN}"
+        taskkill.exe /IM "pdfstudio2020.exe" /F # [REVISED]
+        sleep 2 # Give some time to ensure the process is killed [REVISED]
     fi
-    
+    cmd.exe /C start "" "${PDF_STUDIO_PATH}" "${PDF_PATH_WIN}" # [REVISED]
 }
 
 function open_pdf_or_exit() {
