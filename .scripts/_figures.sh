@@ -53,7 +53,7 @@ function compile_legend() {
         width=$(grep -oP '(?<=width=)[0-9.]+\\textwidth' "$caption_file")  # [REVISED]
 
         rm $tgt_file > /dev/null 2>&1
-        if [ $ii -gt 0 ]; then # [REVISED]
+        if [ $ii -gt 0 ]; then
             echo "\\clearpage" > "$tgt_file"
         fi
         ii=$((ii+1)) # [REVISED]

@@ -26,34 +26,18 @@
 \linespread{1.1}
 % \linenumbers
 
-% % Use accsupp package to make line numbers non-selectable/non-copyable in PDF
-% \renewcommand\LineNumber{%
-%   \BeginAccSupp{method=escape,ActualText={}}%
-%   \thelinenumber\ %
-%   \EndAccSupp{}%
-% }
+%% Tables
+\usepackage[pass]{geometry}
+\usepackage{pdflscape}
+\usepackage{csvsimple}
+\usepackage{xltabular}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{makecell}
+\sisetup{round-mode=figures,round-precision=3}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadalign{c}
 
-% % Ensure that listings package is loaded and configured if you want to include code listings
-% \usepackage{listings}
-% \lstset{
-%   numbers=left,
-%   numberstyle=\tiny,
-%   stepnumber=1,
-%   numbersep=5pt,
-%   basicstyle=\ttfamily,
-%   frame=tb,
-%   framesep=5pt,
-%   framexleftmargin=15pt,
-%   backgroundcolor=\color{gray!10}
-% }
-
-% \makeatletter
-% \def\lst@PlaceNumber{%
-%   \llap{\normalfont
-%     \pdfliteral direct{/Span<</ActualText()>>BDC}%
-%     \lst@numberstyle{\thelstnumber}%
-%     \pdfliteral direct{EMC}%
-%     \kern\lst@numbersep%
-%   }%
-% }
-% \makeatother
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\renewcommand{\arraystretch}{1.5}
+\definecolor{lightgray}{gray}{0.95}
