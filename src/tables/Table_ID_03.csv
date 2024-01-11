@@ -3,7 +3,5 @@ Subject ID,# of sessions,# of trials,ROI,# of SWRs,SWR incidence [Hz]
 #3,2,97,AHR,325,0.42
 #4,2,99,PHL,202,0.26
 #6,2,100,AHL,297,0.37
-#9,2,97,AHR,72,0.092784
-,Total = 10,Total = 493,,"Total = 1,170","0.30 ± 0.13
-(mean ± SD)"
-,,,,,
+#9,2,97,AHR,72,0.09
+,Total = 10,Total = 493,,"Total = 1,170",0.30 ± 0.13 (mean ± SD)

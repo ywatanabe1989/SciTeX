@@ -1,40 +1,29 @@
 \pdfbookmark[2]{ID 01}{id_01}
-\begin{table*}[ht]
+\begin{table*}[htbp]
 \centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-&&Hipp. head&&Hipp. Body&&EC&&Amy.&&&\\
-\hline
-Subject ID&\# of &&&&&&&&&&\\
-\hline
-sessions&AHL&AHR&PHL&PHR&ECL&ECR&AL&AR&&SOZ&\\
-\hline
-\#1&4&o&x&o&o&o&x&o&x&&AHR, LR\\
-\hline
-\#2&7&o&o&o&o&o&o&o&o&&AHR, PHR\\
-\hline
-\#3&3&o&o&o&o&o&o&o&x&&AHL, PHL\\
-\hline
-\#4&2&o&o&o&o&o&o&o&o&&AHL, AHR, PHL, PHR\\
-\hline
-\#5&3&o&x&x&o&x&x&o&x&&DRR\\
-\hline
-\#6&6&o&o&o&o&o&o&o&o&&AHL, PHL, ECL, AL\\
-\hline
-\#7&4&o&o&o&o&o&o&o&o&&AHR, PHR\\
-\hline
-\#8&5&o&o&o&o&o&o&o&o&&ECR\\
-\hline
-\#9&2&o&o&o&o&o&o&o&o&&ECR, AR\\
-\hline
+\small
+\begin{tabular}{*{11}{c}}
+\toprule
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ}} &\\
+\midrule
+#1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" & \\
+\rowcolor{lightgray}
+#2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
+#3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" & \\
+\rowcolor{lightgray}
+#4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" & \\
+#5 & 3 & o & x & x & o & x & x & o & x & DRR\\
+\rowcolor{lightgray}
+#6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" & \\
+#7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
+\rowcolor{lightgray}
+#8 & 5 & o & o & o & o & o & o & o & o & ECR\\
+#9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" & \\
 \bottomrule
 \end{tabular}
-\caption{\textbf{
-Electrode positions of the dataset
-}
-\smallskip
-\\
-The electrode positions and the seizure onset zones. Regions marked as "o" were available, but those marked as "x" (\textit{navy}) were not available in the dataset. Abbreviations: AHL, left hippocampal head; AHR, right hippocampal head; PHL, left hippocampal body; PHR, right hippocampal body; ECL, left entorhinal cortex; ECR, right entorhinal cortex; AL, left amygdala; AR, right amygdala, SOZ: seizure onset zone.
-}
-% width=1\textwidth\label{tab:01}
+\captionsetup{width=1\textwidth}
+\input{./src/tables//Table_ID_01}
+
+\label{tab:01}
 \end{table*}
+\restoregeometry

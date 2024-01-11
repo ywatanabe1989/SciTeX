@@ -47,37 +47,21 @@
 \linespread{1.1}
 % \linenumbers
 
-% % Use accsupp package to make line numbers non-selectable/non-copyable in PDF
-% \renewcommand\LineNumber{%
-%   \BeginAccSupp{method=escape,ActualText={}}%
-%   \thelinenumber\ %
-%   \EndAccSupp{}%
-% }
+%% Tables
+\usepackage[pass]{geometry}
+\usepackage{pdflscape}
+\usepackage{csvsimple}
+\usepackage{xltabular}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{makecell}
+\sisetup{round-mode=figures,round-precision=3}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadalign{c}
 
-% % Ensure that listings package is loaded and configured if you want to include code listings
-% \usepackage{listings}
-% \lstset{
-%   numbers=left,
-%   numberstyle=\tiny,
-%   stepnumber=1,
-%   numbersep=5pt,
-%   basicstyle=\ttfamily,
-%   frame=tb,
-%   framesep=5pt,
-%   framexleftmargin=15pt,
-%   backgroundcolor=\color{gray!10}
-% }
-
-% \makeatletter
-% \def\lst@PlaceNumber{%
-%   \llap{\normalfont
-%     \pdfliteral direct{/Span<</ActualText()>>BDC}%
-%     \lst@numberstyle{\thelstnumber}%
-%     \pdfliteral direct{EMC}%
-%     \kern\lst@numbersep%
-%   }%
-% }
-% \makeatother
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\renewcommand{\arraystretch}{1.5}
+\definecolor{lightgray}{gray}{0.95}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Journal Name
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -155,37 +139,37 @@ Given these backgrounds, in this study, we investigated the hypothesis that hipp
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Methods
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Methods}
-% \subsection{Dataset}
-% A publicly accessible dataset \cite{boran_dataset_2020} was employed, in which nine patients with epilepsy performed a modified Sternberg task that consisted of the following four phases: fixation (1 s), encoding (2 s), maintenance (3 s), and retrieval (2 s) \cite{boran_dataset_2020}. During the encoding phase, participants were presented sets of either four, six, or eight alphabetical letters, refered to as set size. Subsequently, they were tasked with ascertaining whether a probe letter presented in the retrieval phase had been displayed (the correct choice for Match IN task) or not (the correct choice for Mismatch OUT task). iEEG signals were recorded at a sampling rate of 32 kHz, within the frequency range of 0.5--5,000 Hz, using depth electrodes implanted in the MTL regions: the left and right hippocampal head (AHL and AHR), hippocampal body (PHL and PHR), entorhinal cortex (ECL and ECR), and amygdala (AL and AR) (Figure 1A and Table 1). Subsequently, iEEG signals were resampled at a rate of 2 kHz. Correlations were found among the experimental variables such as set size and correct rate (Figure S1). The timings of multiunit spikes were estimated by a spike sorting algorithm \cite{niediek_reliable_2016} by the Combinato package ((\url{https://github.com/jniediek/combinato})(Figure 1C).
+\section{Methods}
+\subsection{Dataset}
+A publicly accessible dataset \cite{boran_dataset_2020} was employed, in which nine patients with epilepsy performed a modified Sternberg task that consisted of the following four phases: fixation (1 s), encoding (2 s), maintenance (3 s), and retrieval (2 s) \cite{boran_dataset_2020}. During the encoding phase, participants were presented sets of either four, six, or eight alphabetical letters, refered to as set size. Subsequently, they were tasked with ascertaining whether a probe letter presented in the retrieval phase had been displayed (the correct choice for Match IN task) or not (the correct choice for Mismatch OUT task). iEEG signals were recorded at a sampling rate of 32 kHz, within the frequency range of 0.5--5,000 Hz, using depth electrodes implanted in the MTL regions: the left and right hippocampal head (AHL and AHR), hippocampal body (PHL and PHR), entorhinal cortex (ECL and ECR), and amygdala (AL and AR) (Figure~\ref{fig:01}A and Table~\ref{tab:01}). Subsequently, iEEG signals were resampled at a rate of 2 kHz. Correlations were found among the experimental variables such as set size and correct rate (Figure~\ref{fig:s01}S1). The timings of multiunit spikes were estimated by a spike sorting algorithm \cite{niediek_reliable_2016} by the Combinato package ((\url{https://github.com/jniediek/combinato})(Figure~\ref{fig:01}C).
 
-% \subsection{Calculation of neural trajectories using GPFA}
-% To calculate the neural trajectories (also referred to as factors; Figure 1D) in the hippocampus, EC, and amygdala (Figure 1D), GPFA \cite{yu_gaussian-process_2009}, was employed on multiunit activity data for each session. GPFA was applied using the elephant package ((\url{https://elephant.readthedocs.io/en/latest/reference/gpfa.html}). The bin size was set as 50 ms, without overlaps. Each factor was z-normalized across each session. From the trajectories, Euclidean distance from the origin ($O$) was calculated (Figure 1E).
-% \\
-% \indent
-% For every trajectory within a region, such as AHL, \textit{geometric medians} ((\textit{i.e.}, $\mathrm{g_{F}}$ for fixation, $\mathrm{g_{E}}$ for encoding, $\mathrm{g_{M}}$ for maintenance, and $\mathrm{g_{R}}$ for retrieval phase)) were determined by calculating the median coordinates of trajectory during the four phases (Figure 1D). The optimal dimensionality for GPFA was determined as three via the elbow method utilizing the log-likelihood values using a three-fold cross-validation approach (Figure 2B).
+\subsection{Calculation of neural trajectories using GPFA}
+To calculate the neural trajectories (also referred to as factors; Figure~\ref{fig:01}D) in the hippocampus, EC, and amygdala (Figure~\ref{fig:01}D), GPFA \cite{yu_gaussian-process_2009}, was employed on multiunit activity data for each session. GPFA was applied using the elephant package ((\url{https://elephant.readthedocs.io/en/latest/reference/gpfa.html}). The bin size was set as 50 ms, without overlaps. Each factor was z-normalized across each session. From the trajectories, Euclidean distance from the origin ($O$) was calculated (Figure~\ref{fig:01}E).
+\\
+\indent
+For every trajectory within a region, such as AHL, \textit{geometric medians} ((\textit{i.e.}, $\mathrm{g_{F}}$ for fixation, $\mathrm{g_{E}}$ for encoding, $\mathrm{g_{M}}$ for maintenance, and $\mathrm{g_{R}}$ for retrieval phase)) were determined by calculating the median coordinates of trajectory during the four phases (Figure~\ref{fig:01}D). The optimal dimensionality for GPFA was determined as three via the elbow method utilizing the log-likelihood values using a three-fold cross-validation approach (Figure~\ref{fig:02}B).
 
-% \subsection{Defining SWR candidates from hippocampal regions}
-% To identify potential SWR events within the hippocampus, we employed a detection method aligned with a consensus in this field \cite{liu_consensus_2022}. Specifically, local field potential (LFP) signals from a region of interest (ROI), such as AHL, were re-referenced by subtracting a averaged signal from outside of the ROI (\textit{e.g.}, AHR, PHL, PHR, ECL, ECR, AL, and AR) (see Figure 1A). The re-referenced LFP signals were applied to a ripple-band filter (80--140 Hz) to isolate SWR candidates (= SWR$^+$ candidates) (see Figure 1B). SWR detection was conducted using a published tool ((\url{https://github.com/Eden-Kramer-Lab/ripple_detection}) \cite{kay_hippocampal_2016}, with modifications such as an updated bandpass range of 80--140 Hz for humans \cite{norman_hippocampal_2019} \cite{norman_hippocampal_2021} from original 150--250 Hz range primarily for rodents.
-% \\
-% \indent
-% As control events for SWR$^+$ candidates, SWR$^-$ candidates were defined by shuffling the timestamps of SWR$^+$ candidates across all trials and subjects. The defined SWR$^+$/SWR$^-$ candidates were visually inspected as shown in Figure 1.
+\subsection{Defining SWR candidates from hippocampal regions}
+To identify potential SWR events within the hippocampus, we employed a detection method aligned with a consensus in this field \cite{liu_consensus_2022}. Specifically, local field potential (LFP) signals from a region of interest (ROI), such as AHL, were re-referenced by subtracting a averaged signal from outside of the ROI (\textit{e.g.}, AHR, PHL, PHR, ECL, ECR, AL, and AR) (see Figure~\ref{fig:01}A). The re-referenced LFP signals were applied to a ripple-band filter (80--140 Hz) to isolate SWR candidates (= SWR$^+$ candidates) (see Figure~\ref{fig:01}B). SWR detection was conducted using a published tool ((\url{https://github.com/Eden-Kramer-Lab/ripple_detection}) \cite{kay_hippocampal_2016}, with modifications such as an updated bandpass range of 80--140 Hz for humans \cite{norman_hippocampal_2019} \cite{norman_hippocampal_2021} from original 150--250 Hz range primarily for rodents.
+\\
+\indent
+As control events for SWR$^+$ candidates, SWR$^-$ candidates were defined by shuffling the timestamps of SWR$^+$ candidates across all trials and subjects. The defined SWR$^+$/SWR$^-$ candidates were visually inspected as shown in Figure~\ref{fig:01}.
 
-% \subsection{Defining SWRs from putative hippocampal CA1 regions}
-% SWRs were defined from SWR candidates in putative CA1 regions. First, putative CA1 regions were defined as follows. SWR$^+$/SWR$^-$ candidates in the hippocampus were embedded into a two-dimensional space based on their superimposed spike counts per unit using UMAP (uniform manifold approximation and projection) \cite{mcinnes_umap_2018} in a supervised fashion (Figure 4A). The silhouette score \cite{rousseeuw_silhouettes_1987}, a validation barometer for clustering, was calculated from clustered samples (Table 2). The hippocampal regions with silhouette scores greater than 0.6 on average across sessions $75^{th}$ percentile) (Figure 4B) were defined as putative CA1 regions, identifying five eletrode positions from five patients (Table 3).
-% \\
-% \indent
-% SWR$^+$/SWR$^-$ candidates in putative CA1 regions were defined as SWR$^+$/SWR$^-$, which are no longer candidates. The duration and ripple band peak amplitude of SWRs followed log-normal distributions (Figure 4C \& E). SWR$^+$/SWR$^-$ were visually inspected as shown in Figure 1. Each of SWR periods was divided into the following periods based on the time from SWR center: pre- (at $-800$ to $-300$ ms from SWR center), mid- (at $-250$ to $+250$ ms), and post-SWR (at $+300$ to $+800$ ms).
+\subsection{Defining SWRs from putative hippocampal CA1 regions}
+SWRs were defined from SWR candidates in putative CA1 regions. First, putative CA1 regions were defined as follows. SWR$^+$/SWR$^-$ candidates in the hippocampus were embedded into a two-dimensional space based on their superimposed spike counts per unit using UMAP (uniform manifold approximation and projection) \cite{mcinnes_umap_2018} in a supervised fashion (Figure~\ref{fig:04}A). The silhouette score \cite{rousseeuw_silhouettes_1987}, a validation barometer for clustering, was calculated from clustered samples (Table~\ref{tab:02}). The hippocampal regions with silhouette scores greater than 0.6 on average across sessions $75^{th}$ percentile) (Figure~\ref{fig:04}B) were defined as putative CA1 regions, identifying five eletrode positions from five patients (Table~\ref{tab:03}).
+\\
+\indent
+SWR$^+$/SWR$^-$ candidates in putative CA1 regions were defined as SWR$^+$/SWR$^-$, which are no longer candidates. The duration and ripple band peak amplitude of SWRs followed log-normal distributions (Figure~\ref{fig:04}4C \& E). SWR$^+$/SWR$^-$ were visually inspected as shown in Figure~\ref{fig:01}. Each of SWR periods was divided into the following periods based on the time from SWR center: pre- (at $-800$ to $-300$ ms from SWR center), mid- (at $-250$ to $+250$ ms), and post-SWR (at $+300$ to $+800$ ms).
 
-% \subsection{Statistical evaluation}
-% The Brunner--Munzel test and the Kruskal-Wallis test were executed using the scipy package in Python \cite{virtanen_scipy_2020}. A correlational analysis was undertaken through the determination of the rank of the observed correlation coefficient in the associated set-size-shuffled surrogate, using a custom Python script. Additionally, the bootstrap test was carried out by utilizing an internally developed Python script.
+\subsection{Statistical evaluation}
+The Brunner--Munzel test and the Kruskal-Wallis test were executed using the scipy package in Python \cite{virtanen_scipy_2020}. A correlational analysis was undertaken through the determination of the rank of the observed correlation coefficient in the associated set-size-shuffled surrogate, using a custom Python script. Additionally, the bootstrap test was carried out by utilizing an internally developed Python script.
 
-% \label{sec:methods}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{sec:methods}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 \subsection{iEEG recording and neural trajectory in MTL regions during a Sternberg task}
-We employed a publicly available dataset \cite{boran_dataset_2020} for this analysis. This dataset includes LFP signals (Figure 1A) within MTL regions (Table 1) during a modified Sternberg task. SWR$^+$ candidates were detected from LFP signals passed through the ripple band (80--140 Hz) (Figure 1B) within all hippocampal regions (refer to Methods), while SWR$^-$ candidates were defined at identical timestamps of SWR$^+$ candidates but with shuffled across different trials (Figure 1). The multiunit spikes (Figure 1C) are included in the dataset as well, being established using a spike sorting algorithm \cite{niediek_reliable_2016}. Using the 50-ms binned multiunit activity without overlaps, we employed GPFA \cite{yu_gaussian-process_2009} to determine the neural trajectory (or factors) of the MTL regions by session and region (Figure 1D). Each factor was z-normalized by session and region (for example, session \#2 in AHL of subject \#1). The Euclidean distance from the origin ($O$) was calculated (Figure 1E).
+We employed a publicly available dataset \cite{boran_dataset_2020} for this analysis. This dataset includes LFP signals (Figure 1A) within MTL regions (Table~\ref{tab:01}1) during a modified Sternberg task. SWR$^+$ candidates were detected from LFP signals passed through the ripple band (80--140 Hz) (Figure 1B) within all hippocampal regions (refer to Methods), while SWR$^-$ candidates were defined at identical timestamps of SWR$^+$ candidates but with shuffled across different trials (Figure 1). The multiunit spikes (Figure 1C) are included in the dataset as well, being established using a spike sorting algorithm \cite{niediek_reliable_2016}. Using the 50-ms binned multiunit activity without overlaps, we employed GPFA \cite{yu_gaussian-process_2009} to determine the neural trajectory (or factors) of the MTL regions by session and region (Figure 1D). Each factor was z-normalized by session and region (for example, session \#2 in AHL of subject \#1). The Euclidean distance from the origin ($O$) was calculated (Figure 1E).
 
 \subsection{Hippocampal neural trajectory correlated with a Sternberg task}
 In Figure 2A, the median neural trajectories of 50 trials were depicted as point clouds within the three major factor space. The optimal embedding dimension for the GPFA model was determined to be three using the elbow method (Figure 2B). The trajectory distance from the origin ($O$) ($\mathrm{\lVert g_{F} \rVert}$, $\mathrm{\lVert g_{E} \rVert}$, $\mathrm{\lVert g_{M} \rVert}$, and $\mathrm{\lVert g_{R} \rVert}$) of the hippocampus was larger than those of the EC and amygdala (Figure C \& D).\footnote{Hippocampus: Distance = 1.11 [1.01], median [IQR], \textit{n} = 195,681 timepoints; EC: Distance = 0.94 [1.10], median [IQR], \textit{n} = 133,761 timepoints; Amygdala: Distance = 0.78 [0.88], median [IQR], \textit{n} = 165,281 timepoints.}
@@ -200,10 +184,10 @@ Regarding the memory load of the Stenberg task, correct rate of trials and set s
 Furthermore, similarly, set size and the trajectory distance between the encoding and retrieval phases ($\mathrm{log_{10}\lVert g_{E}g_{R} \rVert}$) were positively correlated (Figure 3C).\footnote{Correlation between set size and $\mathrm{log_{10}(\lVert g_{E}g_{R} \rVert}$): correlation coefficient = 0.05, \textit{p} $<$ 0.001. Specific values: $\mathrm{\lVert g_{E}g_{R} \rVert}$ = 0.54 [0.70] for set size four trials, \textit{n} = 447; $\mathrm{\lVert g_{E}g_{R} \rVert}$ = 0.58 [0.66] for set size six trials, \textit{n} = 381; $\mathrm{\lVert g_{E}g_{R} \rVert}$ = 0.61 [0.63] for set size eight trials, \textit{n} = 395.}, while distances between other phase combinations did not yield no significant correlations (Figures 3D \& S2).
 
 \subsection{Detection of hippocampal SWR from putative CA1 regions}
-Under the aim to improve the precision of recording sites and the detection of SWRs, we estimated electrodes in CA1 regions of the hippocampus based on observing distinct multiunit spike patterns during SWR events. For each session and hippocampal region, SWR$^+$/SWR$^-$ candidates were embedded into a two-dimensional space via UMAP (Figure 4A).\footnote{For illustrative purposes, consider the AHL in session \#1 of subject \#1.} We calculated the silhouette score as a measure of clustering quality (Figure 4B \& Table 2). Recording sites with an average silhouette score across sessions exceeding 0.6 were defined as putative CA1 regions \footnote{The identified regions were: AHL of subject \#1, AHR of subject \#3, PHL of subject \#4, AHL of subject \#6, and AHR of subject \#9.}  (Tables 2 \& 3). Five putative CA1 regions were identified, and the four of them had not been labeled as seizure onset zones (Table 1).
+Under the aim to improve the precision of recording sites and the detection of SWRs, we estimated electrodes in CA1 regions of the hippocampus based on observing distinct multiunit spike patterns during SWR events. For each session and hippocampal region, SWR$^+$/SWR$^-$ candidates were embedded into a two-dimensional space via UMAP (Figure 4A).\footnote{For illustrative purposes, consider the AHL in session \#1 of subject \#1.} We calculated the silhouette score as a measure of clustering quality (Figure 4B \& Table~\ref{tab:02}). Recording sites with an average silhouette score across sessions exceeding 0.6 were defined as putative CA1 regions \footnote{The identified regions were: AHL of subject \#1, AHR of subject \#3, PHL of subject \#4, AHL of subject \#6, and AHR of subject \#9.}  (Tables~\ref{tab:02} \& \ref{tab:03}). Five putative CA1 regions were identified, and the four of them had not been labeled as seizure onset zones (Table~\ref{tab:01}).
 \\
 \indent
-Subsequently, SWR$^+$/SWR$^-$ candidates within these putative CA1 regions were labeled SWR$^+$ and SWR$^-$, respectively\footnote{Definitions lead to equal counts for both categories: SWR$^+$ (\textit{n} = 1,170) and SWR$^-$ (\textit{n} = 1,170).}  (Table 3). Both SWR$^+$ and SWR$^-$ exhibited an identical duration\footnote{Definitions lead to equal duration for both categories: SWR$^+$ (93.0 [65.4] ms) and SWR$^-$ (93.0 [65.4] ms).}  (Figure 4C) due to their definitions, following a log-distribution profile. A increase in SWR$^+$ incidence was detected during the initial 400 ms of the retrieval phase \footnote{SWR$^+$ increased against the bootstrap sample; 95th percentile = 0.42 [Hz]; \textit{p} $<$ 0.05.}  (Figure 4D). Additionally, the peak ripple band amplitude of SWR$^+$ exceeded that of SWR$^-$ and followed a log-normal distribution (Figure 4E).\footnote{SWR$^+$ (3.05 [0.85] SD of baseline, median [IQR]; \textit{n} = 1,170) vs. SWR$^-$ (2.37 [0.33] SD of baseline, median [IQR]; \textit{n} = 1,170; \textit{p} $<$ 0.001; Brunner--Munzel test).}.
+Subsequently, SWR$^+$/SWR$^-$ candidates within these putative CA1 regions were labeled SWR$^+$ and SWR$^-$, respectively\footnote{Definitions lead to equal counts for both categories: SWR$^+$ (\textit{n} = 1,170) and SWR$^-$ (\textit{n} = 1,170).}  (Table~\ref{tab:03}). Both SWR$^+$ and SWR$^-$ exhibited an identical duration\footnote{Definitions lead to equal duration for both categories: SWR$^+$ (93.0 [65.4] ms) and SWR$^-$ (93.0 [65.4] ms).}  (Figure 4C) due to their definitions, following a log-distribution profile. A increase in SWR$^+$ incidence was detected during the initial 400 ms of the retrieval phase \footnote{SWR$^+$ increased against the bootstrap sample; 95th percentile = 0.42 [Hz]; \textit{p} $<$ 0.05.}  (Figure 4D). Additionally, the peak ripple band amplitude of SWR$^+$ exceeded that of SWR$^-$ and followed a log-normal distribution (Figure 4E).\footnote{SWR$^+$ (3.05 [0.85] SD of baseline, median [IQR]; \textit{n} = 1,170) vs. SWR$^-$ (2.37 [0.33] SD of baseline, median [IQR]; \textit{n} = 1,170; \textit{p} $<$ 0.001; Brunner--Munzel test).}.
 
 \subsection{Transient neural trajectory change in the hippocampus during SWR}
 The \textit{distances} of trajectory from the origin ($O$) during SWR events in both the encoding and retrieval phases were calculated (Figure 5A). Given the distance increase during SWR as shown in Figure 5A, we categorized each SWR into three stages: pre-, mid-, and post-SWR. Subsequently, the distances from $O$ during these SWR periods are represented as $\mathrm{\lVert \text{pre-eSWR}^+ \rVert}$, $\mathrm{\lVert \text{mid-eSWR}^+ \rVert}$, and so on.
@@ -243,21 +227,21 @@ Additionally, only in Mismatch OUT task, $\overrightarrow{\mathrm{eSWR^+}} \cdot
 %% Discussion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
-This study hypothesized that hippocampal neurons exhibit distinct representations, or trajectories, in low-dimensional spaces during a WM task in humans, particularly during SWR periods. First, we projected the multiunit spikes in MTL regions during a Sternberg task onto three-dimensional spaces by GPFA (Figures 1D--E and Figure 2A). The distance of trajectory among WM phases ($\mathrm{\lVert g_{F}g_{E} \rVert}$, $\mathrm{\lVert g_{F}g_{M} \rVert}$, $\mathrm{\lVert g_{F}g_{R} \rVert}$, $\mathrm{\lVert g_{E}g_{M} \rVert}$, $\mathrm{\lVert g_{E}g_{R} \rVert}$, and $\mathrm{\lVert g_{M}g_{R} \rVert}$) was larger in the hippocampus than the EC and amygdala (Figure 2E), showing more dynamical neural activity in the hippocampus during the WM task. Additionally, the distance of trajectory between the encoding and retrieval phases in the hippocampus ($\mathrm{\lVert g_{F}g_{E} \rVert}$) was positively correlated with memory load (Figures 3C \& D), indicating it as a reflection of WM processing. Furthermore, the neural trajectory in the hippocampus showed transient increase during SWRs (Figure 5). Finally, the hippocampal neural trajectory fluctuated between encoding and retrieval states, with a shift from encoding to retrieval during SWR events (Figure 7). In sum, these results demonstrated the hippocampal neural behavior in a WM task in humans.
+This study hypothesized that hippocampal neurons exhibit distinct representations, or trajectories, in low-dimensional spaces during a WM task in humans, particularly during SWR periods. First, we projected the multiunit spikes in MTL regions during a Sternberg task onto three-dimensional spaces by GPFA (Figure~\ref{fig:01}D--E and Figure~\ref{fig:02}A). The distance of trajectory among WM phases ($\mathrm{\lVert g_{F}g_{E} \rVert}$, $\mathrm{\lVert g_{F}g_{M} \rVert}$, $\mathrm{\lVert g_{F}g_{R} \rVert}$, $\mathrm{\lVert g_{E}g_{M} \rVert}$, $\mathrm{\lVert g_{E}g_{R} \rVert}$, and $\mathrm{\lVert g_{M}g_{R} \rVert}$) was larger in the hippocampus than the EC and amygdala (Figure~\ref{fig:02}E), showing more dynamical neural activity in the hippocampus during the WM task. Additionally, the distance of trajectory between the encoding and retrieval phases in the hippocampus ($\mathrm{\lVert g_{F}g_{E} \rVert}$) was positively correlated with memory load (Figure~\ref{fig:03}C--D), indicating it as a reflection of WM processing. Furthermore, the neural trajectory in the hippocampus showed transient increase during SWRs (Figure~\ref{fig:05}). Finally, the hippocampal neural trajectory fluctuated between encoding and retrieval states, with a shift from encoding to retrieval during SWR events (Figure~\ref{fig:07}). In sum, these results demonstrated the hippocampal neural behavior in a WM task in humans.
 % For visualization purposes, peri-SWR trajectories were embedded into two-dimensional spaces, showing task-specifi
 \\
 \indent
-First, we found that the distance of the neural trajectory among the four phases ($\mathrm{\lVert g_{F}g_{E} \rVert}$, $\mathrm{\lVert g_{F}g_{M} \rVert}$, $\mathrm{\lVert g_{F}g_{R} \rVert}$, $\mathrm{\lVert g_{E}g_{M} \rVert}$, $\mathrm{\lVert g_{E}g_{R} \rVert}$, and $\mathrm{\lVert g_{M}g_{R} \rVert}$) was longer in the hippocampus compared to the EC and amygdala, even considering the distance from $O$ ($\mathrm{\lVert g_{F} \rVert}$, $\mathrm{\lVert g_{E} \rVert}$, $\mathrm{\lVert g_{M} \rVert}$, and $\mathrm{\lVert g_{R} \rVert}$) in those regions (Figures 2C--E). These results indicate hippocampal participation in the WM task, which is partially supported by previous findings of hippocampal persistent firing in the maintenance phase \cite{boran_persistent_2019} \cite{kaminski_persistently_2017} \cite{kornblith_persistent_2017} \cite{faraut_dataset_2018}. However, by applying GPFA to multiunit activity during the 1-s level resolution of WM task, we revealed that the neural trajectory in low dimensional space displayed memory-load dependency between the encoding and retrieval phase, represented as $\mathrm{\lVert g_{E}g_{R} \rVert}$ (Figure 3). Overall, these results provide evidence that the hippocampus is linked to WM processing.
+First, we found that the distance of the neural trajectory among the four phases ($\mathrm{\lVert g_{F}g_{E} \rVert}$, $\mathrm{\lVert g_{F}g_{M} \rVert}$, $\mathrm{\lVert g_{F}g_{R} \rVert}$, $\mathrm{\lVert g_{E}g_{M} \rVert}$, $\mathrm{\lVert g_{E}g_{R} \rVert}$, and $\mathrm{\lVert g_{M}g_{R} \rVert}$) was longer in the hippocampus compared to the EC and amygdala, even considering the distance from $O$ ($\mathrm{\lVert g_{F} \rVert}$, $\mathrm{\lVert g_{E} \rVert}$, $\mathrm{\lVert g_{M} \rVert}$, and $\mathrm{\lVert g_{R} \rVert}$) in those regions (Figure~\ref{fig:02}C--E). These results indicate hippocampal participation in the WM task, which is partially supported by previous findings of hippocampal persistent firing in the maintenance phase \cite{boran_persistent_2019} \cite{kaminski_persistently_2017} \cite{kornblith_persistent_2017} \cite{faraut_dataset_2018}. However, by applying GPFA to multiunit activity during the 1-s level resolution of WM task, we revealed that the neural trajectory in low dimensional space displayed memory-load dependency between the encoding and retrieval phase, represented as $\mathrm{\lVert g_{E}g_{R} \rVert}$ (Figure~\ref{fig:03}). Overall, these results provide evidence that the hippocampus is linked to WM processing.
 \\
 \indent
-The validity of our analysis of confining to putative CA1 regions (Figure 4) is supported by several factors. First, this targeted approach stems from well-established observations that SWRs are time-locked to synchronous spike bursts of interneurons and pyramidal neurons \cite{buzsaki_two-stage_1989} \cite{quyen_cell_2008} \cite{royer_control_2012} \cite{hajos_input-output_2013}, potentially around 50 $\mu$m radius of the recording site \cite{schomburg_spiking_2012}. Additionally, in the present study, we found the increase in SWRs' incidence at 0--400 ms of the retrieval phase (Figure 4D). This result is consistent with previous reports showing increased SWR occurrence before spontaneous verbal recall \cite{norman_hippocampal_2019} \cite{norman_hippocampal_2021}. Thus, our result is not only consistent but also extends the finding to a triggered retrieval condition. Moreover, the log-normal distributions of SWR duration and ripple band peak amplitude observed in this study (Figure 4C \& E) align with the consensus in this field \cite{liu_consensus_2022}. Therefore, our approach of limiting recording sites for putative CA1 regions would have contributed to precision of SWR detection. One limitation is that the increase in trajectory distance from $O$ during SWR (Figure 5) would have been biased to greater due to the channel selection; however, this is not critical for our major findings.
+The validity of our analysis of confining to putative CA1 regions (Figure~\ref{fig:04}) is supported by several factors. First, this targeted approach stems from well-established observations that SWRs are time-locked to synchronous spike bursts of interneurons and pyramidal neurons \cite{buzsaki_two-stage_1989} \cite{quyen_cell_2008} \cite{royer_control_2012} \cite{hajos_input-output_2013}, potentially around 50 $\mu$m radius of the recording site \cite{schomburg_spiking_2012}. Additionally, in the present study, we found the increase in SWRs' incidence at 0--400 ms of the retrieval phase (Figure~\ref{fig:04}D). This result is consistent with previous reports showing increased SWR occurrence before spontaneous verbal recall \cite{norman_hippocampal_2019} \cite{norman_hippocampal_2021}. Thus, our result is not only consistent but also extends the finding to a triggered retrieval condition. Moreover, the log-normal distributions of SWR duration and ripple band peak amplitude observed in this study (Figure~\ref{fig:04}C \& E) align with the consensus in this field \cite{liu_consensus_2022}. Therefore, our approach of limiting recording sites for putative CA1 regions would have contributed to precision of SWR detection. One limitation is that the increase in trajectory distance from $O$ during SWR (Figure~\ref{fig:05}) would have been biased to greater due to the channel selection; however, this is not critical for our major findings.
 \\
 \indent
-Interestingly, the trajectory directions in the retrieval phase oscillated between the encoding and retrieval states both in baseline and SWR periods (Figures 7C \& D). In addition, the balance of such fluctuation was shifted from the encoding to retrieval state during SWR (Figures 7 E \& F). 
+Interestingly, the trajectory directions in the retrieval phase oscillated between the encoding and retrieval states both in baseline and SWR periods (Figure~\ref{fig:07}C \& D). In addition, the balance of such fluctuation was shifted from the encoding to retrieval state during SWR (Figure~\ref{fig:07} E \& F). 
 These results are again consistent with previous reports suggesting SWR's role in memory recall \cite{norman_hippocampal_2019} \cite{norman_hippocampal_2021}. Our result adds another layer of understanding, that is, SWR occurs when hippocampal representation proceeds "from encoding" to retrieval states. Therefore, our results provide new aspects of hippocampal representations: (i) neural fluctuations between encoding and retrieval states during a WM task and (ii) SWR as a switching representation from encoding to retrieval states.
 \\
 \indent
-Moreover, our study reveals WM-task type specific directions between encoding- and retrieval-SWRs (Figure 7E--F). Specifically, eSWR and rSWR directed in the adverse direction not in Match IN but in Mismatch OUT task. These result might be explained by the memory engram theory \cite{liu_optogenetic_2012}. In fact, Match In task exposed subjects to once-seen letter, while Mismatch OUT task a novel letter which was not included in the encoding phase. These results suggest that SWR is related to working cognitive processess in humans.
+Moreover, our study reveals WM-task type specific directions between encoding- and retrieval-SWRs (Figure~\ref{fig:07}E--F). Specifically, eSWR and rSWR directed in the adverse direction not in Match IN but in Mismatch OUT task. These result might be explained by the memory engram theory \cite{liu_optogenetic_2012}. In fact, Match In task exposed subjects to once-seen letter, while Mismatch OUT task a novel letter which was not included in the encoding phase. These results suggest that SWR is related to working cognitive processess in humans.
 \\
 \indent
 In conclusion, our study has demonstrated that hippocampal activity fluctuates between encoding and retrieval states during a WM task and exhibits a significant transition "from encoding" to retrieval during SWR periods.
@@ -332,36 +316,29 @@ The authors employed ChatGPT, provided by OpenAI, for enhancing the manuscript's
 \label{tables}
 \pdfbookmark[1]{Tables}{tables}
 \pdfbookmark[2]{ID 01}{id_01}
-\begin{table*}[ht]
+\begin{table*}[htbp]
 \centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-&&Hipp. head&&Hipp. Body&&EC&&Amy.&&&\\
-\hline
-Subject ID&\# of &&&&&&&&&&\\
-\hline
-sessions&AHL&AHR&PHL&PHR&ECL&ECR&AL&AR&&SOZ&\\
-\hline
-\#1&4&o&x&o&o&o&x&o&x&&AHR, LR\\
-\hline
-\#2&7&o&o&o&o&o&o&o&o&&AHR, PHR\\
-\hline
-\#3&3&o&o&o&o&o&o&o&x&&AHL, PHL\\
-\hline
-\#4&2&o&o&o&o&o&o&o&o&&AHL, AHR, PHL, PHR\\
-\hline
-\#5&3&o&x&x&o&x&x&o&x&&DRR\\
-\hline
-\#6&6&o&o&o&o&o&o&o&o&&AHL, PHL, ECL, AL\\
-\hline
-\#7&4&o&o&o&o&o&o&o&o&&AHR, PHR\\
-\hline
-\#8&5&o&o&o&o&o&o&o&o&&ECR\\
-\hline
-\#9&2&o&o&o&o&o&o&o&o&&ECR, AR\\
-\hline
+\small
+\begin{tabular}{*{11}{c}}
+\toprule
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ}} &\\
+\midrule
+#1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" & \\
+\rowcolor{lightgray}
+#2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
+#3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" & \\
+\rowcolor{lightgray}
+#4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" & \\
+#5 & 3 & o & x & x & o & x & x & o & x & DRR\\
+\rowcolor{lightgray}
+#6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" & \\
+#7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
+\rowcolor{lightgray}
+#8 & 5 & o & o & o & o & o & o & o & o & ECR\\
+#9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" & \\
 \bottomrule
 \end{tabular}
+\captionsetup{width=1\textwidth}
 \caption{\textbf{
 Electrode positions of the dataset
 }
@@ -369,38 +346,34 @@ Electrode positions of the dataset
 \\
 The electrode positions and the seizure onset zones. Regions marked as "o" were available, but those marked as "x" (\textit{navy}) were not available in the dataset. Abbreviations: AHL, left hippocampal head; AHR, right hippocampal head; PHL, left hippocampal body; PHR, right hippocampal body; ECL, left entorhinal cortex; ECR, right entorhinal cortex; AL, left amygdala; AR, right amygdala, SOZ: seizure onset zone.
 }
-% width=1\textwidth\label{tab:01}
+% width=1\textwidth
+\label{tab:01}
 \end{table*}
-\clearpage
+\restoregeometry
 \pdfbookmark[2]{ID 02}{id_02}
-\begin{table*}[ht]
+\begin{table*}[htbp]
 \centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-&Hipp. head&&Hipp. body&\\
-\hline
-Subject&AHL&AHR&PHL&PHR\\
-\hline
-\#1&0.60 ± 0.14&n.a.&n.a.&0.1 ± 0\\
-\hline
-\#2&0.21 ± 0.16&0.17 ± 0.21&0.18 ± 0.22&0.20 ± 0.15\\
-\hline
-\#3&0.40 ± 0.42&0.83 ± 0.12&n.a.&n.a.\\
-\hline
-\#4&0.10 ± 0.00&0.10 ± 0.00&0.90 ± 0.00&0.10 ± 0.14\\
-\hline
-\#5&n.a.&n.a.&n.a.&n.a.\\
-\hline
-\#6&0.63 ± 0.06&n.a.&n.a.&0.27 ± 0.06\\
-\hline
-\#7&0.10 ± 0.00&0.35 ± 0.35&0.37 ± 0.47&0.10 ± 0.00\\
-\hline
-\#8&0.13 ± 0.10&n.a.&0.28 ± 0.49&n.a.\\
-\hline
-\#9&n.a.&0.85 ± 0.07&0.15 ± 0.07&n.a.\\
-\hline
+\small
+\begin{tabular}{*{5}{c}}
+\toprule
+\textbf{\thead{Subject}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\\
+\midrule
+#1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0\\
+\rowcolor{lightgray}
+#2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15\\
+#3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.\\
+\rowcolor{lightgray}
+#4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14\\
+#5 & n.a. & n.a. & n.a. & n.a.\\
+\rowcolor{lightgray}
+#6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06\\
+#7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00\\
+\rowcolor{lightgray}
+#8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.\\
+#9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.\\
 \bottomrule
 \end{tabular}
+\captionsetup{width=1\textwidth}
 \caption{\textbf{
 The silhouette score of UMAP clustering between $SWR^+$ candidates and $SWR^-$ candidates
 }
@@ -408,34 +381,30 @@ The silhouette score of UMAP clustering between $SWR^+$ candidates and $SWR^-$ c
 \\
 The silhouette scores (mean ± SD for sessions by subject) of UMAP clustering on SWR+ candidates and SWR− candidates (Figure 4A) were based on their underlying multiunit spike patterns (mean values were 0.205 [0.285], median [IQR]; Figure 4B).
 }
-% width=1\textwidth\label{tab:02}
+% width=1\textwidth
+\label{tab:02}
 \end{table*}
-\clearpage
+\restoregeometry
 \pdfbookmark[2]{ID 03}{id_03}
-\begin{table*}[ht]
+\begin{table*}[htbp]
 \centering
-\begin{tabular}{|l|l|l|l|l|l|}
-\hline
-Subject ID&\# of sessions&\# of trials&ROI&\# of SWRs&SWR incidence [Hz]\\
-\hline
-\#1&2&100&AHL&274&0.34\\
-\hline
-\#3&2&97&AHR&325&0.42\\
-\hline
-\#4&2&99&PHL&202&0.26\\
-\hline
-\#6&2&100&AHL&297&0.37\\
-\hline
-\#9&2&97&AHR&72&0.092784\\
-\hline
-&Total = 10&Total = 493&&Total = 1,170&0.30 ± 0.13\\
-\hline
-(mean ± SD)&&&&&\\
-\hline
-&&&&&\\
-\hline
+\small
+\begin{tabular}{*{6}{c}}
+\toprule
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{# of trials}} &\textbf{\thead{ROI}} &\textbf{\thead{# of SWRs}} &\textbf{\thead{SWR incidence [Hz]}} &\\
+\midrule
+#1 & 2 & 100 & AHL & 274 & 0.34\\
+\rowcolor{lightgray}
+#3 & 2 & 97 & AHR & 325 & 0.42\\
+#4 & 2 & 99 & PHL & 202 & 0.26\\
+\rowcolor{lightgray}
+#6 & 2 & 100 & AHL & 297 & 0.37\\
+#9 & 2 & 97 & AHR & 72 & 0.09\\
+\rowcolor{lightgray}
+Total = 10 & Total = 493 & "Total = 1,170" & 0.30 ± 0.13 (mean ± SD)\\
 \bottomrule
 \end{tabular}
+\captionsetup{width=1\textwidth}
 \caption{\textbf{
 The number of defined SWR events
 }
@@ -443,8 +412,10 @@ The number of defined SWR events
 \\
 The table summarizes the statistics of putative CA1 regions and SWRs. Only the first two sessions (sessions #1 and #2) from each subject were utilized to reduce the sampling bias.
 }
-% width=1\textwidth\label{tab:03}
+% width=1\textwidth
+\label{tab:03}
 \end{table*}
+\restoregeometry
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -510,7 +481,7 @@ SWR detection in putative CA1 regions
 }
 \smallskip
 \\
-\textbf{\textit{A.}} Two-dimensional UMAP (uniform manifold approximation and projection)\cite{mcinnes_umap_2018} projection of multiunit spikes during SWR$^+$ candidates (\textit{purple}) and SWR$^-$ candidates (\textit{yellow}). \textbf{\textit{B.}}  Cumulative density plot of silhouette scores, a barometer for UMAP clustering quality, for hippocampal regions (refer to Table 2). Note that hippocampal regions with silhouette scores exceeding 0.60 (= $75^{th}$ percentile) were defined as putative CA1 regions. SWR$^+$ and SWR$^-$ candidates recorded in these putative CA1 regions were defined as SWR$^+$ and SWR$^-$ (\textit{n}s = 1,170), respectively. \textbf{\textit{C.}}  The distributions of durations for SWR$^+$ (\textit{purple}) and SWR$^-$ (\textit{yellow}), which are identical due to their definitions (93.0 [65.4] ms, median [IQR]). \textbf{\textit{D.}}  SWR incidence for both SWR$^+$ (\textit{purple}) and SWR$^-$ (\textit{yellow}) relative to time from probe, represented as mean \textpm 95\% confidence interval, although the intervals might not be visible due to their narrow range. Note the significant elevation in SWR incidence was detected during the first 400 ms of the retrieval phase (0.421 [Hz], *\textit{p} $<$ 0.05, bootstrap test). \textbf{\textit{E.}}  The distributions of ripple band peak amplitude for SWR$^-$ (\textit{yellow}; 2.37 [0.33] SD of baseline, median [IQR]) and SWR$^+$ (\textit{purple}; 3.05 [0.85] SD of baseline, median [IQR]) (***\textit{p} $<$ 0.001, the Brunner--Munzel test).
+\textbf{\textit{A.}} Two-dimensional UMAP (uniform manifold approximation and projection)\cite{mcinnes_umap_2018} projection of multiunit spikes during SWR$^+$ candidates (\textit{purple}) and SWR$^-$ candidates (\textit{yellow}). \textbf{\textit{B.}}  Cumulative density plot of silhouette scores, a barometer for UMAP clustering quality, for hippocampal regions (refer to Table~\ref{tab:02}). Note that hippocampal regions with silhouette scores exceeding 0.60 (= $75^{th}$ percentile) were defined as putative CA1 regions. SWR$^+$ and SWR$^-$ candidates recorded in these putative CA1 regions were defined as SWR$^+$ and SWR$^-$ (\textit{n}s = 1,170), respectively. \textbf{\textit{C.}}  The distributions of durations for SWR$^+$ (\textit{purple}) and SWR$^-$ (\textit{yellow}), which are identical due to their definitions (93.0 [65.4] ms, median [IQR]). \textbf{\textit{D.}}  SWR incidence for both SWR$^+$ (\textit{purple}) and SWR$^-$ (\textit{yellow}) relative to time from probe, represented as mean \textpm 95\% confidence interval, although the intervals might not be visible due to their narrow range. Note the significant elevation in SWR incidence was detected during the first 400 ms of the retrieval phase (0.421 [Hz], *\textit{p} $<$ 0.05, bootstrap test). \textbf{\textit{E.}}  The distributions of ripple band peak amplitude for SWR$^-$ (\textit{yellow}; 2.37 [0.33] SD of baseline, median [IQR]) and SWR$^+$ (\textit{purple}; 3.05 [0.85] SD of baseline, median [IQR]) (***\textit{p} $<$ 0.001, the Brunner--Munzel test).
 }
 % width=1\textwidth
         	\label{fig:04}
