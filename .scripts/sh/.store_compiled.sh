@@ -1,9 +1,9 @@
 OLD_DIR=./old/
-MAIN_PDF=./main.pdf
-COMBINED_TEX=./combined.tex
+MAIN_PDF=./compiled.pdf
+COMPILED_TEX=./compiled.tex
 VERSION_COUNTER_TXT="${OLD_DIR}.version_counter.txt"
 
-function store_old() {
+function store_compiled() {
     count_version
     store_pdf
     store_tex
@@ -13,15 +13,21 @@ function store_pdf() {
     mkdir -p $OLD_DIR
     if [ -f $MAIN_PDF ]; then
         version=$(<"$VERSION_COUNTER_TXT")
-        cp $MAIN_PDF "${OLD_DIR}compiled_v${version}.pdf"
+        # cp $MAIN_PDF "${OLD_DIR}compiled_v${version}.pdf"
+        TGT_PATH="${OLD_DIR}compiled_v${version}.pdf"
+        mv $MAIN_PDF $TGT_PATH
+        ln -s $TGT_PATH $MAIN_PDF
     fi
 }
 
 function store_tex() {
     mkdir -p $OLD_DIR
-    if [ -f $COMBINED_TEX ]; then
+    if [ -f $COMPILED_TEX ]; then
         version=$(<"$VERSION_COUNTER_TXT")
-        cp $COMBINED_TEX "${OLD_DIR}compiled_v${version}.tex"
+        # cp $COMPILED_TEX "${OLD_DIR}compiled_v${version}.tex"
+        TGT_PATH="${OLD_DIR}compiled_v${version}.tex"
+        mv $COMPILED_TEX $TGT_PATH        
+        ln -s $TGT_PATH $COMPILED_TEX
     fi
 }
 
