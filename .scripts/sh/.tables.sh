@@ -1,6 +1,8 @@
+#!/bin/bash
+
 function gather_tables() {
     csv2tex
-    rm ./src/tables/.tex/.All_Tables.tex > /dev/null 2>&1
+    rm ./src/tables/.tex/.All_Tables.tex -f > /dev/null 2>&1
     for table_tex in ./src/tables/.tex/Table_*.tex; do
         fname="${table_tex%.tex}"
         echo "\input{${fname}}" >> ./src/tables/.tex/.All_Tables.tex # [REVISED]
@@ -83,3 +85,7 @@ function csv2tex() {
         } > $tgt_file
     done
 }
+
+gather_tables
+
+## EOF

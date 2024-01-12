@@ -9,7 +9,8 @@ Figures/tif/*
 !Figures/png/.gitkeep
 !Figures/tif/.gitkeep
 
-./logs/*
+./.logs/*
+!.logs/compile.log
 
 ################################################################################
 ## Emacs

@@ -52,7 +52,7 @@ function compile_legend() {
         figure_id=$(echo $figure_id | tr '[:upper:]' '[:lower:]')        
         width=$(grep -oP '(?<=width=)[0-9.]+\\textwidth' "$caption_file")  # [REVISED]
 
-        rm $tgt_file > /dev/null 2>&1
+        rm $tgt_file -f > /dev/null 2>&1
         if [ $ii -gt 0 ]; then
             echo "\\clearpage" > "$tgt_file"
         fi
@@ -77,9 +77,13 @@ EOF
 function gather_figures() {
     compile_legend
     
-    rm ./src/figures/.tex/.All_Figures.tex > /dev/null 2>&1    
+    rm ./src/figures/.tex/.All_Figures.tex -f > /dev/null 2>&1    
 	for fig_tex in ./src/figures/.tex/Figure_*.tex; do
 	    fname="${fig_tex%.tex}"
         echo "\input{${fname}}" >> ./src/figures/.tex/.All_Figures.tex
     done
 }
+
+gather_figures
+
+## EOF

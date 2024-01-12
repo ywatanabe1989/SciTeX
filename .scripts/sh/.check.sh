@@ -9,4 +9,7 @@ function check_commands() {
     done
 }
 
+check_commands pdflatex bibtex xlsx2csv csv2latex
+chktex -v0 ./main.tex > ./.logs/syntax_warnings.log 2>&1
+
 ## EOF
