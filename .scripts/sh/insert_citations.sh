@@ -11,6 +11,8 @@ function insert_citations() {
   fi
 }
 
+source ./.scripts/sh/.load_files_list.sh
+
 config_file_path="./configs/files_to_insert_citations.txt"
 files_to_insert_citations=$(load_files_list "$config_file_path")
 # Main
