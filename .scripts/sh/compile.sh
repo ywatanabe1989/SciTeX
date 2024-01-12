@@ -1,5 +1,8 @@
 #!/bin/bash
 
+LOG_FILE="./compile.log"
+
+{
 do_take_diff=false
 do_insert_citations=false
 do_revise=false
@@ -73,16 +76,17 @@ store_compiled
 
 # Open the compiled pdf
 if [ "$(echo $USER)" = "ywatanabe" ]; then
-    if [ "$do_take_diff" = false ]; then
-        echo "compiled.pdf"        
-        open_pdf_or_exit ./compiled.pdf
-    else
-        echo "diff.pdf"
-        open_pdf_or_exit ./diff.pdf    
-    fi
+    open_pdf_or_exit ./compiled.pdf    
+    # if [ "$do_take_diff" = false ]; then
+    #     echo "compiled.pdf"        
+    #     open_pdf_or_exit ./compiled.pdf
+    # else
+    #     echo "diff.pdf"
+    #     open_pdf_or_exit ./diff.pdf    
+    # fi
 fi
 
-
+} 2>&1 | tee "$LOG_FILE"
 # # # Tree
 # # tree > ./.tree.txt
 

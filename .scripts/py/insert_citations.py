@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 14:08:30 (ywatanabe)"
+# Time-stamp: "2024-01-12 21:55:31 (ywatanabe)"
 
 
 import os
@@ -42,7 +42,7 @@ def insert_citations(lpath_tex, lpath_bib):
     back_up(lpath_tex)
 
     # Saves
-    spath = lpath_tex.replace(".tex", "_cited.tex")
+    spath = lpath_tex
     save_tex(inserted_text, spath) # fxime: \indent disappears
     print(f"Citations were inserted to: {spath}")
 
