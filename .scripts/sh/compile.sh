@@ -1,12 +1,12 @@
 #!/bin/bash
 
-do_take_diff=true
+do_take_diff=false
 do_insert_citations=false
 do_revise=false
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -h|--help) echo "Usage: $0 [--no-take-diff] [--insert-citations] [--revise]"; exit 0 ;;
-        --no-take-diff) do_take_diff=false ;;
+        -h|--help) echo "Usage: $0 [--take-diff] [--insert-citations] [--revise]"; exit 0 ;;
+        --take-diff) do_take_diff=true ;;
         --insert-citations) do_insert_citations=true ;;
         --revise) do_revise=true ;;        
         # *) echo "Unknown parameter passed: $1"; exit 1 ;;
@@ -51,7 +51,7 @@ fi
 compile_tex_and_bib
 gen_the_compiled_tex_file
 
-# Take diff if requested (default: true)
+# Take diff if requested (default: false)
 if [ "$do_take_diff" = true ]; then
     echo -e "\nTaking diff..."    
     latest_tex=$(ls -v ./old/compiled_v*.tex | tail -n 1)
