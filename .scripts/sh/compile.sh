@@ -3,15 +3,17 @@
 LOG_FILE="./compile.log"
 
 {
+echo "Log file created: "$LOG_FILE
+
 do_take_diff=false
 do_insert_citations=false
 do_revise=false
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -h|--help) echo "Usage: $0 [--take-diff] [--insert-citations] [--revise]"; exit 0 ;;
-        --take-diff) do_take_diff=true ;;
-        --insert-citations) do_insert_citations=true ;;
-        --revise) do_revise=true ;;        
+        -h|--help) echo "Usage: $0 [-d|--take-diff] [-i|--insert-citation] [-r|--revise]"; exit 0 ;;
+        -d|--take-diff) do_take_diff=true ;;
+        -i|--insert-citations) do_insert_citations=true ;;
+        -r|--revise) do_revise=true ;;
         # *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
