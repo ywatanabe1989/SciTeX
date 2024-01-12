@@ -22,7 +22,7 @@ source ./.scripts/sh/.figures.sh
 source ./.scripts/sh/.tables.sh
 source ./.scripts/sh/.pdf.sh
 source ./.scripts/sh/.print_success.sh
-source ./.scripts/sh/.store_old_versions.sh
+source ./.scripts/sh/.store_compiled.sh
 source ./.scripts/sh/.load_files_list.sh 
 
 # Checks
@@ -31,9 +31,6 @@ chktex -v0 ./main.tex > ./.logs/syntax_warnings.log 2>&1
 
 # Format ./main.tex file
 latexindent -w ./main.tex > /dev/null 2>&1
-
-# Store old pdf files
-store_old
 
 # Revise tex files if requested (default: false)
 if [ "$do_revise" = true ]; then
@@ -71,17 +68,20 @@ print_success
 # Move unnecessary files
 mv_unnecessary_files
 
+# Store compiled files
+store_compiled
+
 # Open the compiled pdf
 if [ "$(echo $USER)" = "ywatanabe" ]; then
-    echo "compiled.pdf"
-    if [ "$do_take_diff" = false ]; then    
-    open_pdf_or_exit ./compiled.pdf
+    if [ "$do_take_diff" = false ]; then
+        echo "compiled.pdf"        
+        open_pdf_or_exit ./compiled.pdf
     else
-    # if [ "$do_take_diff" = true ]; then
         echo "diff.pdf"
+        open_pdf_or_exit ./diff.pdf    
     fi
-    open_pdf_or_exit ./diff.pdf    
 fi
+
 
 # # # Tree
 # # tree > ./.tree.txt
