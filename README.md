@@ -1,4 +1,5 @@
-![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/main.yml/badge.svg)
+![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/compile.yml/badge.svg)
+![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/tex.yml/badge.svg)
 
 ## Scientific Manuscript LaTeX Template (Based on Elsevier's Template)
 
