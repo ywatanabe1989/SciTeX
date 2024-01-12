@@ -1,38 +1,41 @@
-![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/main.yml/badge.svg)
+![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/compile.yml/badge.svg)
 
 ## Scientific Manuscript LaTeX Template (Based on Elsevier's Template)
 
 This LaTeX template is structured according to the guidelines of an [Elsevier scientific manuscript](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions). It can be adapted for use with other journal guidelines as well.
 
-
 ## Why LaTeX?
-- Provides organized structure and consistent formatting.
-- Facilitates easy and precise formatting of mathematical expressions.
-- Ensures consistency in text editing, leveraging full text editor capabilities.
-- Automates numbering, bookmarking, and reference management.
-- Enhances clarity by separating text and Figures & Tables.
-- Simplifies version tracking with git.
-- Integrates seamlessly with AI tools for language processing.
+LaTeX is ...
+- Well-organized
+- Consistent
+- Easy for writing mathematical expressions
+- Compatible with text editors
+- Capable of automatic numbering, bookmarking, and referencing
+- Straightforward for version tracking
+- Synergistic with AI technology
 
 ## LaTeX Installation on Ubuntu
 
-To install neccessary pacakges on Ubuntu, run [`./.scripts/install_on_ubuntu.sh`](./.scripts/install_on_ubuntu.sh) as follows:
+To install neccessary pacakges on Ubuntu, run [`./.scripts/sh/install_on_ubuntu.sh`](./.scripts/sh/install_on_ubuntu.sh) as follows:
 
 ```bash
-$ ./.scripts/install_on_ubuntu.sh
+$ ./.scripts/sh/install_on_ubuntu.sh
 ```
 
 ## How to use?
 
 ``` bash
 $ ./compile.sh
+$ ./compile.sh --take-diff # Take diff between the last one
+$ ./compile.sh --revise # Revise tex files written in ./configs/files_to_revise.txt
+$ ./compile.sh --insert-citations # Insert citations into files written in ./configs/files_to_revise.txt based on ./bibliography.bib
 ```
 
-[`./compile.sh`](./.scripts/compile.sh): Compiles the tex and bib files to generate [`./main.pdf`](./main.pdf).
+[`./compile.sh`](./.scripts/sh/compile.sh): Compiles the tex and bib files to generate [`./compiled.pdf`](./compiled.pdf) and [`./compiled.tex`](./compiled.tex).
 
 ## Which Files to Edit?
 
-Please edit files under the [`./src/`](./src/) directory.
+Files under the [`./src/`](./src/) directory might be sufficient.
 
 ## Project Structure
 

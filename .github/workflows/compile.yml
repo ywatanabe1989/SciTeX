@@ -1,12 +1,20 @@
-on: push
+name: compile
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      
     - name: Install LaTeX
-      run: ./.scripts/install_on_ubuntu.sh
+      run: ./.scripts/sh/install_on_ubuntu.sh
       
     - name: Run compile script
       run: ./compile.sh

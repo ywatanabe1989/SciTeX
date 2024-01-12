@@ -62,7 +62,70 @@
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \renewcommand{\arraystretch}{1.5}
 \definecolor{lightgray}{gray}{0.95}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Diff
+\usepackage{xcolor}
+% Define commands for highlighting
+% diff
+\usepackage[most]{tcolorbox} % for boxes with transparency
+% Define colors with transparency (opacity value)
+\definecolor{GreenBG}{rgb}{0,1,0}
+\definecolor{RedBG}{rgb}{1,0,0}
+
+% Define tcolorbox environments for highlighting
+\newtcbox{\greenhighlight}[1][]{%
+  on line,
+  colframe=GreenBG,
+  colback=GreenBG!50!white, % 50% transparent green
+  boxrule=0pt,
+  arc=0pt,
+  boxsep=0pt,
+  left=1pt,
+  right=1pt,
+  top=2pt,
+  bottom=2pt,
+  tcbox raise base
+}
+
+\newtcbox{\redhighlight}[1][]{%
+  on line,
+  colframe=RedBG,
+  colback=RedBG!50!white, % 50% transparent red
+  boxrule=0pt,
+  arc=0pt,
+  boxsep=0pt,
+  left=1pt,
+  right=1pt,
+  top=2pt,
+  bottom=2pt,
+  tcbox raise base
+}
+
+\newcommand{\REDSTARTS}{\color{red}}
+\newcommand{\REDENDS}{\color{black}}
+\newcommand{\GREENSTARTS}{\color{green}}
+\newcommand{\GREENENDS}{\color{black}}
+
+% % Uncomment or provide the original definitions for these commands
+% \newcommand{\REDSTARTS}{\color{red}}
+% \newcommand{\REDENDS}{\color{black}} % Switch back to the default text color
+% \newcommand{\GREENSTARTS}{\color{green}}
+% \newcommand{\GREENENDS}{\color{black}} % Switch back to the default text color
+
+% % Redefine the highlighting commands to use the tcolorbox environments
+% \renewcommand{\REDSTARTS}{\begingroup\colorlet{oldcolor}{.}\color{red}}
+% \renewcommand{\REDENDS}{\color{oldcolor}\endgroup}
+% \renewcommand{\GREENSTARTS}{\begingroup\colorlet{oldcolor}{.}\color{green}}
+% \renewcommand{\GREENENDS}{\color{oldcolor}\endgroup}
+
+% % Define a command to apply the tcolorbox highlighting
+% \newcommand{\highlight}[2]{\tcbox[colframe=#1,colback=#1!50!white,on line]{#2}}
+
+% % Use the new \highlight command within the redefined \REDSTARTS and \GREENSTARTS
+% \renewcommand{\REDSTARTS}{\highlight{RedBG}}
+% \renewcommand{\GREENSTARTS}{\highlight{GreenBG}}
+
+
+\GREENENDS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Journal Name
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \journal{Heliyon}
@@ -90,9 +153,9 @@
 
 \end{highlights}\title{
 Hippocampal neural fluctuations between memory encoding and retrieval states during a working memory task in humans: Encoding-to-retrieval shift during sharp-wave ripples
-}
+}\REDSTARTS 
 
-\author[1]{Yusuke Watanabe\corref{cor1}}
+\REDENDS \author[1]{Yusuke Watanabe\corref{cor1}}
 \author[2,3,4]{Yuji Ikegaya}
 \author[1,5]{Takufumi Yanagisawa}
 
@@ -102,16 +165,16 @@ Hippocampal neural fluctuations between memory encoding and retrieval states dur
 \address[4]{Center for Information and Neural Networks, National Institute of Information and Communications Technology, 1-4 Yamadaoka, Suita City, 565-0871, Osaka, Japan}
 \address[5]{Department of Neurosurgery, Osaka University Graduate School of Medicine, 2-2 Yamadaoka, Osaka, 565-0871, Japan}
 
-\cortext[cor1]{Corresponding author. Tel: +81-6-6879-3652}
-% \end{title*}%%Graphical abstract
+\cortext[cor1]{Corresponding author. Tel: +81-6-6879-3652}\REDSTARTS 
+% \end{title*}\REDENDS %%Graphical abstract
 %\pdfbookmark[1]{Graphical Abstract}{graphicalabstract}        
 %\begin{graphicalabstract}
 %\includegraphics{grabs}
 %\end{graphicalabstract}
 \begin{abstract}
 \pdfbookmark[1]{Abstract}{abstract}
-Working memory (WM) is crucial for a multitude of cognitive functions, yet the intricacies of the neural mechanisms at play remain to be fully comprehended. Interestingly, the hippocampus and sharp-wave ripple complexes (SWRs) --- succinct, synchronous neural events in the hippocampus --- garner recognition for their significance in memory consolidation and retrieval, albeit their correlation with WM tasks is yet to be clarified. Our current study suggests that multiunit activity patterns in the hippocampus may work in tandem with SWRs, thereby displaying unique dynamics during WM tasks. We examined a dataset comprising intracranial electroencephalogram recordings obtained from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was employed to extract low-dimensional neural representations, termed 'trajectories', within the MTL regions during the WM task. Our findings indicate that the hippocampus exhibits the most pronounced variation in neural trajectory in comparison with the entorhinal cortex and amygdala. Moreover, the dissimilarity in trajectories measured between encoding and retrieval phases was found to be contingent on memory load. Significantly, the hippocampal trajectories oscillate during the retrieval phase, demonstrating task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states concurrent with the occurrence of SWRs. These discoveries reassert the pivotal role of the hippocampus in WM tasks and propose a fresh hypothesis: the hippocampus transitions its functional state from encoding to retrieval in the midst of SWRs.
-% Working memory (WM) is indispensable for numerous cognitive functions, although the underlying neural mechanisms have not been fully elucidated. While the hippocampus and sharp-wave ripple complexes (SWRs) -- brief, synchronous neural events within the hippocampus -- are acknowledged for their importance in memory consolidation and retrieval, their association with WM tasks remains unclear. The present study posits that hippocampal multiunit activity patterns, in concert with SWRs, manifest distinct dynamics during WM tasks. We analyzed a dataset comprising intracranial electroencephalogram recordings from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was utilized to extract low-dimensional neural representations, or 'trajectories', within MTL regions during the WM task. Our results reveal that the hippocampus demonstrates the most significant fluctuation in neural trajectory relative to the entorhinal cortex and amygdala. Furthermore, trajectories' dissimilarity measured between encoding and retrieval phases is dependent on memory load. Notably, hippocampal trajectories fluctuate during the retrieval phase and exhibit task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states in the presence of SWRs. These findings reinforce the pivotal role of the hippocampus in WM tasks and suggest a new hypothesis: the hippocampus alters its functional state from encoding to retrieval during SWRs.
+Working memory (WM) is \GREENSTARTS indispensable for numerous\GREENENDS \REDSTARTS crucial for a multitude of\REDENDS  cognitive functions, \GREENSTARTS but the intricate neural mechanisms involved are not full\GREENENDS y\GREENSTARTS  understoo\GREENENDS \REDSTARTS et the intricacies of the neural mechanisms at play remain to be fully comprehende\REDENDS d. \GREENSTARTS T\GREENENDS \REDSTARTS Interestingly, t\REDENDS he hippocampus and sharp-wave ripple complexes (SWRs) --- \GREENSTARTS brief\GREENENDS \REDSTARTS succinct\REDENDS , synchronous neural events in the hippocampus --- \GREENSTARTS attract attention due to their import\GREENENDS \REDSTARTS garner recognition for their signific\REDENDS ance in memory consolidation and retrieval\GREENSTARTS ; however\GREENENDS , \GREENSTARTS their associ\GREENENDS \REDSTARTS albeit their correl\REDENDS ation with WM tasks \GREENSTARTS remains unclear. Our current stud\GREENENDS \REDSTARTS is \REDENDS y\GREENSTARTS  posits that hippocampal multiunit activit\GREENENDS \REDSTARTS et to be clarified. Our current stud\REDENDS y \GREENSTARTS patterns, in conjunction\GREENENDS \REDSTARTS suggests that multiunit activity patterns in the hippocampus may work in tandem\REDENDS  with SWRs, \GREENSTARTS show distinctiv\GREENENDS \REDSTARTS thereby displaying uniqu\REDENDS e dynamics during WM tasks. We \GREENSTARTS analyzed an intracranial electroencephalogram dataset\GREENENDS \REDSTARTS examined a dataset comprising intracranial electroencephalogram recordings\REDENDS  obtained from the medial temporal lobe (MTL) of nine epilepsy patients \GREENSTARTS performing\GREENENDS \REDSTARTS engaged in\REDENDS  an eight-second Sternberg task. \GREENSTARTS Using \GREENENDS Gaussian-process factor analysis\GREENSTARTS ,\GREENENDS  w\GREENSTARTS e derived\GREENENDS \REDSTARTS as employed to extract\REDENDS  low-dimensional neural representations, \GREENSTARTS or\GREENENDS \REDSTARTS termed\REDENDS  'trajectories', within the MTL regions during the WM task. Our \GREENSTARTS results demonstrate that, compared to the entorhinal cort\GREENENDS \REDSTARTS findings indicate that the hippocampus \REDENDS ex\GREENSTARTS  and amygdala, the hippocampus exhibits the most significant\GREENENDS \REDSTARTS hibits the most pronounced\REDENDS  variation in neural trajectory\GREENSTARTS . Moreover, the difference in trajectories bet\GREENENDS \REDSTARTS  in comparison \REDENDS w\GREENSTARTS een encoding and retrieval phases is contingent upon memor\GREENENDS \REDSTARTS ith the entorhinal cortex and am\REDENDS y\GREENSTARTS  load\GREENENDS \REDSTARTS gdala\REDENDS . \GREENSTARTS Notab\GREENENDS \REDSTARTS Moreover, the dissimilarity in trajectories measured between encoding and retrieval phases was found to be contingent on memory load. Significant\REDENDS ly, \REDSTARTS the \REDENDS hippocampal trajectories oscillate during the retrieval phase, \GREENSTARTS indic\GREENENDS \REDSTARTS demonstr\REDENDS ating task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This \GREENSTARTS oscill\GREENENDS \REDSTARTS fluctu\REDENDS ation transitions from encoding to retrieval states concurrent with\REDSTARTS  the occurrence of\REDENDS  SWRs. \GREENSTARTS Our findings underscore the essenti\GREENENDS \REDSTARTS These discoveries reassert the pivot\REDENDS al role of the hippocampus in WM tasks and propose a \GREENSTARTS new\GREENENDS \REDSTARTS fresh\REDENDS  hypothesis: the hippocampus transition\REDSTARTS s its functional state from encoding to retrieval in the midst of SWRs.
+% Working memory (WM) is indispensable for numerous cognitive functions, although the underlying neural mechanisms have not been fully elucidated. While the hippocampus and sharp-wave ripple complexes (SWRs) -- brief, synchronous neural events within the hippocampus -- are acknowledged for their importance in memory consolidation and retrieval, their association with WM tasks remains unclear. The present study posits that hippocampal multiunit activity patterns, in concert with SWRs, manifest distinct dynamics during WM tasks. We analyzed a dataset comprising intracranial electroencephalogram recordings from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was utilized to extract low-dimensional neural representations, or 'trajectories', within MTL regions during the WM task. Our results reveal that the hippocampus demonstrates the most significant fluctuation in neural trajectory relative to the entorhinal cortex and amygdala. Furthermore, trajectories' dissimilarity measured between encoding and retrieval phases is dependent on memory load. Notably, hippocampal trajectories fluctuate during the retrieval phase and exhibit task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states in the presence of SWRs. These findings reinforce the pivotal role of the hippocampus in WM tasks and suggest a new hypothesis: the hippocampus alter\REDENDS s its functional state from encoding to retrieval during SWRs.
 \end{abstract}% \pdfbookmark[1]{Keywords}{keywords}                
 \begin{keyword}
 working memory \sep WM \sep memory load \sep hippocampus \sep sharp-wave ripples \sep SWR \sep humans
@@ -272,10 +335,10 @@ In conclusion, our study has demonstrated that hippocampal activity fluctuates b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Additional Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\REDSTARTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Additional Information
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\pdfbookmark[1]{Additional Information}{additional_information}
+\REDENDS \pdfbookmark[1]{Additional Information}{additional_information}
 
 \pdfbookmark[2]{Contributors}{contributors}                    
 \section*{Contributors}
@@ -307,7 +370,12 @@ We support inclusive, diverse, and equitable conduct of research.
 The authors employed ChatGPT, provided by OpenAI, for enhancing the manuscript's English language quality. After incorporating the suggested improvements, the authors meticulously revised the content. Ultimate responsibility for the final content of this publication rests entirely with the authors.
 \label{declaration of generative ai in scientific writing}
 
+\GREENSTARTS %% \pdfbookmark[2]{Appendices}{appendices}                    
+%% \appendix
+%% \section{}
+%% \label{}
 
+\GREENENDS 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Tables
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -321,21 +389,31 @@ The authors employed ChatGPT, provided by OpenAI, for enhancing the manuscript's
 \small
 \begin{tabular}{*{11}{c}}
 \toprule
-\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ}} &\\
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ
+}} &\\
 \midrule
-#1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" & \\
+#1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" & 
+\\
 \rowcolor{lightgray}
-#2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
-#3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" & \\
+#2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" & 
+\\
+#3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" & 
+\\
 \rowcolor{lightgray}
-#4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" & \\
-#5 & 3 & o & x & x & o & x & x & o & x & DRR\\
+#4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" & 
+\\
+#5 & 3 & o & x & x & o & x & x & o & x & DRR
+\\
 \rowcolor{lightgray}
-#6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" & \\
-#7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
+#6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" & 
+\\
+#7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" & 
+\\
 \rowcolor{lightgray}
-#8 & 5 & o & o & o & o & o & o & o & o & ECR\\
-#9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" & \\
+#8 & 5 & o & o & o & o & o & o & o & o & ECR
+\\
+#9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" & 
+\\
 \bottomrule
 \end{tabular}
 \captionsetup{width=1\textwidth}
@@ -356,21 +434,31 @@ The electrode positions and the seizure onset zones. Regions marked as "o" were 
 \small
 \begin{tabular}{*{5}{c}}
 \toprule
-\textbf{\thead{Subject}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\\
+\textbf{\thead{Subject}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR
+}} &\\
 \midrule
-#1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0\\
+#1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
+\\
 \rowcolor{lightgray}
-#2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15\\
-#3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.\\
+#2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
+\\
+#3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
+\\
 \rowcolor{lightgray}
-#4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14\\
-#5 & n.a. & n.a. & n.a. & n.a.\\
+#4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
+\\
+#5 & n.a. & n.a. & n.a. & n.a.
+\\
 \rowcolor{lightgray}
-#6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06\\
-#7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00\\
+#6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
+\\
+#7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
+\\
 \rowcolor{lightgray}
-#8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.\\
-#9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.\\
+#8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
+\\
+#9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
+\\
 \bottomrule
 \end{tabular}
 \captionsetup{width=1\textwidth}
@@ -391,17 +479,24 @@ The silhouette scores (mean ± SD for sessions by subject) of UMAP clustering on
 \small
 \begin{tabular}{*{6}{c}}
 \toprule
-\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{# of trials}} &\textbf{\thead{ROI}} &\textbf{\thead{# of SWRs}} &\textbf{\thead{SWR incidence [Hz]}} &\\
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{# of trials}} &\textbf{\thead{ROI}} &\textbf{\thead{# of SWRs}} &\textbf{\thead{SWR incidence [Hz]
+}} &\\
 \midrule
-#1 & 2 & 100 & AHL & 274 & 0.34\\
+#1 & 2 & 100 & AHL & 274 & 0.34
+\\
 \rowcolor{lightgray}
-#3 & 2 & 97 & AHR & 325 & 0.42\\
-#4 & 2 & 99 & PHL & 202 & 0.26\\
+#3 & 2 & 97 & AHR & 325 & 0.42
+\\
+#4 & 2 & 99 & PHL & 202 & 0.26
+\\
 \rowcolor{lightgray}
-#6 & 2 & 100 & AHL & 297 & 0.37\\
-#9 & 2 & 97 & AHR & 72 & 0.09\\
+#6 & 2 & 100 & AHL & 297 & 0.37
+\\
+#9 & 2 & 97 & AHR & 72 & 0.09
+\\
 \rowcolor{lightgray}
-Total = 10 & Total = 493 & "Total = 1,170" & 0.30 ± 0.13 (mean ± SD)\\
+Total = 10 & Total = 493 & "Total = 1,170" & 0.30 ± 0.13 (mean ± SD)
+\\
 \bottomrule
 \end{tabular}
 \captionsetup{width=1\textwidth}
@@ -534,7 +629,7 @@ Neural trajectory directions of SWR based on encoding and retrieval states
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Appendices
+%% \REDSTARTS Appendices
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% \pdfbookmark[1]{Appendices}{appendices}                    
 %% \appendix
@@ -543,7 +638,7 @@ Neural trajectory directions of SWR based on encoding and retrieval states
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% END
+%% \REDENDS END
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}

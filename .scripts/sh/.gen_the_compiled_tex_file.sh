@@ -1,6 +1,6 @@
-combine_tex_files() {
+gen_the_compiled_tex_file() {
     main_file="./main.tex"
-    output_file="./combined.tex"
+    output_file="./compiled.tex"
     cp "$main_file" "$output_file"
 
     process_input() {
@@ -30,5 +30,5 @@ combine_tex_files() {
         process_input "$output_file"
     done
 
-    echo -e "\nCombined file created: $output_file"
+    echo -e "\nCompiled file created: $output_file"
 }
