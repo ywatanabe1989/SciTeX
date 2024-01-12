@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 13:38:23 (ywatanabe)"
+# Time-stamp: "2024-01-12 18:50:26 (ywatanabe)"
 
 import difflib
 import io
@@ -96,27 +96,67 @@ def back_up(path):
 
 def save_tex(text, spath):
     with open(spath, "w", encoding="utf-8") as file:
+        text = replace_highlighting_marks(text)
         file.write(text)
 
 
-def show_diff(text_1, text_2):
-    """
-    # Example usage
-    text1 = "This is a test.\nThese lines are the same."
-    text2 = "This is a test!\nThese lines are the same."
-    print(show_diff(text1, text2))
-    """
+def replace_highlighting_marks(text):
+    return text
+    # return text\
+    #     .replace("[0m", "}")        
+    #     .replace("[38;5;16;48;5;2m", "\greenhighlight{")\
+    #     .replace("[38;5;16;48;5;1m", "\redhighlight{")\
+
+
+    
+
+# def show_diff(text_1, text_2):
+#     """
+#     # Example usage
+#     text1 = "This is a test.\nThese lines are the same."
+#     text2 = "This is a test!\nThese lines are the same."
+#     print(show_diff(text1, text2))
+#     """
+#     output = []
+#     matcher = difflib.SequenceMatcher(None, text_1, text_2)
+#     for opcode, a0, a1, b0, b1 in matcher.get_opcodes():
+#         if opcode == "equal":
+#             output.append(text_1[a0:a1])
+#         elif opcode == "insert":
+#             output.append(wasabi.color(text_2[b0:b1], fg=16, bg="green"))
+#         elif opcode == "delete":
+#             output.append(wasabi.color(text_1[a0:a1], fg=16, bg="red"))
+#         elif opcode == "replace":
+#             output.append(wasabi.color(text_2[b0:b1], fg=16, bg="green"))
+#             output.append(wasabi.color(text_1[a0:a1], fg=16, bg="red"))
+#     output = "".join(output)
+#     return output
+
+
+def show_diff(a: str, b: str, *, for_tex: bool = False) -> str:
     output = []
-    matcher = difflib.SequenceMatcher(None, text_1, text_2)
+    matcher = difflib.SequenceMatcher(None, a, b)
+
+    if for_tex:
+        start_green = "\GREENSTARTS "
+        end_green = "\GREENENDS "
+        
+        start_red = "\REDSTARTS "
+        end_red = "\REDENDS "
+    else: # for bash
+        start_green = '\x1b[38;5;16;48;5;2m'
+        start_red = '\x1b[38;5;16;48;5;1m'
+        end_green = '\x1b[0m'
+        end_red = '\x1b[0m'
+
     for opcode, a0, a1, b0, b1 in matcher.get_opcodes():
-        if opcode == "equal":
-            output.append(text_1[a0:a1])
-        elif opcode == "insert":
-            output.append(wasabi.color(text_2[b0:b1], fg=16, bg="green"))
-        elif opcode == "delete":
-            output.append(wasabi.color(text_1[a0:a1], fg=16, bg="red"))
-        elif opcode == "replace":
-            output.append(wasabi.color(text_2[b0:b1], fg=16, bg="green"))
-            output.append(wasabi.color(text_1[a0:a1], fg=16, bg="red"))
-    output = "".join(output)
-    return output
+        if opcode == 'equal':
+            output.append(a[a0:a1])
+        elif opcode == 'insert':
+            output.append(f'{start_green}{b[b0:b1]}{end_green}')
+        elif opcode == 'delete':
+            output.append(f'{start_red}{a[a0:a1]}{end_red}')
+        elif opcode == 'replace':
+            output.append(f'{start_green}{b[b0:b1]}{end_green}')
+            output.append(f'{start_red}{a[a0:a1]}{end_red}')
+    return ''.join(output)

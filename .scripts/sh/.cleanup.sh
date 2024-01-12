@@ -12,9 +12,9 @@ function mv_unnecessary_files() {
     # mv *bak* $LOGDIR/ > /dev/null 2>&1  # [REVISED]
     # mv ./build/*bak* $LOGDIR/ > /dev/null 2>&1  # [REVISED]
 
-    for f in ./*.sh; do
-        if [ "$f" != "./compile.sh" ]; then
-            mv "$f" $LOGDIR/ > /dev/null 2>&1
-        fi
-    done
+    # for f in ./*.sh; do
+    #     if [ "$f" != "./compile.sh" ]; then
+    #         mv "$f" $LOGDIR/ > /dev/null 2>&1
+    #     fi
+    # done
 }

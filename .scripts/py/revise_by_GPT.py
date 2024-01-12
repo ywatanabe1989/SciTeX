@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 13:45:21 (ywatanabe)"
+# Time-stamp: "2024-01-12 16:26:15 (ywatanabe)"
 
 
 import os
 import sys
 
 sys.path.append("./.scripts/py/")
-from _utils import ChatGPT, load_tex, back_up, save_tex
+from utils import ChatGPT, load_tex, back_up, save_tex
 
 
 def revise_by_GPT(lpath):

@@ -1,14 +1,16 @@
 function compile_tex_and_bib() {
     echo -e "\nCompiling ./main.tex ..."
 
+    # compile tables and figures
     gather_tables
     gather_figures
 
+    # Main
     yes '' | pdflatex -shell-escape ./main.tex > /dev/null
     bibtex main > /dev/null
     yes '' | pdflatex -shell-escape ./main.tex > /dev/null
     yes '' | pdflatex -shell-escape ./main.tex > /dev/null
 
-    # mv ./main.pdf ./build/main.pdf
-    combine_tex_files    
+    # Rename
+    mv main.pdf compiled.pdf
 }

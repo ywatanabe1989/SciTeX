@@ -1,9 +1,9 @@
 function print_success() {
     echo ''
-    if [ -f ./main.pdf ]; then
-        echo "Congratulations! main.pdf is ready."
+    if [ -f ./compiled.pdf ]; then
+        echo "Congratulations! compiled.pdf is ready."
     else
-        echo "Something went wrong. Please check log files under logs/"
+        echo "Something went wrong. Please check the .logs/ directory"
     fi
 }
 
