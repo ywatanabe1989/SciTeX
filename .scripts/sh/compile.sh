@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Include external function files
-source ./.scripts/_check_commands.sh
-source ./.scripts/_cleanup.sh
-source ./.scripts/_compile_tex_and_bib.sh
-source ./.scripts/_combine_tex_files.sh
-source ./.scripts/_figures.sh
-source ./.scripts/_tables.sh
-source ./.scripts/_pdf.sh
-source ./.scripts/_print_success.sh
-source ./.scripts/_store_old_versions.sh 
+source ./.scripts/sh/.check_commands.sh
+source ./.scripts/sh/.cleanup.sh
+source ./.scripts/sh/.compile_tex_and_bib.sh
+source ./.scripts/sh/.combine_tex_files.sh
+source ./.scripts/sh/.figures.sh
+source ./.scripts/sh/.tables.sh
+source ./.scripts/sh/.pdf.sh
+source ./.scripts/sh/.print_success.sh
+source ./.scripts/sh/.store_old_versions.sh 
 
 # Checks commands
 check_commands pdflatex bibtex xlsx2csv csv2latex
