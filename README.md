@@ -26,9 +26,9 @@ $ ./.scripts/sh/install_on_ubuntu.sh
 
 ``` bash
 $ ./compile.sh
-$ ./compile.sh --take-diff # Take diff between the last one
-$ ./compile.sh --revise # Revise tex files written in ./configs/files_to_revise.txt
-$ ./compile.sh --insert-citations # Insert citations into files written in ./configs/files_to_revise.txt based on ./bibliography.bib
+$ ./compile.sh -d # Take diff between the last one [-d|--diff]
+$ ./compile.sh -r # Revise tex files written in ./configs/files_to_revise.txt [-r|--revise]
+$ ./compile.sh -i # Insert citations into files written in ./configs/files_to_revise.txt based on ./bibliography.bib [-i|-insert-citations]
 ```
 
 [`./compile.sh`](./.scripts/sh/compile.sh): Compiles the tex and bib files to generate [`./compiled.pdf`](./compiled.pdf) and [`./compiled.tex`](./compiled.tex).

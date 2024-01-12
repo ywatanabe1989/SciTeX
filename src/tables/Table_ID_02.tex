@@ -1,8 +1,23 @@
-\caption{\textbf{
-The silhouette score of UMAP clustering between $SWR^+$ candidates and $SWR^-$ candidates
-}
-\smallskip
-\\
-The silhouette scores (mean ± SD for sessions by subject) of UMAP clustering on SWR+ candidates and SWR− candidates (Figure 4A) were based on their underlying multiunit spike patterns (mean values were 0.205 [0.285], median [IQR]; Figure 4B).
-}
-% width=1\textwidth
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}
+    \centering
+    \caption{\textbf{
+    Silhouette score comparison of UMAP clustering between $SWR^+$ candidates and $SWR^-$ candidates
+    }
+    \smallskip
+    \\
+    The silhouette scores (mean $\pm$ SD across sessions by subject) of UMAP clustering for SWR$^+$ candidates and SWR$^-$ candidates (Figure 4A) were derived from their underlying multiunit spike patterns. The mean values were recorded as 0.205 (SD = 0.285), with a median within an interquartile range (IQR; Figure 4B) \cite{mcinnes_umap_2018, rousseeuw_silhouettes_1987}.
+    }
+    % width=1\textwidth
+    \label{fig:silhouette_umap}
+\end{figure}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
