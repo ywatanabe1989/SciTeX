@@ -1,7 +1,11 @@
+#!/bin/bash
+
 gen_the_compiled_tex_file() {
     main_file="./main.tex"
     output_file="./compiled.tex"
     cp "$main_file" "$output_file"
+
+    echo
 
     process_input() {
         local file_path="$1"
@@ -30,5 +34,9 @@ gen_the_compiled_tex_file() {
         process_input "$output_file"
     done
 
-    echo -e "\nCompiled: $output_file"
+    echo -e "\nCompiled: $output_file\n"
 }
+
+gen_the_compiled_tex_file
+
+## EOF

@@ -15,7 +15,9 @@ source ./.scripts/sh/.load_files_list.sh
 
 config_file_path="./configs/files_to_insert_citations.txt"
 files_to_insert_citations=$(load_files_list "$config_file_path")
+
 # Main
+echo -e "\nInserting citations..."
 insert_citations $files_to_insert_citations
 
 # ./.scripts/sh/insert_citations.sh ./src/introduction.tex ./bibliography.bib
