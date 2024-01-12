@@ -1,24 +1,20 @@
 #!/bin/bash
 
-# Main
 function insert_citations() {
-    tgt_file=$1
-    bib_file=$2
-  python ./.scripts/py/insert_citations.py -lt $tgt_file -lb $bib_file
+  echo -e "The following TeX files will have citations inserted:\n"  
+  echo -e "${files_to_insert_citations// /\\n}"
+  echo
+  read -p "Is it okay to proceed? (y/n) " -n 1 -r
+  echo
+  if [[ $REPLY =~ ^[Yy]$ ]]; then
+    echo $files_to_insert_citations | xargs -n 1 -P 5 ./env/bin/python ./.scripts/py/insert_citations.py -lb "./bibliography.bib" -lt
+  fi
 }
 
-# Check if at least two arguments are provided
-if [ "$#" -lt 2 ]; then
-    echo "Usage: $0 TARGET_FILE BIB_FILE"
-    exit 1
-fi
-
-# Parse arguments
-tgt_file="$1"
-bib_file="$2"
-
-# Call the insert_citations function with the parsed arguments
-insert_citations "$tgt_file" "$bib_file"
+config_file_path="./configs/files_to_insert_citations.txt"
+files_to_insert_citations=$(load_files_list "$config_file_path")
+# Main
+insert_citations $files_to_insert_citations
 
 # ./.scripts/sh/insert_citations.sh ./src/introduction.tex ./bibliography.bib
 

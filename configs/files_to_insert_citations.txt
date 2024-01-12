@@ -1,0 +1,9 @@
+# ./src/abstract.tex
+./src/introduction.tex
+./src/methods.tex
+./src/results.tex
+./src/discussion.tex
+# ./src/graphical_abstract.tex
+./src/figures/*tex
+./src/tables/*tex
+

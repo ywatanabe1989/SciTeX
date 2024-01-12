@@ -13,7 +13,7 @@ function store_pdf() {
     mkdir -p $OLD_DIR
     if [ -f $MAIN_PDF ]; then
         version=$(<"$VERSION_COUNTER_TXT")
-        cp $MAIN_PDF "${OLD_DIR}v${version}.pdf"
+        cp $MAIN_PDF "${OLD_DIR}compiled_v${version}.pdf"
     fi
 }
 
@@ -21,7 +21,7 @@ function store_tex() {
     mkdir -p $OLD_DIR
     if [ -f $COMBINED_TEX ]; then
         version=$(<"$VERSION_COUNTER_TXT")
-        cp $COMBINED_TEX "${OLD_DIR}v${version}.tex"
+        cp $COMBINED_TEX "${OLD_DIR}compiled_v${version}.tex"
     fi
 }
 
