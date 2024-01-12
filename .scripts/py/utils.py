@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 18:50:26 (ywatanabe)"
+# Time-stamp: "2024-01-12 19:36:11 (ywatanabe)"
 
 import difflib
 import io
@@ -11,8 +11,8 @@ import sys
 import openai
 from openai import OpenAI
 
-import wasabi
-
+# import wasabi
+import re
 
 class ChatGPT(object):
     """
@@ -96,41 +96,12 @@ def back_up(path):
 
 def save_tex(text, spath):
     with open(spath, "w", encoding="utf-8") as file:
-        text = replace_highlighting_marks(text)
+        # text = replace_highlighting_marks(text)
         file.write(text)
 
 
-def replace_highlighting_marks(text):
-    return text
-    # return text\
-    #     .replace("[0m", "}")        
-    #     .replace("[38;5;16;48;5;2m", "\greenhighlight{")\
-    #     .replace("[38;5;16;48;5;1m", "\redhighlight{")\
-
-
-    
-
-# def show_diff(text_1, text_2):
-#     """
-#     # Example usage
-#     text1 = "This is a test.\nThese lines are the same."
-#     text2 = "This is a test!\nThese lines are the same."
-#     print(show_diff(text1, text2))
-#     """
-#     output = []
-#     matcher = difflib.SequenceMatcher(None, text_1, text_2)
-#     for opcode, a0, a1, b0, b1 in matcher.get_opcodes():
-#         if opcode == "equal":
-#             output.append(text_1[a0:a1])
-#         elif opcode == "insert":
-#             output.append(wasabi.color(text_2[b0:b1], fg=16, bg="green"))
-#         elif opcode == "delete":
-#             output.append(wasabi.color(text_1[a0:a1], fg=16, bg="red"))
-#         elif opcode == "replace":
-#             output.append(wasabi.color(text_2[b0:b1], fg=16, bg="green"))
-#             output.append(wasabi.color(text_1[a0:a1], fg=16, bg="red"))
-#     output = "".join(output)
-#     return output
+# def replace_highlighting_marks(text):
+#     return text
 
 
 def show_diff(a: str, b: str, *, for_tex: bool = False) -> str:
@@ -160,3 +131,25 @@ def show_diff(a: str, b: str, *, for_tex: bool = False) -> str:
             output.append(f'{start_green}{b[b0:b1]}{end_green}')
             output.append(f'{start_red}{a[a0:a1]}{end_red}')
     return ''.join(output)
+
+
+# # new lines disappears
+# def show_diff_tex(text1, text2):
+#     words1 = text1.split()
+#     words2 = text2.split()
+#     matcher = difflib.SequenceMatcher(None, words1, words2)
+#     diff = []
+
+#     for opcode, a0, a1, b0, b1 in matcher.get_opcodes():
+#         if opcode == "equal":
+#             diff.extend(words1[a0:a1])
+#         elif opcode == "insert":
+#             diff.extend(["\\greenhighlight{{{}}}".format(" ".join(words2[b0:b1]))])
+#         elif opcode == "delete":
+#             diff.extend(["\\redhighlight{{{}}}".format(" ".join(words1[a0:a1]))])
+#         elif opcode == "replace":
+#             diff.extend([
+#                 "\\redhighlight{{{}}}".format(" ".join(words1[a0:a1])),
+#                 "\\greenhighlight{{{}}}".format(" ".join(words2[b0:b1]))
+#             ])
+#     return " ".join(diff)
