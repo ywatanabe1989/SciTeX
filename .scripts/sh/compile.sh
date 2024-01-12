@@ -10,8 +10,8 @@ do_insert_citations=false
 do_revise=false
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -h|--help) echo "Usage: $0 [-d|--take-diff] [-i|--insert-citation] [-r|--revise]"; exit 0 ;;
-        -d|--take-diff) do_take_diff=true ;;
+        -h|--help) echo "Usage: $0 [-d|--diff] [-i|--insert-citation] [-r|--revise]"; exit 0 ;;
+        -d|--diff) do_take_diff=true ;;
         -i|--insert-citations) do_insert_citations=true ;;
         -r|--revise) do_revise=true ;;
         # *) echo "Unknown parameter passed: $1"; exit 1 ;;
