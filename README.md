@@ -32,10 +32,11 @@ The script [`./compile.sh`](./.scripts/sh/compile.sh) compiles the file [`./main
 
 ```bash
 $ ./compile.sh
-$ ./compile.sh -d # Compare with the previous version [-d|--diff]
-$ ./compile.sh -r # Revise TeX files specified in ./configs/files_to_revise.txt using ChatGPT [-r|--revise]
-$ ./compile.sh -i # Insert citations into the files specified in ./configs/files_to_revise.txt from ./bibliography.bib using ChatGPT [-i|--insert-citations]
+$ ./compile.sh -nd # Disable comparison with the previous version [-d|--diff]
+$ ./compile.sh -r # Revise TeX files listed in ./configs/files_to_revise.txt using ChatGPT [-r|--revise]
+$ ./compile.sh -i # Insert citations into the files listed in ./configs/files_to_revise.txt from ./bibliography.bib using ChatGPT [-i|--insert-citations]
 $ ./compile.sh -p # Commit all changes and push the repository to GitHub [-p|--push]
+$ yes | ./compile.sh -r -i -p # Automatically answer 'yes' to all prompts
 ```
 Compilation logs can be found at [`./.logs/compile.log`](./.logs/compile.log).
 

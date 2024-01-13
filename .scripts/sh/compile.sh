@@ -25,6 +25,7 @@ done
 
 # for logging
 echo ./compile.sh $(if ! $do_take_diff; then echo "--no-diff"; fi) $(if $do_insert_citations; then echo "--citations"; fi) $(if $do_revise; then echo "--revise"; fi) $(if $do_push; then echo "--push"; fi)
+echo
 
 # Checks
 ./.scripts/sh/.check.sh
