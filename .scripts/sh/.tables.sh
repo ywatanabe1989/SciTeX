@@ -31,19 +31,7 @@ function csv2tex() {
         # Determine the number of columns in the CSV file
         num_columns=$(head -n 1 "$csv_file" | awk -F, '{print NF}')
 
-        # Check if the table may be too wide and set a smaller font size if needed
-        # fontsize="\\normalsize"
-        # if [ "$num_columns" -gt 7 ]; then
-        #     fontsize="\\small" # or \\scriptsize for even smaller
-        # fi
         fontsize="\\small"
-
-        # if [ $ii -gt 0 ]; then # [REVISED]
-        #     echo "\\clearpage" > $tgt_file
-        # fi
-        # ii=$((ii+1))
-        
-        
         # Create the LaTeX document
         {
             echo "\\pdfbookmark[2]{ID ${table_id}}{id_${table_id}}"
@@ -71,17 +59,13 @@ function csv2tex() {
                 }' "$csv_file"            
             echo "\\bottomrule"
             echo "\\end{tabular}"
-            # echo "\\captionsetup{width=$width}" # [REVISED]                        
-            echo "\\captionsetup{width=\textwidth}" # [REVISED]            
-            # \captionsetup{justification=centering, margin=0pt, width=\linewidth}
+            echo "\\captionsetup{width=\textwidth}"
             echo "\\input{${legend_dir}Table_ID_${table_id}}"
-            # echo "\\input{${output_dir}Table_ID_${table_id}}"            
-            echo "" # newline here
+            echo ""
             echo "\\label{tab:${table_id}}"            
             echo "\\end{table*}"
             echo "\\restoregeometry"
 
-            # \input{$legend_dir/Table_ID_{$table_id}} # fixit; this include caption
         } > $tgt_file
     done
 }
@@ -89,7 +73,4 @@ function csv2tex() {
 csv2tex
 gather_tables
 
-# cat ./src/tables/.tex/.All_Tables.tex
-# cat ./src/tables/.tex/Table_ID_01.tex
-# cat ./src/tables/Table_ID_01.tex
 ## EOF
