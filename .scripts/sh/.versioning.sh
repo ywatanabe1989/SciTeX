@@ -53,9 +53,9 @@ function store_files() {
         local tgt_path_current="./${filename}_v${version}.${extension}"
         local tgt_path_old="${OLD_DIR}${filename}_v${version}.${extension}"
         
-        cp $file $tgt_path_current
+        # cp $file $tgt_path_current
         cp $file $tgt_path_old
-        rm $file
+        # rm $file
         ln -s $tgt_path_current $hidden_link
     fi
 }
