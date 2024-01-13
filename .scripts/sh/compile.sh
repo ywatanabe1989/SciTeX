@@ -40,6 +40,9 @@ if [ "$do_insert_citations" = true ]; then
     ./.scripts/sh/insert_citations.sh
 fi
 
+# Word count
+./.scripts/sh/.count_words_figures_and_tables.sh
+
 # Main
 ./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
 ./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf
