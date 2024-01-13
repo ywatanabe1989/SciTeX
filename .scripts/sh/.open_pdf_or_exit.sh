@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function open_pdf_with_pdfstudio2020_on_WSL() {
     # Define the path to PDF Studio executable in Windows format
     PDF_STUDIO_PATH="C:\Program Files\PDFStudio2020\pdfstudio2020.exe"
@@ -28,7 +30,7 @@ function open_pdf_with_pdfstudio2020_on_WSL() {
 
 function open_pdf_or_exit() {
     # Ask the user if they want to open the PDF
-    echo -e "\nDo you want to open the PDF file? (y/n)"
+    echo -e "\nWould you like to open $1? (y/n)"
     read -n 1 -r  # Read a single character
 
     if [[ $REPLY =~ ^[Yy]$ ]]
@@ -36,3 +38,7 @@ function open_pdf_or_exit() {
         open_pdf_with_pdfstudio2020_on_WSL $1
     fi
 }
+
+open_pdf_or_exit "$1"
+
+## EOF
