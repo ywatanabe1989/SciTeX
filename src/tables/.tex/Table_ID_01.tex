@@ -4,25 +4,26 @@
 \small
 \begin{tabular}{*{11}{c}}
 \toprule
-\textbf{\thead{Subject ID}} & \textbf{\thead{\# of sessions}} & \textbf{\thead{AHL}} & \textbf{\thead{AHR}} & \textbf{\thead{PHL}} & \textbf{\thead{PHR}} & \textbf{\thead{ECL}} & \textbf{\thead{ECR}} & \textbf{\thead{AL}} & \textbf{\thead{AR}} & \textbf{\thead{SOZ}} \\
+\textbf{\thead{Subject ID}} &\textbf{\thead{\# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ}} &\\
 \midrule
-1 & 4 & ✓ & ✗ & ✓ & ✓ & ✓ & ✗ & ✓ & ✗ & AHR \& LR \\
+#1 & 4 & \checkmark & n.a. & \checkmark & \checkmark & \checkmark & n.a. & \checkmark & n.a. & AHR \& LR\\
 \rowcolor{lightgray}
-2 & 7 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & AHR \& PHR \\
-3 & 3 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✗ & AHL \& PHL \\
+#2 & 7 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & AHR \& PHR\\
+#3 & 3 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & n.a. & AHL \& PHL\\
 \rowcolor{lightgray}
-4 & 2 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & AHL \& AHR \& PHL \& PHR \\
-5 & 3 & ✓ & ✗ & ✗ & ✓ & ✗ & ✗ & ✓ & ✗ & DRR \\
+#4 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & AHL \& AHR \& PHL \& PHR\\
+#5 & 3 & \checkmark & n.a. & n.a. & \checkmark & n.a. & n.a. & \checkmark & n.a. & DRR\\
 \rowcolor{lightgray}
-6 & 6 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & AHL \& PHL \& ECL \& AL \\
-7 & 4 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & AHR \& PHR \\
+#6 & 6 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & AHL \& PHL \& ECL \& AL\\
+#7 & 4 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & AHR \& PHR\\
 \rowcolor{lightgray}
-8 & 5 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ECR \\
-9 & 2 & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ✓ & ECR \& AR \\
+#8 & 5 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & ECR\\
+#9 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & ECR \& AR\\
 \bottomrule
 \end{tabular}
 \captionsetup{width=\textwidth}
-% \input{./src/tables/Table_ID_01} % Uncomment this line if the file exists and is needed.
+\input{./src/tables/Table_ID_01}
+
 \label{tab:01}
 \end{table*}
-% \restoregeometry % Uncomment this line if you have changed the geometry before this table.
+\restoregeometry
