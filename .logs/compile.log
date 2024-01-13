@@ -350,151 +350,151 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./src/introduction.tex
 
 Package natbib Warning: Citation `scoville_loss_1957' on page 1 undefined on in
-put line 1.
+put line 2.
 
 
 Package natbib Warning: Citation `squire_legacy_2009' on page 1 undefined on in
-put line 1.
+put line 2.
 
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 1 undefined on
- input line 1.
+ input line 2.
 
 
 Package natbib Warning: Citation `kaminski_persistently_2017' on page 1 undefin
-ed on input line 1.
+ed on input line 2.
 
 
 Package natbib Warning: Citation `kornblith_persistent_2017' on page 1 undefine
-d on input line 1.
+d on input line 2.
 
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 1 undefined on i
-nput line 1.
+nput line 2.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 1 undefined
- on input line 1.
+ on input line 2.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 1 undefined on in
-put line 1.
+put line 2.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 1 unde
-fined on input line 1.
+fined on input line 2.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 1 undefined
- on input line 4.
+ on input line 5.
 
 
 Package natbib Warning: Citation `wilson_reactivation_1994' on page 1 undefined
- on input line 4.
+ on input line 5.
 
 
 Package natbib Warning: Citation `nadasdy_replay_1999' on page 1 undefined on i
-nput line 4.
+nput line 5.
 
 
 Package natbib Warning: Citation `lee_memory_2002' on page 1 undefined on input
- line 4.
+ line 5.
 
 
 Package natbib Warning: Citation `diba_forward_2007' on page 1 undefined on inp
-ut line 4.
+ut line 5.
 
 
 Package natbib Warning: Citation `davidson_hippocampal_2009' on page 1 undefine
-d on input line 4.
+d on input line 5.
 
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 1 undefined
- on input line 4.
+ on input line 5.
 
 
 Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 1 undefi
-ned on input line 4.
+ned on input line 5.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 1 
-undefined on input line 4.
+undefined on input line 5.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 1 undef
-ined on input line 4.
+ined on input line 5.
 
 
 Package natbib Warning: Citation `wu_hippocampal_2017' on page 1 undefined on i
-nput line 4.
+nput line 5.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 1 undefined 
-on input line 4.
+on input line 5.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 1 undefined 
-on input line 4.
+on input line 5.
 
 
 Package natbib Warning: Citation `behrens_induction_2005' on page 1 undefined o
-n input line 4.
+n input line 5.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 1 undefine
-d on input line 4.
+d on input line 5.
 
 
 Package natbib Warning: Citation `jadhav_awake_2012' on page 1 undefined on inp
-ut line 4.
+ut line 5.
 
 
 Package natbib Warning: Citation `okeefe_hippocampus_1971' on page 1 undefined 
-on input line 7.
+on input line 8.
 
 
 Package natbib Warning: Citation `okeefe_place_1976' on page 1 undefined on inp
-ut line 7.
+ut line 8.
 
 
 Package natbib Warning: Citation `ekstrom_cellular_2003' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `kjelstrup_finite_2008' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `harvey_intracellular_2009' on page 1 undefine
-d on input line 7.
+d on input line 8.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 1 undefined o
-n input line 7.
+n input line 8.
 
 
 Package natbib Warning: Citation `naber_reciprocal_2001' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `van_strien_anatomy_2009' on page 1 undefined 
-on input line 7.
+on input line 8.
 
 
 Package natbib Warning: Citation `strange_functional_2014' on page 1 undefined 
-on input line 7.
+on input line 8.
 
 
 Package natbib Warning: Citation `gardner_toroidal_2022' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 1 undefined on in
-put line 10.
+put line 11.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 1 undefined
- on input line 10.
+ on input line 11.
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active
@@ -1153,7 +1153,7 @@ exlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 997145 bytes).
+Output written on main.pdf (19 pages, 997225 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -1469,151 +1469,151 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./src/introduction.tex
 
 Package natbib Warning: Citation `scoville_loss_1957' on page 1 undefined on in
-put line 1.
+put line 2.
 
 
 Package natbib Warning: Citation `squire_legacy_2009' on page 1 undefined on in
-put line 1.
+put line 2.
 
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 1 undefined on
- input line 1.
+ input line 2.
 
 
 Package natbib Warning: Citation `kaminski_persistently_2017' on page 1 undefin
-ed on input line 1.
+ed on input line 2.
 
 
 Package natbib Warning: Citation `kornblith_persistent_2017' on page 1 undefine
-d on input line 1.
+d on input line 2.
 
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 1 undefined on i
-nput line 1.
+nput line 2.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 1 undefined
- on input line 1.
+ on input line 2.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 1 undefined on in
-put line 1.
+put line 2.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 1 unde
-fined on input line 1.
+fined on input line 2.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 1 undefined
- on input line 4.
+ on input line 5.
 
 
 Package natbib Warning: Citation `wilson_reactivation_1994' on page 1 undefined
- on input line 4.
+ on input line 5.
 
 
 Package natbib Warning: Citation `nadasdy_replay_1999' on page 1 undefined on i
-nput line 4.
+nput line 5.
 
 
 Package natbib Warning: Citation `lee_memory_2002' on page 1 undefined on input
- line 4.
+ line 5.
 
 
 Package natbib Warning: Citation `diba_forward_2007' on page 1 undefined on inp
-ut line 4.
+ut line 5.
 
 
 Package natbib Warning: Citation `davidson_hippocampal_2009' on page 1 undefine
-d on input line 4.
+d on input line 5.
 
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 1 undefined
- on input line 4.
+ on input line 5.
 
 
 Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 1 undefi
-ned on input line 4.
+ned on input line 5.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 1 
-undefined on input line 4.
+undefined on input line 5.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 1 undef
-ined on input line 4.
+ined on input line 5.
 
 
 Package natbib Warning: Citation `wu_hippocampal_2017' on page 1 undefined on i
-nput line 4.
+nput line 5.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 1 undefined 
-on input line 4.
+on input line 5.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 1 undefined 
-on input line 4.
+on input line 5.
 
 
 Package natbib Warning: Citation `behrens_induction_2005' on page 1 undefined o
-n input line 4.
+n input line 5.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 1 undefine
-d on input line 4.
+d on input line 5.
 
 
 Package natbib Warning: Citation `jadhav_awake_2012' on page 1 undefined on inp
-ut line 4.
+ut line 5.
 
 
 Package natbib Warning: Citation `okeefe_hippocampus_1971' on page 1 undefined 
-on input line 7.
+on input line 8.
 
 
 Package natbib Warning: Citation `okeefe_place_1976' on page 1 undefined on inp
-ut line 7.
+ut line 8.
 
 
 Package natbib Warning: Citation `ekstrom_cellular_2003' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `kjelstrup_finite_2008' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `harvey_intracellular_2009' on page 1 undefine
-d on input line 7.
+d on input line 8.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 1 undefined o
-n input line 7.
+n input line 8.
 
 
 Package natbib Warning: Citation `naber_reciprocal_2001' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `van_strien_anatomy_2009' on page 1 undefined 
-on input line 7.
+on input line 8.
 
 
 Package natbib Warning: Citation `strange_functional_2014' on page 1 undefined 
-on input line 7.
+on input line 8.
 
 
 Package natbib Warning: Citation `gardner_toroidal_2022' on page 1 undefined on
- input line 7.
+ input line 8.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 1 undefined on in
-put line 10.
+put line 11.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 1 undefined
- on input line 10.
+ on input line 11.
 
 )
 Underfull \vbox (badness 10000) has occurred while \output is active
@@ -2427,7 +2427,7 @@ s/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 1061703 bytes).
+Output written on main.pdf (22 pages, 1061824 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -3401,10 +3401,10 @@ nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 1064533 bytes).
+Output written on main.pdf (22 pages, 1064637 bytes).
 Transcript written on main.log.
 
-Taking diff between ./old/compiled_v008.tex & ./compiled.tex
+Taking diff between ./old/compiled_v009.tex & ./compiled.tex
 
 ./diff.tex was created.
 
@@ -3722,151 +3722,151 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package natbib Warning: Citation `scoville_loss_1957' on page 1 undefined on in
-put line 240.
+put line 241.
 
 
 Package natbib Warning: Citation `squire_legacy_2009' on page 1 undefined on in
-put line 240.
+put line 241.
 
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 1 undefined on
- input line 240.
+ input line 241.
 
 
 Package natbib Warning: Citation `kaminski_persistently_2017' on page 1 undefin
-ed on input line 240.
+ed on input line 241.
 
 
 Package natbib Warning: Citation `kornblith_persistent_2017' on page 1 undefine
-d on input line 240.
+d on input line 241.
 
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 1 undefined on i
-nput line 240.
+nput line 241.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 1 undefined
- on input line 240.
+ on input line 241.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 1 undefined on in
-put line 240.
+put line 241.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 1 unde
-fined on input line 240.
+fined on input line 241.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 1 undefined
- on input line 243.
+ on input line 244.
 
 
 Package natbib Warning: Citation `wilson_reactivation_1994' on page 1 undefined
- on input line 243.
+ on input line 244.
 
 
 Package natbib Warning: Citation `nadasdy_replay_1999' on page 1 undefined on i
-nput line 243.
+nput line 244.
 
 
 Package natbib Warning: Citation `lee_memory_2002' on page 1 undefined on input
- line 243.
+ line 244.
 
 
 Package natbib Warning: Citation `diba_forward_2007' on page 1 undefined on inp
-ut line 243.
+ut line 244.
 
 
 Package natbib Warning: Citation `davidson_hippocampal_2009' on page 1 undefine
-d on input line 243.
+d on input line 244.
 
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 1 undefined
- on input line 243.
+ on input line 244.
 
 
 Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 1 undefi
-ned on input line 243.
+ned on input line 244.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 1 
-undefined on input line 243.
+undefined on input line 244.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 1 undef
-ined on input line 243.
+ined on input line 244.
 
 
 Package natbib Warning: Citation `wu_hippocampal_2017' on page 1 undefined on i
-nput line 243.
+nput line 244.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 1 undefined 
-on input line 243.
+on input line 244.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 1 undefined 
-on input line 243.
+on input line 244.
 
 
 Package natbib Warning: Citation `behrens_induction_2005' on page 1 undefined o
-n input line 243.
+n input line 244.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 1 undefine
-d on input line 243.
+d on input line 244.
 
 
 Package natbib Warning: Citation `jadhav_awake_2012' on page 1 undefined on inp
-ut line 243.
+ut line 244.
 
 
 Package natbib Warning: Citation `okeefe_hippocampus_1971' on page 1 undefined 
-on input line 246.
+on input line 247.
 
 
 Package natbib Warning: Citation `okeefe_place_1976' on page 1 undefined on inp
-ut line 246.
+ut line 247.
 
 
 Package natbib Warning: Citation `ekstrom_cellular_2003' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `kjelstrup_finite_2008' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `harvey_intracellular_2009' on page 1 undefine
-d on input line 246.
+d on input line 247.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 1 undefined o
-n input line 246.
+n input line 247.
 
 
 Package natbib Warning: Citation `naber_reciprocal_2001' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `van_strien_anatomy_2009' on page 1 undefined 
-on input line 246.
+on input line 247.
 
 
 Package natbib Warning: Citation `strange_functional_2014' on page 1 undefined 
-on input line 246.
+on input line 247.
 
 
 Package natbib Warning: Citation `gardner_toroidal_2022' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 1 undefined on in
-put line 249.
+put line 250.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 1 undefined
- on input line 249.
+ on input line 250.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active
@@ -3876,436 +3876,437 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.254 \section
+l.255 \section
               {Methods} [1]
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
-put line 256.
+put line 257.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
-put line 256.
+put line 257.
 
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 256.
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 257.
 
 
-LaTeX Warning: Reference `tab:01' on page 2 undefined on input line 256.
+LaTeX Warning: Reference `tab:01' on page 2 undefined on input line 257.
 
 
-LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 256.
+LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 257.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 2 undefined on
- input line 256.
+ input line 257.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 256.
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 257.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active
-
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 259.
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 260.
 
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 259.
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 260.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 2 undefined
- on input line 259.
+ on input line 260.
 
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 259.
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 260.
 
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 262.
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 263.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 262.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 263.
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 259--263
+Underfull \hbox (badness 4353) in paragraph at lines 260--264
 []\T1/txr/m/n/10 Neural tra-jec-to-ries, also termed 'fac-tors' (Fig-
 
-Underfull \hbox (badness 1107) in paragraph at lines 259--263
+Underfull \hbox (badness 1107) in paragraph at lines 260--264
 \T1/txr/m/n/10 ure []D), in the hip-pocam-pus, EC, and amyg-dala
 
-Underfull \hbox (badness 1648) in paragraph at lines 259--263
+Underfull \hbox (badness 1648) in paragraph at lines 260--264
 \T1/txr/m/n/10 (Fig-ure []D), were com-puted us-ing GPFA [\T1/txr/bx/n/10 ? \T1
 /txr/m/n/10 ]
 
-Underfull \hbox (badness 4108) in paragraph at lines 259--263
+Underfull \hbox (badness 4108) in paragraph at lines 260--264
 \T1/txr/m/n/10 sion. GPFA was per-formed with the ele-phant
+
+Package natbib Warning: Citation `liu_consensus_2022' on page 2 undefined on in
+put line 266.
+
+
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 266.
+
+
+Package natbib Warning: Citation `kay_hippocampal_2016' on page 2 undefined on 
+input line 266.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 2 undefined 
+on input line 266.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2021' on page 2 undefined 
+on input line 266.
+
+
+LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 269.
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 266--270
+[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
 [2]
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 3 undefined on in
-put line 265.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 265.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 265.
-
-
-Package natbib Warning: Citation `kay_hippocampal_2016' on page 3 undefined on 
-input line 265.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 3 undefined 
-on input line 265.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 3 undefined 
-on input line 265.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 268.
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 265--269
-[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
-
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 3 undefined on inp
-ut line 271.
+ut line 272.
 
 
-LaTeX Warning: Reference `fig:04' on page 3 undefined on input line 271.
+LaTeX Warning: Reference `fig:04' on page 3 undefined on input line 272.
 
 
 Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 3 undefin
-ed on input line 271.
+ed on input line 272.
 
 
-LaTeX Warning: Reference `tab:02' on page 3 undefined on input line 271.
+LaTeX Warning: Reference `tab:02' on page 3 undefined on input line 272.
 
 
-LaTeX Warning: Reference `fig:04' on page 3 undefined on input line 271.
+LaTeX Warning: Reference `fig:04' on page 3 undefined on input line 272.
 
 
-LaTeX Warning: Reference `tab:03' on page 3 undefined on input line 271.
+LaTeX Warning: Reference `tab:03' on page 3 undefined on input line 272.
 
 
-LaTeX Warning: Reference `fig:04' on page 3 undefined on input line 274.
+LaTeX Warning: Reference `fig:04' on page 3 undefined on input line 275.
 
 
 Package natbib Warning: Citation `virtanen_scipy_2020' on page 3 undefined on i
-nput line 277.
+nput line 278.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 3 undefined on in
-put line 285.
+put line 286.
 
 
-LaTeX Warning: Reference `tab:01' on page 3 undefined on input line 285.
+LaTeX Warning: Reference `tab:01' on page 3 undefined on input line 286.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 3 undefined on
- input line 285.
+ input line 286.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 3 undefined
- on input line 285.
+ on input line 286.
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 288--292
+Underfull \hbox (badness 1028) in paragraph at lines 289--293
 \T1/txr/m/n/10 ge-o-met-ric me-di-ans of four phases, namely $[]$,
 [3]
 
-LaTeX Warning: Reference `tab:02' on page 4 undefined on input line 300.
+LaTeX Warning: Reference `tab:02' on page 4 undefined on input line 301.
 
 
-LaTeX Warning: Reference `tab:02' on page 4 undefined on input line 300.
+LaTeX Warning: Reference `tab:02' on page 4 undefined on input line 301.
 
 
-LaTeX Warning: Reference `tab:03' on page 4 undefined on input line 300.
+LaTeX Warning: Reference `tab:03' on page 4 undefined on input line 301.
 
 
-LaTeX Warning: Reference `tab:01' on page 4 undefined on input line 300.
+LaTeX Warning: Reference `tab:01' on page 4 undefined on input line 301.
 
 
-LaTeX Warning: Reference `tab:03' on page 4 undefined on input line 303.
+LaTeX Warning: Reference `tab:03' on page 4 undefined on input line 304.
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 300--304
+Underfull \hbox (badness 1661) in paragraph at lines 301--305
 \T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-[4]
-Underfull \hbox (badness 1466) in paragraph at lines 311--311
+
+Underfull \hbox (badness 1466) in paragraph at lines 312--312
 []\T1/txr/m/it/10 Visualization of hip-pocam-pal neu-ral tra-jec-tory
 
-Underfull \hbox (badness 3078) in paragraph at lines 312--319
+Underfull \hbox (badness 3078) in paragraph at lines 313--320
 []\T1/txr/m/n/10 Following our ob-ser-va-tions of neu-ral tra-jec-tory
+[4]
 
-LaTeX Warning: Reference `fig:01' on page 5 undefined on input line 336.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 336.
+LaTeX Warning: Reference `fig:01' on page 5 undefined on input line 337.
 
 
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 336.
+LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 337.
 
 
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 336.
+LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 337.
 
 
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 336.
+LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 337.
 
 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 336.
+LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 337.
 
 
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 338.
+LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 337.
+
+
+LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 339.
 
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 5 undefined on
- input line 338.
+ input line 339.
 
 
 Package natbib Warning: Citation `kaminski_persistently_2017' on page 5 undefin
-ed on input line 338.
+ed on input line 339.
 
 
 Package natbib Warning: Citation `kornblith_persistent_2017' on page 5 undefine
-d on input line 338.
+d on input line 339.
 
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 5 undefined on i
-nput line 338.
+nput line 339.
 
 
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 338.
-
-[5]
-
-LaTeX Warning: Reference `fig:04' on page 6 undefined on input line 340.
+LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 339.
 
 
-Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 6 undefined o
-n input line 340.
+LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 341.
 
 
-Package natbib Warning: Citation `quyen_cell_2008' on page 6 undefined on input
- line 340.
+Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 5 undefined o
+n input line 341.
 
 
-Package natbib Warning: Citation `royer_control_2012' on page 6 undefined on in
-put line 340.
+Package natbib Warning: Citation `quyen_cell_2008' on page 5 undefined on input
+ line 341.
 
 
-Package natbib Warning: Citation `hajos_input-output_2013' on page 6 undefined 
-on input line 340.
+Package natbib Warning: Citation `royer_control_2012' on page 5 undefined on in
+put line 341.
 
 
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 6 undefined o
-n input line 340.
+Package natbib Warning: Citation `hajos_input-output_2013' on page 5 undefined 
+on input line 341.
 
 
-LaTeX Warning: Reference `fig:04' on page 6 undefined on input line 340.
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 5 undefined o
+n input line 341.
+
+
+LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 341.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 5 undefined 
+on input line 341.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2021' on page 5 undefined 
+on input line 341.
+
+
+LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 341.
+
+
+Package natbib Warning: Citation `liu_consensus_2022' on page 5 undefined on in
+put line 341.
+
+
+LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 341.
+
+
+Underfull \vbox (badness 1377) has occurred while \output is active [5]
+
+LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 343.
+
+
+LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 343.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
-on input line 340.
+on input line 343.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 6 undefined 
-on input line 340.
+on input line 343.
 
 
-LaTeX Warning: Reference `fig:04' on page 6 undefined on input line 340.
-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 6 undefined on in
-put line 340.
-
-
-LaTeX Warning: Reference `fig:05' on page 6 undefined on input line 340.
-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 342.
-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 342.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
-on input line 342.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 6 undefined 
-on input line 342.
-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 344.
+LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 345.
 
 
 Package natbib Warning: Citation `liu_optogenetic_2012' on page 6 undefined on 
-input line 344.
+input line 345.
 
 No file diff.bbl.
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \vbox (badness 10000) has occurred while \output is active
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/cmtt/m/n/10 gin . g-[]node . org / 10 . 12751 / g-[]node . d76994/$[]\T1/tx
 r/m/n/10 ).
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/txr/m/n/10 The source code is avail-able on GitHub
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/txr/m/n/10 ([]$\T1/cmtt/m/n/10 https : / / github . com / yanagisawa-[]lab 
 /
 
-Overfull \hbox (87.00694pt too wide) in paragraph at lines 392--394
+Overfull \hbox (87.00694pt too wide) in paragraph at lines 393--395
 \T1/cmtt/m/n/10 hippocampal-[]neural-[]fluctuation-[]during-[]a-[]WM-[]task-[]i
 n-[]humans$[]\T1/txr/m/n/10 ).
-[6] [7]
+[6]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.423 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.424 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{AHL}} &\t...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.423 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.424 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{AHL}} &\t...
 
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.424 }} &
+l.425 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.426 #
+l.427 #
        1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.426 ...& x & o & o & o & x & o & x & "AHR, LR" &
+l.427 ...& x & o & o & o & x & o & x & "AHR, LR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.429 #
+l.430 #
        2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.429 ... o & o & o & o & o & o & o & "AHR, PHR" &
+l.430 ... o & o & o & o & o & o & o & "AHR, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.431 #
+l.432 #
        3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.431 ... o & o & o & o & o & o & x & "AHL, PHL" &
+l.432 ... o & o & o & o & o & o & x & "AHL, PHL" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.434 #
+l.435 #
        4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.434 ... & o & o & o & o & "AHL, AHR, PHL, PHR" &
+l.435 ... & o & o & o & o & "AHL, AHR, PHL, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.436 #
+l.437 #
        5 & 3 & o & x & x & o & x & x & o & x & DRR
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.439 #
+l.440 #
        6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.439 ...o & o & o & o & o & "AHL, PHL, ECL, AL" &
+l.440 ...o & o & o & o & o & "AHL, PHL, ECL, AL" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.441 #
+l.442 #
        7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.441 ... o & o & o & o & o & o & o & "AHR, PHR" &
+l.442 ... o & o & o & o & o & o & o & "AHR, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.444 #
+l.445 #
        8 & 5 & o & o & o & o & o & o & o & o & ECR
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.446 #
+l.447 #
        9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.446 ...& o & o & o & o & o & o & o & "ECR, AR" &
+l.447 ...& o & o & o & o & o & o & o & "ECR, AR" &
                                                   
-? [8] [9]
+? [7] [8]
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.473 }} &
+l.474 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.475 #
+l.476 #
        1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.478 #
+l.479 #
        2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.480 #
+l.481 #
        3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.483 #
+l.484 #
        4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.485 #
+l.486 #
        5 & n.a. & n.a. & n.a. & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.488 #
+l.489 #
        6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.490 #
+l.491 #
        7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.493 #
+l.494 #
        8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.495 #
+l.496 #
        9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
 ? 
 ! Package inputenc Error: Unicode character − (U+2212)
@@ -4315,7 +4316,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 }
+l.509 }
        
 ? 
 ! Package inputenc Error: Unicode character − (U+2212)
@@ -4325,502 +4326,535 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 }
+l.509 }
        
-? [10]
+? [9]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.521 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{# of tria...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.521 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{# of tria...
 
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ... sessions}} &\textbf{\thead{# of trials}}
+l.521 ... sessions}} &\textbf{\thead{# of trials}}
                                                    &\textbf{\thead{ROI}} &\t...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ... sessions}} &\textbf{\thead{# of trials}}
+l.521 ... sessions}} &\textbf{\thead{# of trials}}
                                                    &\textbf{\thead{ROI}} &\t...
 
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
+l.521 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
                                                    &\textbf{\thead{SWR incid...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
+l.521 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
                                                    &\textbf{\thead{SWR incid...
 
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.521 }} &
+l.522 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.523 #
+l.524 #
        1 & 2 & 100 & AHL & 274 & 0.34
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.526 #
+l.527 #
        3 & 2 & 97 & AHR & 325 & 0.42
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.528 #
+l.529 #
        4 & 2 & 99 & PHL & 202 & 0.26
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.531 #
+l.532 #
        6 & 2 & 100 & AHL & 297 & 0.37
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.533 #
+l.534 #
        9 & 2 & 97 & AHR & 72 & 0.09
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ... the first two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...st two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ... the first two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...st two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.549 }
+l.550 }
        
-? [11] [12]
+? [10] [11]
 
-Package natbib Warning: Citation `li_functional_2023' on page 13 undefined on i
-nput line 573.
-
-
-Package natbib Warning: Citation `borders_hippocampal_2022' on page 13 undefine
-d on input line 573.
+Package natbib Warning: Citation `li_functional_2023' on page 12 undefined on i
+nput line 595.
 
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 13 und
-efined on input line 573.
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 12 undefine
+d on input line 595.
 
 
-Package natbib Warning: Citation `li_functional_2023' on page 13 undefined on i
-nput line 573.
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 12 und
+efined on input line 595.
 
 
-Package natbib Warning: Citation `borders_hippocampal_2022' on page 13 undefine
-d on input line 573.
+Package natbib Warning: Citation `li_functional_2023' on page 12 undefined on i
+nput line 595.
 
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 13 und
-efined on input line 573.
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 12 undefine
+d on input line 595.
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \\
-        
-? 
-Package natbib Warning: Citation `li_functional_2023' on page 13 undefined on i
-nput line 578.
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 12 und
+efined on input line 595.
 
 
-Package natbib Warning: Citation `borders_hippocampal_2022' on page 13 undefine
-d on input line 578.
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 12 undefined 
+on input line 595.
 
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 13 und
-efined on input line 578.
+Package natbib Warning: Citation `behrens_induction_2005' on page 12 undefined 
+on input line 595.
 
 
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 13 undefined 
-on input line 580.
+Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 12 undefin
+ed on input line 595.
 
 
-Package natbib Warning: Citation `behrens_induction_2005' on page 13 undefined 
-on input line 580.
+Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
+n input line 595.
 
 
-Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 13 undefin
-ed on input line 580.
+Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
+n input line 595.
 
 
-Package natbib Warning: Citation `niediek_reliable_2016' on page 13 undefined o
-n input line 582.
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
+d on input line 595.
 
 
-Package natbib Warning: Citation `niediek_reliable_2016' on page 13 undefined o
-n input line 584.
+Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 12 undefin
+ed on input line 595.
+
+
+Package natbib Warning: Citation `scoville_loss_1957' on page 12 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `kay_hippocampal_2016' on page 12 undefined on
+ input line 595.
+
+
+Package natbib Warning: Citation `nader_memory_2003' on page 12 undefined on in
+put line 595.
+
+
+Package natbib Warning: Citation `wilson_reactivation_1994' on page 12 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `nadasdy_replay_1999' on page 12 undefined on 
+input line 595.
+
+
+Package natbib Warning: Citation `lee_memory_2002' on page 12 undefined on inpu
+t line 595.
+
+
+Package natbib Warning: Citation `li_functional_2023' on page 12 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 12 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 12 und
+efined on input line 595.
+
+
+Package natbib Warning: Citation `li_functional_2023' on page 12 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 12 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 12 und
+efined on input line 595.
+
+
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 12 undefined 
+on input line 595.
+
+
+Package natbib Warning: Citation `behrens_induction_2005' on page 12 undefined 
+on input line 595.
+
+
+Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 12 undefin
+ed on input line 595.
+
+
+Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
+n input line 595.
+
+
+Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
+n input line 595.
+
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 12 undefin
+ed on input line 595.
+
+
+Package natbib Warning: Citation `scoville_loss_1957' on page 12 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `kay_hippocampal_2016' on page 12 undefined on
+ input line 595.
+
+
+Package natbib Warning: Citation `nader_memory_2003' on page 12 undefined on in
+put line 595.
+
+
+Package natbib Warning: Citation `wilson_reactivation_1994' on page 12 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `nadasdy_replay_1999' on page 12 undefined on 
+input line 595.
+
+
+Package natbib Warning: Citation `lee_memory_2002' on page 12 undefined on inpu
+t line 595.
+
+[12 <./src/figures/.png/Figure_ID_01.png>]
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
+d on input line 626.
+
+
+Package natbib Warning: Citation `virtanen_scipy_2020' on page 13 undefined on 
+input line 626.
+
+
+Package natbib Warning: Citation `boran_dataset_2020' on page 13 undefined on i
+nput line 626.
+
+
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 13
+ undefined on input line 626.
+
+
+Package natbib Warning: Citation `liu_consensus_2022' on page 13 undefined on i
+nput line 626.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
-d on input line 586.
+d on input line 626.
 
 
-Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 13 undefin
-ed on input line 592.
+Package natbib Warning: Citation `virtanen_scipy_2020' on page 13 undefined on 
+input line 626.
 
 
-Package natbib Warning: Citation `scoville_loss_1957' on page 13 undefined on i
-nput line 592.
+Package natbib Warning: Citation `boran_dataset_2020' on page 13 undefined on i
+nput line 626.
 
 
-Package natbib Warning: Citation `kay_hippocampal_2016' on page 13 undefined on
- input line 592.
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 13
+ undefined on input line 626.
 
 
-Package natbib Warning: Citation `nader_memory_2003' on page 13 undefined on in
-put line 592.
+Package natbib Warning: Citation `liu_consensus_2022' on page 13 undefined on i
+nput line 626.
 
+[13 <./src/figures/.png/Figure_ID_02.png>]
 
-Package natbib Warning: Citation `wilson_reactivation_1994' on page 13 undefine
-d on input line 592.
+Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 14 undefin
+ed on input line 652.
 
 
-Package natbib Warning: Citation `nadasdy_replay_1999' on page 13 undefined on 
-input line 592.
+Package natbib Warning: Citation `li_functional_2023' on page 14 undefined on i
+nput line 652.
 
 
-Package natbib Warning: Citation `lee_memory_2002' on page 13 undefined on inpu
-t line 592.
+Package natbib Warning: Citation `borders_hippocampus_2022' on page 14 undefine
+d on input line 652.
 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.595         \end{figure*}
-                           
-? 
-LaTeX Warning: Float too large for page by 21.15707pt on input line 595.
 
-[13 <./src/figures/.png/Figure_ID_01.png>]
-! Missing number, treated as zero.
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Missing number, treated as zero.
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? 
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 14 undefine
-d on input line 623.
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 14 und
+efined on input line 652.
 
 
-Package natbib Warning: Citation `virtanen_scipy_2020' on page 14 undefined on 
-input line 623.
+Package natbib Warning: Citation `li_functional_2023' on page 14 undefined on i
+nput line 652.
 
 
-Package natbib Warning: Citation `boran_dataset_2020' on page 14 undefined on i
-nput line 623.
+Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 14 undefin
+ed on input line 652.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 14
- undefined on input line 623.
+Package natbib Warning: Citation `hajos_input-output_2013' on page 14 undefined
+ on input line 652.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 14 undefined on i
-nput line 623.
+Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 14 undefin
+ed on input line 652.
 
 
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 14 undefine
-d on input line 623.
+Package natbib Warning: Citation `li_functional_2023' on page 14 undefined on i
+nput line 652.
 
 
-Package natbib Warning: Citation `virtanen_scipy_2020' on page 14 undefined on 
-input line 623.
+Package natbib Warning: Citation `borders_hippocampus_2022' on page 14 undefine
+d on input line 652.
 
 
-Package natbib Warning: Citation `boran_dataset_2020' on page 14 undefined on i
-nput line 623.
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 14 und
+efined on input line 652.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 14
- undefined on input line 623.
+Package natbib Warning: Citation `li_functional_2023' on page 14 undefined on i
+nput line 652.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 14 undefined on i
-nput line 623.
+Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 14 undefin
+ed on input line 652.
 
-[14 <./src/figures/.png/Figure_ID_02.png>]
 
-Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 15 undefin
-ed on input line 649.
+Package natbib Warning: Citation `hajos_input-output_2013' on page 14 undefined
+ on input line 652.
 
 
-Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 649.
+Underfull \hbox (badness 1062) in paragraph at lines 652--652
+[]|   [][][]|   [][]\T1/txr/m/n/9 , and []|   [][][]|   [][]. The \T1/txr/m/it/
+9 gray \T1/txr/m/n/9 ker-nel den-sity plot il-lus-trates the cor-re-spond-ing
+[14 <./src/figures/.png/Figure_ID_03.png>]
 
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
+put line 691.
 
-Package natbib Warning: Citation `borders_hippocampus_2022' on page 15 undefine
-d on input line 649.
 
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
+put line 691.
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
-efined on input line 649.
 
+LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 691.
 
-Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 649.
 
+Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 15 undefi
+ned on input line 691.
 
-Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 15 undefin
-ed on input line 649.
 
+Package natbib Warning: Citation `girardeau_selective_2009' on page 15 undefine
+d on input line 691.
 
-Package natbib Warning: Citation `hajos_input-output_2013' on page 15 undefined
- on input line 649.
 
+Package natbib Warning: Citation `norman_hippocampal_2021' on page 15 undefined
+ on input line 691.
 
-Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 15 undefin
-ed on input line 649.
 
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 15 undefine
+d on input line 691.
 
-Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 649.
 
+Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 15 undef
+ined on input line 691.
 
-Package natbib Warning: Citation `borders_hippocampus_2022' on page 15 undefine
-d on input line 649.
 
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 15
+ undefined on input line 691.
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
-efined on input line 649.
 
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 15 undefined
+ on input line 691.
 
-Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 649.
 
+Package natbib Warning: Citation `diba_forward_2007' on page 15 undefined on in
+put line 691.
 
-Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 15 undefin
-ed on input line 649.
 
+Package natbib Warning: Citation `liu_consensus_2022' on page 15 undefined on i
+nput line 691.
 
-Package natbib Warning: Citation `hajos_input-output_2013' on page 15 undefined
- on input line 649.
 
-[15 <./src/figures/.png/Figure_ID_03.png>]
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
+put line 691.
 
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 16 undefined on in
-put line 687.
 
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
+put line 691.
 
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 16 undefined on in
-put line 687.
 
+LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 691.
 
-LaTeX Warning: Reference `tab:02' on page 16 undefined on input line 687.
 
+Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 15 undefi
+ned on input line 691.
 
-Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 16 undefi
-ned on input line 687.
 
+Package natbib Warning: Citation `girardeau_selective_2009' on page 15 undefine
+d on input line 691.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2021' on page 15 undefined
+ on input line 691.
+
+
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 15 undefine
+d on input line 691.
+
+
+Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 15 undef
+ined on input line 691.
+
+
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 15
+ undefined on input line 691.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 15 undefined
+ on input line 691.
+
+
+Package natbib Warning: Citation `diba_forward_2007' on page 15 undefined on in
+put line 691.
+
+
+Package natbib Warning: Citation `liu_consensus_2022' on page 15 undefined on i
+nput line 691.
+
+[15 <./src/figures/.png/Figure_ID_04.png>]
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 16 undefine
-d on input line 687.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 16 undefined
- on input line 687.
-
-
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 16 undefine
-d on input line 687.
-
-
-Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 16 undef
-ined on input line 687.
-
-
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 16
- undefined on input line 687.
+d on input line 716.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 16 undefined
- on input line 687.
-
-
-Package natbib Warning: Citation `diba_forward_2007' on page 16 undefined on in
-put line 687.
-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 16 undefined on i
-nput line 687.
-
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 16 undefined on in
-put line 687.
-
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 16 undefined on in
-put line 687.
-
-
-LaTeX Warning: Reference `tab:02' on page 16 undefined on input line 687.
-
-
-Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 16 undefi
-ned on input line 687.
-
-
-Package natbib Warning: Citation `girardeau_selective_2009' on page 16 undefine
-d on input line 687.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 16 undefined
- on input line 687.
+ on input line 716.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 16 undefine
-d on input line 687.
+d on input line 716.
 
 
-Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 16 undef
-ined on input line 687.
+Package natbib Warning: Citation `boran_persistent_2019' on page 16 undefined o
+n input line 716.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 16
- undefined on input line 687.
+Package natbib Warning: Citation `girardeau_selective_2009' on page 16 undefine
+d on input line 716.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 16 undefined
- on input line 687.
+ on input line 716.
 
 
-Package natbib Warning: Citation `diba_forward_2007' on page 16 undefined on in
-put line 687.
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 16 undefine
+d on input line 716.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 16 undefined on i
-nput line 687.
+Package natbib Warning: Citation `boran_persistent_2019' on page 16 undefined o
+n input line 716.
 
-[16 <./src/figures/.png/Figure_ID_04.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.701 \\
-        
-? 
-Package natbib Warning: Citation `girardeau_selective_2009' on page 17 undefine
-d on input line 705.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 17 undefined
- on input line 705.
-
-
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 17 undefine
-d on input line 705.
-
-
-Package natbib Warning: Citation `boran_persistent_2019' on page 17 undefined o
-n input line 707.
-
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.714         \end{figure*}
-                           
-? [17 <./src/figures/.png/Figure_ID_05.png>]
+[16 <./src/figures/.png/Figure_ID_05.png>]
 Runaway argument?
-{\DIFdelbeginFL \textbf {\DIFdelFL {Visualization of Neural Trajector\ETC.
+{\DIFdelbeginFL \textbf {\DIFdelFL {Visualizing Neural Trajectories D\ETC.
 ! Paragraph ended before \caption@prepareanchor was complete.
 <to be read again> 
                    \par 
-l.743 }
+l.752 }
        
 ? 
 ! LaTeX Error: There's no line here to end.
@@ -4829,160 +4863,148 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.743 }
+l.752 }
        
 ? 
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 18
- undefined on input line 743.
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 17
+ undefined on input line 752.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 18 undefined on i
-nput line 743.
+Package natbib Warning: Citation `liu_consensus_2022' on page 17 undefined on i
+nput line 752.
 
 
-Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 18 unde
-fined on input line 743.
+Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 17 unde
+fined on input line 752.
 
 
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 743.
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 17 undefined on in
+put line 752.
 
 
-Package natbib Warning: Citation `zhang_hippocampal_2022' on page 18 undefined 
-on input line 743.
+Package natbib Warning: Citation `zhang_hippocampal_2022' on page 17 undefined 
+on input line 752.
 
 Runaway argument?
-{\ignorespaces \DIFdelbeginFL \textbf {\DIFdelFL {Visualization of Ne\ETC.
+{\ignorespaces \DIFdelbeginFL \textbf {\DIFdelFL {Visualizing Neural \ETC.
 ! Paragraph ended before \caption@@@addcontentsline was complete.
 <to be read again> 
                    \par 
-l.743 }
+l.752 }
        
 ? 
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 18
- undefined on input line 743.
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 17
+ undefined on input line 752.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 18 undefined on i
-nput line 743.
+Package natbib Warning: Citation `liu_consensus_2022' on page 17 undefined on i
+nput line 752.
 
 
-Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 18 unde
-fined on input line 743.
+Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 17 unde
+fined on input line 752.
 
 
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 743.
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 17 undefined on in
+put line 752.
 
 
-Package natbib Warning: Citation `zhang_hippocampal_2022' on page 18 undefined 
-on input line 743.
+Package natbib Warning: Citation `zhang_hippocampal_2022' on page 17 undefined 
+on input line 752.
 
 ! Extra }, or forgotten \endgroup.
 \caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
                                                   
-l.743 }
+l.752 }
        
 ? 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   [][]|   []   |   []
+Underfull \hbox (badness 1577) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
 
-Underfull \hbox (badness 2626) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   []\T1/txr/m/n/10 neu-ral tra-jec-to-ries
+Underfull \hbox (badness 1005) in paragraph at lines 752--752
+|   []   |   []   |   []   []\T1/txr/m/n/10 neu-ral tra-jec-to-ries []|   []
 
-Underfull \hbox (badness 1048) in paragraph at lines 743--743
+Underfull \hbox (badness 3199) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/txr/
+m/n/10 two-dimensional
+
+Underfull \hbox (badness 4569) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/10 . \T1/txr/bx/it/10 A. []|   []   |   []   | 
   []   [][]|   []
 
-Underfull \hbox (badness 1292) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 tra-jec-to-ries []|   []   [][]|   []   |   
-[]   |   []
-
-Underfull \hbox (badness 1748) in paragraph at lines 743--743
+Underfull \hbox (badness 1748) in paragraph at lines 752--752
 []\T1/txr/m/n/10 (\T1/txr/m/it/10 gray\T1/txr/m/n/10 ), []|   []   [][]|   []  
  [](\T1/txr/m/it/10 yel-low\T1/txr/m/n/10 ), and post-SWR$[]$
 
-Underfull \hbox (badness 2547) in paragraph at lines 743--743
-|   []   |   []   |   []   []\T1/txr/m/n/10 SWR$[]$ []|   []   |   []   []. []|
-   []
+Underfull \hbox (badness 2080) in paragraph at lines 752--752
+|   []   []\T1/txr/m/n/10 ses-sions[]   |   []   []. The pro-jec-tion []|   [] 
+  |   []
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   [][][]|   [][]\T1/txr/m/n/10 , []|   []   |   []   |   []   |   []
+Underfull \hbox (badness 1635) in paragraph at lines 752--752
+[]|   [][][]|   [][]\T1/txr/m/n/10 , []|   []   |   []   |   []   |   []   []$[
+]$
 
-Underfull \hbox (badness 2617) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 around the $[]$ axis ([]|   []   |   []
+Underfull \hbox (badness 4995) in paragraph at lines 752--752
+[]|   []   |   []   []\T1/txr/m/n/10 at the ori-gin $\OML/txmi/m/it/10 O$ \T1/t
+xr/m/n/10 (0,0)[]|   []   []and $[]$ at
 
-Underfull \hbox (badness 4805) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 two-dimensional []|   [][][]|   []   |   []
+Underfull \hbox (badness 1694) in paragraph at lines 752--752
+[]\T1/txr/m/n/10 . []|   []   |   []   |   []   |   []   [][]|   []   []point c
+loud
 
-Underfull \hbox (badness 3088) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   []\T1/txr/
-m/n/10 the
+Underfull \hbox (badness 1122) in paragraph at lines 752--752
+[]|   []   |   []   |   []   []\T1/txr/m/n/10 around the $[]$ axis ([]|   []
 
-Underfull \hbox (badness 1112) in paragraph at lines 743--743
-[]$ \T1/txr/m/n/10 axis []|   []   |   []   [][]|   []   |   []   |   []   |   
-[]
+Underfull \hbox (badness 1137) in paragraph at lines 752--752
+|   []   |   []   []\T1/txr/m/n/10 the dis-tances from $\OML/txmi/m/it/10 O$ \T
+1/txr/m/n/10 and the an-gles
 
-Underfull \hbox (badness 3333) in paragraph at lines 743--743
-[]\T1/txr/m/n/10 orig-i-nal three-dimensional []|   [][][]|   []   |   []   [].
+Underfull \hbox (badness 3049) in paragraph at lines 752--752
+\T1/txr/m/n/10 eSWR []|   []   [][]|   []   []SWR dur-ing the en-cod-ing
 
-
-Underfull \hbox (badness 1603) in paragraph at lines 743--743
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []
-
-Underfull \hbox (badness 1210) in paragraph at lines 743--743
-|   []   []\T1/txr/m/n/10 events; eSWR []|   []   [][]|   []   []SWR dur-ing
-
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 18
- undefined on input line 743.
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 17
+ undefined on input line 752.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 18 undefined on i
-nput line 743.
+Package natbib Warning: Citation `liu_consensus_2022' on page 17 undefined on i
+nput line 752.
 
 
-Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 18 unde
-fined on input line 743.
+Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 17 unde
+fined on input line 752.
 
 
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 743.
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 17 undefined on in
+put line 752.
 
 
-Package natbib Warning: Citation `zhang_hippocampal_2022' on page 18 undefined 
-on input line 743.
+Package natbib Warning: Citation `zhang_hippocampal_2022' on page 17 undefined 
+on input line 752.
 
-
-Underfull \hbox (badness 2495) in paragraph at lines 743--743
-[]\T1/txr/bx/n/9 Figure 6 \T1/txr/m/n/9 ^^U |[][]|   []   |   []   |   []   |  
- []
-
-Underfull \hbox (badness 4819) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   |   []
 
 ! LaTeX Error: There's no line here to end.
 
@@ -4990,167 +5012,162 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.743 }
+l.752 }
        
 ? 
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 18
- undefined on input line 743.
+Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 17
+ undefined on input line 752.
 
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 18 undefined on i
-nput line 743.
+Package natbib Warning: Citation `liu_consensus_2022' on page 17 undefined on i
+nput line 752.
 
 
-Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 18 unde
-fined on input line 743.
+Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 17 unde
+fined on input line 752.
 
 
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 18 undefine
-d on input line 743.
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 17 undefine
+d on input line 752.
 
 
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 743.
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 17 undefined on in
+put line 752.
 
 
-Package natbib Warning: Citation `zhang_hippocampal_2022' on page 18 undefined 
-on input line 743.
+Package natbib Warning: Citation `zhang_hippocampal_2022' on page 17 undefined 
+on input line 752.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   [][]|   []   |   []
+Underfull \hbox (badness 5878) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
 
-Underfull \hbox (badness 3590) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   []\T1/txr/m/n/9 neu-ral tra-jec-to-ries
+Underfull \hbox (badness 1533) in paragraph at lines 752--752
+|   []   |   []   |   []   []\T1/txr/m/n/9 neu-ral tra-jec-to-ries []|   []
 
-Underfull \hbox (badness 1418) in paragraph at lines 743--743
+Underfull \hbox (badness 3954) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/txr/
+m/n/9 two-dimensional
+
+Underfull \hbox (badness 5519) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/9 . \T1/txr/bx/it/9 A. []|   []   |   []   |   
 []   [][]|   []
 
-Underfull \hbox (badness 1831) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 tra-jec-to-ries []|   []   [][]|   []   |   [
-]   |   []
-
-Underfull \hbox (badness 2512) in paragraph at lines 743--743
+Underfull \hbox (badness 2512) in paragraph at lines 752--752
 []\T1/txr/m/n/9 (\T1/txr/m/it/9 gray\T1/txr/m/n/9 ), []|   []   [][]|   []   []
 (\T1/txr/m/it/9 yel-low\T1/txr/m/n/9 ), and post-SWR$[]$
 
-Underfull \hbox (badness 1286) in paragraph at lines 743--743
+Underfull \hbox (badness 1005) in paragraph at lines 752--752
 |   []   |   []   |   []   [][]|   []   |   []   |   []   |   []
 
-Underfull \hbox (badness 3148) in paragraph at lines 743--743
-|   []   |   []   |   []   []\T1/txr/m/n/9 SWR$[]$ []|   []   |   []   []. []| 
-  []
+Underfull \hbox (badness 1577) in paragraph at lines 752--752
+[][]|   []   |   []   |   []   []\T1/txr/m/n/9 SWR$[]$[]|   []   |   []   []. [
+]|   []   |   []
 
-Underfull \hbox (badness 1242) in paragraph at lines 743--743
+Underfull \hbox (badness 3568) in paragraph at lines 752--752
+|   []   |   []   |   []   [][]|   []   []$\OMS/txsy/m/n/9 k[]k$ []|   []   |  
+ []   |   []
+
+Underfull \hbox (badness 1496) in paragraph at lines 752--752
+|   []   |   []   |   []   |   [][][]|   []   |   []   |   []   |   []   |   []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 752--752
 []$[]$ []|   []   |   []   []\T1/txr/m/n/9 at the ori-gin $\OML/txmi/m/it/9 O$ 
-\T1/txr/m/n/9 (0,0) []|   []   []and $[]$ at
+\T1/txr/m/n/9 (0,0)[]|   []   []and $[]$ at
 
-Underfull \hbox (badness 3375) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 around the $[]$ axis ([]|   []   |   []
+Underfull \hbox (badness 1454) in paragraph at lines 752--752
+|   []   []\T1/txr/m/n/9 the dis-tances from $\OML/txmi/m/it/9 O$ \T1/txr/m/n/9
+ and the an-gles []|   []
 
-Underfull \hbox (badness 1253) in paragraph at lines 743--743
-[]\T1/txr/m/n/9 the []|   []   |   [][][]|   [][]) []|   []   |   []   |   []  
- [][]|   []   |   []   |   []
+Underfull \hbox (badness 1107) in paragraph at lines 752--752
+|   []   [][]|   []   |   []   |   []   |   []   |   []   []\T1/txr/m/n/9 the $
+[]$ axis
 
-Underfull \hbox (badness 6608) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 two-dimensional []|   [][][]|   []   |   []
+Underfull \hbox (badness 3428) in paragraph at lines 752--752
+[][]|   []   []\T1/txr/m/n/9 SWR dur-ing the en-cod-ing phase; rSWR
 
-Underfull \hbox (badness 3826) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   []\T1/txr/
-m/n/9 the
-
-Underfull \hbox (badness 1552) in paragraph at lines 743--743
-[]$ \T1/txr/m/n/9 axis []|   []   |   []   [][]|   []   |   []   |   []   |   [
-]
-
-Underfull \hbox (badness 8038) in paragraph at lines 743--743
-[]\T1/txr/m/n/9 orig-i-nal three-dimensional []|   [][][]|   []   |   []
-
-Underfull \hbox (badness 2310) in paragraph at lines 743--743
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []
-
-Underfull \hbox (badness 1655) in paragraph at lines 743--743
-|   []   []\T1/txr/m/n/9 events; eSWR []|   []   [][]|   []   []SWR dur-ing
+Underfull \hbox (badness 1496) in paragraph at lines 752--752
+[]|   []   [][]|   []   []\T1/txr/m/n/9 SWR dur-ing the re-trieval phase;
 ! Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.746         \end{figure*}
+l.755         \end{figure*}
                            
 ? 
-LaTeX Warning: Float too large for page by 941.23438pt on input line 746.
+LaTeX Warning: Float too large for page by 966.29951pt on input line 755.
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.cap
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.cap
 tion.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.747         \clearpage
+l.756         \clearpage
                          <./src/figures/.png/Figure_ID_06.png>]
 
-Package natbib Warning: Citation `li_functional_2023' on page 19 undefined on i
-nput line 775.
+Package natbib Warning: Citation `li_functional_2023' on page 18 undefined on i
+nput line 781.
 
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 19 und
-efined on input line 775.
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 18 und
+efined on input line 781.
 
 
-Package natbib Warning: Citation `borders_hippocampus_2022' on page 19 undefine
-d on input line 775.
+Package natbib Warning: Citation `borders_hippocampus_2022' on page 18 undefine
+d on input line 781.
 
 
-Package natbib Warning: Citation `naber_reciprocal_2001' on page 19 undefined o
-n input line 775.
+Package natbib Warning: Citation `naber_reciprocal_2001' on page 18 undefined o
+n input line 781.
 
 
-Package natbib Warning: Citation `van_strien_anatomy_2009' on page 19 undefined
- on input line 775.
+Package natbib Warning: Citation `van_strien_anatomy_2009' on page 18 undefined
+ on input line 781.
 
 
-Package natbib Warning: Citation `niediek_reliable_2016' on page 19 undefined o
-n input line 775.
+Package natbib Warning: Citation `niediek_reliable_2016' on page 18 undefined o
+n input line 781.
 
 
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 19 undefined 
-on input line 775.
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 18 undefined 
+on input line 781.
 
 
-Package natbib Warning: Citation `li_functional_2023' on page 19 undefined on i
-nput line 775.
+Package natbib Warning: Citation `li_functional_2023' on page 18 undefined on i
+nput line 781.
 
 
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 19 und
-efined on input line 775.
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 18 und
+efined on input line 781.
 
 
-Package natbib Warning: Citation `borders_hippocampus_2022' on page 19 undefine
-d on input line 775.
+Package natbib Warning: Citation `borders_hippocampus_2022' on page 18 undefine
+d on input line 781.
 
 
-Package natbib Warning: Citation `naber_reciprocal_2001' on page 19 undefined o
-n input line 775.
+Package natbib Warning: Citation `naber_reciprocal_2001' on page 18 undefined o
+n input line 781.
 
 
-Package natbib Warning: Citation `van_strien_anatomy_2009' on page 19 undefined
- on input line 775.
+Package natbib Warning: Citation `van_strien_anatomy_2009' on page 18 undefined
+ on input line 781.
 
 
-Package natbib Warning: Citation `niediek_reliable_2016' on page 19 undefined o
-n input line 775.
+Package natbib Warning: Citation `niediek_reliable_2016' on page 18 undefined o
+n input line 781.
 
 
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 19 undefined 
-on input line 775.
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 18 undefined 
+on input line 781.
 
 
 Package natbib Warning: There were undefined citations.
 
-[19 <./src/figures/.png/Figure_ID_07.png>] (./diff.aux)
+[18 <./src/figures/.png/Figure_ID_07.png>] (./diff.aux)
 
 Package rerunfilecheck Warning: File `diff.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -5172,7 +5189,7 @@ xlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (20 pages, 1042500 bytes).
+Output written on diff.pdf (19 pages, 1041526 bytes).
 Transcript written on diff.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -5486,151 +5503,151 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package natbib Warning: Citation `scoville_loss_1957' on page 1 undefined on in
-put line 240.
+put line 241.
 
 
 Package natbib Warning: Citation `squire_legacy_2009' on page 1 undefined on in
-put line 240.
+put line 241.
 
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 1 undefined on
- input line 240.
+ input line 241.
 
 
 Package natbib Warning: Citation `kaminski_persistently_2017' on page 1 undefin
-ed on input line 240.
+ed on input line 241.
 
 
 Package natbib Warning: Citation `kornblith_persistent_2017' on page 1 undefine
-d on input line 240.
+d on input line 241.
 
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 1 undefined on i
-nput line 240.
+nput line 241.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 1 undefined
- on input line 240.
+ on input line 241.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 1 undefined on in
-put line 240.
+put line 241.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 1 unde
-fined on input line 240.
+fined on input line 241.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 1 undefined
- on input line 243.
+ on input line 244.
 
 
 Package natbib Warning: Citation `wilson_reactivation_1994' on page 1 undefined
- on input line 243.
+ on input line 244.
 
 
 Package natbib Warning: Citation `nadasdy_replay_1999' on page 1 undefined on i
-nput line 243.
+nput line 244.
 
 
 Package natbib Warning: Citation `lee_memory_2002' on page 1 undefined on input
- line 243.
+ line 244.
 
 
 Package natbib Warning: Citation `diba_forward_2007' on page 1 undefined on inp
-ut line 243.
+ut line 244.
 
 
 Package natbib Warning: Citation `davidson_hippocampal_2009' on page 1 undefine
-d on input line 243.
+d on input line 244.
 
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 1 undefined
- on input line 243.
+ on input line 244.
 
 
 Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 1 undefi
-ned on input line 243.
+ned on input line 244.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 1 
-undefined on input line 243.
+undefined on input line 244.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 1 undef
-ined on input line 243.
+ined on input line 244.
 
 
 Package natbib Warning: Citation `wu_hippocampal_2017' on page 1 undefined on i
-nput line 243.
+nput line 244.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 1 undefined 
-on input line 243.
+on input line 244.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 1 undefined 
-on input line 243.
+on input line 244.
 
 
 Package natbib Warning: Citation `behrens_induction_2005' on page 1 undefined o
-n input line 243.
+n input line 244.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 1 undefine
-d on input line 243.
+d on input line 244.
 
 
 Package natbib Warning: Citation `jadhav_awake_2012' on page 1 undefined on inp
-ut line 243.
+ut line 244.
 
 
 Package natbib Warning: Citation `okeefe_hippocampus_1971' on page 1 undefined 
-on input line 246.
+on input line 247.
 
 
 Package natbib Warning: Citation `okeefe_place_1976' on page 1 undefined on inp
-ut line 246.
+ut line 247.
 
 
 Package natbib Warning: Citation `ekstrom_cellular_2003' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `kjelstrup_finite_2008' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `harvey_intracellular_2009' on page 1 undefine
-d on input line 246.
+d on input line 247.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 1 undefined o
-n input line 246.
+n input line 247.
 
 
 Package natbib Warning: Citation `naber_reciprocal_2001' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `van_strien_anatomy_2009' on page 1 undefined 
-on input line 246.
+on input line 247.
 
 
 Package natbib Warning: Citation `strange_functional_2014' on page 1 undefined 
-on input line 246.
+on input line 247.
 
 
 Package natbib Warning: Citation `gardner_toroidal_2022' on page 1 undefined on
- input line 246.
+ input line 247.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 1 undefined on in
-put line 249.
+put line 250.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 1 undefined
- on input line 249.
+ on input line 250.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active
@@ -5640,158 +5657,159 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.254 \section
+l.255 \section
               {Methods} [1]
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
-put line 256.
+put line 257.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
-put line 256.
+put line 257.
 
 
-LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 256.
+LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 257.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 2 undefined on
- input line 256.
+ input line 257.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
-Underfull \vbox (badness 10000) has occurred while \output is active
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 2 undefined
- on input line 259.
+ on input line 260.
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 259--263
+Underfull \hbox (badness 4353) in paragraph at lines 260--264
 []\T1/txr/m/n/10 Neural tra-jec-to-ries, also termed 'fac-tors' (Fig-
 
-Underfull \hbox (badness 1112) in paragraph at lines 259--263
-\T1/txr/m/n/10 ure []4[]D), were com-puted us-ing GPFA [\T1/txr/bx/n/10 ? \T1/t
+Underfull \hbox (badness 1112) in paragraph at lines 260--264
+\T1/txr/m/n/10 ure []1[]D), were com-puted us-ing GPFA [\T1/txr/bx/n/10 ? \T1/t
 xr/m/n/10 ] ap-
 
-Underfull \hbox (badness 2150) in paragraph at lines 259--263
+Underfull \hbox (badness 2150) in paragraph at lines 260--264
 \T1/txr/m/n/10 plied to the mul-tiu-nit ac-tiv-ity data for each ses-
 
-Underfull \hbox (badness 4108) in paragraph at lines 259--263
+Underfull \hbox (badness 4108) in paragraph at lines 260--264
 \T1/txr/m/n/10 sion. GPFA was per-formed with the ele-phant
+
+Package natbib Warning: Citation `liu_consensus_2022' on page 2 undefined on in
+put line 266.
+
+
+Package natbib Warning: Citation `kay_hippocampal_2016' on page 2 undefined on 
+input line 266.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 2 undefined 
+on input line 266.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2021' on page 2 undefined 
+on input line 266.
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 266--270
+[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
 [2]
 
-Package natbib Warning: Citation `liu_consensus_2022' on page 3 undefined on in
-put line 265.
-
-
-Package natbib Warning: Citation `kay_hippocampal_2016' on page 3 undefined on 
-input line 265.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 3 undefined 
-on input line 265.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 3 undefined 
-on input line 265.
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 265--269
-[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
-
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 3 undefined on inp
-ut line 271.
+ut line 272.
 
 
 Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 3 undefin
-ed on input line 271.
+ed on input line 272.
 
 
 Package natbib Warning: Citation `virtanen_scipy_2020' on page 3 undefined on i
-nput line 277.
+nput line 278.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 3 undefined on in
-put line 285.
+put line 286.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 3 undefined on
- input line 285.
+ input line 286.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 3 undefined
- on input line 285.
+ on input line 286.
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 288--292
+Underfull \hbox (badness 1028) in paragraph at lines 289--293
 \T1/txr/m/n/10 ge-o-met-ric me-di-ans of four phases, namely $[]$,
 [3]
-Underfull \hbox (badness 1661) in paragraph at lines 300--304
+Underfull \hbox (badness 1661) in paragraph at lines 301--305
 \T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-[4]
-Underfull \hbox (badness 1466) in paragraph at lines 311--311
+
+Underfull \hbox (badness 1466) in paragraph at lines 312--312
 []\T1/txr/m/it/10 Visualization of hip-pocam-pal neu-ral tra-jec-tory
 
-Underfull \hbox (badness 3078) in paragraph at lines 312--319
+Underfull \hbox (badness 3078) in paragraph at lines 313--320
 []\T1/txr/m/n/10 Following our ob-ser-va-tions of neu-ral tra-jec-tory
+[4]
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 5 undefined on
- input line 338.
+ input line 339.
 
 
 Package natbib Warning: Citation `kaminski_persistently_2017' on page 5 undefin
-ed on input line 338.
+ed on input line 339.
 
 
 Package natbib Warning: Citation `kornblith_persistent_2017' on page 5 undefine
-d on input line 338.
+d on input line 339.
 
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 5 undefined on i
-nput line 338.
-
-[5]
-
-Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 6 undefined o
-n input line 340.
+nput line 339.
 
 
-Package natbib Warning: Citation `quyen_cell_2008' on page 6 undefined on input
- line 340.
+Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 5 undefined o
+n input line 341.
 
 
-Package natbib Warning: Citation `royer_control_2012' on page 6 undefined on in
-put line 340.
+Package natbib Warning: Citation `quyen_cell_2008' on page 5 undefined on input
+ line 341.
 
 
-Package natbib Warning: Citation `hajos_input-output_2013' on page 6 undefined 
-on input line 340.
+Package natbib Warning: Citation `royer_control_2012' on page 5 undefined on in
+put line 341.
 
 
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 6 undefined o
-n input line 340.
+Package natbib Warning: Citation `hajos_input-output_2013' on page 5 undefined 
+on input line 341.
 
+
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 5 undefined o
+n input line 341.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 5 undefined 
+on input line 341.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2021' on page 5 undefined 
+on input line 341.
+
+
+Package natbib Warning: Citation `liu_consensus_2022' on page 5 undefined on in
+put line 341.
+
+
+Underfull \vbox (badness 1377) has occurred while \output is active [5]
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
-on input line 340.
+on input line 343.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 6 undefined 
-on input line 340.
-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 6 undefined on in
-put line 340.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
-on input line 342.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 6 undefined 
-on input line 342.
+on input line 343.
 
 
 Package natbib Warning: Citation `liu_optogenetic_2012' on page 6 undefined on 
-input line 344.
+input line 345.
 
 (./diff.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
@@ -5824,7 +5842,7 @@ ology /
 
 Underfull \hbox (badness 1082) in paragraph at lines 53--62
 []\T1/txr/m/n/8 M. C. M. Fa-raut, A. A. Carl-son, S. Sul-li-van, O. Tudus-
-[6]
+
 Underfull \hbox (badness 1210) in paragraph at lines 71--79
 []\T1/txr/m/n/8 J. Li, D. Cao, S. Yu, X. Xiao, L. Im-bach, L. Stieglitz,
 
@@ -5855,6 +5873,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 90--98
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
 oi / abs / 10 .
 
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
 Underfull \hbox (badness 1005) in paragraph at lines 100--104
 \T1/txr/m/n/8 pal en-sem-ble mem-o-ries dur-ing sleep, Sci-ence (New York,
 
@@ -5881,7 +5900,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--158
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
 
-Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 7486) in paragraph at lines 160--167
 \T1/txr/m/n/8 cou-pling dur-ing man-i-fold ex-plo-ration in mo-tor cor-tex[],
 
@@ -5903,6 +5921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--191
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . cell . com / neuron / abs
 tract /
 
+Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 1968) in paragraph at lines 209--217
 []\T1/txr/m/n/8 S. P. Jad-hav, C. Ke-mere, P. W. Ger-man, L. M. Frank,
 
@@ -5923,7 +5942,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--233
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
 ence /
 
-Underfull \vbox (badness 10000) has occurred while \output is active [7]
 Underfull \hbox (badness 10000) in paragraph at lines 244--253
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / abs
  / 10 . 1126 /
@@ -5958,6 +5976,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 273--282
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
 oi / abs / 10 .
 
+Underfull \vbox (badness 10000) has occurred while \output is active [7]
 Underfull \hbox (badness 10000) in paragraph at lines 301--309
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
 
@@ -5985,7 +6004,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--330
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
 
-Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 10000) in paragraph at lines 332--340
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / journals . plos . org / plosone
  / article ?
@@ -5994,6 +6012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--356
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 2237) in paragraph at lines 365--372
 []\T1/txr/m/n/8 L. McInnes, J. Healy, N. Saul, L. Gro�berger, []UMAP:
 
@@ -6044,7 +6063,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--412
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
  / 28 / 24 /
 
-Underfull \vbox (badness 10000) has occurred while \output is active [8]
 Underfull \hbox (badness 10000) in paragraph at lines 432--439
 []\T1/txr/m/n/8 E. W. Schom-burg, C. A. Anas-tas-siou, G. Buzs�ki,
 
@@ -6061,6 +6079,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 432--439
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
 
+Underfull \vbox (badness 10000) has occurred while \output is active [8]
 Underfull \hbox (badness 10000) in paragraph at lines 450--457
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
@@ -6073,168 +6092,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--465
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
 ence /
 )
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/cmtt/m/n/10 gin . g-[]node . org / 10 . 12751 / g-[]node . d76994/$[]\T1/tx
 r/m/n/10 ).
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/txr/m/n/10 The source code is avail-able on GitHub
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/txr/m/n/10 ([]$\T1/cmtt/m/n/10 https : / / github . com / yanagisawa-[]lab 
 /
 
-Overfull \hbox (87.00694pt too wide) in paragraph at lines 392--394
+Overfull \hbox (87.00694pt too wide) in paragraph at lines 393--395
 \T1/cmtt/m/n/10 hippocampal-[]neural-[]fluctuation-[]during-[]a-[]WM-[]task-[]i
 n-[]humans$[]\T1/txr/m/n/10 ).
 [9]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.423 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.424 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{AHL}} &\t...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.423 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.424 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{AHL}} &\t...
 
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.424 }} &
+l.425 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.426 #
+l.427 #
        1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.426 ...& x & o & o & o & x & o & x & "AHR, LR" &
+l.427 ...& x & o & o & o & x & o & x & "AHR, LR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.429 #
+l.430 #
        2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.429 ... o & o & o & o & o & o & o & "AHR, PHR" &
+l.430 ... o & o & o & o & o & o & o & "AHR, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.431 #
+l.432 #
        3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.431 ... o & o & o & o & o & o & x & "AHL, PHL" &
+l.432 ... o & o & o & o & o & o & x & "AHL, PHL" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.434 #
+l.435 #
        4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.434 ... & o & o & o & o & "AHL, AHR, PHL, PHR" &
+l.435 ... & o & o & o & o & "AHL, AHR, PHL, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.436 #
+l.437 #
        5 & 3 & o & x & x & o & x & x & o & x & DRR
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.439 #
+l.440 #
        6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.439 ...o & o & o & o & o & "AHL, PHL, ECL, AL" &
+l.440 ...o & o & o & o & o & "AHL, PHL, ECL, AL" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.441 #
+l.442 #
        7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.441 ... o & o & o & o & o & o & o & "AHR, PHR" &
+l.442 ... o & o & o & o & o & o & o & "AHR, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.444 #
+l.445 #
        8 & 5 & o & o & o & o & o & o & o & o & ECR
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.446 #
+l.447 #
        9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.446 ...& o & o & o & o & o & o & o & "ECR, AR" &
+l.447 ...& o & o & o & o & o & o & o & "ECR, AR" &
                                                   
 ? [10] [11]
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.473 }} &
+l.474 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.475 #
+l.476 #
        1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.478 #
+l.479 #
        2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.480 #
+l.481 #
        3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.483 #
+l.484 #
        4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.485 #
+l.486 #
        5 & n.a. & n.a. & n.a. & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.488 #
+l.489 #
        6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.490 #
+l.491 #
        7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.493 #
+l.494 #
        8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.495 #
+l.496 #
        9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
 ? 
 ! Package inputenc Error: Unicode character − (U+2212)
@@ -6244,7 +6263,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 }
+l.509 }
        
 ? 
 ! Package inputenc Error: Unicode character − (U+2212)
@@ -6254,496 +6273,529 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 }
+l.509 }
        
 ? [12]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.521 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{# of tria...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.521 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{# of tria...
 
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ... sessions}} &\textbf{\thead{# of trials}}
+l.521 ... sessions}} &\textbf{\thead{# of trials}}
                                                    &\textbf{\thead{ROI}} &\t...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ... sessions}} &\textbf{\thead{# of trials}}
+l.521 ... sessions}} &\textbf{\thead{# of trials}}
                                                    &\textbf{\thead{ROI}} &\t...
 
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
+l.521 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
                                                    &\textbf{\thead{SWR incid...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
+l.521 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
                                                    &\textbf{\thead{SWR incid...
 
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.521 }} &
+l.522 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.523 #
+l.524 #
        1 & 2 & 100 & AHL & 274 & 0.34
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.526 #
+l.527 #
        3 & 2 & 97 & AHR & 325 & 0.42
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.528 #
+l.529 #
        4 & 2 & 99 & PHL & 202 & 0.26
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.531 #
+l.532 #
        6 & 2 & 100 & AHL & 297 & 0.37
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.533 #
+l.534 #
        9 & 2 & 97 & AHR & 72 & 0.09
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ... the first two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...st two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ... the first two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...st two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.549 }
+l.550 }
        
 ? [13] [14]
 
 Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 573.
+nput line 595.
 
 
 Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
-d on input line 573.
+d on input line 595.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
-efined on input line 573.
+efined on input line 595.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 573.
+nput line 595.
 
 
 Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
-d on input line 573.
+d on input line 595.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
-efined on input line 573.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \\
-        
-? 
-Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
-nput line 578.
-
-
-Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
-d on input line 578.
-
-
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
-efined on input line 578.
+efined on input line 595.
 
 
 Package natbib Warning: Citation `schomburg_spiking_2012' on page 15 undefined 
-on input line 580.
+on input line 595.
 
 
 Package natbib Warning: Citation `behrens_induction_2005' on page 15 undefined 
-on input line 580.
+on input line 595.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 15 undefin
-ed on input line 580.
+ed on input line 595.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
-n input line 582.
+n input line 595.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
-n input line 584.
+n input line 595.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
-d on input line 586.
+d on input line 595.
 
 
 Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 15 undefin
-ed on input line 592.
+ed on input line 595.
 
 
 Package natbib Warning: Citation `scoville_loss_1957' on page 15 undefined on i
-nput line 592.
+nput line 595.
 
 
 Package natbib Warning: Citation `kay_hippocampal_2016' on page 15 undefined on
- input line 592.
+ input line 595.
 
 
 Package natbib Warning: Citation `nader_memory_2003' on page 15 undefined on in
-put line 592.
+put line 595.
 
 
 Package natbib Warning: Citation `wilson_reactivation_1994' on page 15 undefine
-d on input line 592.
+d on input line 595.
 
 
 Package natbib Warning: Citation `nadasdy_replay_1999' on page 15 undefined on 
-input line 592.
+input line 595.
 
 
 Package natbib Warning: Citation `lee_memory_2002' on page 15 undefined on inpu
-t line 592.
+t line 595.
 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.595         \end{figure*}
-                           
-? 
-LaTeX Warning: Float too large for page by 21.15707pt on input line 595.
+
+Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
+efined on input line 595.
+
+
+Package natbib Warning: Citation `li_functional_2023' on page 15 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `dimakopoulos_information_2022' on page 15 und
+efined on input line 595.
+
+
+Package natbib Warning: Citation `schomburg_spiking_2012' on page 15 undefined 
+on input line 595.
+
+
+Package natbib Warning: Citation `behrens_induction_2005' on page 15 undefined 
+on input line 595.
+
+
+Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 15 undefin
+ed on input line 595.
+
+
+Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
+n input line 595.
+
+
+Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
+n input line 595.
+
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 15 undefin
+ed on input line 595.
+
+
+Package natbib Warning: Citation `scoville_loss_1957' on page 15 undefined on i
+nput line 595.
+
+
+Package natbib Warning: Citation `kay_hippocampal_2016' on page 15 undefined on
+ input line 595.
+
+
+Package natbib Warning: Citation `nader_memory_2003' on page 15 undefined on in
+put line 595.
+
+
+Package natbib Warning: Citation `wilson_reactivation_1994' on page 15 undefine
+d on input line 595.
+
+
+Package natbib Warning: Citation `nadasdy_replay_1999' on page 15 undefined on 
+input line 595.
+
+
+Package natbib Warning: Citation `lee_memory_2002' on page 15 undefined on inpu
+t line 595.
 
 [15 <./src/figures/.png/Figure_ID_01.png>]
-! Missing number, treated as zero.
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Missing number, treated as zero.
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? 
+
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
-d on input line 623.
+d on input line 626.
 
 
 Package natbib Warning: Citation `virtanen_scipy_2020' on page 16 undefined on 
-input line 623.
+input line 626.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 16 undefined on i
-nput line 623.
+nput line 626.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 16
- undefined on input line 623.
+ undefined on input line 626.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 16 undefined on i
-nput line 623.
+nput line 626.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
-d on input line 623.
+d on input line 626.
 
 
 Package natbib Warning: Citation `virtanen_scipy_2020' on page 16 undefined on 
-input line 623.
+input line 626.
 
 
 Package natbib Warning: Citation `boran_dataset_2020' on page 16 undefined on i
-nput line 623.
+nput line 626.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 16
- undefined on input line 623.
+ undefined on input line 626.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 16 undefined on i
-nput line 623.
+nput line 626.
 
 [16 <./src/figures/.png/Figure_ID_02.png>]
 
 Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 17 undefin
-ed on input line 649.
+ed on input line 652.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 17 undefined on i
-nput line 649.
+nput line 652.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 17 undefine
-d on input line 649.
+d on input line 652.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 17 und
-efined on input line 649.
+efined on input line 652.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 17 undefined on i
-nput line 649.
+nput line 652.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 17 undefin
-ed on input line 649.
+ed on input line 652.
 
 
 Package natbib Warning: Citation `hajos_input-output_2013' on page 17 undefined
- on input line 649.
+ on input line 652.
 
 
 Package natbib Warning: Citation `van_vugt_hippocampal_2010' on page 17 undefin
-ed on input line 649.
+ed on input line 652.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 17 undefined on i
-nput line 649.
+nput line 652.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 17 undefine
-d on input line 649.
+d on input line 652.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 17 und
-efined on input line 649.
+efined on input line 652.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 17 undefined on i
-nput line 649.
+nput line 652.
 
 
 Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 17 undefin
-ed on input line 649.
+ed on input line 652.
 
 
 Package natbib Warning: Citation `hajos_input-output_2013' on page 17 undefined
- on input line 649.
+ on input line 652.
 
+
+Underfull \hbox (badness 1062) in paragraph at lines 652--652
+[]|   [][][]|   [][]\T1/txr/m/n/9 , and []|   [][][]|   [][]. The \T1/txr/m/it/
+9 gray \T1/txr/m/n/9 ker-nel den-sity plot il-lus-trates the cor-re-spond-ing
 [17 <./src/figures/.png/Figure_ID_03.png>]
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 687.
+put line 691.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 687.
+put line 691.
 
 
 Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 18 undefi
-ned on input line 687.
+ned on input line 691.
 
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 18 undefine
-d on input line 687.
+d on input line 691.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 18 undefined
- on input line 687.
+ on input line 691.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 18 undefine
-d on input line 687.
+d on input line 691.
 
 
 Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 18 undef
-ined on input line 687.
+ined on input line 691.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 18
- undefined on input line 687.
+ undefined on input line 691.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 18 undefined
- on input line 687.
+ on input line 691.
 
 
 Package natbib Warning: Citation `diba_forward_2007' on page 18 undefined on in
-put line 687.
+put line 691.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 18 undefined on i
-nput line 687.
+nput line 691.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 687.
+put line 691.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 687.
+put line 691.
 
 
 Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 18 undefi
-ned on input line 687.
+ned on input line 691.
 
 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 18 undefine
-d on input line 687.
+d on input line 691.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2021' on page 18 undefined
- on input line 687.
+ on input line 691.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 18 undefine
-d on input line 687.
+d on input line 691.
 
 
 Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 18 undef
-ined on input line 687.
+ined on input line 691.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 18
- undefined on input line 687.
+ undefined on input line 691.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 18 undefined
- on input line 687.
+ on input line 691.
 
 
 Package natbib Warning: Citation `diba_forward_2007' on page 18 undefined on in
-put line 687.
+put line 691.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 18 undefined on i
-nput line 687.
+nput line 691.
 
 [18 <./src/figures/.png/Figure_ID_04.png>]
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.701 \\
-        
-? 
 Package natbib Warning: Citation `girardeau_selective_2009' on page 19 undefine
-d on input line 705.
+d on input line 716.
 
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 19 undefined
- on input line 705.
+ on input line 716.
 
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 19 undefine
-d on input line 705.
+d on input line 716.
 
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 19 undefined o
-n input line 707.
+n input line 716.
 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.714         \end{figure*}
-                           
-? [19 <./src/figures/.png/Figure_ID_05.png>]
+
+Package natbib Warning: Citation `girardeau_selective_2009' on page 19 undefine
+d on input line 716.
+
+
+Package natbib Warning: Citation `norman_hippocampal_2019' on page 19 undefined
+ on input line 716.
+
+
+Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 19 undefine
+d on input line 716.
+
+
+Package natbib Warning: Citation `boran_persistent_2019' on page 19 undefined o
+n input line 716.
+
+[19 <./src/figures/.png/Figure_ID_05.png>]
 Runaway argument?
-{\DIFdelbeginFL \textbf {\DIFdelFL {Visualization of Neural Trajector\ETC.
+{\DIFdelbeginFL \textbf {\DIFdelFL {Visualizing Neural Trajectories D\ETC.
 ! Paragraph ended before \caption@prepareanchor was complete.
 <to be read again> 
                    \par 
-l.743 }
+l.752 }
        
 ? 
 ! LaTeX Error: There's no line here to end.
@@ -6752,160 +6804,148 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.743 }
+l.752 }
        
 ? 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 20
- undefined on input line 743.
+ undefined on input line 752.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 20 undefined on i
-nput line 743.
+nput line 752.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 20 unde
-fined on input line 743.
+fined on input line 752.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 20 undefined on in
-put line 743.
+put line 752.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 20 undefined 
-on input line 743.
+on input line 752.
 
 Runaway argument?
-{\ignorespaces \DIFdelbeginFL \textbf {\DIFdelFL {Visualization of Ne\ETC.
+{\ignorespaces \DIFdelbeginFL \textbf {\DIFdelFL {Visualizing Neural \ETC.
 ! Paragraph ended before \caption@@@addcontentsline was complete.
 <to be read again> 
                    \par 
-l.743 }
+l.752 }
        
 ? 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 20
- undefined on input line 743.
+ undefined on input line 752.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 20 undefined on i
-nput line 743.
+nput line 752.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 20 unde
-fined on input line 743.
+fined on input line 752.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 20 undefined on in
-put line 743.
+put line 752.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 20 undefined 
-on input line 743.
+on input line 752.
 
 ! Extra }, or forgotten \endgroup.
 \caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
                                                   
-l.743 }
+l.752 }
        
 ? 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   [][]|   []   |   []
+Underfull \hbox (badness 1577) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
 
-Underfull \hbox (badness 2626) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   []\T1/txr/m/n/10 neu-ral tra-jec-to-ries
+Underfull \hbox (badness 1005) in paragraph at lines 752--752
+|   []   |   []   |   []   []\T1/txr/m/n/10 neu-ral tra-jec-to-ries []|   []
 
-Underfull \hbox (badness 1048) in paragraph at lines 743--743
+Underfull \hbox (badness 3199) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/txr/
+m/n/10 two-dimensional
+
+Underfull \hbox (badness 4569) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/10 . \T1/txr/bx/it/10 A. []|   []   |   []   | 
   []   [][]|   []
 
-Underfull \hbox (badness 1292) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 tra-jec-to-ries []|   []   [][]|   []   |   
-[]   |   []
-
-Underfull \hbox (badness 1748) in paragraph at lines 743--743
+Underfull \hbox (badness 1748) in paragraph at lines 752--752
 []\T1/txr/m/n/10 (\T1/txr/m/it/10 gray\T1/txr/m/n/10 ), []|   []   [][]|   []  
  [](\T1/txr/m/it/10 yel-low\T1/txr/m/n/10 ), and post-SWR$[]$
 
-Underfull \hbox (badness 2547) in paragraph at lines 743--743
-|   []   |   []   |   []   []\T1/txr/m/n/10 SWR$[]$ []|   []   |   []   []. []|
-   []
+Underfull \hbox (badness 2080) in paragraph at lines 752--752
+|   []   []\T1/txr/m/n/10 ses-sions[]   |   []   []. The pro-jec-tion []|   [] 
+  |   []
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   [][][]|   [][]\T1/txr/m/n/10 , []|   []   |   []   |   []   |   []
+Underfull \hbox (badness 1635) in paragraph at lines 752--752
+[]|   [][][]|   [][]\T1/txr/m/n/10 , []|   []   |   []   |   []   |   []   []$[
+]$
 
-Underfull \hbox (badness 2617) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 around the $[]$ axis ([]|   []   |   []
+Underfull \hbox (badness 4995) in paragraph at lines 752--752
+[]|   []   |   []   []\T1/txr/m/n/10 at the ori-gin $\OML/txmi/m/it/10 O$ \T1/t
+xr/m/n/10 (0,0)[]|   []   []and $[]$ at
 
-Underfull \hbox (badness 4805) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 two-dimensional []|   [][][]|   []   |   []
+Underfull \hbox (badness 1694) in paragraph at lines 752--752
+[]\T1/txr/m/n/10 . []|   []   |   []   |   []   |   []   [][]|   []   []point c
+loud
 
-Underfull \hbox (badness 3088) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   []\T1/txr/
-m/n/10 the
+Underfull \hbox (badness 1122) in paragraph at lines 752--752
+[]|   []   |   []   |   []   []\T1/txr/m/n/10 around the $[]$ axis ([]|   []
 
-Underfull \hbox (badness 1112) in paragraph at lines 743--743
-[]$ \T1/txr/m/n/10 axis []|   []   |   []   [][]|   []   |   []   |   []   |   
-[]
+Underfull \hbox (badness 1137) in paragraph at lines 752--752
+|   []   |   []   []\T1/txr/m/n/10 the dis-tances from $\OML/txmi/m/it/10 O$ \T
+1/txr/m/n/10 and the an-gles
 
-Underfull \hbox (badness 3333) in paragraph at lines 743--743
-[]\T1/txr/m/n/10 orig-i-nal three-dimensional []|   [][][]|   []   |   []   [].
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 743--743
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []
-
-Underfull \hbox (badness 1210) in paragraph at lines 743--743
-|   []   []\T1/txr/m/n/10 events; eSWR []|   []   [][]|   []   []SWR dur-ing
+Underfull \hbox (badness 3049) in paragraph at lines 752--752
+\T1/txr/m/n/10 eSWR []|   []   [][]|   []   []SWR dur-ing the en-cod-ing
 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 20
- undefined on input line 743.
+ undefined on input line 752.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 20 undefined on i
-nput line 743.
+nput line 752.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 20 unde
-fined on input line 743.
+fined on input line 752.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 20 undefined on in
-put line 743.
+put line 752.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 20 undefined 
-on input line 743.
+on input line 752.
 
-
-Underfull \hbox (badness 2495) in paragraph at lines 743--743
-[]\T1/txr/bx/n/9 Figure 6 \T1/txr/m/n/9 ^^U |[][]|   []   |   []   |   []   |  
- []
-
-Underfull \hbox (badness 4819) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   |   []
 
 ! LaTeX Error: There's no line here to end.
 
@@ -6913,162 +6953,157 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.743 }
+l.752 }
        
 ? 
 Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 20
- undefined on input line 743.
+ undefined on input line 752.
 
 
 Package natbib Warning: Citation `liu_consensus_2022' on page 20 undefined on i
-nput line 743.
+nput line 752.
 
 
 Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 20 unde
-fined on input line 743.
+fined on input line 752.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 20 undefine
-d on input line 743.
+d on input line 752.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 20 undefined on in
-put line 743.
+put line 752.
 
 
 Package natbib Warning: Citation `zhang_hippocampal_2022' on page 20 undefined 
-on input line 743.
+on input line 752.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   [][]|   []   |   []
+Underfull \hbox (badness 5878) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
 
-Underfull \hbox (badness 3590) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   []\T1/txr/m/n/9 neu-ral tra-jec-to-ries
+Underfull \hbox (badness 1533) in paragraph at lines 752--752
+|   []   |   []   |   []   []\T1/txr/m/n/9 neu-ral tra-jec-to-ries []|   []
 
-Underfull \hbox (badness 1418) in paragraph at lines 743--743
+Underfull \hbox (badness 3954) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/txr/
+m/n/9 two-dimensional
+
+Underfull \hbox (badness 5519) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/9 . \T1/txr/bx/it/9 A. []|   []   |   []   |   
 []   [][]|   []
 
-Underfull \hbox (badness 1831) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 tra-jec-to-ries []|   []   [][]|   []   |   [
-]   |   []
-
-Underfull \hbox (badness 2512) in paragraph at lines 743--743
+Underfull \hbox (badness 2512) in paragraph at lines 752--752
 []\T1/txr/m/n/9 (\T1/txr/m/it/9 gray\T1/txr/m/n/9 ), []|   []   [][]|   []   []
 (\T1/txr/m/it/9 yel-low\T1/txr/m/n/9 ), and post-SWR$[]$
 
-Underfull \hbox (badness 1286) in paragraph at lines 743--743
+Underfull \hbox (badness 1005) in paragraph at lines 752--752
 |   []   |   []   |   []   [][]|   []   |   []   |   []   |   []
 
-Underfull \hbox (badness 3148) in paragraph at lines 743--743
-|   []   |   []   |   []   []\T1/txr/m/n/9 SWR$[]$ []|   []   |   []   []. []| 
-  []
+Underfull \hbox (badness 1577) in paragraph at lines 752--752
+[][]|   []   |   []   |   []   []\T1/txr/m/n/9 SWR$[]$[]|   []   |   []   []. [
+]|   []   |   []
 
-Underfull \hbox (badness 1242) in paragraph at lines 743--743
+Underfull \hbox (badness 3568) in paragraph at lines 752--752
+|   []   |   []   |   []   [][]|   []   []$\OMS/txsy/m/n/9 k[]k$ []|   []   |  
+ []   |   []
+
+Underfull \hbox (badness 1496) in paragraph at lines 752--752
+|   []   |   []   |   []   |   [][][]|   []   |   []   |   []   |   []   |   []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 752--752
 []$[]$ []|   []   |   []   []\T1/txr/m/n/9 at the ori-gin $\OML/txmi/m/it/9 O$ 
-\T1/txr/m/n/9 (0,0) []|   []   []and $[]$ at
+\T1/txr/m/n/9 (0,0)[]|   []   []and $[]$ at
 
-Underfull \hbox (badness 3375) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 around the $[]$ axis ([]|   []   |   []
+Underfull \hbox (badness 1454) in paragraph at lines 752--752
+|   []   []\T1/txr/m/n/9 the dis-tances from $\OML/txmi/m/it/9 O$ \T1/txr/m/n/9
+ and the an-gles []|   []
 
-Underfull \hbox (badness 1253) in paragraph at lines 743--743
-[]\T1/txr/m/n/9 the []|   []   |   [][][]|   [][]) []|   []   |   []   |   []  
- [][]|   []   |   []   |   []
+Underfull \hbox (badness 1107) in paragraph at lines 752--752
+|   []   [][]|   []   |   []   |   []   |   []   |   []   []\T1/txr/m/n/9 the $
+[]$ axis
 
-Underfull \hbox (badness 6608) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 two-dimensional []|   [][][]|   []   |   []
+Underfull \hbox (badness 3428) in paragraph at lines 752--752
+[][]|   []   []\T1/txr/m/n/9 SWR dur-ing the en-cod-ing phase; rSWR
 
-Underfull \hbox (badness 3826) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   []\T1/txr/
-m/n/9 the
-
-Underfull \hbox (badness 1552) in paragraph at lines 743--743
-[]$ \T1/txr/m/n/9 axis []|   []   |   []   [][]|   []   |   []   |   []   |   [
-]
-
-Underfull \hbox (badness 8038) in paragraph at lines 743--743
-[]\T1/txr/m/n/9 orig-i-nal three-dimensional []|   [][][]|   []   |   []
-
-Underfull \hbox (badness 2310) in paragraph at lines 743--743
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []
-
-Underfull \hbox (badness 1655) in paragraph at lines 743--743
-|   []   []\T1/txr/m/n/9 events; eSWR []|   []   [][]|   []   []SWR dur-ing
+Underfull \hbox (badness 1496) in paragraph at lines 752--752
+[]|   []   [][]|   []   []\T1/txr/m/n/9 SWR dur-ing the re-trieval phase;
 ! Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.746         \end{figure*}
+l.755         \end{figure*}
                            
 ? 
-LaTeX Warning: Float too large for page by 941.23438pt on input line 746.
+LaTeX Warning: Float too large for page by 966.29951pt on input line 755.
 
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.cap
 tion.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.747         \clearpage
+l.756         \clearpage
                          <./src/figures/.png/Figure_ID_06.png>]
 
 Package natbib Warning: Citation `li_functional_2023' on page 21 undefined on i
-nput line 775.
+nput line 781.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 21 und
-efined on input line 775.
+efined on input line 781.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 21 undefine
-d on input line 775.
+d on input line 781.
 
 
 Package natbib Warning: Citation `naber_reciprocal_2001' on page 21 undefined o
-n input line 775.
+n input line 781.
 
 
 Package natbib Warning: Citation `van_strien_anatomy_2009' on page 21 undefined
- on input line 775.
+ on input line 781.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 21 undefined o
-n input line 775.
+n input line 781.
 
 
 Package natbib Warning: Citation `schomburg_spiking_2012' on page 21 undefined 
-on input line 775.
+on input line 781.
 
 
 Package natbib Warning: Citation `li_functional_2023' on page 21 undefined on i
-nput line 775.
+nput line 781.
 
 
 Package natbib Warning: Citation `dimakopoulos_information_2022' on page 21 und
-efined on input line 775.
+efined on input line 781.
 
 
 Package natbib Warning: Citation `borders_hippocampus_2022' on page 21 undefine
-d on input line 775.
+d on input line 781.
 
 
 Package natbib Warning: Citation `naber_reciprocal_2001' on page 21 undefined o
-n input line 775.
+n input line 781.
 
 
 Package natbib Warning: Citation `van_strien_anatomy_2009' on page 21 undefined
- on input line 775.
+ on input line 781.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 21 undefined o
-n input line 775.
+n input line 781.
 
 
 Package natbib Warning: Citation `schomburg_spiking_2012' on page 21 undefined 
-on input line 775.
+on input line 781.
 
 
 Package natbib Warning: There were undefined citations.
@@ -7102,7 +7137,7 @@ f/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts
 imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (22 pages, 1107542 bytes).
+Output written on diff.pdf (22 pages, 1107196 bytes).
 Transcript written on diff.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -7421,44 +7456,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.254 \section
+l.255 \section
               {Methods} [1]
 
-LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 256.
+LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 257.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
-Underfull \vbox (badness 10000) has occurred while \output is active
-Underfull \hbox (badness 4353) in paragraph at lines 259--263
+Underfull \hbox (badness 4353) in paragraph at lines 260--264
 []\T1/txr/m/n/10 Neural tra-jec-to-ries, also termed 'fac-tors' (Fig-
 
-Underfull \hbox (badness 1939) in paragraph at lines 259--263
-\T1/txr/m/n/10 ure []4[]D), in the hip-pocam-pus, EC, and amyg-dala
+Underfull \hbox (badness 1939) in paragraph at lines 260--264
+\T1/txr/m/n/10 ure []1[]D), in the hip-pocam-pus, EC, and amyg-dala
 
-Underfull \hbox (badness 2150) in paragraph at lines 259--263
+Underfull \hbox (badness 2150) in paragraph at lines 260--264
 \T1/txr/m/n/10 plied to the mul-tiu-nit ac-tiv-ity data for each ses-
 
-Underfull \hbox (badness 4108) in paragraph at lines 259--263
+Underfull \hbox (badness 4108) in paragraph at lines 260--264
 \T1/txr/m/n/10 sion. GPFA was per-formed with the ele-phant
-[2]
-Underfull \hbox (badness 1215) in paragraph at lines 265--269
+
+Underfull \hbox (badness 1215) in paragraph at lines 266--270
 \T1/cmtt/m/n/10 Eden-[]Kramer-[]Lab / ripple _ detection$[]\T1/txr/m/n/10 ) [[]
 ], with
 
-Underfull \hbox (badness 1137) in paragraph at lines 265--269
+Underfull \hbox (badness 1137) in paragraph at lines 266--270
 []\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
-
-Underfull \hbox (badness 1028) in paragraph at lines 288--292
+[2]
+Underfull \hbox (badness 1028) in paragraph at lines 289--293
 \T1/txr/m/n/10 ge-o-met-ric me-di-ans of four phases, namely $[]$,
 [3]
-Underfull \hbox (badness 1661) in paragraph at lines 300--304
+Underfull \hbox (badness 1661) in paragraph at lines 301--305
 \T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-[4]
-Underfull \hbox (badness 1466) in paragraph at lines 311--311
+
+Underfull \hbox (badness 1466) in paragraph at lines 312--312
 []\T1/txr/m/it/10 Visualization of hip-pocam-pal neu-ral tra-jec-tory
 
-Underfull \hbox (badness 3078) in paragraph at lines 312--319
+Underfull \hbox (badness 3078) in paragraph at lines 313--320
 []\T1/txr/m/n/10 Following our ob-ser-va-tions of neu-ral tra-jec-tory
-[5] (./diff.bbl
+[4]
+Underfull \vbox (badness 1377) has occurred while \output is active [5]
+(./diff.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
@@ -7489,7 +7525,7 @@ ology /
 
 Underfull \hbox (badness 1082) in paragraph at lines 53--62
 []\T1/txr/m/n/8 M. C. M. Fa-raut, A. A. Carl-son, S. Sul-li-van, O. Tudus-
-[6]
+
 Underfull \hbox (badness 1210) in paragraph at lines 71--79
 []\T1/txr/m/n/8 J. Li, D. Cao, S. Yu, X. Xiao, L. Im-bach, L. Stieglitz,
 
@@ -7520,6 +7556,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 90--98
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
 oi / abs / 10 .
 
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
 Underfull \hbox (badness 1005) in paragraph at lines 100--104
 \T1/txr/m/n/8 pal en-sem-ble mem-o-ries dur-ing sleep, Sci-ence (New York,
 
@@ -7546,7 +7583,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--158
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
 
-Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 7486) in paragraph at lines 160--167
 \T1/txr/m/n/8 cou-pling dur-ing man-i-fold ex-plo-ration in mo-tor cor-tex[],
 
@@ -7568,6 +7604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--191
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . cell . com / neuron / abs
 tract /
 
+Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 1968) in paragraph at lines 209--217
 []\T1/txr/m/n/8 S. P. Jad-hav, C. Ke-mere, P. W. Ger-man, L. M. Frank,
 
@@ -7588,7 +7625,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--233
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
 ence /
 
-Underfull \vbox (badness 10000) has occurred while \output is active [7]
 Underfull \hbox (badness 10000) in paragraph at lines 244--253
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / abs
  / 10 . 1126 /
@@ -7623,6 +7659,7 @@ Underfull \hbox (badness 1509) in paragraph at lines 273--282
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
 oi / abs / 10 .
 
+Underfull \vbox (badness 10000) has occurred while \output is active [7]
 Underfull \hbox (badness 10000) in paragraph at lines 301--309
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
 
@@ -7650,7 +7687,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--330
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
 
-Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 10000) in paragraph at lines 332--340
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / journals . plos . org / plosone
  / article ?
@@ -7659,6 +7695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--356
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active
 Underfull \hbox (badness 2237) in paragraph at lines 365--372
 []\T1/txr/m/n/8 L. McInnes, J. Healy, N. Saul, L. Gro�berger, []UMAP:
 
@@ -7709,7 +7746,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--412
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
  / 28 / 24 /
 
-Underfull \vbox (badness 10000) has occurred while \output is active [8]
 Underfull \hbox (badness 10000) in paragraph at lines 432--439
 []\T1/txr/m/n/8 E. W. Schom-burg, C. A. Anas-tas-siou, G. Buzs�ki,
 
@@ -7726,6 +7762,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 432--439
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
 
+Underfull \vbox (badness 10000) has occurred while \output is active [8]
 Underfull \hbox (badness 10000) in paragraph at lines 450--457
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
 pmc / articles /
@@ -7738,168 +7775,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--465
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
 ence /
 )
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/cmtt/m/n/10 gin . g-[]node . org / 10 . 12751 / g-[]node . d76994/$[]\T1/tx
 r/m/n/10 ).
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/txr/m/n/10 The source code is avail-able on GitHub
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 \T1/txr/m/n/10 ([]$\T1/cmtt/m/n/10 https : / / github . com / yanagisawa-[]lab 
 /
 
-Overfull \hbox (87.00694pt too wide) in paragraph at lines 392--394
+Overfull \hbox (87.00694pt too wide) in paragraph at lines 393--395
 \T1/cmtt/m/n/10 hippocampal-[]neural-[]fluctuation-[]during-[]a-[]WM-[]task-[]i
 n-[]humans$[]\T1/txr/m/n/10 ).
 [9]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.423 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.424 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{AHL}} &\t...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.423 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.424 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{AHL}} &\t...
 
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.424 }} &
+l.425 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.426 #
+l.427 #
        1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.426 ...& x & o & o & o & x & o & x & "AHR, LR" &
+l.427 ...& x & o & o & o & x & o & x & "AHR, LR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.429 #
+l.430 #
        2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.429 ... o & o & o & o & o & o & o & "AHR, PHR" &
+l.430 ... o & o & o & o & o & o & o & "AHR, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.431 #
+l.432 #
        3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.431 ... o & o & o & o & o & o & x & "AHL, PHL" &
+l.432 ... o & o & o & o & o & o & x & "AHL, PHL" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.434 #
+l.435 #
        4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.434 ... & o & o & o & o & "AHL, AHR, PHL, PHR" &
+l.435 ... & o & o & o & o & "AHL, AHR, PHL, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.436 #
+l.437 #
        5 & 3 & o & x & x & o & x & x & o & x & DRR
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.439 #
+l.440 #
        6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.439 ...o & o & o & o & o & "AHL, PHL, ECL, AL" &
+l.440 ...o & o & o & o & o & "AHL, PHL, ECL, AL" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.441 #
+l.442 #
        7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.441 ... o & o & o & o & o & o & o & "AHR, PHR" &
+l.442 ... o & o & o & o & o & o & o & "AHR, PHR" &
                                                   
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.444 #
+l.445 #
        8 & 5 & o & o & o & o & o & o & o & o & ECR
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.446 #
+l.447 #
        9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" &
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.446 ...& o & o & o & o & o & o & o & "ECR, AR" &
+l.447 ...& o & o & o & o & o & o & o & "ECR, AR" &
                                                   
 ? [10] [11]
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.473 }} &
+l.474 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.475 #
+l.476 #
        1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.478 #
+l.479 #
        2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.480 #
+l.481 #
        3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.483 #
+l.484 #
        4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.485 #
+l.486 #
        5 & n.a. & n.a. & n.a. & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.488 #
+l.489 #
        6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.490 #
+l.491 #
        7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.493 #
+l.494 #
        8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.495 #
+l.496 #
        9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
 ? 
 ! Package inputenc Error: Unicode character − (U+2212)
@@ -7909,7 +7946,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 }
+l.509 }
        
 ? 
 ! Package inputenc Error: Unicode character − (U+2212)
@@ -7919,219 +7956,175 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 }
+l.509 }
        
 ? [12]
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.521 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{# of tria...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ...ject ID}} &\textbf{\thead{# of sessions}}
+l.521 ...ject ID}} &\textbf{\thead{# of sessions}}
                                                    &\textbf{\thead{# of tria...
 
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ... sessions}} &\textbf{\thead{# of trials}}
+l.521 ... sessions}} &\textbf{\thead{# of trials}}
                                                    &\textbf{\thead{ROI}} &\t...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ... sessions}} &\textbf{\thead{# of trials}}
+l.521 ... sessions}} &\textbf{\thead{# of trials}}
                                                    &\textbf{\thead{ROI}} &\t...
 
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                     
-l.520 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
+l.521 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
                                                    &\textbf{\thead{SWR incid...
 
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.520 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
+l.521 ...{\thead{ROI}} &\textbf{\thead{# of SWRs}}
                                                    &\textbf{\thead{SWR incid...
 
 ? ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.521 }} &
+l.522 }} &
           \\
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.523 #
+l.524 #
        1 & 2 & 100 & AHL & 274 & 0.34
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.526 #
+l.527 #
        3 & 2 & 97 & AHR & 325 & 0.42
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.528 #
+l.529 #
        4 & 2 & 99 & PHL & 202 & 0.26
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.531 #
+l.532 #
        6 & 2 & 100 & AHL & 297 & 0.37
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <recently read> ##
                   
-l.533 #
+l.534 #
        9 & 2 & 97 & AHR & 72 & 0.09
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    1
-l.549 }
+l.550 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    2
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ... the first two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...st two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ... the first two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.549 }
+l.550 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...st two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.549 }
+l.550 }
        
 ? [13] [14]
 
 Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
-d on input line 573.
+d on input line 595.
 
 
 Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
-d on input line 573.
+d on input line 595.
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \\
-        
-? 
 Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
-d on input line 578.
+d on input line 595.
 
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.595         \end{figure*}
-                           
-? 
-LaTeX Warning: Float too large for page by 21.15707pt on input line 595.
 
-[15 <./src/figures/.png/Figure_ID_01.png>]
-! Missing number, treated as zero.
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Missing number, treated as zero.
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? ! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   !
-l.602 ...th=]{./src/figures/.png/Figure_ID_02.png}
-                                                  
-? [16 <./src/figures/.png/Figure_ID_02.png>] [17 <./src/figures/.png/Figure_ID_03
-.png>] [18 <./src/figures/.png/Figure_ID_04.png>]
+Package natbib Warning: Citation `borders_hippocampal_2022' on page 15 undefine
+d on input line 595.
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.701 \\
-        
-? ! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.714         \end{figure*}
-                           
-? [19 <./src/figures/.png/Figure_ID_05.png>]
+[15 <./src/figures/.png/Figure_ID_01.png>] [16 <./src/figures/.png/Figure_ID_02
+.png>]
+Underfull \hbox (badness 1062) in paragraph at lines 652--652
+[]|   [][][]|   [][]\T1/txr/m/n/9 , and []|   [][][]|   [][]. The \T1/txr/m/it/
+9 gray \T1/txr/m/n/9 ker-nel den-sity plot il-lus-trates the cor-re-spond-ing
+[17 <./src/figures/.png/Figure_ID_03.png>] [18 <./src/figures/.png/Figure_ID_04
+.png>] [19 <./src/figures/.png/Figure_ID_05.png>]
 Runaway argument?
-{\DIFdelbeginFL \textbf {\DIFdelFL {Visualization of Neural Trajector\ETC.
+{\DIFdelbeginFL \textbf {\DIFdelFL {Visualizing Neural Trajectories D\ETC.
 ! Paragraph ended before \caption@prepareanchor was complete.
 <to be read again> 
                    \par 
-l.743 }
+l.752 }
        
 ? 
 ! LaTeX Error: There's no line here to end.
@@ -8140,79 +8133,64 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.743 }
+l.752 }
        
 ? Runaway argument?
-{\ignorespaces \DIFdelbeginFL \textbf {\DIFdelFL {Visualization of Ne\ETC.
+{\ignorespaces \DIFdelbeginFL \textbf {\DIFdelFL {Visualizing Neural \ETC.
 ! Paragraph ended before \caption@@@addcontentsline was complete.
 <to be read again> 
                    \par 
-l.743 }
+l.752 }
        
 ? ! Extra }, or forgotten \endgroup.
 \caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
                                                   
-l.743 }
+l.752 }
        
 ? 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   [][]|   []   |   []
+Underfull \hbox (badness 1577) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
 
-Underfull \hbox (badness 2626) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   []\T1/txr/m/n/10 neu-ral tra-jec-to-ries
+Underfull \hbox (badness 1005) in paragraph at lines 752--752
+|   []   |   []   |   []   []\T1/txr/m/n/10 neu-ral tra-jec-to-ries []|   []
 
-Underfull \hbox (badness 1048) in paragraph at lines 743--743
+Underfull \hbox (badness 3199) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/txr/
+m/n/10 two-dimensional
+
+Underfull \hbox (badness 4569) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/10 . \T1/txr/bx/it/10 A. []|   []   |   []   | 
   []   [][]|   []
 
-Underfull \hbox (badness 1292) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 tra-jec-to-ries []|   []   [][]|   []   |   
-[]   |   []
-
-Underfull \hbox (badness 1748) in paragraph at lines 743--743
+Underfull \hbox (badness 1748) in paragraph at lines 752--752
 []\T1/txr/m/n/10 (\T1/txr/m/it/10 gray\T1/txr/m/n/10 ), []|   []   [][]|   []  
  [](\T1/txr/m/it/10 yel-low\T1/txr/m/n/10 ), and post-SWR$[]$
 
-Underfull \hbox (badness 2158) in paragraph at lines 743--743
-|   []   |   []   |   []   []\T1/txr/m/n/10 SWR$[]$ []|   []   |   []   []. []|
-   []
+Underfull \hbox (badness 1742) in paragraph at lines 752--752
+|   []   []\T1/txr/m/n/10 ses-sions[]   |   []   []. The pro-jec-tion []|   [] 
+  |   []
 
-Underfull \hbox (badness 1635) in paragraph at lines 743--743
+Underfull \hbox (badness 1635) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/10 , []|   []   |   []   |   []   |   []   []$[
 ]$
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-\T1/txr/m/n/10 0)[]|   []   |   []   |   []   |   []   |   []   |   []   [].
+Underfull \hbox (badness 4995) in paragraph at lines 752--752
+[]|   []   |   []   []\T1/txr/m/n/10 at the ori-gin $\OML/txmi/m/it/10 O$ \T1/t
+xr/m/n/10 (0,0)[]|   []   []and $[]$ at
 
-Underfull \hbox (badness 2617) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 around the $[]$ axis ([]|   []   |   []
+Underfull \hbox (badness 1694) in paragraph at lines 752--752
+[]\T1/txr/m/n/10 . []|   []   |   []   |   []   |   []   [][]|   []   []point c
+loud
 
-Underfull \hbox (badness 3657) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/10 two-dimensional []|   [][][]|   []   |   []
+Underfull \hbox (badness 1122) in paragraph at lines 752--752
+[]|   []   |   []   |   []   []\T1/txr/m/n/10 around the $[]$ axis ([]|   []
 
-Underfull \hbox (badness 3088) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   []\T1/txr/
-m/n/10 the
+Underfull \hbox (badness 1137) in paragraph at lines 752--752
+|   []   |   []   []\T1/txr/m/n/10 the dis-tances from $\OML/txmi/m/it/10 O$ \T
+1/txr/m/n/10 and the an-gles
 
-Underfull \hbox (badness 1112) in paragraph at lines 743--743
-[]$ \T1/txr/m/n/10 axis []|   []   |   []   [][]|   []   |   []   |   []   |   
-[]
-
-Underfull \hbox (badness 3758) in paragraph at lines 743--743
-[]\T1/txr/m/n/10 orig-i-nal three-dimensional []|   [][][]|   []   |   []
-
-Underfull \hbox (badness 1603) in paragraph at lines 743--743
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []
-
-Underfull \hbox (badness 1210) in paragraph at lines 743--743
-|   []   []\T1/txr/m/n/10 events; eSWR []|   []   [][]|   []   []SWR dur-ing
-
-Underfull \hbox (badness 2495) in paragraph at lines 743--743
-[]\T1/txr/bx/n/9 Figure 6 \T1/txr/m/n/9 ^^U |[][]|   []   |   []   |   []   |  
- []
-
-Underfull \hbox (badness 4819) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   |   []
+Underfull \hbox (badness 3049) in paragraph at lines 752--752
+\T1/txr/m/n/10 eSWR []|   []   [][]|   []   []SWR dur-ing the en-cod-ing
 
 ! LaTeX Error: There's no line here to end.
 
@@ -8220,78 +8198,69 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.743 }
+l.752 }
        
 ? 
-Underfull \hbox (badness 10000) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   [][]|   []   |   []
+Underfull \hbox (badness 5878) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   |   []   |   []   [][]|   []
 
-Underfull \hbox (badness 3590) in paragraph at lines 743--743
-|   []   |   []   |   []   |   []   []\T1/txr/m/n/9 neu-ral tra-jec-to-ries
+Underfull \hbox (badness 1533) in paragraph at lines 752--752
+|   []   |   []   |   []   []\T1/txr/m/n/9 neu-ral tra-jec-to-ries []|   []
 
-Underfull \hbox (badness 1418) in paragraph at lines 743--743
+Underfull \hbox (badness 3954) in paragraph at lines 752--752
+[]|   []   |   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/txr/
+m/n/9 two-dimensional
+
+Underfull \hbox (badness 5519) in paragraph at lines 752--752
 []|   [][][]|   [][]\T1/txr/m/n/9 . \T1/txr/bx/it/9 A. []|   []   |   []   |   
 []   [][]|   []
 
-Underfull \hbox (badness 1831) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 tra-jec-to-ries []|   []   [][]|   []   |   [
-]   |   []
-
-Underfull \hbox (badness 2512) in paragraph at lines 743--743
+Underfull \hbox (badness 2512) in paragraph at lines 752--752
 []\T1/txr/m/n/9 (\T1/txr/m/it/9 gray\T1/txr/m/n/9 ), []|   []   [][]|   []   []
 (\T1/txr/m/it/9 yel-low\T1/txr/m/n/9 ), and post-SWR$[]$
 
-Underfull \hbox (badness 1286) in paragraph at lines 743--743
+Underfull \hbox (badness 1005) in paragraph at lines 752--752
 |   []   |   []   |   []   [][]|   []   |   []   |   []   |   []
 
-Underfull \hbox (badness 2698) in paragraph at lines 743--743
-|   []   |   []   |   []   []\T1/txr/m/n/9 SWR$[]$ []|   []   |   []   []. []| 
-  []
+Underfull \hbox (badness 1297) in paragraph at lines 752--752
+[][]|   []   |   []   |   []   []\T1/txr/m/n/9 SWR$[]$[]|   []   |   []   []. [
+]|   []   |   []
 
-Underfull \hbox (badness 1242) in paragraph at lines 743--743
+Underfull \hbox (badness 3568) in paragraph at lines 752--752
+|   []   |   []   |   []   [][]|   []   []$\OMS/txsy/m/n/9 k[]k$ []|   []   |  
+ []   |   []
+
+Underfull \hbox (badness 1496) in paragraph at lines 752--752
+|   []   |   []   |   []   |   [][][]|   []   |   []   |   []   |   []   |   []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 752--752
 []$[]$ []|   []   |   []   []\T1/txr/m/n/9 at the ori-gin $\OML/txmi/m/it/9 O$ 
-\T1/txr/m/n/9 (0,0) []|   []   []and $[]$ at
+\T1/txr/m/n/9 (0,0)[]|   []   []and $[]$ at
 
-Underfull \hbox (badness 3375) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 around the $[]$ axis ([]|   []   |   []
+Underfull \hbox (badness 1755) in paragraph at lines 752--752
+[]|   []   |   []   [][]|   [][]\T1/txr/m/n/9 . []|   []   |   []   |   []   | 
+  []   |   []
 
-Underfull \hbox (badness 1253) in paragraph at lines 743--743
-[]\T1/txr/m/n/9 the []|   []   |   [][][]|   [][]) []|   []   |   []   |   []  
- [][]|   []   |   []   |   []
+Underfull \hbox (badness 3428) in paragraph at lines 752--752
+[][]|   []   []\T1/txr/m/n/9 SWR dur-ing the en-cod-ing phase; rSWR
 
-Underfull \hbox (badness 5175) in paragraph at lines 743--743
-|   []   |   []   []\T1/txr/m/n/9 two-dimensional []|   [][][]|   []   |   []
-
-Underfull \hbox (badness 3826) in paragraph at lines 743--743
-[]|   []   |   []   |   []   |   []   |   []   [][]|   []   |   []   []\T1/txr/
-m/n/9 the
-
-Underfull \hbox (badness 1552) in paragraph at lines 743--743
-[]$ \T1/txr/m/n/9 axis []|   []   |   []   [][]|   []   |   []   |   []   |   [
-]
-
-Underfull \hbox (badness 5908) in paragraph at lines 743--743
-[]\T1/txr/m/n/9 orig-i-nal three-dimensional []|   [][][]|   []   |   []
-
-Underfull \hbox (badness 2310) in paragraph at lines 743--743
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []
-
-Underfull \hbox (badness 1655) in paragraph at lines 743--743
-|   []   []\T1/txr/m/n/9 events; eSWR []|   []   [][]|   []   []SWR dur-ing
+Underfull \hbox (badness 1496) in paragraph at lines 752--752
+[]|   []   [][]|   []   []\T1/txr/m/n/9 SWR dur-ing the re-trieval phase;
 ! Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.746         \end{figure*}
+l.755         \end{figure*}
                            
 ? 
-LaTeX Warning: Float too large for page by 941.23438pt on input line 746.
+LaTeX Warning: Float too large for page by 966.29951pt on input line 755.
 
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.cap
 tion.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.747         \clearpage
+l.756         \clearpage
                          <./src/figures/.png/Figure_ID_06.png>]
 
 Package natbib Warning: There were undefined citations.
@@ -8311,7 +8280,7 @@ ts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (22 pages, 1113258 bytes).
+Output written on diff.pdf (22 pages, 1112589 bytes).
 Transcript written on diff.log.
 
 Compiled: ./diff.tex
