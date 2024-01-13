@@ -1,6 +1,6 @@
 #./env/bin/python
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-13 16:02:11 (ywatanabe)"
+# Time-stamp: "2024-01-13 17:54:35 (ywatanabe)"
 
 
 import os
@@ -22,7 +22,25 @@ def revise_by_GPT(lpath):
     gpt = ChatGPT(OPENAI_API_KEY)
     text = load_tex(lpath)
     revise_instruction = """
-    You are an esteemed professor in the scientific field, based in the United States. The subsequent passages originate from a student whose first language is not English. Please proofread these sentences in a manner that retains their original syntax as much as possible, yet conforms to the language style typical of a scholarly article in biology. Please do not modify any sections that do not pose linguistic challenges. Please keep the original sentences as much as possible and minimize your revisions because if you paraphrase expressions every time, this revision process will never end. No comments are required beyond the revised text. Any included LaTeX commands should be preserved or corrected as appropriate, in recognition that the student is authoring their manuscript in LaTeX. The original manuscript to be revised is as follows:
+    You are an esteemed professor in the scientific field, based in the United States.
+    The subsequent passages originate from a student whose first language is not English.
+    Please proofread them with following the rules below.
+    
+    - Correct the English without including messages or comments.
+    - Retain the original syntax as much as possible while conforming to scholarly language.
+    - Do not modify linguistically correct sections.
+    - Minimize revisions to avoid endless paraphrasing.
+    - Exclude comments beyond the revised text.
+    - Preserve LaTeX commands as needed.
+    - Avoid unnecessary adjectives not suitable for scientific writing, such as "somewhat", "in-depth", and "various".
+    - For figures and tables, please use tags like Figure~\ref{fig:01}A or Table~\ref{tab:01}.
+    
+    - Highlight parts that may require the author's manual review due to ambiguity using CHECKME tags as follows: [CHECKME>] This is an ambiguous sentence. [<CHECKME ENDS].
+    - If [FIXME ->][<- FIXME] tags are present, please revise only the enclosed area; otherwise, please revise the entire text.
+    - When using --- (emdash), please add spaces on either side.
+    - Terminology should be consistent throughout the manuscript.
+    
+    Now, the original manuscript to be revised is as follows:
     """
 
     # Main
