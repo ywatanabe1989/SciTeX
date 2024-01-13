@@ -64,7 +64,7 @@ $ git reset HEAD~1
 To revert to a certain point:
 
 ```bash
-$ git checkout <commit-hash> -- src/
+$ git checkout <commit-hash> -- src/ # such as 8898d5c
 ```
 
 Replace `YOUR_OPENAI_API_KEY` with your actual API key. For more information, visit the [OpenAI API documentation](https://openai.com/blog/openai-api). Your API key should resemble 'sk-**AN'.
