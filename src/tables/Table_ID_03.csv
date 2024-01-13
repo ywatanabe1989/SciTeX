@@ -1,4 +1,4 @@
-Subject ID,\# of sessions,# of trials,ROI,# of SWRs,SWR incidence [Hz]
+Subject ID,\# of sessions,\# of trials,ROI,\# of SWRs,SWR incidence [Hz]
 \#1,2,100,AHL,274,0.34
 \#3,2,97,AHR,325,0.42
 \#4,2,99,PHL,202,0.26
