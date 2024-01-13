@@ -23,6 +23,7 @@ To create your manuscript, modify the following files:
 
 ```bash
 $ ./compile.sh               # Compile the document
+$ ./compile.sh -h            # Display help for these commands
 $ ./compile.sh -r            # Revise with ChatGPT
 $ ./compile.sh -i            # Insert citations with ChatGPT
 $ ./compile.sh -p            # Push changes to GitHub
