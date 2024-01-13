@@ -75,10 +75,11 @@ tree -I "compiled_*|diff_*|*.pyc|*.cpython-38.pyc|*.so|*.pdf|*.tif|*.csv|*.ipynb
 
 echo -e "\nLog saved to $LOG_FILE\n"
 
+if [ "$do_push" = true ]; then
+    ./.scripts/sh/.git_push.sh
+fi
+
 } 2>&1 | tee "$LOG_FILE"
 
-if [ "$do_push" = true ]; then
-    ./.scripts/sh/.git_push.sh 2>&1 | tee -a "$LOG_FILE"
-fi
 
 ## EOF

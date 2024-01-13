@@ -20,39 +20,39 @@ Revised: ./src/figures/Figure_ID_01.tex
 Revising ./src/introduction.tex ...
 Backed up: ./src/introduction.tex -> ./src/.old/introduction.tex
 Revised: ./src/introduction.tex
-Revising ./src/figures/Figure_ID_02.tex ...
-Backed up: ./src/figures/Figure_ID_02.tex -> ./src/figures/.old/Figure_ID_02.tex
-Revised: ./src/figures/Figure_ID_02.tex
-Revising ./src/figures/Figure_ID_03.tex ...
-Backed up: ./src/figures/Figure_ID_03.tex -> ./src/figures/.old/Figure_ID_03.tex
-Revised: ./src/figures/Figure_ID_03.tex
-Revising ./src/figures/Figure_ID_04.tex ...
-Backed up: ./src/figures/Figure_ID_04.tex -> ./src/figures/.old/Figure_ID_04.tex
-Revised: ./src/figures/Figure_ID_04.tex
-Revising ./src/discussion.tex ...
-Backed up: ./src/discussion.tex -> ./src/.old/discussion.tex
-Revised: ./src/discussion.tex
-Revising ./src/results.tex ...
-Backed up: ./src/results.tex -> ./src/.old/results.tex
-Revised: ./src/results.tex
 Revising ./src/methods.tex ...
 Backed up: ./src/methods.tex -> ./src/.old/methods.tex
 Revised: ./src/methods.tex
+Revising ./src/results.tex ...
+Backed up: ./src/results.tex -> ./src/.old/results.tex
+Revised: ./src/results.tex
+Revising ./src/figures/Figure_ID_02.tex ...
+Backed up: ./src/figures/Figure_ID_02.tex -> ./src/figures/.old/Figure_ID_02.tex
+Revised: ./src/figures/Figure_ID_02.tex
 Revising ./src/figures/Figure_ID_05.tex ...
 Backed up: ./src/figures/Figure_ID_05.tex -> ./src/figures/.old/Figure_ID_05.tex
 Revised: ./src/figures/Figure_ID_05.tex
-Revising ./src/tables/Table_ID_02.tex ...
-Backed up: ./src/tables/Table_ID_02.tex -> ./src/tables/.old/Table_ID_02.tex
-Revised: ./src/tables/Table_ID_02.tex
-Revising ./src/tables/Table_ID_01.tex ...
-Backed up: ./src/tables/Table_ID_01.tex -> ./src/tables/.old/Table_ID_01.tex
-Revised: ./src/tables/Table_ID_01.tex
-Revising ./src/tables/Table_ID_03.tex ...
-Backed up: ./src/tables/Table_ID_03.tex -> ./src/tables/.old/Table_ID_03.tex
-Revised: ./src/tables/Table_ID_03.tex
 Revising ./src/figures/Figure_ID_06.tex ...
 Backed up: ./src/figures/Figure_ID_06.tex -> ./src/figures/.old/Figure_ID_06.tex
 Revised: ./src/figures/Figure_ID_06.tex
+Revising ./src/tables/Table_ID_01.tex ...
+Backed up: ./src/tables/Table_ID_01.tex -> ./src/tables/.old/Table_ID_01.tex
+Revised: ./src/tables/Table_ID_01.tex
+Revising ./src/figures/Figure_ID_03.tex ...
+Backed up: ./src/figures/Figure_ID_03.tex -> ./src/figures/.old/Figure_ID_03.tex
+Revised: ./src/figures/Figure_ID_03.tex
+Revising ./src/discussion.tex ...
+Backed up: ./src/discussion.tex -> ./src/.old/discussion.tex
+Revised: ./src/discussion.tex
+Revising ./src/figures/Figure_ID_04.tex ...
+Backed up: ./src/figures/Figure_ID_04.tex -> ./src/figures/.old/Figure_ID_04.tex
+Revised: ./src/figures/Figure_ID_04.tex
+Revising ./src/tables/Table_ID_03.tex ...
+Backed up: ./src/tables/Table_ID_03.tex -> ./src/tables/.old/Table_ID_03.tex
+Revised: ./src/tables/Table_ID_03.tex
+Revising ./src/tables/Table_ID_02.tex ...
+Backed up: ./src/tables/Table_ID_02.tex -> ./src/tables/.old/Table_ID_02.tex
+Revised: ./src/tables/Table_ID_02.tex
 Revising ./src/figures/Figure_ID_07.tex ...
 Backed up: ./src/figures/Figure_ID_07.tex -> ./src/figures/.old/Figure_ID_07.tex
 Revised: ./src/figures/Figure_ID_07.tex
@@ -92,15 +92,15 @@ Processing ./src/tables/Table_ID_03.tex
 
 Compiled: ./compiled.tex
 
-Taking diff between ./old/compiled_v297.tex & ./compiled.tex
+Taking diff between ./old/compiled_v299.tex & ./compiled.tex
 
 Compiling ./diff.tex...
 
 Compiled: ./diff.tex
 
-Congratulations! ./compiled_v298.pdf is ready.
+Congratulations! ./compiled_v300.pdf is ready.
 
-Congratulations! ./diff_v298.pdf is ready.
+Congratulations! ./diff_v300.pdf is ready.
 
 Log saved to ./.logs/compile.log
 
