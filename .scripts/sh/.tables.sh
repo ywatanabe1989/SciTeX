@@ -70,7 +70,7 @@ function csv2tex() {
     done
 }
 
-csv2tex
+# csv2tex
 gather_tables
 
 ## EOF
