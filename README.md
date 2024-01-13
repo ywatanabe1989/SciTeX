@@ -1,5 +1,7 @@
 # SciTeX: AI-assisted Template for Scientific Manuscripts
 
+![Demo GIF](./src/.demo.gif)
+
 ![CI](https://github.com/ywatanabe1989/LaTeX-Scientific-Template/actions/workflows/compile.yml/badge.svg)
 
 This LaTeX template complies with [Elsevier's manuscript guidelines](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions) and is adaptable for use with other journals. It simplifies the writing process for documents that have intricate structures and include mathematical expressions.
