@@ -47,6 +47,12 @@ To use ChatGPT, set your OpenAI API key as an environment variable with the comm
 echo 'export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"' >> ~/.bashrc
 ```
 
+To reset versioning:
+
+``` bash
+mv old .old/old-$(date +%s)
+```
+
 Replace `YOUR_OPENAI_API_KEY` with your actual API key. For more information, visit the [OpenAI API documentation](https://openai.com/blog/openai-api). Your API key should resemble 'sk-**AN'.
 
 ## Project Structure (Tree)
@@ -88,6 +94,7 @@ Refer to [`./.tree.txt`](./.tree.txt) for the project structure, automatically g
     │   └── Table_ID_03.tex
     └── title.tex
 ```
+
 
 ## Contact
 

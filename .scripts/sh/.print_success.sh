@@ -10,7 +10,7 @@ function print_success() {
                 echo -e "\nCongratulations! ${file} is ready."
             done
         else
-            echo -e "\nI'm sorry but files matching ${pattern} were not created. Please check the .logs/ directory"
+            echo -e "\nUnfortunately, no files matching ${pattern} were created."
         fi
     done
 }
