@@ -29,6 +29,7 @@ $ ./compile.sh
 $ ./compile.sh -d # Take diff between the last one [-d|--diff]
 $ ./compile.sh -r # Revise tex files written in ./configs/files_to_revise.txt [-r|--revise]
 $ ./compile.sh -i # Insert citations into files written in ./configs/files_to_revise.txt based on ./bibliography.bib [-i|-insert-citations]
+$ ./compile.sh -- # Commit all and push this repository to GitHub [-p|--push]
 ```
 Logs will be stored at [`./.logs/compile.log`](./.logs/compile.log).
 

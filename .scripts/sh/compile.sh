@@ -10,12 +10,14 @@ rm ./.diff.tex > /dev/null 2>&1
 do_take_diff=true
 do_insert_citations=false
 do_revise=false
+do_push=false
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -h|--help) echo "Usage: $0 [-nd|--no-diff] [-c|--citations] [-r|--revise]"; exit 0 ;;
+        -h|--help) echo "Usage: $0 [-nd|--no-diff] [-c|--citations] [-r|--revise] [-p|--push]"; exit 0 ;;
         -nd|--no-diff) do_take_diff=false ;;
         -c|--citations) do_insert_citations=true ;;
         -r|--revise) do_revise=true ;;
+        -p|--push) do_push=true ;;        
         # *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
@@ -71,9 +73,10 @@ tree -I "compiled_*|diff_*|*.pyc|*.cpython-38.pyc|*.so|*.pdf|*.tif|*.csv|*.ipynb
 
 echo -e "\nLog saved to $LOG_FILE\n"
 
-
 } 2>&1 | tee "$LOG_FILE"
 
-./.scripts/sh/.git_push.sh 2>&1 | tee -a "$LOG_FILE"
+if [ "$do_push" = true ]; then
+    ./.scripts/sh/.git_push.sh 2>&1 | tee -a "$LOG_FILE"
+fi
 
 ## EOF
