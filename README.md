@@ -35,6 +35,12 @@ $ ./compile.sh -p # Commit all changes and push the repository to GitHub [-p|--p
 ```
 Logs can be found at [`./.logs/compile.log`](./.logs/compile.log).
 
+For ChatGPT usage, set your [OpenAI API key](https://openai.com/blog/openai-api) as an environment variable:
+```bash
+echo export OPENAI_API_KEY="sk-**AN" >> ~/.bashrc
+```
+
+
 ## Which Files to Edit?
 
 Edit the files located in the [`./src/`](./src/) directory.
