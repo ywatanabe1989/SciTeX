@@ -63,9 +63,9 @@ fi
 
 echo -e "\nLog saved to $LOG_FILE\n"
 
-# if [ "$do_push" = true ]; then
-#     ./.scripts/sh/.git_push.sh
-# fi
+if [ "$do_push" = true ]; then
+    ./.scripts/sh/.git_push.sh
+fi
 
 } 2>&1 | tee "$LOG_FILE"
 
