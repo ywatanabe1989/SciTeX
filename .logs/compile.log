@@ -1,4 +1,5 @@
-./compile.sh --citations --revise --push
+./compile.sh --revise --push
+
 The following texfiles are being revised:
 
 ./src/abstract.tex
@@ -9,10 +10,7 @@ The following texfiles are being revised:
 ./src/figures/*tex
 ./src/tables/*tex
 
-Is it okay to proceed? (y/n) 
+
 Revising ./src/abstract.tex ...
 Backed up: ./src/abstract.tex -> ./src/.old/abstract.tex
 Revised: ./src/abstract.tex
-Revising ./src/introduction.tex ...
-Backed up: ./src/introduction.tex -> ./src/.old/introduction.tex
-Revised: ./src/introduction.tex
