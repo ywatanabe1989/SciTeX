@@ -1,0 +1,21 @@
+% New command to read word counts
+\newread\wordcount
+\newcommand\readwordcount[1]{%
+  \openin\wordcount=#1
+  \read\wordcount to \thewordcount
+  \closein\wordcount
+  \thewordcount
+}
+
+% Command to read table and figure counts
+\newcommand\readtablefigurecount{%
+  \openin\wordcount=./src/.n_tables_and_figures.txt
+  \read\wordcount to \thetablefigurecount
+  \closein\wordcount
+  \thetablefigurecount
+}
+
+% Use these commands where you want to display the counts
+\readtablefigurecount
+\readwordcount{./src/.wordcount_abstract.txt} words for Abstract;
+\readwordcount{./src/.wordcount_imrd.txt} words for Main Text;
