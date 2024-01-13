@@ -71,8 +71,8 @@ function csv2tex() {
                 }' "$csv_file"            
             echo "\\bottomrule"
             echo "\\end{tabular}"
-            echo "\\captionsetup{width=$width}" # [REVISED]                        
-            # echo "\\captionsetup{width=\textwidth}" # [REVISED]            
+            # echo "\\captionsetup{width=$width}" # [REVISED]                        
+            echo "\\captionsetup{width=\textwidth}" # [REVISED]            
             # \captionsetup{justification=centering, margin=0pt, width=\linewidth}
             echo "\\input{${legend_dir}Table_ID_${table_id}}"
             # echo "\\input{${output_dir}Table_ID_${table_id}}"            

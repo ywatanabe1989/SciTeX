@@ -5,15 +5,19 @@ function gen_and_compile_diff() {
     current_tex="./compiled.tex"
 
     echo -e "\nTaking diff between $latest_tex & $current_tex"
-    latexdiff "$latest_tex" "$current_tex" > ./diff.tex 2> /dev/null    
+    latexdiff "$latest_tex" "$current_tex" > ./diff.tex 2> /dev/null
 
-    echo -e "\nCompiling ./diff.tex..."
-    yes '' | pdflatex -shell-escape ./diff.tex >/dev/null
-    bibtex diff 2>&1 >/dev/null | grep -E "Warning|Error"
-    yes '' | pdflatex -shell-escape ./diff.tex >/dev/null
-    yes '' | pdflatex -shell-escape ./diff.tex >/dev/null
+    if [ -s diff.tex ]; then
+        echo -e "\nCompiling ./diff.tex..."
+        yes '' | pdflatex -shell-escape ./diff.tex >/dev/null
+        bibtex diff >/dev/null 2>&1
+        yes '' | pdflatex -shell-escape ./diff.tex >/dev/null
+        yes '' | pdflatex -shell-escape ./diff.tex >/dev/null
+    else
+        echo -e "\ndiff.tex is empty. Skip compiling .diff.tex"
+    fi
 
-    if [ -f ./diff.tex ]; then
+    if [ -f ./diff.pdf ]; then
         echo -e "\nCompiled: ./diff.tex"
     fi
 }
