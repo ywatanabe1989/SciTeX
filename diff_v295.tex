@@ -1,9 +1,9 @@
 \UseRawInputEncoding
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Settings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Columns
 \documentclass[final,3p,times,twocolumn]{elsarticle}
 %% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
 %% for a journal layout:
@@ -30,22 +30,18 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 \usepackage{bashful}
-% for figures
 \usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
 \usepackage{graphicx}
 \usepackage{calc}
-% for tables
-% \usepackage{xlsx2csv}
-% \usepackage{csv2latex}
 \usepackage[T1]{fontenc} % [REVISED]
 \usepackage[utf8]{inputenc} % [REVISED]
 \usepackage{hyperref}
 \usepackage{accsupp}
-
 %% Line numbers
+\linespread{1.1}
 % \linenumbers
-
-%% Tables
+% Tables
+\usepackage[pass]{geometry}
 \usepackage{pdflscape}
 \usepackage{csvsimple}
 \usepackage{xltabular}
@@ -55,17 +51,18 @@
 \sisetup{round-mode=figures,round-precision=3}
 \renewcommand\theadfont{\bfseries}
 \renewcommand\theadalign{c}
-
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\renewcommand{\arraystretch}{1.5}
+\definecolor{lightgray}{gray}{0.95}
 
 %% Diff
+\usepackage{xcolor}
 % Define commands for highlighting
 % diff
 \usepackage[most]{tcolorbox} % for boxes with transparency
 % Define colors with transparency (opacity value)
 \definecolor{GreenBG}{rgb}{0,1,0}
 \definecolor{RedBG}{rgb}{1,0,0}
-
 % Define tcolorbox environments for highlighting
 \newtcbox{\greenhighlight}[1][]{%
   on line,
@@ -80,7 +77,6 @@
   bottom=2pt,
   tcbox raise base
 }
-
 \newtcbox{\redhighlight}[1][]{%
   on line,
   colframe=RedBG,
@@ -94,37 +90,14 @@
   bottom=2pt,
   tcbox raise base
 }
-
 \newcommand{\REDSTARTS}{\color{red}}
 \newcommand{\REDENDS}{\color{black}}
 \newcommand{\GREENSTARTS}{\color{green}}
 \newcommand{\GREENENDS}{\color{black}}
-
-% % Uncomment or provide the original definitions for these commands
-% \newcommand{\REDSTARTS}{\color{red}}
-% \newcommand{\REDENDS}{\color{black}} % Switch back to the default text color
-% \newcommand{\GREENSTARTS}{\color{green}}
-% \newcommand{\GREENENDS}{\color{black}} % Switch back to the default text color
-
-% % Redefine the highlighting commands to use the tcolorbox environments
-% \renewcommand{\REDSTARTS}{\begingroup\colorlet{oldcolor}{.}\color{red}}
-% \renewcommand{\REDENDS}{\color{oldcolor}\endgroup}
-% \renewcommand{\GREENSTARTS}{\begingroup\colorlet{oldcolor}{.}\color{green}}
-% \renewcommand{\GREENENDS}{\color{oldcolor}\endgroup}
-
-% % Define a command to apply the tcolorbox highlighting
-% \newcommand{\highlight}[2]{\tcbox[colframe=#1,colback=#1!50!white,on line]{#2}}
-
-% % Use the new \highlight command within the redefined \REDSTARTS and \GREENSTARTS
-% \renewcommand{\REDSTARTS}{\highlight{RedBG}}
-% \renewcommand{\GREENSTARTS}{\highlight{GreenBG}}
-\GREENENDS \REDSTARTS s}\REDENDS 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Journal Name
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\\REDSTARTS input{./src/\REDENDS journal\GREENSTARTS {Heliyon}\GREENENDS \REDSTARTS _name}
-\REDENDS 
+\journal{Heliyon}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Document Starts
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -132,43 +105,23 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% frontmatter
+%% Frontmatter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frontmatter}
-\GREENSTARTS \begin{highlights}\GREENENDS \REDSTARTS 	\input{./src/highlights}
-	\input{./src/title}
-	\input{./src/authors}
-	\input{./src/graphical_abstract}
-	\input{./src/abstract}
-	\input{./src/keywords}
-\end{frontmatter}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% IMRaD
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./src/introduction}
-\input{./src/methods}
-\input{./src/results}
-\input{./src/discussion}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Reference Styles
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\REDENDS 
-\pdfbookmark[1]{\GREENSTARTS Highlights}{highlights}
+\begin{highlights}
+\pdfbookmark[1]{Highlights}{highlights}
 
 \item Neural trajectories in the hippocampus exhibited greater variability during a working memory (WM) task compared to those in the entorhinal cortex and amygdala regions.
 
 \item The distance of neural trajectories between encoding and retrieval states in the hippocampus was memory-load dependent during a WM task.
 
 
-\item Hippocampal neural trajectories fluctuated between the encoding and retrieval states in a task-dependent manner during both baseline and sharp-wave ripple (SW\GREENENDS R\GREENSTARTS ) periods.
+\item Hippocampal neural trajectories fluctuated between the encoding and retrieval states in a task-dependent manner during both baseline and sharp-wave ripple (SWR) periods.
 
 \item Hippocampal neural trajectories shifted from encoding to retrieval states during SWR period.
 
 \end{highlights}\title{
-Hippocampal neural fluctuations between memor\GREENENDS \REDSTARTS eferences}{references}
-\bibliograph\REDENDS y\GREENSTARTS  encoding and retrieval states during a working memor\GREENENDS \REDSTARTS {bibliograph\REDENDS y\GREENSTARTS  task in humans: Encoding-to-retrieval shift during sharp-wave ripples
+Hippocampal neural fluctuations between memory encoding and retrieval states during a working memory task in humans: Encoding-to-retrieval shift during sharp-wave ripples
 }\author[1]{Yusuke Watanabe\corref{cor1}}
 \author[2,3,4]{Yuji Ikegaya}
 \author[1,5]{Takufumi Yanagisawa}
@@ -179,39 +132,14 @@ Hippocampal neural fluctuations between memor\GREENENDS \REDSTARTS eferences}{re
 \address[4]{Center for Information and Neural Networks, National Institute of Information and Communications Technology, 1-4 Yamadaoka, Suita City, 565-0871, Osaka, Japan}
 \address[5]{Department of Neurosurgery, Osaka University Graduate School of Medicine, 2-2 Yamadaoka, Osaka, 565-0871, Japan}
 
-\cortext[cor1]{Corresponding author\GREENENDS \REDSTARTS }
-\input{\REDENDS .\REDSTARTS /src/styles/bibliography}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Additional Information
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./src/additional_info}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%\REDENDS  T\GREENSTARTS el: +81-6-6879-3652}%%Graphical abstract
-%\GREENENDS \REDSTARTS ables
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\section*{Tables}
-\label{tables}
-\REDENDS \pdfbookmark[1]{\GREENSTARTS Graphical \GREENENDS \REDSTARTS Tables}{tables}
-\input{./src/tables/.tex/.\REDENDS A\GREENSTARTS bstract}{graphicalabstract}        
+\cortext[cor1]{Corresponding author. Tel: +81-6-6879-3652}%%Graphical abstract
+%\pdfbookmark[1]{Graphical Abstract}{graphicalabstract}        
 %\begin{graphicalabstract}
 %\includegraphics{grabs}
 %\end{graphicalabstract}
-\begin{abstract\GREENENDS \REDSTARTS ll_Tables}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Figures
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\section*{Figures}
-\label{figures\REDENDS }
-\pdfbookmark[1]{\GREENSTARTS Abstract}{abstract}
-Working memory (WM) is vital for numerous cognitive functions, yet the complexity of the neural mechanisms involved is not yet fully understood. Intriguingly, the hippocampus and sharp-wave ripple complexes (SWRs) --- brief, synchronous neural events in the hippocampus --- gain attention for their roles in memory consolidation and retrieval. However, their association with WM tasks remains unclear. Our current research indicates that patterns of multiunit activity in the hippocampus might operate in synergy with SWRs, thereby exhibiting unique dynamics during WM tasks. We analyzed a dataset consisting of intracranial electroencephalogram recordings taken from the medial temporal lobe (MTL) of nine epilepsy patients engaged in an eight-second Sternberg task. Gaussian-process factor analysis was utilized to extract low-dimensional neural representations, known as 'trajectories', within the MTL regions while performing the WM task. Our results show that the hippocampus presents the most significant variation in neural trajectory compared to the entorhinal cortex and amygdala. \GREENENDS F\GREENSTARTS urthermore, the dissimilarity in trajectories between encoding and retrieval phases appeared to rely on memory load. Importantly, the hippocampal trajectories fluctuate during the retrieval phase, indicating task-dependent shifts between encoding and retrieval states, both during baseline and SWR events. This fluctuation transitions from encoding to retrieval states synchronously with the occurrence of SWRs. These findings reaffirm the crucial role of the hippocampus in WM tasks and advance a new hypothesis: the hippocampus transitions its functional state from encoding to retrieval during SWRs.
+\begin{abstract}
+\pdfbookmark[1]{Abstract}{abstract}
+Working memory (WM) is central to numerous cognitive functions, yet the intricacy of its underlying neural mechanisms remains incompletely understood. Intriguingly, attention has been drawn to the roles that the hippocampus and sharp-wave ripple complexes (SWRs) --- which are brief, synchronous neural events occurring in the hippocampus --- play in memory consolidation and retrieval. Nevertheless, the connection between these elements and WM tasks remains uncertain. Current research indicates that the patterns of multiunit activity in the hippocampus may function synergistically with SWRs, exhibiting distinctive dynamics during WM tasks. We analyzed an electroencephalogram dataset from the medial temporal lobe (MTL) in nine epilepsy patients who engaged in an eight-second Sternberg task. Low-dimensional neural representations, or 'trajectories,' within the MTL regions were extracted using Gaussian-process factor analysis while performing the WM task. The results demonstrate that the hippocampus displays significant variation in neural trajectories compared to the entorhinal cortex and the amygdala. Furthermore, the trajectory dissimilarity between the encoding and retrieval phases appears to be reliant on memory load. Notably, hippocampal trajectories fluctuate during the retrieval phase, suggesting task-dependent shifts between encoding and retrieval states, which occur during both baseline and SWR events. These fluctuations transition from encoding to retrieval states in synchrony with SWRs' occurrence. This supports the crucial role of the hippocampus in WM tasks and proposes a new hypothesis: the hippocampus transitions its functional state from encoding to retrieval during SWRs.
 \end{abstract}% \pdfbookmark[1]{Keywords}{keywords}                
 \begin{keyword}
 working memory \sep WM \sep memory load \sep hippocampus \sep sharp-wave ripples \sep SWR \sep humans
@@ -412,31 +340,21 @@ The authors employed ChatGPT, provided by OpenAI, for enhancing the manuscript's
 \small
 \begin{tabular}{*{11}{c}}
 \toprule
-\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ
-}} &\\
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\textbf{\thead{ECL}} &\textbf{\thead{ECR}} &\textbf{\thead{AL}} &\textbf{\thead{AR}} &\textbf{\thead{SOZ}} &\\
 \midrule
-#1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" & 
-\\
+#1 & 4 & o & x & o & o & o & x & o & x & "AHR, LR" & \\
 \rowcolor{lightgray}
-#2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" & 
-\\
-#3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" & 
-\\
+#2 & 7 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
+#3 & 3 & o & o & o & o & o & o & o & x & "AHL, PHL" & \\
 \rowcolor{lightgray}
-#4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" & 
-\\
-#5 & 3 & o & x & x & o & x & x & o & x & DRR
-\\
+#4 & 2 & o & o & o & o & o & o & o & o & "AHL, AHR, PHL, PHR" & \\
+#5 & 3 & o & x & x & o & x & x & o & x & DRR\\
 \rowcolor{lightgray}
-#6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" & 
-\\
-#7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" & 
-\\
+#6 & 6 & o & o & o & o & o & o & o & o & "AHL, PHL, ECL, AL" & \\
+#7 & 4 & o & o & o & o & o & o & o & o & "AHR, PHR" & \\
 \rowcolor{lightgray}
-#8 & 5 & o & o & o & o & o & o & o & o & ECR
-\\
-#9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" & 
-\\
+#8 & 5 & o & o & o & o & o & o & o & o & ECR\\
+#9 & 2 & o & o & o & o & o & o & o & o & "ECR, AR" & \\
 \bottomrule
 \end{tabular}
 \captionsetup{width=1\textwidth}
@@ -457,57 +375,33 @@ Annotation of electrode positions and seizure onset zones: regions depicted with
 \small
 \begin{tabular}{*{5}{c}}
 \toprule
-\textbf{\thead{Subject}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR
-}} &\\
+\textbf{\thead{Subject}} &\textbf{\thead{AHL}} &\textbf{\thead{AHR}} &\textbf{\thead{PHL}} &\textbf{\thead{PHR}} &\\
 \midrule
-#1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
-\\
+#1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0\\
 \rowcolor{lightgray}
-#2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
-\\
-#3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
-\\
+#2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15\\
+#3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.\\
 \rowcolor{lightgray}
-#4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
-\\
-#5 & n.a. & n.a. & n.a. & n.a.
-\\
+#4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14\\
+#5 & n.a. & n.a. & n.a. & n.a.\\
 \rowcolor{lightgray}
-#6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
-\\
-#7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
-\\
+#6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06\\
+#7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00\\
 \rowcolor{lightgray}
-#8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
-\\
-#9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
-\\
+#8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.\\
+#9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.\\
 \bottomrule
 \end{tabular}
 \captionsetup{width=1\textwidth}
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{graphicx}
+\caption{\textbf{
+Silhouette score comparison of UMAP clustering between $SWR^+$ candidates and $SWR^-$ candidates
+}
+\smallskip
+\\
+The silhouette scores (mean $\pm$ SD across sessions by subject) of UMAP clustering for SWR$^+$ candidates and SWR$^-$ candidates (Figure 4A) were derived from their underlying multiunit spike patterns. The mean values were recorded as 0.205 (SD = 0.285), with a median within an interquartile range (IQR; Figure 4B) \cite{mcinnes_umap_2018, rousseeuw_silhouettes_1987}.
+}
+% width=1\textwidth
 
-\begin{document}
-
-\begin{figure}
-    \centering
-    \caption{\textbf{
-    Silhouette score comparison of UMAP clustering between $SWR^+$ candidates and $SWR^-$ candidates
-    }
-    \smallskip
-    \\
-    The silhouette scores (mean $\pm$ SD across sessions by subject) of UMAP clustering for SWR$^+$ candidates and SWR$^-$ candidates (Figure 4A) were derived from their underlying multiunit spike patterns. The mean values were recorded as 0.205 (SD = 0.285), with a median within an interquartile range (IQR; Figure 4B) \cite{mcinnes_umap_2018, rousseeuw_silhouettes_1987}.
-    }
-    % width=1\textwidth
-    \label{fig:silhouette_umap}
-\end{figure}
-
-\bibliographystyle{plain}
-\bibliography{references}
-
-\end{document}
 \label{tab:02}
 \end{table*}
 \restoregeometry
@@ -517,46 +411,29 @@ Annotation of electrode positions and seizure onset zones: regions depicted with
 \small
 \begin{tabular}{*{6}{c}}
 \toprule
-\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{# of trials}} &\textbf{\thead{ROI}} &\textbf{\thead{# of SWRs}} &\textbf{\thead{SWR incidence [Hz]
-}} &\\
+\textbf{\thead{Subject ID}} &\textbf{\thead{# of sessions}} &\textbf{\thead{# of trials}} &\textbf{\thead{ROI}} &\textbf{\thead{# of SWRs}} &\textbf{\thead{SWR incidence [Hz]}} &\\
 \midrule
-#1 & 2 & 100 & AHL & 274 & 0.34
-\\
+#1 & 2 & 100 & AHL & 274 & 0.34\\
 \rowcolor{lightgray}
-#3 & 2 & 97 & AHR & 325 & 0.42
-\\
-#4 & 2 & 99 & PHL & 202 & 0.26
-\\
+#3 & 2 & 97 & AHR & 325 & 0.42\\
+#4 & 2 & 99 & PHL & 202 & 0.26\\
 \rowcolor{lightgray}
-#6 & 2 & 100 & AHL & 297 & 0.37
-\\
-#9 & 2 & 97 & AHR & 72 & 0.09
-\\
+#6 & 2 & 100 & AHL & 297 & 0.37\\
+#9 & 2 & 97 & AHR & 72 & 0.09\\
 \rowcolor{lightgray}
-Total = 10 & Total = 493 & "Total = 1,170" & 0.30 ± 0.13 (mean ± SD)
-\\
+Total = 10 & Total = 493 & "Total = 1,170" & 0.30 ± 0.13 (mean ± SD)\\
 \bottomrule
 \end{tabular}
 \captionsetup{width=1\textwidth}
-\documentclass{article}
-\usepackage{natbib}
-
-\begin{document}
-
-\begin{figure}
 \caption{\textbf{
 Count of Identified SWR Events
 }
 \smallskip
 \\
-The table displays the summary statistics of the presumptive CA1 regions and SWRs. To mitigate sampling bias, solely the initial two sessions (sessions #1 and #2) from each subject were employed. For more information on SWR events and their significance in spatial memory, see \cite{girardeau_selective_2009,norman_hippocampal_2019,buzsaki_hippocampal_2015,ego-stengel_disruption_2010,wu_hippocampal_2017}.}
+The table displays the summary statistics of the presumptive CA1 regions and SWRs. To mitigate sampling bias, solely the initial two sessions (sessions #1 and #2) from each subject were employed.
+}
 % width=1\textwidth
-\end{figure}
 
-\bibliographystyle{plainnat}
-\bibliography{mybibfile}
-
-\end{document}
 \label{tab:03}
 \end{table*}
 \restoregeometry
@@ -573,9 +450,8 @@ The table displays the summary statistics of the presumptive CA1 regions and SWR
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 01}{figure_id_01}
         	\centering
-            \includegraphics[width=1\textwidth]\GREENENDS \REDSTARTS igures}{figures}
-\input\REDENDS {./src/figures/.\GREENSTARTS png/Figure_ID_01.png}
-        	\caption{\\GREENENDS tex\GREENSTARTS tbf{Local field potential (LFP), multiunit activity, and neural trajectory of the hippocampus during a modified Sternberg task} \cite{li_functional_2023, borders_hippocampal_2022, dimakopoulos_information_2022}}
+            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
+        	\caption{\textbf{Local field potential (LFP), multiunit activity, and neural trajectory of the hippocampus during a modified Sternberg task} \cite{li_functional_2023, borders_hippocampal_2022, dimakopoulos_information_2022}}
 \smallskip
 \\
 \textbf{\textit{A.}} Representative wideband LFP traces from iEEG signals recorded in the left hippocampal head. These were attained while the subject performed a modified Sternberg working memory task, consisting of fixation (1 s, \textit{gray}), encoding (2 s, \textit{blue}), maintenance (3 s, \textit{green}), and retrieval (2 s, \textit{red}) \cite{li_functional_2023, borders_hippocampal_2022, dimakopoulos_information_2022}. \textbf{\textit{B.}} The corresponding ripple band LFP traces \cite{schomburg_spiking_2012, behrens_induction_2005, norimoto_hippocampal_2018}. \textbf{\textit{C.}} The raster plot of multiunit spikes derived from the LFP traces using a spike sorting algorithm \cite{niediek_reliable_2016}. \textbf{\textit{D.}} Neural trajectory determined by GPFA on the basis of spike counts per unit with 50-ms bins \cite{yu_gaussian-process_2009}. The dot circles represent the geometric median coordinates for each phase. \textbf{\textit{E.}} Trajectory distance from the origin $O$. Please note that the \textit{purple} and \textit{yellow} rectangles indicate the timings for SWR$^+$ candidates and SWR$^-$ candidates (controls for SWR$^+$), respectively \cite{van_vugt_hippocampal_2010, scoville_loss_1957, kay_hippocampal_2016, nader_memory_2003, wilson_reactivation_1994, nadasdy_replay_1999, lee_memory_2002}.
@@ -587,13 +463,13 @@ The table displays the summary statistics of the presumptive CA1 regions and SWR
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 02}{figure_id_02}
         	\centering
-            \includegraphics[width=]{./src/figures\GREENENDS /.\GREENSTARTS png/Figure_ID_02.png}
+            \includegraphics[width=]{./src/figures/.png/Figure_ID_02.png}
         	\caption{\textbf{
 State-dependent hippocampal neural trajectory
 }
 \smallskip
 \\
-\textbf{\textit{\GREENENDS A\GREENSTARTS .}} The neural trajectory in the first three-dimensional factors computed using GPFA is illustrated. Smaller dots represent the coordinates of 50-ms neural trajectory bins, while larger dots outlined in \textit{black} denote the geometric medians for subsequent phases in the Sternberg working memory task: fixation (\textit{gray}), encoding (\textit{blue}), maintenance (\textit{green}), and retrieval (\textit{red})\cite{yu\GREENENDS \REDSTARTS ll\REDENDS _\GREENSTARTS gaussian-process_2009}. \textbf{\textit{B.}} This figure demonstrates the log-likelihood of GP\GREENENDS F\GREENSTARTS A models in conjunction with the number of dimensions employed to embed multi-unit spikes in MTL regions. Significantly, the optimal dimension was determined to be three, ascertained through the use of the elbow method\cite{virtanen_scipy_2020}. \textbf{\textit{C.}} In this segment, the distance of neural trajectory is mapped from the origin ($O$) for the hippocampus (Hipp.), entorhinal cortex (EC), and amygdala (Amy.), and is plotted in relation to the time from the probe's commencement\cite{boran_dataset_2020}. \textbf{\textit{D.}} The following graph illustrates the trajectory distance from $O$ within MTL regions, whereby the hippocampus exhibits the greatest distance, succeeded by the EC and the Amygdala\cite{fernandez-ruiz_long-duration_2019}. \textbf{\textit{E.}} The subsequent representation indicates inter-phase trajectory distances within the MTL regions\cite{liu_consensus_2022}.
+\textbf{\textit{A.}} The neural trajectory in the first three-dimensional factors computed using GPFA is illustrated. Smaller dots represent the coordinates of 50-ms neural trajectory bins, while larger dots outlined in \textit{black} denote the geometric medians for subsequent phases in the Sternberg working memory task: fixation (\textit{gray}), encoding (\textit{blue}), maintenance (\textit{green}), and retrieval (\textit{red})\cite{yu_gaussian-process_2009}. \textbf{\textit{B.}} This figure demonstrates the log-likelihood of GPFA models in conjunction with the number of dimensions employed to embed multi-unit spikes in MTL regions. Significantly, the optimal dimension was determined to be three, ascertained through the use of the elbow method\cite{virtanen_scipy_2020}. \textbf{\textit{C.}} In this segment, the distance of neural trajectory is mapped from the origin ($O$) for the hippocampus (Hipp.), entorhinal cortex (EC), and amygdala (Amy.), and is plotted in relation to the time from the probe's commencement\cite{boran_dataset_2020}. \textbf{\textit{D.}} The following graph illustrates the trajectory distance from $O$ within MTL regions, whereby the hippocampus exhibits the greatest distance, succeeded by the EC and the Amygdala\cite{fernandez-ruiz_long-duration_2019}. \textbf{\textit{E.}} The subsequent representation indicates inter-phase trajectory distances within the MTL regions\cite{liu_consensus_2022}.
 Abbreviations:
 }
         	\label{fig:02}
@@ -672,7 +548,7 @@ Neural Trajectory Directions of SWR based on Encoding and Retrieval States
 }
 % width=0.5\textwidth
         	\label{fig:07}
-        \end{figure*\GREENENDS \REDSTARTS igures\REDENDS }
+        \end{figure*}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -680,4 +556,3 @@ Neural Trajectory Directions of SWR based on Encoding and Retrieval States
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
-\REDSTARTS \endinput\REDENDS 
