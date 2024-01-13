@@ -1013,31 +1013,7 @@ LaTeX Warning: Reference `fig:04' on page 9 undefined on input line 4.
 LaTeX Warning: Reference `fig:04' on page 9 undefined on input line 4.
 
 ) [9]) (./src/tables/.tex/Table_ID_03.tex
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                    
-l.7 ...of sessions}} &\textbf{\thead{# of trials}}
-                                                   &\textbf{\thead{ROI}} &\t...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.7 ...of sessions}} &\textbf{\thead{# of trials}}
-                                                   &\textbf{\thead{ROI}} &\t...
-
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                    
-l.7 ...bf{\thead{ROI}} &\textbf{\thead{# of SWRs}}
-                                                   &\textbf{\thead{SWR incid...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.7 ...bf{\thead{ROI}} &\textbf{\thead{# of SWRs}}
-                                                   &\textbf{\thead{SWR incid...
-
-? ! Extra alignment tab has been changed to \cr.
+! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
 l.8 }} &
@@ -1219,7 +1195,7 @@ dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 1005954 bytes).
+Output written on main.pdf (19 pages, 1005952 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -2256,31 +2232,7 @@ l.28 #
 l.30 #
       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
 ? (./src/tables/Table_ID_02.tex) [12]) (./src/tables/.tex/Table_ID_03.tex
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                    
-l.7 ...of sessions}} &\textbf{\thead{# of trials}}
-                                                   &\textbf{\thead{ROI}} &\t...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.7 ...of sessions}} &\textbf{\thead{# of trials}}
-                                                   &\textbf{\thead{ROI}} &\t...
-
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                    
-l.7 ...bf{\thead{ROI}} &\textbf{\thead{# of SWRs}}
-                                                   &\textbf{\thead{SWR incid...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.7 ...bf{\thead{ROI}} &\textbf{\thead{# of SWRs}}
-                                                   &\textbf{\thead{SWR incid...
-
-? ! Extra alignment tab has been changed to \cr.
+! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
 l.8 }} &
@@ -2463,7 +2415,7 @@ c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 1071239 bytes).
+Output written on main.pdf (22 pages, 1071238 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -3244,31 +3196,7 @@ l.28 #
 l.30 #
       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
 ? (./src/tables/Table_ID_02.tex) [12]) (./src/tables/.tex/Table_ID_03.tex
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                    
-l.7 ...of sessions}} &\textbf{\thead{# of trials}}
-                                                   &\textbf{\thead{ROI}} &\t...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.7 ...of sessions}} &\textbf{\thead{# of trials}}
-                                                   &\textbf{\thead{ROI}} &\t...
-
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                    
-l.7 ...bf{\thead{ROI}} &\textbf{\thead{# of SWRs}}
-                                                   &\textbf{\thead{SWR incid...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.7 ...bf{\thead{ROI}} &\textbf{\thead{# of SWRs}}
-                                                   &\textbf{\thead{SWR incid...
-
-? ! Extra alignment tab has been changed to \cr.
+! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
 l.8 }} &
@@ -3400,10 +3328,10 @@ lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 1073688 bytes).
+Output written on main.pdf (22 pages, 1073687 bytes).
 Transcript written on main.log.
 
-Taking diff between ./old/compiled_v034.tex & ./compiled.tex
+Taking diff between ./old/compiled_v035.tex & ./compiled.tex
 
 ./diff.tex was created.
 
@@ -4412,146 +4340,146 @@ l.508 }} &
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...he initial two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...al two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...he initial two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...al two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.535 }
+l.534 }
        
 ? [10] [11]
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
-n input line 559.
+n input line 558.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
-d on input line 559.
+d on input line 558.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
-n input line 559.
+n input line 558.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
-d on input line 559.
+d on input line 558.
 
 [12 <./src/figures/.png/Figure_ID_01.png>]
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
-d on input line 574.
+d on input line 573.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
-d on input line 574.
+d on input line 573.
 
 [13 <./src/figures/.png/Figure_ID_02.png>] [14 <./src/figures/.png/Figure_ID_03
 .png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
-put line 599.
+put line 598.
 
 
-LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 599.
+LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 598.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
-put line 599.
+put line 598.
 
 
-LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 599.
+LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 598.
 
 [15 <./src/figures/.png/Figure_ID_04.png>] [16 <./src/figures/.png/Figure_ID_05
 .png>] [17 <./src/figures/.png/Figure_ID_06.png>]
 ! Misplaced alignment tab character &.
 <argument> ...it {E} = \textit {C} - \textit {A} &
                                                    \textit {F} = \textit {D}...
-l.639 }
+l.638 }
        
 ? ! Misplaced alignment tab character &.
 <argument> ...it {E} = \textit {C} - \textit {A} &
                                                    \textit {F} = \textit {D}...
-l.639 }
+l.638 }
        
 ? 
 Package natbib Warning: There were undefined citations.
@@ -4570,17 +4498,16 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (19 pages, 1008487 bytes).
+ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxm
+i.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diff.pdf (19 pages, 1006227 bytes).
 Transcript written on diff.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -5646,140 +5573,140 @@ l.508 }} &
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...he initial two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...al two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...he initial two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...al two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.535 }
+l.534 }
        
 ? [13] [14]
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
-n input line 559.
+n input line 558.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
-d on input line 559.
+d on input line 558.
 
 
 Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
-n input line 559.
+n input line 558.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
-d on input line 559.
+d on input line 558.
 
 [15 <./src/figures/.png/Figure_ID_01.png>]
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
-d on input line 574.
+d on input line 573.
 
 
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
-d on input line 574.
+d on input line 573.
 
 [16 <./src/figures/.png/Figure_ID_02.png>] [17 <./src/figures/.png/Figure_ID_03
 .png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 599.
+put line 598.
 
 
 Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 599.
+put line 598.
 
 [18 <./src/figures/.png/Figure_ID_04.png>] [19 <./src/figures/.png/Figure_ID_05
 .png>] [20 <./src/figures/.png/Figure_ID_06.png>]
 ! Misplaced alignment tab character &.
 <argument> ...it {E} = \textit {C} - \textit {A} &
                                                    \textit {F} = \textit {D}...
-l.639 }
+l.638 }
        
 ? ! Misplaced alignment tab character &.
 <argument> ...it {E} = \textit {C} - \textit {A} &
                                                    \textit {F} = \textit {D}...
-l.639 }
+l.638 }
        
 ? 
 Package natbib Warning: There were undefined citations.
@@ -5804,18 +5731,17 @@ pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fo
 nts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (22 pages, 1073579 bytes).
+e1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diff.pdf (22 pages, 1071515 bytes).
 Transcript written on diff.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -6625,106 +6551,106 @@ l.508 }} &
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GetTitleStringResult.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \GTS@GlobalString.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \@tempa.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    1
-l.535 }
+l.534 }
        
 ? ! Illegal parameter number in definition of \caption@tempa.
 <to be read again> 
                    2
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...he initial two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in restricted horizontal mode.
 <argument> ...al two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...he initial two sessions (sessions ##
                                                   1 and ##2) from each subje...
-l.535 }
+l.534 }
        
 ? ! You can't use `macro parameter character #' in horizontal mode.
 <argument> ...al two sessions (sessions ##1 and ##
                                                   2) from each subject were ...
-l.535 }
+l.534 }
        
 ? [13] [14] [15 <./src/figures/.png/Figure_ID_01.png>] [16 <./src/figures/.png/Fi
 gure_ID_02.png>] [17 <./src/figures/.png/Figure_ID_03.png>]
 ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Missing number, treated as zero.
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    !
-l.597 ...th=]{./src/figures/.png/Figure_ID_04.png}
+l.596 ...th=]{./src/figures/.png/Figure_ID_04.png}
                                                   
 ? [18 <./src/figures/.png/Figure_ID_04.png>] [19 <./src/figures/.png/Figure_ID_05
 .png>] [20 <./src/figures/.png/Figure_ID_06.png>]
 ! Misplaced alignment tab character &.
 <argument> ...it {E} = \textit {C} - \textit {A} &
                                                    \textit {F} = \textit {D}...
-l.639 }
+l.638 }
        
 ? ! Misplaced alignment tab character &.
 <argument> ...it {E} = \textit {C} - \textit {A} &
                                                    \textit {F} = \textit {D}...
-l.639 }
+l.638 }
        
 ? [21 <./src/figures/.png/Figure_ID_07.png>] (./diff.aux)
 
@@ -6732,18 +6658,17 @@ LaTeX Warning: There were undefined references.
 
  ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (22 pages, 1076052 bytes).
+ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxm
+i.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diff.pdf (22 pages, 1073960 bytes).
 Transcript written on diff.log.
 
 Compiled: ./diff.tex
