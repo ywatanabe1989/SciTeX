@@ -1,119 +1,18 @@
+
 Log file created: ./compile.log
 
 Revising...
 The following texfiles are being revised:
 
 ./src/abstract.tex
-./src/introduction.tex
-./src/methods.tex
-./src/results.tex
-./src/discussion.tex
-./src/figures/*tex
-./src/tables/*tex
 
 Is it okay to proceed? (y/n) 
 Revising ./src/abstract.tex ...
 Backed up: ./src/abstract.tex -> ./src/.old/abstract.tex
 Revised: ./src/abstract.tex
-Revising ./src/figures/Figure_ID_01.tex ...
-Backed up: ./src/figures/Figure_ID_01.tex -> ./src/figures/.old/Figure_ID_01.tex
-Revised: ./src/figures/Figure_ID_01.tex
-Revising ./src/introduction.tex ...
-Backed up: ./src/introduction.tex -> ./src/.old/introduction.tex
-Revised: ./src/introduction.tex
-Revising ./src/figures/Figure_ID_02.tex ...
-Backed up: ./src/figures/Figure_ID_02.tex -> ./src/figures/.old/Figure_ID_02.tex
-Revised: ./src/figures/Figure_ID_02.tex
-Revising ./src/figures/Figure_ID_03.tex ...
-Backed up: ./src/figures/Figure_ID_03.tex -> ./src/figures/.old/Figure_ID_03.tex
-Revised: ./src/figures/Figure_ID_03.tex
-Revising ./src/figures/Figure_ID_04.tex ...
-Backed up: ./src/figures/Figure_ID_04.tex -> ./src/figures/.old/Figure_ID_04.tex
-Revised: ./src/figures/Figure_ID_04.tex
-Revising ./src/figures/Figure_ID_05.tex ...
-Backed up: ./src/figures/Figure_ID_05.tex -> ./src/figures/.old/Figure_ID_05.tex
-Revised: ./src/figures/Figure_ID_05.tex
-Revising ./src/discussion.tex ...
-Backed up: ./src/discussion.tex -> ./src/.old/discussion.tex
-Revised: ./src/discussion.tex
-Revising ./src/methods.tex ...
-Backed up: ./src/methods.tex -> ./src/.old/methods.tex
-Revised: ./src/methods.tex
-Revising ./src/tables/Table_ID_01.tex ...
-Backed up: ./src/tables/Table_ID_01.tex -> ./src/tables/.old/Table_ID_01.tex
-Revised: ./src/tables/Table_ID_01.tex
-Revising ./src/tables/Table_ID_02.tex ...
-Backed up: ./src/tables/Table_ID_02.tex -> ./src/tables/.old/Table_ID_02.tex
-Revised: ./src/tables/Table_ID_02.tex
-Revising ./src/tables/Table_ID_03.tex ...
-Backed up: ./src/tables/Table_ID_03.tex -> ./src/tables/.old/Table_ID_03.tex
-Revised: ./src/tables/Table_ID_03.tex
-Revising ./src/figures/Figure_ID_06.tex ...
-Backed up: ./src/figures/Figure_ID_06.tex -> ./src/figures/.old/Figure_ID_06.tex
-Revised: ./src/figures/Figure_ID_06.tex
-Revising ./src/figures/Figure_ID_07.tex ...
-Backed up: ./src/figures/Figure_ID_07.tex -> ./src/figures/.old/Figure_ID_07.tex
-Revised: ./src/figures/Figure_ID_07.tex
-Revising ./src/results.tex ...
-Backed up: ./src/results.tex -> ./src/.old/results.tex
-Revised: ./src/results.tex
 
-Inserting citations...
-The following TeX files will have citations inserted:
+Compiling ./main.tex...
 
-./src/introduction.tex
-./src/methods.tex
-./src/results.tex
-./src/discussion.tex
-./src/figures/*tex
-./src/tables/*tex
-
-Is it okay to proceed? (y/n) 
-Inserting citations to ./src/figures/Figure_ID_01.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_01.tex -> ./src/figures/.old/Figure_ID_01.tex
-Citations were inserted to: ./src/figures/Figure_ID_01.tex
-Inserting citations to ./src/introduction.tex based on ./bibliography.bib...
-Backed up: ./src/introduction.tex -> ./src/.old/introduction.tex
-Citations were inserted to: ./src/introduction.tex
-Inserting citations to ./src/methods.tex based on ./bibliography.bib...
-Backed up: ./src/methods.tex -> ./src/.old/methods.tex
-Citations were inserted to: ./src/methods.tex
-Inserting citations to ./src/discussion.tex based on ./bibliography.bib...
-Backed up: ./src/discussion.tex -> ./src/.old/discussion.tex
-Citations were inserted to: ./src/discussion.tex
-Inserting citations to ./src/figures/Figure_ID_03.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_03.tex -> ./src/figures/.old/Figure_ID_03.tex
-Citations were inserted to: ./src/figures/Figure_ID_03.tex
-Inserting citations to ./src/figures/Figure_ID_02.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_02.tex -> ./src/figures/.old/Figure_ID_02.tex
-Citations were inserted to: ./src/figures/Figure_ID_02.tex
-Inserting citations to ./src/figures/Figure_ID_05.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_05.tex -> ./src/figures/.old/Figure_ID_05.tex
-Citations were inserted to: ./src/figures/Figure_ID_05.tex
-Inserting citations to ./src/figures/Figure_ID_04.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_04.tex -> ./src/figures/.old/Figure_ID_04.tex
-Citations were inserted to: ./src/figures/Figure_ID_04.tex
-Inserting citations to ./src/tables/Table_ID_01.tex based on ./bibliography.bib...
-Backed up: ./src/tables/Table_ID_01.tex -> ./src/tables/.old/Table_ID_01.tex
-Citations were inserted to: ./src/tables/Table_ID_01.tex
-Inserting citations to ./src/figures/Figure_ID_06.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_06.tex -> ./src/figures/.old/Figure_ID_06.tex
-Citations were inserted to: ./src/figures/Figure_ID_06.tex
-Inserting citations to ./src/tables/Table_ID_03.tex based on ./bibliography.bib...
-Backed up: ./src/tables/Table_ID_03.tex -> ./src/tables/.old/Table_ID_03.tex
-Citations were inserted to: ./src/tables/Table_ID_03.tex
-Inserting citations to ./src/tables/Table_ID_02.tex based on ./bibliography.bib...
-Backed up: ./src/tables/Table_ID_02.tex -> ./src/tables/.old/Table_ID_02.tex
-Citations were inserted to: ./src/tables/Table_ID_02.tex
-Inserting citations to ./src/figures/Figure_ID_07.tex based on ./bibliography.bib...
-Backed up: ./src/figures/Figure_ID_07.tex -> ./src/figures/.old/Figure_ID_07.tex
-Citations were inserted to: ./src/figures/Figure_ID_07.tex
-Inserting citations to ./src/results.tex based on ./bibliography.bib...
-Backed up: ./src/results.tex -> ./src/.old/results.tex
-Citations were inserted to: ./src/results.tex
-
-Compiling ./main.tex ...
-mv: cannot stat 'main.pdf': No such file or directory
 Processing ./src/styles/formatting.tex
 Processing ./src/styles/packages.tex
 Processing ./src/journal_name.tex
@@ -141,19 +40,16 @@ Processing ./src/figures/.tex/Figure_ID_04.tex
 Processing ./src/figures/.tex/Figure_ID_05.tex
 Processing ./src/figures/.tex/Figure_ID_06.tex
 Processing ./src/figures/.tex/Figure_ID_07.tex
-Processing ./src/tables//Table_ID_01.tex
-Processing ./src/tables//Table_ID_02.tex
-Processing ./src/tables//Table_ID_03.tex
+Processing ./src/tables/Table_ID_01.tex
+Processing ./src/tables/Table_ID_02.tex
+Processing ./src/tables/Table_ID_03.tex
 
 Compiled: ./compiled.tex
 
-Taking diff...
-Saved to: ./diff.tex
+Compiling ./diff.tex...
 
-Compiling diff.tex...
+Compiled: ./diff.tex
 
-Congratulations! compiled.pdf is ready.
+Congratulations! ./compiled_v290.pdf is ready.
 
---- v238 ---
-
-Do you want to open the PDF file? (y/n)
+Congratulations! ./diff_v290.pdf is ready.
