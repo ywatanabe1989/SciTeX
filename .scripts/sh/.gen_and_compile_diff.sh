@@ -1,15 +1,19 @@
 #!/bin/bash
 
 function gen_and_compile_diff() {
-    latest_tex=$(ls -v ./old/compiled_v*.tex | tail -n 1)
-    current_tex="./compiled.tex"
-    cat $latest_tex # empty
-    cat $current_tex # OK
 
-    if [ -n "$latest_tex" ] && [ -n "$current_tex" ]; then
+    latest_tex=$(ls -v ./old/compiled_v*.tex 2>/dev/null | tail -n 1)    
+    current_tex="./compiled.tex"
+
+    if [ -n "$latest_tex" ] && [ -f "$current_tex" ]; then
         echo -e "\nTaking diff between $latest_tex & $current_tex"
         latexdiff "$latest_tex" "$current_tex" > ./diff.tex 2> /dev/null
     fi
+    
+    # if [ -n "$latest_tex" ] && [ -n "$current_tex" ]; then
+    #     echo -e "\nTaking diff between $latest_tex & $current_tex"
+    #     latexdiff "$latest_tex" "$current_tex" > ./diff.tex 2> /dev/null
+    # fi
 
     if [ -s diff.tex ]; then
         echo -e "\n./diff.tex was created."
