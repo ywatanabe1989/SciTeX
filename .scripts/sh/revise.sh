@@ -18,7 +18,6 @@ config_file_path="./configs/files_to_revise.txt"
 files_to_revise=$(load_files_list "$config_file_path")
 
 # Main
-echo -e "\nRevising..."    
 revise $files_to_revise
 
 # ./.scripts/sh/revise.sh

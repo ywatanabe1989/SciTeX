@@ -34,7 +34,7 @@ gen_the_compiled_tex_file() {
         process_input "$output_file"
     done
 
-    echo -e "\nCompiled: $output_file\n"
+    echo -e "\nCompiled: $output_file"
 }
 
 gen_the_compiled_tex_file

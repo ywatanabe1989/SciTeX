@@ -1,11 +1,10 @@
 #!/bin/bash
 
 function gather_tables() {
-    csv2tex
     rm ./src/tables/.tex/.All_Tables.tex -f > /dev/null 2>&1
     for table_tex in ./src/tables/.tex/Table_*.tex; do
         fname="${table_tex%.tex}"
-        echo "\input{${fname}}" >> ./src/tables/.tex/.All_Tables.tex # [REVISED]
+        echo "\input{${fname}}" >> ./src/tables/.tex/.All_Tables.tex
     done
 }
 
@@ -13,11 +12,11 @@ function csv2tex() {
     yes | rm ./src/tables/.tex/*.tex > /dev/null 2>&1
 
     csv_dir="./src/tables/"
-    legend_dir="./src/tables/"    
+    legend_dir="./src/tables/"
+    
     output_dir="./src/tables/.tex/"
 
     mkdir -p $csv_dir $output_dir > /dev/null
-
 
     ii=0
     for csv_file in "$csv_dir"*.csv; do
@@ -75,7 +74,8 @@ function csv2tex() {
             echo "\\captionsetup{width=$width}" # [REVISED]                        
             # echo "\\captionsetup{width=\textwidth}" # [REVISED]            
             # \captionsetup{justification=centering, margin=0pt, width=\linewidth}
-            echo "\\input{$legend_dir/Table_ID_${table_id}}"
+            echo "\\input{${legend_dir}Table_ID_${table_id}}"
+            # echo "\\input{${output_dir}Table_ID_${table_id}}"            
             echo "" # newline here
             echo "\\label{tab:${table_id}}"            
             echo "\\end{table*}"
@@ -86,6 +86,10 @@ function csv2tex() {
     done
 }
 
+csv2tex
 gather_tables
 
+# cat ./src/tables/.tex/.All_Tables.tex
+# cat ./src/tables/.tex/Table_ID_01.tex
+# cat ./src/tables/Table_ID_01.tex
 ## EOF
