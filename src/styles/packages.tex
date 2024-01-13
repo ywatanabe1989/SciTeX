@@ -74,3 +74,12 @@
 \newcommand{\REDENDS}{\color{black}}
 \newcommand{\GREENSTARTS}{\color{green}}
 \newcommand{\GREENENDS}{\color{black}}
+
+% New command to read word counts
+\newread\wordcount
+\newcommand\readwordcount[1]{%
+  \openin\wordcount=#1
+  \read\wordcount to \thewordcount
+  \closein\wordcount
+  \thewordcount
+}
