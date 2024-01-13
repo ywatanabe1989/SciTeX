@@ -1,9 +1,10 @@
+#!/bin/bash
+
 function gather_tables() {
-    csv2tex
-    rm ./src/tables/.tex/.All_Tables.tex > /dev/null 2>&1
+    rm ./src/tables/.tex/.All_Tables.tex -f > /dev/null 2>&1
     for table_tex in ./src/tables/.tex/Table_*.tex; do
         fname="${table_tex%.tex}"
-        echo "\input{${fname}}" >> ./src/tables/.tex/.All_Tables.tex # [REVISED]
+        echo "\input{${fname}}" >> ./src/tables/.tex/.All_Tables.tex
     done
 }
 
@@ -11,11 +12,11 @@ function csv2tex() {
     yes | rm ./src/tables/.tex/*.tex > /dev/null 2>&1
 
     csv_dir="./src/tables/"
-    legend_dir="./src/tables/"    
+    legend_dir="./src/tables/"
+    
     output_dir="./src/tables/.tex/"
 
     mkdir -p $csv_dir $output_dir > /dev/null
-
 
     ii=0
     for csv_file in "$csv_dir"*.csv; do
@@ -30,19 +31,7 @@ function csv2tex() {
         # Determine the number of columns in the CSV file
         num_columns=$(head -n 1 "$csv_file" | awk -F, '{print NF}')
 
-        # Check if the table may be too wide and set a smaller font size if needed
-        # fontsize="\\normalsize"
-        # if [ "$num_columns" -gt 7 ]; then
-        #     fontsize="\\small" # or \\scriptsize for even smaller
-        # fi
         fontsize="\\small"
-
-        # if [ $ii -gt 0 ]; then # [REVISED]
-        #     echo "\\clearpage" > $tgt_file
-        # fi
-        # ii=$((ii+1))
-        
-        
         # Create the LaTeX document
         {
             echo "\\pdfbookmark[2]{ID ${table_id}}{id_${table_id}}"
@@ -70,16 +59,18 @@ function csv2tex() {
                 }' "$csv_file"            
             echo "\\bottomrule"
             echo "\\end{tabular}"
-            echo "\\captionsetup{width=$width}" # [REVISED]                        
-            # echo "\\captionsetup{width=\textwidth}" # [REVISED]            
-            # \captionsetup{justification=centering, margin=0pt, width=\linewidth}
-            echo "\\input{$legend_dir/Table_ID_${table_id}}"
-            echo "" # newline here
+            echo "\\captionsetup{width=\textwidth}"
+            echo "\\input{${legend_dir}Table_ID_${table_id}}"
+            echo ""
             echo "\\label{tab:${table_id}}"            
             echo "\\end{table*}"
             echo "\\restoregeometry"
 
-            # \input{$legend_dir/Table_ID_{$table_id}} # fixit; this include caption
         } > $tgt_file
     done
 }
+
+csv2tex
+gather_tables
+
+## EOF

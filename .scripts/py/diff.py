@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!.env/bin/python
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 19:37:12 (ywatanabe)"
+# Time-stamp: "2024-01-13 16:01:47 (ywatanabe)"
 
 import os
 import sys
@@ -23,10 +23,12 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--lpath_1", default="./compiled.tex")
-    parser.add_argument("--lpath_2", default="./old/compiled_v167.tex")
+    parser.add_argument("--lpath_1", default="./.compiled.tex")
+    parser.add_argument("--lpath_2", default="./old/compile_v001.tex")
     parser.add_argument("--spath", default="./diff.tex")
     args = parser.parse_args()
 
     if (args.lpath_1 != "") & (args.lpath_2 != ""):
         diff_tex_files(args.lpath_1, args.lpath_2, args.spath)
+
+## EOF

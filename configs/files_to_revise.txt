@@ -3,7 +3,7 @@
 # ./src/methods.tex
 # ./src/results.tex
 # ./src/discussion.tex
-# ./src/graphical_abstract.tex
 # ./src/figures/*tex
 # ./src/tables/*tex
 
+# ./src/graphical_abstract.tex

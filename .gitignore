@@ -2,14 +2,15 @@
 ## Customed
 ################################################################################
 *.old
-old/*
+# old/*
 !old/.gitkeep
 Figures/png/*
 Figures/tif/*
 !Figures/png/.gitkeep
 !Figures/tif/.gitkeep
 
-./logs/*
+./.logs/*
+!.logs/compile.log
 
 ################################################################################
 ## Emacs

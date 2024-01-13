@@ -1,20 +1,21 @@
-function mv_unnecessary_files() {
+#!/bin/bash
+
+function cleanup() {
     LOGDIR=./.logs
     mkdir -p $LOGDIR
 
+    # Remove all bak files from the repository
+    find . -type f -name "*bak*" -exec rm {} +
+    
+    # Remove Emacs temporary files
+    find . -type f -name "#*#" -exec rm {} \;
+
+    # Move files with these extensions (aux log out bbl blg spl dvi toc bak stderr stdout) under LOGDIR
     for ext in aux log out bbl blg spl dvi toc bak stderr stdout; do
         mv *.$ext $LOGDIR > /dev/null 2>&1        
-        # mv ./build/*.$ext $LOGDIR > /dev/null 2>&1  # [REVISED]        
     done
-
-    # Handle 'bak' files separately with wildcard
-    rm *bak* > /dev/null 2>&1  # [REVISED]    
-    # mv *bak* $LOGDIR/ > /dev/null 2>&1  # [REVISED]
-    # mv ./build/*bak* $LOGDIR/ > /dev/null 2>&1  # [REVISED]
-
-    # for f in ./*.sh; do
-    #     if [ "$f" != "./compile.sh" ]; then
-    #         mv "$f" $LOGDIR/ > /dev/null 2>&1
-    #     fi
-    # done
 }
+
+cleanup
+
+## EOF

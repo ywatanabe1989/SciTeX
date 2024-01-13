@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!./env/bin/python
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 14:08:30 (ywatanabe)"
+# Time-stamp: "2024-01-13 16:02:05 (ywatanabe)"
 
 
 import os
@@ -23,16 +23,15 @@ def insert_citations(lpath_tex, lpath_bib):
 
     # Instruction
     prompt = f"""
-        Please insert citations at appropriate places in the tex file below, from the bib file below.
-        
-        Note that:
-        - Do not change the original text, including all LaTeX commands, of course including indentation, except for citation management.
-        - Do not include any comments in your output. This is because the original tex file will be overrided with your output.
-        - The original tex manuscript for citations to be inserted is as follows:\n{tex_contents}
-        - The bibliography file to be refered to is as follows:\n{bib_contents}
-        - Do not care about tags like \bibliographystyle and \bibliography; they are compiled from other tex files afterwords. So, do not include them when they are not included, and keep them as they are when included.
-        - Forget about the tags \bibliographystyle and \bibliography; they will be compiled from other TeX files subsequently when they are not included. Therefore, exclude them if they are not present, and leave them unchanged if they are included.
-        """
+    Please insert citations at appropriate places in the TeX file below, using the bibliography file provided.
+
+    Note that:
+    - Do not alter the original text, including LaTeX commands and indentation, except to manage citations.
+    - Exclude any comments from your output, as the original TeX file will be overwritten with your output.
+    - The original TeX manuscript for citation insertion is as follows:\n{tex_contents}
+    - The bibliography file to be referred to is as follows:\n{bib_contents}
+    - Do not include any tags other than \cite{}, this is because other tags will be compiled from external tex files.
+    """
 
     # Main
     print(f"Inserting citations to {lpath_tex} based on {lpath_bib}...")
@@ -42,7 +41,7 @@ def insert_citations(lpath_tex, lpath_bib):
     back_up(lpath_tex)
 
     # Saves
-    spath = lpath_tex.replace(".tex", "_cited.tex")
+    spath = lpath_tex
     save_tex(inserted_text, spath) # fxime: \indent disappears
     print(f"Citations were inserted to: {spath}")
 
