@@ -14,7 +14,6 @@ function cleanup() {
     for ext in aux log out bbl blg spl dvi toc bak stderr stdout; do
         mv *.$ext $LOGDIR > /dev/null 2>&1        
     done
-
 }
 
 cleanup
