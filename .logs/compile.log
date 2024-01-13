@@ -1,15 +1,4 @@
-
-Log file created: ./compile.log
-
-Revising...
-The following texfiles are being revised:
-
-./src/abstract.tex
-
-Is it okay to proceed? (y/n) 
-Revising ./src/abstract.tex ...
-Backed up: ./src/abstract.tex -> ./src/.old/abstract.tex
-Revised: ./src/abstract.tex
+./compile.sh
 
 Compiling ./main.tex...
 
@@ -46,10 +35,15 @@ Processing ./src/tables/Table_ID_03.tex
 
 Compiled: ./compiled.tex
 
+Taking diff between ./old/compiled_v294.tex & ./compiled.tex
+
 Compiling ./diff.tex...
 
 Compiled: ./diff.tex
 
-Congratulations! ./compiled_v290.pdf is ready.
+Congratulations! ./compiled_v295.pdf is ready.
 
-Congratulations! ./diff_v290.pdf is ready.
+Congratulations! ./diff_v295.pdf is ready.
+
+Log saved to ./.logs/compile.log
+

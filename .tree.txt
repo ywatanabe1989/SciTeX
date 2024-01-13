@@ -1,0 +1,35 @@
+.
+├── bibliography.bib
+├── configs
+├── main.tex
+└── src
+    ├── abstract.tex
+    ├── additional_info.tex
+    ├── authors.tex
+    ├── discussion.tex
+    ├── figures
+    │   ├── Figure_ID_01.tex
+    │   ├── Figure_ID_02.tex
+    │   ├── Figure_ID_03.tex
+    │   ├── Figure_ID_04.tex
+    │   ├── Figure_ID_05.tex
+    │   ├── Figure_ID_06.tex
+    │   └── Figure_ID_07.tex
+    ├── graphical_abstract.tex
+    ├── highlights.tex
+    ├── introduction.tex
+    ├── journal_name.tex
+    ├── keywords.tex
+    ├── methods.tex
+    ├── results.tex
+    ├── styles
+    │   ├── bibliography.tex
+    │   ├── formatting.tex
+    │   └── packages.tex
+    ├── tables
+    │   ├── Table_ID_01.tex
+    │   ├── Table_ID_02.tex
+    │   └── Table_ID_03.tex
+    └── title.tex
+
+5 directories, 27 files

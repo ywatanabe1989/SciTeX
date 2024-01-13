@@ -4,6 +4,7 @@ function gen_and_compile_diff() {
     latest_tex=$(ls -v ./old/compiled_v*.tex | tail -n 1)
     current_tex="./compiled.tex"
 
+    echo -e "\nTaking diff between $latest_tex & $current_tex"
     latexdiff "$latest_tex" "$current_tex" > ./diff.tex 2> /dev/null    
 
     echo -e "\nCompiling ./diff.tex..."

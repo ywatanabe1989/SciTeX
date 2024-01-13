@@ -1,10 +1,8 @@
 #!/bin/bash
 
-LOG_FILE="./compile.log"
+LOG_FILE="./.logs/compile.log"
 
 {
-echo -e "\nLog file created: "$LOG_FILE
-
 rm ./.compiled.tex > /dev/null 2>&1
 rm ./.compiled.pdf > /dev/null 2>&1
 rm ./.diff.tex > /dev/null 2>&1
@@ -23,12 +21,8 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-# source ./.scripts/sh/.cleanup.sh
-# source ./.scripts/sh/.figures.sh
-# source ./.scripts/sh/.tables.sh
-# source ./.scripts/sh/.pdf.sh
-# source ./.scripts/sh/.store_compiled.sh
-source ./.scripts/sh/.load_files_list.sh 
+# for logging
+echo ./compile.sh $(if ! $do_take_diff; then echo "--no-diff"; fi) $(if $do_insert_citations; then echo "--citations"; fi) $(if $do_revise; then echo "--revise"; fi) # [REVISED]
 
 # Checks
 ./.scripts/sh/.check.sh
@@ -44,8 +38,8 @@ if [ "$do_insert_citations" = true ]; then
 fi
 
 # Main
-./.scripts/sh/.compile_main.tex.sh # compiled.pdf
-./.scripts/sh/.gen_compiled.tex.sh # compiled.tex
+./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf
+./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
 
 # Take diff if requested (default: false)
 if [ "$do_take_diff" = true ]; then
@@ -61,10 +55,8 @@ fi
 # Success message
 ./.scripts/sh/.print_success.sh
 
-
-
-# # Format tex files
-# find . -name "*.tex" -type f -print0 | xargs -0 -I {} latexindent -w "{}"  > /dev/null 2>&1
+# Tree
+tree -I "compiled_*|diff_*|*.pyc|*.cpython-38.pyc|*.so|*.pdf|*.tif|*.csv|*.ipynb|env|__pycache__|*.dist-info|*.whl|*.exe|*.tmpl|*.sh|cache|*.txt|*.md|manually_edited|old|*.xml|*.1" > .tree.txt
 
 # # Open the compiled pdf
 # if [ "$(echo $USER)" = "ywatanabe" ]; then
@@ -77,6 +69,8 @@ fi
 #     ./.scripts/sh/.open_pdf_or_exit.sh $PDF_PATH
 # fi
 
+echo -e "\nLog saved to $LOG_FILE\n"
 } 2>&1 | tee "$LOG_FILE"
+
 
 ## EOF
