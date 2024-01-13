@@ -41,7 +41,7 @@ function count_version() {
 function store_files() {
     local file=$1
     local extension=$2
-    filename=${file%.*}
+    local filename=$(basename ${file%.*}) # [REVISED]    
     
     if [ -f $file ]; then
         version=$(<"$VERSION_COUNTER_TXT")
