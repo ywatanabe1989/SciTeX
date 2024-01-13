@@ -1,10 +1,10 @@
-Subject ID,# of sessions,AHL,AHR,PHL,PHR,ECL,ECR,AL,AR,SOZ
-#1,4,✓,✗,✓,✓,✓,✗,✓,✗,AHR\, LR"
-#2,7,✓,✓,✓,✓,✓,✓,✓,✓,AHR\, PHR"
-#3,3,✓,✓,✓,✓,✓,✓,✓,✗,AHL\, PHL"
-#4,2,✓,✓,✓,✓,✓,✓,✓,✓,AHL\, AHR\, PHL\, PHR
-#5,3,✓,✗,✗,✓,✗,✗,✓,✗,DRR
-#6,6,✓,✓,✓,✓,✓,✓,✓,✓,AHL\, PHL\, ECL\, AL
-#7,4,✓,✓,✓,✓,✓,✓,✓,✓,AHR\, PHR
-#8,5,✓,✓,✓,✓,✓,✓,✓,✓,ECR
-#9,2,✓,✓,✓,✓,✓,✓,✓,✓,ECR\, AR
+Subject ID,\# of sessions,AHL,AHR,PHL,PHR,ECL,ECR,AL,AR,SOZ
+#1,4,\checkmark,n.a.,\checkmark,\checkmark,\checkmark,n.a.,\checkmark,n.a.,AHR \& LR
+#2,7,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,AHR \& PHR
+#3,3,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,n.a.,AHL \& PHL
+#4,2,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,AHL \& AHR \& PHL \& PHR
+#5,3,\checkmark,n.a.,n.a.,\checkmark,n.a.,n.a.,\checkmark,n.a.,DRR
+#6,6,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,AHL \& PHL \& ECL \& AL
+#7,4,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,AHR \& PHR
+#8,5,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,ECR
+#9,2,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,\checkmark,ECR \& AR
