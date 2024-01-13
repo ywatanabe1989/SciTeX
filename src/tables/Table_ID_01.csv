@@ -1,10 +1,10 @@
 Subject ID,# of sessions,AHL,AHR,PHL,PHR,ECL,ECR,AL,AR,SOZ
-#1,4,o,x,o,o,o,x,o,x,"AHR, LR"
-#2,7,o,o,o,o,o,o,o,o,"AHR, PHR"
-#3,3,o,o,o,o,o,o,o,x,"AHL, PHL"
-#4,2,o,o,o,o,o,o,o,o,"AHL, AHR, PHL, PHR"
-#5,3,o,x,x,o,x,x,o,x,DRR
-#6,6,o,o,o,o,o,o,o,o,"AHL, PHL, ECL, AL"
-#7,4,o,o,o,o,o,o,o,o,"AHR, PHR"
-#8,5,o,o,o,o,o,o,o,o,ECR
-#9,2,o,o,o,o,o,o,o,o,"ECR, AR"
+#1,4,\cmark,\xmark,\cmark,\cmark,\cmark,\xmark,\cmark,\xmark,"AHR, LR"
+#2,7,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,"AHR, PHR"
+#3,3,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\xmark,"AHL, PHL"
+#4,2,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,"AHL, AHR, PHL, PHR"
+#5,3,\cmark,\xmark,\xmark,\cmark,\xmark,\xmark,\cmark,\xmark,DRR
+#6,6,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,"AHL, PHL, ECL, AL"
+#7,4,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,"AHR, PHR"
+#8,5,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,ECR
+#9,2,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,\cmark,"ECR, AR"
