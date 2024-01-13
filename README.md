@@ -14,10 +14,11 @@ LaTeX is advantageous because it is:
 - Efficient for version tracking
 - Complementary to AI technology
 
-## LaTeX Installation on Ubuntu
+## Installation on Ubuntu
 
 ```bash
 $ ./.scripts/sh/install_on_ubuntu.sh
+$ ./.scripts/sh/install_python.sh
 ```
 
 ## Usage Instructions
