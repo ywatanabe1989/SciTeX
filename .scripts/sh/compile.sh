@@ -41,8 +41,8 @@ if [ "$do_insert_citations" = true ]; then
 fi
 
 # Main
-./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf
 ./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
+./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf
 
 # Take diff if requested (default: false)
 if [ "$do_take_diff" = true ]; then

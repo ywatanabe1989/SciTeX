@@ -41,12 +41,13 @@ function count_version() {
 function store_files() {
     local file=$1
     local extension=$2
-    local filename=$(basename ${file%.*}) # [REVISED]    
+    local filename=$(basename ${file%.*})
     
     if [ -f $file ]; then
         version=$(<"$VERSION_COUNTER_TXT")
         
-        local hidden_link="./.${filename}.${extension}"        
+        # local hidden_link="./.${filename}.${extension}"
+        local hidden_link="${OLD_DIR}.${filename}.${extension}"                
         rm $hidden_link -f > /dev/null 2>&1
 
         local tgt_path_current="./${filename}_v${version}.${extension}"

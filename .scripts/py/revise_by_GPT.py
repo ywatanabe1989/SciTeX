@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#./env/bin/python
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-13 12:57:35 (ywatanabe)"
+# Time-stamp: "2024-01-13 16:02:11 (ywatanabe)"
 
 
 import os
