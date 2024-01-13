@@ -70,7 +70,10 @@ tree -I "compiled_*|diff_*|*.pyc|*.cpython-38.pyc|*.so|*.pdf|*.tif|*.csv|*.ipynb
 # fi
 
 echo -e "\nLog saved to $LOG_FILE\n"
+
+
 } 2>&1 | tee "$LOG_FILE"
 
+./.scripts/sh/.git_push.sh 2>&1 | tee -a "$LOG_FILE"
 
 ## EOF
