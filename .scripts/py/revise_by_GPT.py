@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-12 16:26:15 (ywatanabe)"
+# Time-stamp: "2024-01-13 12:56:54 (ywatanabe)"
 
 
 import os
@@ -13,6 +13,10 @@ from utils import ChatGPT, load_tex, back_up, save_tex
 def revise_by_GPT(lpath):
     # Parameters
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+    if OPENAI_API_KEY is None:
+        raise ValueError(
+            "The OpenAI API key must be set as an environment variable to use ChatGPT. Please visit https://openai.com/blog/openai-api for more information. To set the key, run the command: echo 'export OPENAI_API_KEY=\"<YOUR_OPENAI_API_KEY>\"' >> ~/.bashrc. Replace <YOUR_OPENAI_API_KEY> with your actual API key, which might look similar to 'sk**AN'."
+        )
 
     # Instantiates GPT
     gpt = ChatGPT(OPENAI_API_KEY)
