@@ -51,7 +51,14 @@ echo 'export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"' >> ~/.bashrc
 To reset versioning:
 
 ```bash
+rm compiled_v* diff_v* -f
 mv old .old/old-$(date +%s)
+```
+
+To last push
+
+``` bash
+git reset HEAD~1
 ```
 
 To revert to a certain point:
