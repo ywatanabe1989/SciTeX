@@ -10,23 +10,17 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 \usepackage{bashful}
-% for figures
 \usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
 \usepackage{graphicx}
 \usepackage{calc}
-% for tables
-% \usepackage{xlsx2csv}
-% \usepackage{csv2latex}
 \usepackage[T1]{fontenc} % [REVISED]
 \usepackage[utf8]{inputenc} % [REVISED]
 \usepackage{hyperref}
 \usepackage{accsupp}
-
 %% Line numbers
 \linespread{1.1}
 % \linenumbers
-
-%% Tables
+% Tables
 \usepackage[pass]{geometry}
 \usepackage{pdflscape}
 \usepackage{csvsimple}
@@ -37,7 +31,6 @@
 \sisetup{round-mode=figures,round-precision=3}
 \renewcommand\theadfont{\bfseries}
 \renewcommand\theadalign{c}
-
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \renewcommand{\arraystretch}{1.5}
 \definecolor{lightgray}{gray}{0.95}
@@ -50,7 +43,6 @@
 % Define colors with transparency (opacity value)
 \definecolor{GreenBG}{rgb}{0,1,0}
 \definecolor{RedBG}{rgb}{1,0,0}
-
 % Define tcolorbox environments for highlighting
 \newtcbox{\greenhighlight}[1][]{%
   on line,
@@ -65,7 +57,6 @@
   bottom=2pt,
   tcbox raise base
 }
-
 \newtcbox{\redhighlight}[1][]{%
   on line,
   colframe=RedBG,
@@ -79,28 +70,7 @@
   bottom=2pt,
   tcbox raise base
 }
-
 \newcommand{\REDSTARTS}{\color{red}}
 \newcommand{\REDENDS}{\color{black}}
 \newcommand{\GREENSTARTS}{\color{green}}
 \newcommand{\GREENENDS}{\color{black}}
-
-% % Uncomment or provide the original definitions for these commands
-% \newcommand{\REDSTARTS}{\color{red}}
-% \newcommand{\REDENDS}{\color{black}} % Switch back to the default text color
-% \newcommand{\GREENSTARTS}{\color{green}}
-% \newcommand{\GREENENDS}{\color{black}} % Switch back to the default text color
-
-% % Redefine the highlighting commands to use the tcolorbox environments
-% \renewcommand{\REDSTARTS}{\begingroup\colorlet{oldcolor}{.}\color{red}}
-% \renewcommand{\REDENDS}{\color{oldcolor}\endgroup}
-% \renewcommand{\GREENSTARTS}{\begingroup\colorlet{oldcolor}{.}\color{green}}
-% \renewcommand{\GREENENDS}{\color{oldcolor}\endgroup}
-
-% % Define a command to apply the tcolorbox highlighting
-% \newcommand{\highlight}[2]{\tcbox[colframe=#1,colback=#1!50!white,on line]{#2}}
-
-% % Use the new \highlight command within the redefined \REDSTARTS and \GREENSTARTS
-% \renewcommand{\REDSTARTS}{\highlight{RedBG}}
-% \renewcommand{\GREENSTARTS}{\highlight{GreenBG}}
-
