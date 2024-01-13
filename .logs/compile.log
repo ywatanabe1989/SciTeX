@@ -36,15 +36,15 @@ Processing ./src/tables/Table_ID_03.tex
 
 Compiled: ./compiled.tex
 
-Taking diff between ./old/compiled_v300.tex & ./compiled.tex
+Taking diff between ./old/compiled_v301.tex & ./compiled.tex
 
 Compiling ./diff.tex...
 
 Compiled: ./diff.tex
 
-Congratulations! ./compiled_v301.pdf is ready.
+Congratulations! ./compiled_v302.pdf is ready.
 
-Congratulations! ./diff_v301.pdf is ready.
+Congratulations! ./diff_v302.pdf is ready.
 
 Log saved to ./.logs/compile.log
 
