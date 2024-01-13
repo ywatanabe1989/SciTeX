@@ -31,7 +31,7 @@ $ ./compile.sh -r # Revise tex files written in ./configs/files_to_revise.txt [-
 $ ./compile.sh -i # Insert citations into files written in ./configs/files_to_revise.txt based on ./bibliography.bib [-i|-insert-citations]
 $ ./compile.sh -p # Commit all and push this repository to GitHub [-p|--push]
 ```
-(Logs will be available at [`./.logs/compile.log`](./.logs/compile.log).)
+Logs will be available at [`./.logs/compile.log`](./.logs/compile.log).
 
 [`./compile.sh`](./.scripts/sh/compile.sh): Compiles the tex and bib files to generate [`./compiled.pdf`](./compiled.pdf) and [`./compiled.tex`](./compiled.tex).
 
