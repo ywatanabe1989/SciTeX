@@ -61,6 +61,17 @@ fi
 # Tree
 ./.scripts/sh/.custom_tree.sh
 
+echo -e "\nLog saved to $LOG_FILE\n"
+
+# if [ "$do_push" = true ]; then
+#     ./.scripts/sh/.git_push.sh
+# fi
+
+} 2>&1 | tee "$LOG_FILE"
+
+
+## EOF
+
 # # Open the compiled pdf
 # if [ "$(echo $USER)" = "ywatanabe" ]; then
 #     # open_pdf_or_exit ./compiled.pdf    
@@ -71,14 +82,3 @@ fi
 #     fi
 #     ./.scripts/sh/.open_pdf_or_exit.sh $PDF_PATH
 # fi
-
-echo -e "\nLog saved to $LOG_FILE\n"
-
-if [ "$do_push" = true ]; then
-    ./.scripts/sh/.git_push.sh
-fi
-
-} 2>&1 | tee "$LOG_FILE"
-
-
-## EOF
