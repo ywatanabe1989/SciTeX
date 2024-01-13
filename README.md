@@ -26,18 +26,19 @@ $ ./.scripts/sh/install_python.sh
 #### Files to Edit
 - [`./bibliography.bib`](./bibliography.bib) – Bibliography database
 - [`./main.tex`](./main.tex) – Main structure of the manuscript
-- [`./src/`](./src/) – Manuscript components
-- [`./configs/`](./configs/) – Configuration files for revising or inserting citations using ChatGPT
+- [`./src/`](./src/) – Components of the manuscript
+- [`./configs/`](./configs/) – Configuration files for revising or adding citations using ChatGPT
 
-The script [`./compile.sh`](./.scripts/sh/compile.sh) compiles the file [`./main.tex`](./main.tex) and generates the document [`./compiled.pdf`](./compiled.pdf). The options include:
+The script [`./compile.sh`](./.scripts/sh/compile.sh) compiles the file [`./main.tex`](./main.tex) and generates the document [`./compiled.pdf`](./compiled.pdf). The usage examples are as follows:
 
 ```bash
-$ ./compile.sh
-$ ./compile.sh -nd # Disable comparison with the previous version [-d|--diff]
-$ ./compile.sh -r # Revise TeX files listed in ./configs/files_to_revise.txt using ChatGPT [-r|--revise]
-$ ./compile.sh -i # Insert citations into the files listed in ./configs/files_to_revise.txt from ./bibliography.bib using ChatGPT [-i|--insert-citations]
-$ ./compile.sh -p # Commit all changes and push the repository to GitHub [-p|--push]
-$ yes | ./compile.sh -r -i -p # Automatically answer 'yes' to all prompts
+./compile.sh
+
+./compile.sh -p # Commit all changes and push the repository to GitHub [-p|--push]
+./compile.sh -r # Revise TeX files listed in ./configs/files_to_revise.txt using ChatGPT [-r|--revise]
+./compile.sh -i # Insert citations into the files listed in ./configs/files_to_revise.txt from ./bibliography.bib using ChatGPT [-i|--insert-citations]
+
+yes | ./compile.sh -r -i -p # Automatically answer 'yes' to all prompts
 ```
 Compilation logs can be found at [`./.logs/compile.log`](./.logs/compile.log).
 
@@ -49,7 +50,7 @@ echo 'export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"' >> ~/.bashrc
 
 To reset versioning:
 
-``` bash
+```bash
 mv old .old/old-$(date +%s)
 ```
 
