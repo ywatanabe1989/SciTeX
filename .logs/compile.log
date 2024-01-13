@@ -6662,3 +6662,11 @@ Congratulations! ./diff.pdf is ready.
 
 Log saved to ./.logs/compile.log
 
+[develop a9b5064] v045
+ 15 files changed, 1242 insertions(+), 117 deletions(-)
+ create mode 100644 old/compiled_v045.pdf
+ create mode 100644 old/compiled_v045.tex
+ create mode 100644 old/diff_v045.pdf
+ create mode 100644 old/diff_v045.tex
+To github.com:ywatanabe1989/LaTeX-Scientific-Template.git
+   2e74d2b..a9b5064  develop -> develop
