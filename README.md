@@ -32,39 +32,39 @@ $ ./.scripts/sh/install_python.sh
 The script [`./compile.sh`](./.scripts/sh/compile.sh) compiles the file [`./main.tex`](./main.tex) and generates the document [`./compiled.pdf`](./compiled.pdf). The usage examples are as follows:
 
 ```bash
-./compile.sh
+$ ./compile.sh
 
-./compile.sh -p # Commit all changes and push the repository to GitHub [-p|--push]
-./compile.sh -r # Revise TeX files listed in ./configs/files_to_revise.txt using ChatGPT [-r|--revise]
-./compile.sh -i # Insert citations into the files listed in ./configs/files_to_revise.txt from ./bibliography.bib using ChatGPT [-i|--insert-citations]
+$ ./compile.sh -p # Commit all changes and push the repository to GitHub [-p|--push]
+$ ./compile.sh -r # Revise TeX files listed in ./configs/files_to_revise.txt using ChatGPT [-r|--revise]
+$ ./compile.sh -i # Insert citations into the files listed in ./configs/files_to_revise.txt from ./bibliography.bib using ChatGPT [-i|--insert-citations]
 
-yes | ./compile.sh -r -i -p # Automatically answer 'yes' to all prompts
+$ yes | ./compile.sh -r -i -p # Automatically answer 'yes' to all prompts
 ```
 Compilation logs can be found at [`./.logs/compile.log`](./.logs/compile.log).
 
 To use ChatGPT, set your OpenAI API key as an environment variable with the command:
 
 ```bash
-echo 'export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"' >> ~/.bashrc
+$ echo 'export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"' >> ~/.bashrc
 ```
 
 To reset versioning:
 
 ```bash
-rm compiled_v* diff_v* -f
-mv old .old/old-$(date +%s)
+$ rm compiled_v* diff_v* -f
+$ mv old .old/old-$(date +%s)
 ```
 
-To last push
+To last push:
 
 ``` bash
-git reset HEAD~1
+$ git reset HEAD~1
 ```
 
 To revert to a certain point:
 
 ```bash
-git checkout <commit-hash> -- src/
+$ git checkout <commit-hash> -- src/
 ```
 
 Replace `YOUR_OPENAI_API_KEY` with your actual API key. For more information, visit the [OpenAI API documentation](https://openai.com/blog/openai-api). Your API key should resemble 'sk-**AN'.
