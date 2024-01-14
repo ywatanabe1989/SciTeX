@@ -1,0 +1,63 @@
+- Abstract Line 7-8:
+  "low-dimensional neural representations or trajectories (NT)" -> "neural trajectories (NTs)"
+  Reason: Inconsistency in abbreviation usage
+
+- Abstract Line 13-14:
+  "transient and synchronous oscillation" -> "transient and synchronous oscillations"
+  Reason: Grammatical number agreement
+
+- Introduction Paragraph 1 Line 14:
+  "Understanding the hippocampus’ role in working memory" -> "Understanding the hippocampus's role in working memory"
+  Reason: Style consistency in possession
+
+- Introduction Paragraph 2 Line 3:
+  "The associations suggest that SWR" -> "These associations suggest that SWRs"
+  Reason: Abbreviation plural form inconsistency
+
+- Introduction Paragraph 4 Line 6:
+  "rodent movement complicates" -> "rodent movements complicate"
+  Reason: Grammatical number agreement
+
+- Methods Paragraph 4 Line 3:
+  "During the encoding phase, participants were presented" -> "During the encoding phase, participants presented"
+  Reason: Verb tense consistency
+
+- Methods Paragraph 5 Line 1:
+  "Multiunit spike timing was determined" -> "Multiunit spike timings were determined"
+  Reason: Grammatical number agreement
+
+- Methods Paragraph 5 Line 1-2:
+  "(Figure~\ref{fig:01}C)." -> "(see Figure~\ref{fig:01}C)."
+  Reason: Consistent reference style
+
+- Methods Paragraph 6 Line 4:
+  "For each NT within a region such as AHL, geometric medians ($}$ for fixation" -> "For each NT within a region, such as AHL, geometric medians ($}_\text{fix}$ for fixation"
+  Reason: Consistency in mathematical notation
+
+- Methods Paragraph 8 Line 1-2:
+  "Potential SWR events within the hippocampus were detected using a widely used method" -> "Potential SWR events were detected within the hippocampus using a widely used method"
+  Reason: Clarity and word order
+
+- Methods Paragraph 9 Line 1:
+  "Potential SWRs were differentiated from SWR candidates" -> "Potential SWRs were distinguished from SWR candidates"
+  Reason: Word choice for clarity
+
+- Results Paragraph 1 Line 2:
+  ", which comprises LFP signals" -> ", comprising LFP signals"
+  Reason: Grammatical structure consistency
+
+- Results Paragraph 2 Line 7:
+  "Hipp.), entorhinal cortex (EC), and amygdala (Amy.), plotted" -> "Hipp.), the entorhinal cortex (EC), and the amygdala (Amy.), plotted"
+  Reason: Consistency in naming conventions
+
+- Results Paragraph 3 Line 7:
+  "(Figure~\ref{fig:03}D and \ref{fig:s02})." -> "(see Figure~\ref{fig:03}D and Figure~\ref{fig:s02})."
+  Reason: Consistent reference style
+
+- Discussion Paragraph 2 Line 5-6:
+  "Applying GPFA to multi-unit activity" -> "The application of GPFA to multi-unit activity"
+  Reason: Sentence structure and clarity
+
+- Discussion Paragraph 3 Line 8:
+  "The observed log-normal distributions of both SWR duration" -> "The observed log-normal distributions of both SWR durations"
+  Reason: Grammatical number agreement

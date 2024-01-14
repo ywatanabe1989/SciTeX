@@ -1,6 +1,6 @@
 #./env/bin/python
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-13 17:54:35 (ywatanabe)"
+# Time-stamp: "2024-01-14 11:13:05 (ywatanabe)"
 
 
 import os
@@ -39,6 +39,12 @@ def revise_by_GPT(lpath):
     - If [FIXME ->][<- FIXME] tags are present, please revise only the enclosed area; otherwise, please revise the entire text.
     - When using --- (emdash), please add spaces on either side.
     - Terminology should be consistent throughout the manuscript.
+
+    - Titles should follow the capitalization rules for titles like this: Local Field Potentials, Multiunit Activity, and Neural Trajectories in the Hippocampus during a Modified Sternberg Task. Please note that prepositions are written in lower letters.
+
+    - Titles of figures and tables should be the nown form
+
+    - The legend of figures and tables should use noun forms as much as possible.
     
     Now, the original manuscript to be revised is as follows:
     """
@@ -51,7 +57,7 @@ def revise_by_GPT(lpath):
     back_up(lpath)
 
     # Saves
-    spath = lpath.replace(".tex", "_revised.tex")
+    spath = lpath # .replace(".tex", "_revised.tex")
     save_tex(revised_text, lpath)
     print(f"Revised: {lpath}")
 
