@@ -1,5 +1,33 @@
-./compile.sh --push
+./compile.sh --push --ppt2tif
 
+
+Converting ./src/figures/Figure_ID_01.pptx...
+
+Converted: ./src/figures/Figure_ID_01.pptx -> ./src/figures/Figure_ID_01.tif
+
+Converting ./src/figures/Figure_ID_02.pptx...
+
+Converted: ./src/figures/Figure_ID_02.pptx -> ./src/figures/Figure_ID_02.tif
+
+Converting ./src/figures/Figure_ID_03.pptx...
+
+Converted: ./src/figures/Figure_ID_03.pptx -> ./src/figures/Figure_ID_03.tif
+
+Converting ./src/figures/Figure_ID_04.pptx...
+
+Converted: ./src/figures/Figure_ID_04.pptx -> ./src/figures/Figure_ID_04.tif
+
+Converting ./src/figures/Figure_ID_05.pptx...
+
+Converted: ./src/figures/Figure_ID_05.pptx -> ./src/figures/Figure_ID_05.tif
+
+Converting ./src/figures/Figure_ID_06.pptx...
+
+Converted: ./src/figures/Figure_ID_06.pptx -> ./src/figures/Figure_ID_06.tif
+
+Converting ./src/figures/Figure_ID_07.pptx...
+
+Converted: ./src/figures/Figure_ID_07.pptx -> ./src/figures/Figure_ID_07.tif
 
 ./src/figures/Figure_ID_01.tif was cropped.
 
@@ -19,7 +47,6 @@ Compiling ./main.tex...
 convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_01.tif' @ error/cache.c/OpenPixelCache/4083.
 convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_05.tif' @ error/cache.c/OpenPixelCache/4083.
 convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_06.tif' @ error/cache.c/OpenPixelCache/4083.
-convert-im6.q16: width or height exceeds limit `./src/figures/Figure_ID_07.tif' @ error/cache.c/OpenPixelCache/3911.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -1200,7 +1227,7 @@ dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 18487799 bytes).
+Output written on main.pdf (19 pages, 22587435 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -2437,7 +2464,7 @@ c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 18553625 bytes).
+Output written on main.pdf (22 pages, 22653260 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -3360,7 +3387,7 @@ lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 18555978 bytes).
+Output written on main.pdf (22 pages, 22655614 bytes).
 Transcript written on main.log.
 
 Processing ./src/styles/formatting.tex

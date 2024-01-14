@@ -21,7 +21,7 @@ LOG_FILE="./.logs/compile.log"
         echo "  -p,  --push          Enables push action"
         echo "  -r,  --revise        Enables revision process with GPT"
         echo "  -t,  --terms         Enables term checking with GPT"
-        echo "  -p2t, --ppt2tif     Converts Power Point to TIF (on WSL on Windows)"
+        echo "  -p2t, --ppt2tif      Converts Power Point to TIF (on WSL on Windows)"
         echo "  -c,  --citations     Inserts citations with GPT"
         echo "  -nd, --no-diff       Disables taking differences with the original manuscript"        
         exit 0
