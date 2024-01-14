@@ -3430,3 +3430,20 @@ Congratulations! ./diff.pdf is ready.
 
 Log saved to ./.logs/compile.log
 
+[develop 08fa0c6] v075
+ 22 files changed, 1251 insertions(+), 19 deletions(-)
+ create mode 100644 old/compiled_v075.pdf
+ create mode 100644 old/compiled_v075.tex
+ create mode 100644 old/diff_v075.pdf
+ create mode 100644 old/diff_v075.tex
+ rewrite src/figures/Figure_ID_07.tex (83%)
+remote: warning: File src/figures/Figure_ID_03.pptx is 66.39 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: error: Trace: 998a1d1c6da97331aa7aaf0ce08969276e71e6099586fc3ecd83439081c534af        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File src/figures/Figure_ID_07.pptx is 295.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: File src/figures/Figure_ID_06.pptx is 578.25 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: File src/figures/Figure_ID_07.pptx is 295.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:ywatanabe1989/LaTeX-Scientific-Template.git
+ ! [remote rejected] develop -> develop (pre-receive hook declined)
+error: failed to push some refs to 'git@github.com:ywatanabe1989/LaTeX-Scientific-Template.git'
