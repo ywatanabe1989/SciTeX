@@ -3,30 +3,30 @@
 gen_the_compiled_tex_file() {
     main_file="./main.tex"
     output_file="./compiled.tex"
-    cp "$main_file" "$output_file"
+    cp "$main_file" "$output_file" -f
 
     echo
 
     process_input() {
         local file_path="$1"
-        local temp_file=$(mktemp) # Create a temporary file to avoid reading and writing the same file
+        local temp_file=$(mktemp)
 
         while IFS= read -r line; do
             if [[ "$line" =~ \\input\{(.+)\} ]]; then
                 local input_path="${BASH_REMATCH[1]}.tex"
                 if [[ -f "$input_path" ]]; then
                     echo "Processing $input_path"
-                    cat "$input_path" >> "$temp_file" # Append the content of the input file to the temp file
+                    cat "$input_path" >> "$temp_file"
                 else
                     echo "Warning: File $input_path not found."
-                    echo "$line" >> "$temp_file" # Keep the original \input line if the file is not found
+                    echo "$line" >> "$temp_file"
                 fi
             else
-                echo "$line" >> "$temp_file" # Copy the line to the temp file
+                echo "$line" >> "$temp_file"
             fi
         done < "$file_path"
 
-        mv "$temp_file" "$output_file" # Replace the output file with the temp file
+        mv "$temp_file" "$output_file"
     }
 
     # Call process_input on the output file and repeat until no \input commands are left

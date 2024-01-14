@@ -46,8 +46,8 @@ fi
 ./.scripts/sh/.count_words_figures_and_tables.sh
 
 # Main
+./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf, collect figures and tables
 ./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
-./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf
 
 # Take diff if requested (default: false)
 if [ "$do_take_diff" = true ]; then

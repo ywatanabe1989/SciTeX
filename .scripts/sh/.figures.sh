@@ -43,7 +43,7 @@ function compile_legend() {
     mkdir -p "$tgt_dir"  > /dev/null
 
     ii=0
-    for caption_file in "$legend_dir"/Figure_ID_*.tex; do
+    for caption_file in "$legend_dir"Figure_ID_*.tex; do
         fname=$(basename "$caption_file")
         figure_content=$(cat "$caption_file")
         tgt_file="$tgt_dir/$fname"
@@ -75,10 +75,11 @@ EOF
 }
 
 function gather_figures() {
-    compile_legend
-    
     rm ./src/figures/.tex/.All_Figures.tex -f > /dev/null 2>&1
     rm ./src/figures/.tex/*.tex -f > /dev/null 2>&1        
+    
+    compile_legend
+    
 	for fig_tex in ./src/figures/.tex/Figure_*.tex; do
 	    fname="${fig_tex%.tex}"
         echo "\input{${fname}}" >> ./src/figures/.tex/.All_Figures.tex
