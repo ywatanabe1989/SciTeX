@@ -77,7 +77,8 @@ EOF
 function gather_figures() {
     compile_legend
     
-    rm ./src/figures/.tex/.All_Figures.tex -f > /dev/null 2>&1    
+    rm ./src/figures/.tex/.All_Figures.tex -f > /dev/null 2>&1
+    rm ./src/figures/.tex/*.tex -f > /dev/null 2>&1        
 	for fig_tex in ./src/figures/.tex/Figure_*.tex; do
 	    fname="${fig_tex%.tex}"
         echo "\input{${fname}}" >> ./src/figures/.tex/.All_Figures.tex
