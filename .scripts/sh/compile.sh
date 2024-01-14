@@ -11,12 +11,14 @@ do_take_diff=true
 do_insert_citations=false
 do_revise=false
 do_push=false
+do_term_check=false
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -h|--help) echo "Usage: $0 [-nd|--no-diff] [-c|--citations] [-r|--revise] [-p|--push]"; exit 0 ;;
+        -h|--help) echo "Usage: $0 [-nd|--no-diff] [-c|--citations] [-r|--revise] [-t|--check-terms] [-p|--push]"; exit 0 ;;
         -nd|--no-diff) do_take_diff=false ;;
         -c|--citations) do_insert_citations=true ;;
         -r|--revise) do_revise=true ;;
+        -t|--terms) do_term_check=true ;;        
         -p|--push) do_push=true ;;        
         # *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
@@ -24,7 +26,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 # for logging
-echo ./compile.sh $(if ! $do_take_diff; then echo "--no-diff"; fi) $(if $do_insert_citations; then echo "--citations"; fi) $(if $do_revise; then echo "--revise"; fi) $(if $do_push; then echo "--push"; fi)
+echo ./compile.sh $(if ! $do_take_diff; then echo "--no-diff"; fi) $(if $do_insert_citations; then echo "--citations"; fi) $(if $do_revise; then echo "--revise"; fi) $(if $do_term_check; then echo "--check-terms"; fi) $(if $do_push; then echo "--push"; fi)
 echo
 
 # Checks
@@ -61,8 +63,13 @@ fi
 # Success message
 ./.scripts/sh/.print_success.sh
 
+# Check terms
+./.scripts/sh/.check_terms.sh
+
 # Tree
-./.scripts/sh/.custom_tree.sh
+if [ "$do_term_check" = true ]; then
+    ./.scripts/sh/.custom_tree.sh
+fi
 
 echo -e "\nLog saved to $LOG_FILE\n"
 
