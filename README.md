@@ -24,12 +24,14 @@ To create your manuscript, modify the following files:
 - ChatGPT configuration: [`./configs/`](./configs/)
 
 ```bash
-$ ./compile.sh               # Compile the document
-$ ./compile.sh -h            # Display help for these commands
-$ ./compile.sh -r            # Revise with ChatGPT
-$ ./compile.sh -i            # Insert citations with ChatGPT
-$ ./compile.sh -p            # Push changes to GitHub
-$ yes | ./compile.sh -r -i -p # Execute all commands above and automatically confirm prompts
+$ ./compile.sh               # Compiles the document
+$ ./compile.sh -h            # Displays help for these commands
+$ ./compile.sh -p            # Pushes changes to GitHub
+$ ./compile.sh -r            # Revises with ChatGPT
+$ ./compile.sh -t            # Checks terms with ChatGPT
+$ ./compile.sh -c            # Inserts citations with ChatGPT
+$ ./compile.sh -p2t          # Converts PowerPoint to TIF
+$ yes | ./compile.sh -r -i -p # Executes multiple commands and automatically answers yes
 ```
 
 To integrate ChatGPT, set your OpenAI API key:

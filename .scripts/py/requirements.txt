@@ -1,1 +1,5 @@
 openai
+python-pptx
+Pillow       
+opencv-python
+numpy        

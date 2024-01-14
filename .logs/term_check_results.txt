@@ -1,63 +1,57 @@
-- Abstract Line 7-8:
-  "low-dimensional neural representations or trajectories (NT)" -> "neural trajectories (NTs)"
-  Reason: Inconsistency in abbreviation usage
+- Abstract Line 5-6
+  "sharp-wave ripples (SWRs) --- transient and synchronous oscillation observed in the hippocampus" -> "sharp-wave ripples (SWRs) --- a transient and synchronous oscillation observed in the hippocampus"
+  Reason: Grammatical consistency
 
-- Abstract Line 13-14:
-  "transient and synchronous oscillation" -> "transient and synchronous oscillations"
-  Reason: Grammatical number agreement
+- Introduction Line 6
+  "a transient, synchronized oscillation, called sharp-wave ripples (SWRs)" -> "a transient, synchronized oscillation called sharp-wave ripples (SWRs)"
+  Reason: Unnecessary comma
 
-- Introduction Paragraph 1 Line 14:
-  "Understanding the hippocampus’ role in working memory" -> "Understanding the hippocampus's role in working memory"
-  Reason: Style consistency in possession
+- Introduction Line 29
+  "recent studies have found" -> "Recent studies have found"
+  Reason: Sentence beginning should be capitalized
 
-- Introduction Paragraph 2 Line 3:
-  "The associations suggest that SWR" -> "These associations suggest that SWRs"
-  Reason: Abbreviation plural form inconsistency
+- Methods Line 5-6
+  "The dataset used in this study, which is publicly available, comprises nine epilepsy patients performing a modified the Sternberg task" -> "The dataset used in this study, which is publicly available, comprises nine epilepsy patients performing a modified Sternberg task"
+  Reason: Typographical error
 
-- Introduction Paragraph 4 Line 6:
-  "rodent movement complicates" -> "rodent movements complicate"
-  Reason: Grammatical number agreement
+- Methods Line 30-31
+  "The bin size was set to 50 ms, without overlaps." -> "The bin size was set to 50 ms without overlaps."
+  Reason: Unnecessary comma
 
-- Methods Paragraph 4 Line 3:
-  "During the encoding phase, participants were presented" -> "During the encoding phase, participants presented"
-  Reason: Verb tense consistency
+- Methods Line 36-37
+  "An optimal GPFA dimensionality was found to be three using the elbow method obtained by examining..." -> "An optimal GPFA dimensionality was found to be three, determined using the elbow method by examining..."
+  Reason: Clarity of sentence structure
 
-- Methods Paragraph 5 Line 1:
-  "Multiunit spike timing was determined" -> "Multiunit spike timings were determined"
-  Reason: Grammatical number agreement
+- Methods Line 45-46
+  "The resulting $^+/^-$ candidates were then visually inspected." -> "The resulting $^+/$^-$ candidates were then visually inspected."
+  Reason: Consistency in notation for plus/minus candidates
 
-- Methods Paragraph 5 Line 1-2:
-  "(Figure~\ref{fig:01}C)." -> "(see Figure~\ref{fig:01}C)."
-  Reason: Consistent reference style
+- Results Line 4-5
+  "during the execution of the modified Sternberg task." -> "during the execution of a modified Sternberg task."
+  Reason: Typographical error
 
-- Methods Paragraph 6 Line 4:
-  "For each NT within a region such as AHL, geometric medians ($}$ for fixation" -> "For each NT within a region, such as AHL, geometric medians ($}_\text{fix}$ for fixation"
-  Reason: Consistency in mathematical notation
+- Results Line 17-18
+  "We normalized each factor per session and region, for instance, session \#2 in AHL of subject \#1." -> "We normalized each factor for each session and region, for instance, session \#2 in AHL of subject \#1."
+  Reason: Clarity and grammatical consistency
 
-- Methods Paragraph 8 Line 1-2:
-  "Potential SWR events within the hippocampus were detected using a widely used method" -> "Potential SWR events were detected within the hippocampus using a widely used method"
-  Reason: Clarity and word order
+- Results Line 28-29
+  "The NT distance from the origin ($O$) --- represented as $ }$, $ }$, $ }$, and $ }$ --- in the hippocampus surpassed..." -> "The NT distance from the origin ($O$)---represented as $ }$, $ }$, $ }$, and $ }$---in the hippocampus surpassed..."
+  Reason: Formatting consistency for em dashes
 
-- Methods Paragraph 9 Line 1:
-  "Potential SWRs were differentiated from SWR candidates" -> "Potential SWRs were distinguished from SWR candidates"
-  Reason: Word choice for clarity
+- Results Line 47-48
+  "We identified five putative CA1 regions, four of which were not indicated as seizure onset zones (Table~\ref{tab:01})." -> "We identified five putative CA1 regions, four of which were identified as not being seizure onset zones (Table~\ref{tab:01})."
+  Reason: Clarity and grammatical consistency
 
-- Results Paragraph 1 Line 2:
-  ", which comprises LFP signals" -> ", comprising LFP signals"
-  Reason: Grammatical structure consistency
+- Discussion Last Paragraph Line 5
+  "opposing movements of encoding-SWR (eSWR) and retrieval-SWR (rSWR) were not observed in Match IN task but were apparent in Mismatch OUT task." -> "opposing movements of encoding-SWR (eSWR) and retrieval-SWR (rSWR) were observed not in the Match IN task but were apparent in the Mismatch OUT task."
+  Reason: Clarity and grammatical consistency
 
-- Results Paragraph 2 Line 7:
-  "Hipp.), entorhinal cortex (EC), and amygdala (Amy.), plotted" -> "Hipp.), the entorhinal cortex (EC), and the amygdala (Amy.), plotted"
-  Reason: Consistency in naming conventions
+- References Line 2
+  "Note Re-compile is required" -> "Note: Re-compilation is required"
+  Reason: Correction of phrase and formatting for clarity
 
-- Results Paragraph 3 Line 7:
-  "(Figure~\ref{fig:03}D and \ref{fig:s02})." -> "(see Figure~\ref{fig:03}D and Figure~\ref{fig:s02})."
-  Reason: Consistent reference style
+- Additional Information "Declaration_of_interest" Line 3
+  "The authors declare that they have no competing interests." -> "The authors declare no competing interests."
+  Reason: Conciseness and grammatical preference
 
-- Discussion Paragraph 2 Line 5-6:
-  "Applying GPFA to multi-unit activity" -> "The application of GPFA to multi-unit activity"
-  Reason: Sentence structure and clarity
-
-- Discussion Paragraph 3 Line 8:
-  "The observed log-normal distributions of both SWR duration" -> "The observed log-normal distributions of both SWR durations"
-  Reason: Grammatical number agreement
+Please remember, the line numbers are estimates and should be checked within the context of the provided manuscript for accuracy.

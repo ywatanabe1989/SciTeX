@@ -1,41 +1,52 @@
-./compile.sh
+./compile.sh --push --ppt2tif
 
 
-Processing ./src/styles/formatting.tex
-Processing ./src/styles/packages.tex
-Processing ./src/journal_name.tex
-Processing ./src/highlights.tex
-Processing ./src/title.tex
-Processing ./src/authors.tex
-Processing ./src/graphical_abstract.tex
-Processing ./src/abstract.tex
-Processing ./src/keywords.tex
-Processing ./src/wordcount.tex
-Processing ./src/introduction.tex
-Processing ./src/methods.tex
-Processing ./src/results.tex
-Processing ./src/discussion.tex
-Processing ./src/styles/bibliography.tex
-Processing ./src/additional_info.tex
-Processing ./src/tables/.tex/.All_Tables.tex
-Processing ./src/figures/.tex/.All_Figures.tex
-Processing ./src/tables/.tex/Table_ID_01.tex
-Processing ./src/tables/.tex/Table_ID_02.tex
-Processing ./src/tables/.tex/Table_ID_03.tex
-Processing ./src/figures/.tex/Figure_ID_01.tex
-Processing ./src/figures/.tex/Figure_ID_02.tex
-Processing ./src/figures/.tex/Figure_ID_03.tex
-Processing ./src/figures/.tex/Figure_ID_04.tex
-Processing ./src/figures/.tex/Figure_ID_05.tex
-Processing ./src/figures/.tex/Figure_ID_06.tex
-Processing ./src/figures/.tex/Figure_ID_07.tex
-Processing ./src/tables/Table_ID_01.tex
-Processing ./src/tables/Table_ID_02.tex
-Processing ./src/tables/Table_ID_03.tex
+Converting ./src/figures/Figure_ID_01.pptx...
 
-Compiled: ./compiled.tex
+Converted: ./src/figures/Figure_ID_01.pptx -> ./src/figures/Figure_ID_01.tif
+
+Converting ./src/figures/Figure_ID_02.pptx...
+
+Converted: ./src/figures/Figure_ID_02.pptx -> ./src/figures/Figure_ID_02.tif
+
+Converting ./src/figures/Figure_ID_03.pptx...
+
+Converted: ./src/figures/Figure_ID_03.pptx -> ./src/figures/Figure_ID_03.tif
+
+Converting ./src/figures/Figure_ID_04.pptx...
+
+Converted: ./src/figures/Figure_ID_04.pptx -> ./src/figures/Figure_ID_04.tif
+
+Converting ./src/figures/Figure_ID_05.pptx...
+
+Converted: ./src/figures/Figure_ID_05.pptx -> ./src/figures/Figure_ID_05.tif
+
+Converting ./src/figures/Figure_ID_06.pptx...
+
+Converted: ./src/figures/Figure_ID_06.pptx -> ./src/figures/Figure_ID_06.tif
+
+Converting ./src/figures/Figure_ID_07.pptx...
+
+Converted: ./src/figures/Figure_ID_07.pptx -> ./src/figures/Figure_ID_07.tif
+
+./src/figures/Figure_ID_01.tif was cropped.
+
+./src/figures/Figure_ID_02.tif was cropped.
+
+./src/figures/Figure_ID_03.tif was cropped.
+
+./src/figures/Figure_ID_04.tif was cropped.
+
+./src/figures/Figure_ID_05.tif was cropped.
+
+./src/figures/Figure_ID_06.tif was cropped.
+
+./src/figures/Figure_ID_07.tif was cropped.
 
 Compiling ./main.tex...
+convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_01.tif' @ error/cache.c/OpenPixelCache/4083.
+convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_05.tif' @ error/cache.c/OpenPixelCache/4083.
+convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_06.tif' @ error/cache.c/OpenPixelCache/4083.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -1131,17 +1142,69 @@ l.7 }
 l.7 }
      
 ? ) [10])) (./src/figures/.tex/.All_Figures.tex
+(./src/figures/.tex/Figure_ID_01.tex [11]
 
-! LaTeX Error: File `./src/figures/.tex/Figure_*.tex' not found.
+Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
+n input line 12.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: )
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
+d on input line 12.
+
+
+Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
+n input line 12.
+
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
+d on input line 12.
+
+) (./src/figures/.tex/Figure_ID_02.tex [12 <./src/figures/.png/Figure_ID_01.png
+>]
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
+d on input line 12.
+
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
+d on input line 12.
+
+) (./src/figures/.tex/Figure_ID_03.tex [13 <./src/figures/.png/Figure_ID_02.png
+>]) (./src/figures/.tex/Figure_ID_04.tex [14 <./src/figures/.png/Figure_ID_03.p
+ng>]
+
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
+put line 7.
+
+
+LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 7.
+
+
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
+put line 7.
+
+
+LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 7.
+
+) (./src/figures/.tex/Figure_ID_05.tex [15 <./src/figures/.png/Figure_ID_04.png
+>]) (./src/figures/.tex/Figure_ID_06.tex [16 <./src/figures/.png/Figure_ID_05.p
+ng>]) (./src/figures/.tex/Figure_ID_07.tex [17 <./src/figures/.png/Figure_ID_06
+.png>]
+! Misplaced alignment tab character &.
+<argument> ...it {E} = \textit {C} - \textit {A} &
+                                                   \textit {F} = \textit {D}...
+l.12 }
+      
+? ! Misplaced alignment tab character &.
+<argument> ...it {E} = \textit {C} - \textit {A} &
+                                                   \textit {F} = \textit {D}...
+l.12 }
+      
+? ))
 
 Package natbib Warning: There were undefined citations.
 
-[11] (./main.aux)
+[18 <./src/figures/.png/Figure_ID_07.png>] (./main.aux)
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -1153,8 +1216,8 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- ){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxm
@@ -1162,8 +1225,9 @@ i.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 137185 bytes).
+utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (19 pages, 22587435 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -1666,9 +1730,6 @@ Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
 put line 3.
 
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 3.
-
-
 LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 3.
 
 
@@ -1677,14 +1738,8 @@ Package natbib Warning: Citation `niediek_reliable_2016' on page 2 undefined on
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 3.
-
-
 Package natbib Warning: Citation `yu_gaussian-process_2009' on page 2 undefined
  on input line 6.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 9.
 
 
 Underfull \hbox (badness 2253) in paragraph at lines 6--10
@@ -1737,18 +1792,6 @@ Package natbib Warning: Citation `boran_dataset_2020' on page 3 undefined on in
 put line 3.
 
 
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
 Package natbib Warning: Citation `niediek_reliable_2016' on page 3 undefined on
  input line 3.
 
@@ -1757,23 +1800,7 @@ Package natbib Warning: Citation `yu_gaussian-process_2009' on page 3 undefined
  on input line 3.
 
 
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
 Underfull \vbox (badness 1377) has occurred while \output is active
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 6.
-
-
 Underfull \hbox (badness 1365) in paragraph at lines 6--10
 \T1/txr/m/n/10 com-pris-ing 50 tri-als, within the three main fac-tor
 
@@ -1783,45 +1810,11 @@ Underfull \hbox (badness 1028) in paragraph at lines 6--10
 Underfull \hbox (badness 1127) in paragraph at lines 11--11
 []\T1/txr/m/it/10 Memory-Load-Dependent NT Dis-tance be-tween
 
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 15.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 15.
-
-
 LaTeX Warning: Reference `fig:s02' on page 3 undefined on input line 15.
 
 [3]
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 21.
-
-
 Underfull \hbox (badness 1661) in paragraph at lines 18--22
 \T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 24.
-
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 24.
-
 
 Underfull \hbox (badness 1314) in paragraph at lines 24--28
 []\T1/txr/m/n/10 We as-sessed the 'dis-tance' of the NT from the
@@ -1831,105 +1824,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 []$[][][]\T1/txr/m/n/10 , and $[]$[][][] was larger
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:06' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:03' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:06' on page 4 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 36.
-
 [4]
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 39.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
 l.39 ...ghtarrow{\mathrm{rSWR}}$ in both SWR (SWR^
                                                   +) and baseline periods (S...
 
-? 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 39.
-
-! Missing $ inserted.
+? ! Missing $ inserted.
 <inserted text> 
                 $
 l.42 $\overrightarrow{\mathrm{rSWR^-}}
                                        \cdot \overrightarrow{\mathrm{g_{E}g_...
 
-? 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 45.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 45.
-
-)
-Underfull \hbox (badness 2205) in paragraph at lines 39--54
-[]\T1/txr/m/n/10 Subsequently, we in-ves-ti-gated the 'di-rec-tion' of
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
-\T1/txr/m/n/10 (SWR$[]\OT1/txr/m/n/10 )\OML/txmi/m/it/10 andbaselineperiods\OT1
-/txr/m/n/10 (\OML/txmi/m/it/10 SWR[]\OT1/txr/m/n/10 )(\OML/txmi/m/it/10 Figure 
-[]A \OMS/txsy/m/n/10 ^^@
-
-Underfull \hbox (badness 1881) in paragraph at lines 39--54
-[]$$[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 ex-hib-ited a bipha-sic dis-tri-
-bu-tion.
-
-Underfull \hbox (badness 1308) in paragraph at lines 39--54
-\T1/txr/m/n/10 By com-put-ing the dif-fer-ence be-tween the dis-tri-bu-
-
-Underfull \hbox (badness 6110) in paragraph at lines 39--54
-[]\T1/txr/m/n/10 Furthermore, $[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 was l
-ess than
-
-Underfull \hbox (badness 2735) in paragraph at lines 39--54
-[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 strictly in Mis-match OUT task
-(./src/discussion.tex
-
-LaTeX Warning: Reference `fig:01' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 2.
-
-
+? ) (./src/discussion.tex
 Underfull \hbox (badness 1546) in paragraph at lines 2--3
 []\T1/txr/m/n/10 This study hy-poth-e-sizes that in low-dimensional
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 4.
-
 
 Package natbib Warning: Citation `boran_persistent_2019' on page 5 undefined on
  input line 4.
@@ -1945,12 +1855,6 @@ d on input line 4.
 
 Package natbib Warning: Citation `faraut_dataset_2018' on page 5 undefined on i
 nput line 4.
-
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 6.
 
 
 Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 5 undefined o
@@ -1973,9 +1877,6 @@ Package natbib Warning: Citation `schomburg_spiking_2012' on page 5 undefined o
 n input line 6.
 
 
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 6.
-
-
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 5 undefined 
 on input line 6.
 
@@ -1984,23 +1885,11 @@ Package natbib Warning: Citation `norman_hippocampal_2021' on page 5 undefined
 on input line 6.
 
 
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 6.
-
-
 Package natbib Warning: Citation `liu_consensus_2022' on page 5 undefined on in
 put line 6.
 
 
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 6.
-
-
 Underfull \vbox (badness 1377) has occurred while \output is active [5]
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 8.
-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 8.
-
 
 Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
 on input line 8.
@@ -2012,9 +1901,6 @@ on input line 8.
 
 Underfull \hbox (badness 1286) in paragraph at lines 8--9
 \T1/txr/m/n/10 dur-ing both base-line and SWR pe-ri-ods in a task-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 10.
-
 
 Package natbib Warning: Citation `liu_optogenetic_2012' on page 6 undefined on 
 input line 10.
@@ -2081,7 +1967,6 @@ Underfull \hbox (badness 1509) in paragraph at lines 90--98
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
 oi / abs / 10 .
 
-Underfull \vbox (badness 10000) has occurred while \output is active [6]
 Underfull \hbox (badness 1005) in paragraph at lines 100--104
 \T1/txr/m/n/8 pal en-sem-ble mem-o-ries dur-ing sleep, Sci-ence (New York,
 
@@ -2092,6 +1977,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--114
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
  / 19 / 21 /
 
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
 Underfull \hbox (badness 4569) in paragraph at lines 150--158
 []\T1/txr/m/n/8 A. Fern�ndez-Ruiz, A. Oliva, E. Fer-mino de Oliveira,
 
@@ -2414,20 +2300,7 @@ l.28 #
                   
 l.30 #
       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
-? (./src/tables/Table_ID_02.tex
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-) [12]) (./src/tables/.tex/Table_ID_03.tex
+? (./src/tables/Table_ID_02.tex) [12]) (./src/tables/.tex/Table_ID_03.tex
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
@@ -2505,17 +2378,63 @@ l.7 }
 l.7 }
      
 ? ) [13])) (./src/figures/.tex/.All_Figures.tex
+(./src/figures/.tex/Figure_ID_01.tex [14]
 
-! LaTeX Error: File `./src/figures/.tex/Figure_*.tex' not found.
+Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
+n input line 12.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: )
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
+d on input line 12.
+
+
+Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
+n input line 12.
+
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
+d on input line 12.
+
+) (./src/figures/.tex/Figure_ID_02.tex [15 <./src/figures/.png/Figure_ID_01.png
+>]
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
+d on input line 12.
+
+
+Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
+d on input line 12.
+
+) (./src/figures/.tex/Figure_ID_03.tex [16 <./src/figures/.png/Figure_ID_02.png
+>]) (./src/figures/.tex/Figure_ID_04.tex [17 <./src/figures/.png/Figure_ID_03.p
+ng>]
+
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
+put line 7.
+
+
+Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
+put line 7.
+
+) (./src/figures/.tex/Figure_ID_05.tex [18 <./src/figures/.png/Figure_ID_04.png
+>]) (./src/figures/.tex/Figure_ID_06.tex [19 <./src/figures/.png/Figure_ID_05.p
+ng>]) (./src/figures/.tex/Figure_ID_07.tex [20 <./src/figures/.png/Figure_ID_06
+.png>]
+! Misplaced alignment tab character &.
+<argument> ...it {E} = \textit {C} - \textit {A} &
+                                                   \textit {F} = \textit {D}...
+l.12 }
+      
+? ! Misplaced alignment tab character &.
+<argument> ...it {E} = \textit {C} - \textit {A} &
+                                                   \textit {F} = \textit {D}...
+l.12 }
+      
+? ))
 
 Package natbib Warning: There were undefined citations.
 
-[14] (./main.aux
+[21 <./src/figures/.png/Figure_ID_07.png>] (./main.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -2530,8 +2449,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  )pdfTeX warning (dest): name{table.caption.8} has been referenced but does not
  exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/typ
+pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
+ exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fo
+nts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
 fonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.
@@ -2539,9 +2461,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 201543 bytes).
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (22 pages, 22653260 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -2887,19 +2810,9 @@ been already used, duplicate ignored
 l.44 
       [1] (./src/methods.tex
 
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 3.
-
-
 LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
-
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 9.
-
-
 Underfull \hbox (badness 2253) in paragraph at lines 6--10
 []\T1/txr/m/n/10 NTs, also re-ferred to as 'fac-tors', in the hip-
 
@@ -2923,36 +2836,7 @@ Underfull \hbox (badness 1910) in paragraph at lines 18--24
 Underfull \hbox (badness 1394) in paragraph at lines 25--49
 []\T1/txr/m/n/10 Both the Brunner--Munzel test and the Kruskal-
 (./src/results.tex
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 3.
-
-
 Underfull \vbox (badness 1377) has occurred while \output is active
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 6.
-
-
 Underfull \hbox (badness 1365) in paragraph at lines 6--10
 \T1/txr/m/n/10 com-pris-ing 50 tri-als, within the three main fac-tor
 
@@ -2962,45 +2846,11 @@ Underfull \hbox (badness 1028) in paragraph at lines 6--10
 Underfull \hbox (badness 1127) in paragraph at lines 11--11
 []\T1/txr/m/it/10 Memory-Load-Dependent NT Dis-tance be-tween
 
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 15.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 15.
-
-
 LaTeX Warning: Reference `fig:s02' on page 3 undefined on input line 15.
 
 [3]
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 21.
-
-
 Underfull \hbox (badness 1661) in paragraph at lines 18--22
 \T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 24.
-
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 24.
-
 
 Underfull \hbox (badness 1314) in paragraph at lines 24--28
 []\T1/txr/m/n/10 We as-sessed the 'dis-tance' of the NT from the
@@ -3010,134 +2860,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 []$[][][]\T1/txr/m/n/10 , and $[]$[][][] was larger
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:06' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:03' on page 4 undefined on input line 30.
-
-
-LaTeX Warning: Reference `fig:06' on page 4 undefined on input line 36.
-
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 36.
-
 [4]
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 39.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
 l.39 ...ghtarrow{\mathrm{rSWR}}$ in both SWR (SWR^
                                                   +) and baseline periods (S...
 
-? 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 39.
-
-! Missing $ inserted.
+? ! Missing $ inserted.
 <inserted text> 
                 $
 l.42 $\overrightarrow{\mathrm{rSWR^-}}
                                        \cdot \overrightarrow{\mathrm{g_{E}g_...
 
-? 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 45.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 45.
-
-)
-Underfull \hbox (badness 2205) in paragraph at lines 39--54
-[]\T1/txr/m/n/10 Subsequently, we in-ves-ti-gated the 'di-rec-tion' of
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
-\T1/txr/m/n/10 (SWR$[]\OT1/txr/m/n/10 )\OML/txmi/m/it/10 andbaselineperiods\OT1
-/txr/m/n/10 (\OML/txmi/m/it/10 SWR[]\OT1/txr/m/n/10 )(\OML/txmi/m/it/10 Figure 
-[]A \OMS/txsy/m/n/10 ^^@
-
-Underfull \hbox (badness 1881) in paragraph at lines 39--54
-[]$$[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 ex-hib-ited a bipha-sic dis-tri-
-bu-tion.
-
-Underfull \hbox (badness 1308) in paragraph at lines 39--54
-\T1/txr/m/n/10 By com-put-ing the dif-fer-ence be-tween the dis-tri-bu-
-
-Underfull \hbox (badness 6110) in paragraph at lines 39--54
-[]\T1/txr/m/n/10 Furthermore, $[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 was l
-ess than
-
-Underfull \hbox (badness 2735) in paragraph at lines 39--54
-[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 strictly in Mis-match OUT task
-(./src/discussion.tex
-
-LaTeX Warning: Reference `fig:01' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 2.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 2.
-
-
+? ) (./src/discussion.tex
 Underfull \hbox (badness 1546) in paragraph at lines 2--3
 []\T1/txr/m/n/10 This study hy-poth-e-sizes that in low-dimensional
 
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 6.
-
-
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 6.
-
-
 Underfull \vbox (badness 1377) has occurred while \output is active [5]
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 8.
-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 8.
-
-
 Underfull \hbox (badness 1286) in paragraph at lines 8--9
 \T1/txr/m/n/10 dur-ing both base-line and SWR pe-ri-ods in a task-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 10.
-
 ) (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 9--14
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
@@ -3200,7 +2942,6 @@ Underfull \hbox (badness 1509) in paragraph at lines 90--98
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
 oi / abs / 10 .
 
-Underfull \vbox (badness 10000) has occurred while \output is active [6]
 Underfull \hbox (badness 1005) in paragraph at lines 100--104
 \T1/txr/m/n/8 pal en-sem-ble mem-o-ries dur-ing sleep, Sci-ence (New York,
 
@@ -3211,6 +2952,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--114
 \T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
  / 19 / 21 /
 
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
 Underfull \hbox (badness 4569) in paragraph at lines 150--158
 []\T1/txr/m/n/8 A. Fern�ndez-Ruiz, A. Oliva, E. Fer-mino de Oliveira,
 
@@ -3533,20 +3275,7 @@ l.28 #
                   
 l.30 #
       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
-? (./src/tables/Table_ID_02.tex
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-
-LaTeX Warning: Reference `fig:04' on page 12 undefined on input line 4.
-
-) [12]) (./src/tables/.tex/Table_ID_03.tex
+? (./src/tables/Table_ID_02.tex) [12]) (./src/tables/.tex/Table_ID_03.tex
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
@@ -3624,18 +3353,30 @@ l.7 }
 l.7 }
      
 ? ) [13])) (./src/figures/.tex/.All_Figures.tex
-
-! LaTeX Error: File `./src/figures/.tex/Figure_*.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: ) [14] (./main.aux)
+(./src/figures/.tex/Figure_ID_01.tex [14]) (./src/figures/.tex/Figure_ID_02.tex
+ [15 <./src/figures/.png/Figure_ID_01.png>])
+(./src/figures/.tex/Figure_ID_03.tex [16 <./src/figures/.png/Figure_ID_02.png>]
+) (./src/figures/.tex/Figure_ID_04.tex [17 <./src/figures/.png/Figure_ID_03.png
+>]) (./src/figures/.tex/Figure_ID_05.tex [18 <./src/figures/.png/Figure_ID_04.p
+ng>]) (./src/figures/.tex/Figure_ID_06.tex [19 <./src/figures/.png/Figure_ID_05
+.png>]) (./src/figures/.tex/Figure_ID_07.tex [20 <./src/figures/.png/Figure_ID_
+06.png>]
+! Misplaced alignment tab character &.
+<argument> ...it {E} = \textit {C} - \textit {A} &
+                                                   \textit {F} = \textit {D}...
+l.12 }
+      
+? ! Misplaced alignment tab character &.
+<argument> ...it {E} = \textit {C} - \textit {A} &
+                                                   \textit {F} = \textit {D}...
+l.12 }
+      
+? )) [21 <./src/figures/.png/Figure_ID_07.png>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
- ){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxm
@@ -3643,3325 +3384,45 @@ i.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 203752 bytes).
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (22 pages, 22655614 bytes).
 Transcript written on main.log.
 
-Taking diff between ./old/compiled_v065.tex & ./compiled.tex
-
-./diff.tex was created.
-
-Compiling ./diff.tex...
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
- \write18 enabled.
-entering extended mode
-(./diff.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
-Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/bashful/bashful.sty
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/accsupp/accsupp.sty
-(/usr/share/texlive/texmf-dist/tex/latex/accsupp/accsupp-pdftex.def))
-
-! LaTeX Error: Option clash for package geometry.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \usepackage
-                {pdflscape}
-? (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex))) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/xltabular/xltabular.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
-Library (tcolorbox): 'tcbxparse.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
-)))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '4.22'
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfadings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
-.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
-)) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/settobox.sty)
-No file diff.aux.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd)
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
-ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict)
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd)
-Underfull \hbox (badness 1655) in paragraph at lines 208--209
-[]\T1/txr/m/n/10 Neural tra-jec-to-ries in the hip-pocam-pus ex-hib-
-
-Underfull \hbox (badness 2073) in paragraph at lines 213--214
-[]\T1/txr/m/n/10 Hippocampal neu-ral tra-jec-to-ries fluc-tu-ated be-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 245.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[][]\T1/txr/m/n/8 Corresponding au-thor. Tel: +81-6-6879-3652 Email:
-
-! LaTeX Error: Environment wordcount* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 \begin{wordcount*}
-                        
-? 
-! LaTeX Error: \begin{document} ended by \end{wordcount*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 \end{wordcount*}
-                      
-? 
-Package natbib Warning: Citation `scoville_loss_1957' on page 1 undefined on in
-put line 261.
-
-
-Package natbib Warning: Citation `squire_legacy_2009' on page 1 undefined on in
-put line 261.
-
-
-Package natbib Warning: Citation `boran_persistent_2019' on page 1 undefined on
- input line 261.
-
-
-Package natbib Warning: Citation `kaminski_persistently_2017' on page 1 undefin
-ed on input line 261.
-
-
-Package natbib Warning: Citation `kornblith_persistent_2017' on page 1 undefine
-d on input line 261.
-
-
-Package natbib Warning: Citation `faraut_dataset_2018' on page 1 undefined on i
-nput line 261.
-
-
-Package natbib Warning: Citation `borders_hippocampus_2022' on page 1 undefined
- on input line 261.
-
-
-Package natbib Warning: Citation `li_functional_2023' on page 1 undefined on in
-put line 261.
-
-
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 1 unde
-fined on input line 261.
-
-
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 1 undefined
- on input line 264.
-
-
-Package natbib Warning: Citation `wilson_reactivation_1994' on page 1 undefined
- on input line 264.
-
-
-Package natbib Warning: Citation `nadasdy_replay_1999' on page 1 undefined on i
-nput line 264.
-
-
-Package natbib Warning: Citation `lee_memory_2002' on page 1 undefined on input
- line 264.
-
-
-Package natbib Warning: Citation `diba_forward_2007' on page 1 undefined on inp
-ut line 264.
-
-
-Package natbib Warning: Citation `davidson_hippocampal_2009' on page 1 undefine
-d on input line 264.
-
-
-Package natbib Warning: Citation `girardeau_selective_2009' on page 1 undefined
- on input line 264.
-
-
-Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 1 undefi
-ned on input line 264.
-
-
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 1 
-undefined on input line 264.
-
-
-Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 1 undef
-ined on input line 264.
-
-
-Package natbib Warning: Citation `wu_hippocampal_2017' on page 1 undefined on i
-nput line 264.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 1 undefined 
-on input line 264.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 1 undefined 
-on input line 264.
-
-
-Package natbib Warning: Citation `behrens_induction_2005' on page 1 undefined o
-n input line 264.
-
-
-Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 1 undefine
-d on input line 264.
-
-
-Package natbib Warning: Citation `okeefe_hippocampus_1971' on page 1 undefined 
-on input line 267.
-
-
-Package natbib Warning: Citation `okeefe_place_1976' on page 1 undefined on inp
-ut line 267.
-
-
-Package natbib Warning: Citation `ekstrom_cellular_2003' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `kjelstrup_finite_2008' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `harvey_intracellular_2009' on page 1 undefine
-d on input line 267.
-
-
-Package natbib Warning: Citation `zhang_hippocampal_2022' on page 1 undefined o
-n input line 267.
-
-
-Package natbib Warning: Citation `naber_reciprocal_2001' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `van_strien_anatomy_2009' on page 1 undefined 
-on input line 267.
-
-
-Package natbib Warning: Citation `strange_functional_2014' on page 1 undefined 
-on input line 267.
-
-
-Package natbib Warning: Citation `gardner_toroidal_2022' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `jadhav_awake_2012' on page 1 undefined on inp
-ut line 270.
-
-
-Package natbib Warning: Citation `Watanabe_2021' on page 1 undefined on input l
-ine 270.
-
-
-Package natbib Warning: Citation `boran_dataset_2020' on page 1 undefined on in
-put line 273.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 1 undefined
- on input line 273.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-Overfull \hbox (1.90001pt too wide) has occurred while \output is active
-[] 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.278 \section
-              {Methods} [1]
-
-Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
-put line 280.
-
-
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 280.
-
-
-LaTeX Warning: Reference `tab:01' on page 2 undefined on input line 280.
-
-
-LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 280.
-
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 2 undefined on
- input line 280.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
-
-LaTeX Warning: Reference `fig:01' on page 2 undefined on input line 280.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 2 undefined
- on input line 283.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 286.
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 283--287
-[]\T1/txr/m/n/10 NTs, also re-ferred to as 'fac-tors', in the hip-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 2 undefined on in
-put line 289.
-
-
-Package natbib Warning: Citation `kay_hippocampal_2016' on page 2 undefined on 
-input line 289.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 2 undefined 
-on input line 289.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 2 undefined 
-on input line 289.
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 289--293
-[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
-[2]
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 3 undefined on inp
-ut line 295.
-
-
-Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 3 undefin
-ed on input line 295.
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 295--301
-\T1/txr/m/n/10 di-dates in pu-ta-tive CA1 (cornu Am-mo-nis 1) re-
-
-Underfull \hbox (badness 1910) in paragraph at lines 295--301
-[]$[][]\OML/txmi/m/it/10 =[][]$ \T1/txr/m/n/10 can-di-dates in these pre-de-ter
--mined
-
-Package natbib Warning: Citation `virtanen_scipy_2020' on page 3 undefined on i
-nput line 302.
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 302--307
-[]\T1/txr/m/n/10 Both the Brunner--Munzel test and the Kruskal-
-
-Package natbib Warning: Citation `boran_dataset_2020' on page 3 undefined on in
-put line 309.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 309.
-
-
-LaTeX Warning: Reference `tab:01' on page 3 undefined on input line 309.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 309.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 309.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 309.
-
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 3 undefined on
- input line 309.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 3 undefined
- on input line 309.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 309.
-
-
-LaTeX Warning: Reference `fig:01' on page 3 undefined on input line 309.
-
-
-Underfull \vbox (badness 1377) has occurred while \output is active
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 312.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 312.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 312.
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 312--316
-\T1/txr/m/n/10 com-pris-ing 50 tri-als, within the three main fac-tor
-
-Underfull \hbox (badness 1028) in paragraph at lines 312--316
-\T1/txr/m/n/10 ge-o-met-ric me-di-ans of four phases, namely $[]$,
-
-Underfull \hbox (badness 1127) in paragraph at lines 317--317
-[]\T1/txr/m/it/10 Memory-Load-Dependent NT Dis-tance be-tween
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 318.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 318.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 321.
-
-
-LaTeX Warning: Reference `fig:03' on page 3 undefined on input line 321.
-
-
-LaTeX Warning: Reference `fig:s02' on page 3 undefined on input line 321.
-
-[3]
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Reference `tab:02' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Reference `tab:02' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Reference `tab:03' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Reference `tab:01' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Reference `tab:03' on page 4 undefined on input line 327.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 327.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 327.
-
-
-LaTeX Warning: Reference `fig:04' on page 4 undefined on input line 327.
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 324--328
-\T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 330.
-
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 330.
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 330--334
-[]\T1/txr/m/n/10 We as-sessed the 'dis-tance' of the NT from the
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-[]\T1/txr/m/n/10 As a re-sult, $[]$[][][] ex-ceeded
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-[]$[][][]\T1/txr/m/n/10 , and $[]$[][][] was larger
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 336.
-
-
-LaTeX Warning: Reference `fig:06' on page 4 undefined on input line 336.
-
-
-LaTeX Warning: Reference `fig:03' on page 4 undefined on input line 336.
-
-
-LaTeX Warning: Reference `fig:06' on page 4 undefined on input line 342.
-
-
-LaTeX Warning: Reference `fig:05' on page 4 undefined on input line 342.
-
-[4]
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 345.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.345 ...htarrow{\mathrm{rSWR}}$ in both SWR (SWR^
-                                                  +) and baseline periods (S...
-
-? 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 345.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.348 $\overrightarrow{\mathrm{rSWR^-}}
-                                        \cdot \overrightarrow{\mathrm{g_{E}g...
-
-? 
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 348.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 348.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 348.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 348.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 351.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 351.
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 345--356
-[]\T1/txr/m/n/10 Subsequently, we in-ves-ti-gated the 'di-rec-tion' of
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--356
-\T1/txr/m/n/10 (SWR$[]\OT1/txr/m/n/10 )\OML/txmi/m/it/10 andbaselineperiods\OT1
-/txr/m/n/10 (\OML/txmi/m/it/10 SWR[]\OT1/txr/m/n/10 )(\OML/txmi/m/it/10 Figure 
-[]A \OMS/txsy/m/n/10 ^^@
-
-Underfull \hbox (badness 1881) in paragraph at lines 345--356
-[]$$[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 ex-hib-ited a bipha-sic dis-tri-
-bu-tion.
-
-Underfull \hbox (badness 1308) in paragraph at lines 345--356
-\T1/txr/m/n/10 By com-put-ing the dif-fer-ence be-tween the dis-tri-bu-
-
-Underfull \hbox (badness 6110) in paragraph at lines 345--356
-[]\T1/txr/m/n/10 Furthermore, $[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 was l
-ess than
-
-Underfull \hbox (badness 2735) in paragraph at lines 345--356
-[] \OMS/txsy/m/n/10 ^^A []$ \T1/txr/m/n/10 strictly in Mis-match OUT task
-
-LaTeX Warning: Reference `fig:01' on page 5 undefined on input line 357.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 357.
-
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 357.
-
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 357.
-
-
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 357.
-
-
-LaTeX Warning: Reference `fig:07' on page 5 undefined on input line 357.
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 357--358
-[]\T1/txr/m/n/10 This study hy-poth-e-sizes that in low-dimensional
-
-LaTeX Warning: Reference `fig:02' on page 5 undefined on input line 359.
-
-
-Package natbib Warning: Citation `boran_persistent_2019' on page 5 undefined on
- input line 359.
-
-
-Package natbib Warning: Citation `kaminski_persistently_2017' on page 5 undefin
-ed on input line 359.
-
-
-Package natbib Warning: Citation `kornblith_persistent_2017' on page 5 undefine
-d on input line 359.
-
-
-Package natbib Warning: Citation `faraut_dataset_2018' on page 5 undefined on i
-nput line 359.
-
-
-LaTeX Warning: Reference `fig:03' on page 5 undefined on input line 359.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 361.
-
-
-Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 5 undefined o
-n input line 361.
-
-
-Package natbib Warning: Citation `quyen_cell_2008' on page 5 undefined on input
- line 361.
-
-
-Package natbib Warning: Citation `royer_control_2012' on page 5 undefined on in
-put line 361.
-
-
-Package natbib Warning: Citation `hajos_input-output_2013' on page 5 undefined 
-on input line 361.
-
-
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 5 undefined o
-n input line 361.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 361.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 5 undefined 
-on input line 361.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 5 undefined 
-on input line 361.
-
-
-LaTeX Warning: Reference `fig:04' on page 5 undefined on input line 361.
-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 5 undefined on in
-put line 361.
-
-
-LaTeX Warning: Reference `fig:05' on page 5 undefined on input line 361.
-
-
-Underfull \vbox (badness 1377) has occurred while \output is active [5]
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 363.
-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 363.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
-on input line 363.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 6 undefined 
-on input line 363.
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 363--364
-\T1/txr/m/n/10 dur-ing both base-line and SWR pe-ri-ods in a task-
-
-LaTeX Warning: Reference `fig:07' on page 6 undefined on input line 365.
-
-
-Package natbib Warning: Citation `liu_optogenetic_2012' on page 6 undefined on 
-input line 365.
-
-No file diff.bbl.
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/cmtt/m/n/10 gin . g-[]node . org / 10 . 12751 / g-[]node . d76994/$[]\T1/tx
-r/m/n/10 ).
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/txr/m/n/10 The source code is avail-able on GitHub
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/txr/m/n/10 ([]$\T1/cmtt/m/n/10 https : / / github . com / yanagisawa-[]lab 
-/
-
-Overfull \hbox (87.00694pt too wide) in paragraph at lines 412--414
-\T1/cmtt/m/n/10 hippocampal-[]neural-[]fluctuation-[]during-[]a-[]WM-[]task-[]i
-n-[]humans$[]\T1/txr/m/n/10 ).
-[6]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.444 }} &
-          \\
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.446 #
-       1 & 4 & \checkmark & n.a. & \checkmark & \checkmark & \checkmark & n....
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.449 #
-       2 & 7 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.451 #
-       3 & 3 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.454 #
-       4 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.456 #
-       5 & 3 & \checkmark & n.a. & n.a. & \checkmark & n.a. & n.a. & \checkm...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.459 #
-       6 & 6 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.461 #
-       7 & 4 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.464 #
-       8 & 5 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.466 #
-       9 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? [7] [8]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.489 }} &
-          \\
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.491 #
-       1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.494 #
-       2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.496 #
-       3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.499 #
-       4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.501 #
-       5 & n.a. & n.a. & n.a. & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.504 #
-       6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.506 #
-       7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.509 #
-       8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.511 #
-       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
-? 
-LaTeX Warning: Reference `fig:04' on page 9 undefined on input line 519.
-
-
-LaTeX Warning: Reference `fig:04' on page 9 undefined on input line 519.
-
-
-LaTeX Warning: Reference `fig:04' on page 9 undefined on input line 519.
-
-
-LaTeX Warning: Reference `fig:04' on page 9 undefined on input line 519.
-
-[9]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.531 }} &
-          \\
-? ! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...he initial two sessions (sessions ##
-                                                  1 and ##2) from each subje...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...al two sessions (sessions ##1 and ##
-                                                  2) from each subject were ...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...he initial two sessions (sessions ##
-                                                  1 and ##2) from each subje...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...al two sessions (sessions ##1 and ##
-                                                  2) from each subject were ...
-l.557 }
-       
-? [10] [11]
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
-n input line 581.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
-d on input line 581.
-
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 12 undefined o
-n input line 581.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 12 undefine
-d on input line 581.
-
-[12 <./src/figures/.png/Figure_ID_01.png>]
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
-d on input line 599.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 13 undefine
-d on input line 599.
-
-[13 <./src/figures/.png/Figure_ID_02.png>] [14 <./src/figures/.png/Figure_ID_03
-.png>]
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
-put line 627.
-
-
-LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 627.
-
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 15 undefined on in
-put line 627.
-
-
-LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 627.
-
-[15 <./src/figures/.png/Figure_ID_04.png>] [16 <./src/figures/.png/Figure_ID_05
-.png>] [17 <./src/figures/.png/Figure_ID_06.png>]
-! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.674 }
-       
-? ! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.674 }
-       
-? 
-Package natbib Warning: There were undefined citations.
-
-[18 <./src/figures/.png/Figure_ID_07.png>] (./diff.aux)
-
-Package rerunfilecheck Warning: File `diff.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (19 pages, 1010126 bytes).
-Transcript written on diff.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
- \write18 enabled.
-entering extended mode
-(./diff.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
-Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))) (./diff.spl
-) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/bashful/bashful.sty
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/accsupp/accsupp.sty
-(/usr/share/texlive/texmf-dist/tex/latex/accsupp/accsupp-pdftex.def))
-
-! LaTeX Error: Option clash for package geometry.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \usepackage
-                {pdflscape}
-? (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex))) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/xltabular/xltabular.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
-Library (tcolorbox): 'tcbxparse.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
-)))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '4.22'
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfadings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
-.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
-)) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/settobox.sty) (./diff.aux)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd)
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
-(./diff.out) (./diff.out) ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict)
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd)
-Underfull \hbox (badness 1655) in paragraph at lines 208--209
-[]\T1/txr/m/n/10 Neural tra-jec-to-ries in the hip-pocam-pus ex-hib-
-
-Underfull \hbox (badness 2073) in paragraph at lines 213--214
-[]\T1/txr/m/n/10 Hippocampal neu-ral tra-jec-to-ries fluc-tu-ated be-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 245.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[][]\T1/txr/m/n/8 Corresponding au-thor. Tel: +81-6-6879-3652 Email:
-
-! LaTeX Error: Environment wordcount* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 \begin{wordcount*}
-                        
-? 
-! LaTeX Error: \begin{document} ended by \end{wordcount*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 \end{wordcount*}
-                      
-? 
-Package natbib Warning: Citation `scoville_loss_1957' on page 1 undefined on in
-put line 261.
-
-
-Package natbib Warning: Citation `squire_legacy_2009' on page 1 undefined on in
-put line 261.
-
-
-Package natbib Warning: Citation `boran_persistent_2019' on page 1 undefined on
- input line 261.
-
-
-Package natbib Warning: Citation `kaminski_persistently_2017' on page 1 undefin
-ed on input line 261.
-
-
-Package natbib Warning: Citation `kornblith_persistent_2017' on page 1 undefine
-d on input line 261.
-
-
-Package natbib Warning: Citation `faraut_dataset_2018' on page 1 undefined on i
-nput line 261.
-
-
-Package natbib Warning: Citation `borders_hippocampus_2022' on page 1 undefined
- on input line 261.
-
-
-Package natbib Warning: Citation `li_functional_2023' on page 1 undefined on in
-put line 261.
-
-
-Package natbib Warning: Citation `dimakopoulos_information_2022' on page 1 unde
-fined on input line 261.
-
-
-Package natbib Warning: Citation `buzsaki_hippocampal_2015' on page 1 undefined
- on input line 264.
-
-
-Package natbib Warning: Citation `wilson_reactivation_1994' on page 1 undefined
- on input line 264.
-
-
-Package natbib Warning: Citation `nadasdy_replay_1999' on page 1 undefined on i
-nput line 264.
-
-
-Package natbib Warning: Citation `lee_memory_2002' on page 1 undefined on input
- line 264.
-
-
-Package natbib Warning: Citation `diba_forward_2007' on page 1 undefined on inp
-ut line 264.
-
-
-Package natbib Warning: Citation `davidson_hippocampal_2009' on page 1 undefine
-d on input line 264.
-
-
-Package natbib Warning: Citation `girardeau_selective_2009' on page 1 undefined
- on input line 264.
-
-
-Package natbib Warning: Citation `ego-stengel_disruption_2010' on page 1 undefi
-ned on input line 264.
-
-
-Package natbib Warning: Citation `fernandez-ruiz_long-duration_2019' on page 1 
-undefined on input line 264.
-
-
-Package natbib Warning: Citation `kim_corticalhippocampal_2022' on page 1 undef
-ined on input line 264.
-
-
-Package natbib Warning: Citation `wu_hippocampal_2017' on page 1 undefined on i
-nput line 264.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 1 undefined 
-on input line 264.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 1 undefined 
-on input line 264.
-
-
-Package natbib Warning: Citation `behrens_induction_2005' on page 1 undefined o
-n input line 264.
-
-
-Package natbib Warning: Citation `norimoto_hippocampal_2018' on page 1 undefine
-d on input line 264.
-
-
-Package natbib Warning: Citation `okeefe_hippocampus_1971' on page 1 undefined 
-on input line 267.
-
-
-Package natbib Warning: Citation `okeefe_place_1976' on page 1 undefined on inp
-ut line 267.
-
-
-Package natbib Warning: Citation `ekstrom_cellular_2003' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `kjelstrup_finite_2008' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `harvey_intracellular_2009' on page 1 undefine
-d on input line 267.
-
-
-Package natbib Warning: Citation `zhang_hippocampal_2022' on page 1 undefined o
-n input line 267.
-
-
-Package natbib Warning: Citation `naber_reciprocal_2001' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `van_strien_anatomy_2009' on page 1 undefined 
-on input line 267.
-
-
-Package natbib Warning: Citation `strange_functional_2014' on page 1 undefined 
-on input line 267.
-
-
-Package natbib Warning: Citation `gardner_toroidal_2022' on page 1 undefined on
- input line 267.
-
-
-Package natbib Warning: Citation `jadhav_awake_2012' on page 1 undefined on inp
-ut line 270.
-
-
-Package natbib Warning: Citation `Watanabe_2021' on page 1 undefined on input l
-ine 270.
-
-
-Package natbib Warning: Citation `boran_dataset_2020' on page 1 undefined on in
-put line 273.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 1 undefined
- on input line 273.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-Overfull \hbox (1.90001pt too wide) has occurred while \output is active
-[] 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.278 \section
-              {Methods} [1]
-
-Package natbib Warning: Citation `boran_dataset_2020' on page 2 undefined on in
-put line 280.
-
-
-LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 280.
-
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 2 undefined on
- input line 280.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 2 undefined
- on input line 283.
-
-
-Underfull \hbox (badness 2253) in paragraph at lines 283--287
-[]\T1/txr/m/n/10 NTs, also re-ferred to as 'fac-tors', in the hip-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 2 undefined on in
-put line 289.
-
-
-Package natbib Warning: Citation `kay_hippocampal_2016' on page 2 undefined on 
-input line 289.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 2 undefined 
-on input line 289.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 2 undefined 
-on input line 289.
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 289--293
-[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
-[2]
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 3 undefined on inp
-ut line 295.
-
-
-Package natbib Warning: Citation `rousseeuw_silhouettes_1987' on page 3 undefin
-ed on input line 295.
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 295--301
-\T1/txr/m/n/10 di-dates in pu-ta-tive CA1 (cornu Am-mo-nis 1) re-
-
-Underfull \hbox (badness 1910) in paragraph at lines 295--301
-[]$[][]\OML/txmi/m/it/10 =[][]$ \T1/txr/m/n/10 can-di-dates in these pre-de-ter
--mined
-
-Package natbib Warning: Citation `virtanen_scipy_2020' on page 3 undefined on i
-nput line 302.
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 302--307
-[]\T1/txr/m/n/10 Both the Brunner--Munzel test and the Kruskal-
-
-Package natbib Warning: Citation `boran_dataset_2020' on page 3 undefined on in
-put line 309.
-
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 3 undefined on
- input line 309.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 3 undefined
- on input line 309.
-
-
-Underfull \vbox (badness 1377) has occurred while \output is active
-Underfull \hbox (badness 1365) in paragraph at lines 312--316
-\T1/txr/m/n/10 com-pris-ing 50 tri-als, within the three main fac-tor
-
-Underfull \hbox (badness 1028) in paragraph at lines 312--316
-\T1/txr/m/n/10 ge-o-met-ric me-di-ans of four phases, namely $[]$,
-
-Underfull \hbox (badness 1127) in paragraph at lines 317--317
-[]\T1/txr/m/it/10 Memory-Load-Dependent NT Dis-tance be-tween
-
-LaTeX Warning: Reference `fig:s02' on page 3 undefined on input line 321.
-
-[3]
-Underfull \hbox (badness 1661) in paragraph at lines 324--328
-\T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-
-Underfull \hbox (badness 1314) in paragraph at lines 330--334
-[]\T1/txr/m/n/10 We as-sessed the 'dis-tance' of the NT from the
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-[]\T1/txr/m/n/10 As a re-sult, $[]$[][][] ex-ceeded
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-[]$[][][]\T1/txr/m/n/10 , and $[]$[][][] was larger
-[4]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.345 ...htarrow{\mathrm{rSWR}}$ in both SWR (SWR^
-                                                  +) and baseline periods (S...
-
-? ! Missing $ inserted.
-<inserted text> 
-                $
-l.348 $\overrightarrow{\mathrm{rSWR^-}}
-                                        \cdot \overrightarrow{\mathrm{g_{E}g...
-
-? 
-Underfull \hbox (badness 1546) in paragraph at lines 357--358
-[]\T1/txr/m/n/10 This study hy-poth-e-sizes that in low-dimensional
-
-Package natbib Warning: Citation `boran_persistent_2019' on page 5 undefined on
- input line 359.
-
-
-Package natbib Warning: Citation `kaminski_persistently_2017' on page 5 undefin
-ed on input line 359.
-
-
-Package natbib Warning: Citation `kornblith_persistent_2017' on page 5 undefine
-d on input line 359.
-
-
-Package natbib Warning: Citation `faraut_dataset_2018' on page 5 undefined on i
-nput line 359.
-
-
-Package natbib Warning: Citation `buzsaki_two-stage_1989' on page 5 undefined o
-n input line 361.
-
-
-Package natbib Warning: Citation `quyen_cell_2008' on page 5 undefined on input
- line 361.
-
-
-Package natbib Warning: Citation `royer_control_2012' on page 5 undefined on in
-put line 361.
-
-
-Package natbib Warning: Citation `hajos_input-output_2013' on page 5 undefined 
-on input line 361.
-
-
-Package natbib Warning: Citation `schomburg_spiking_2012' on page 5 undefined o
-n input line 361.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 5 undefined 
-on input line 361.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 5 undefined 
-on input line 361.
-
-
-Package natbib Warning: Citation `liu_consensus_2022' on page 5 undefined on in
-put line 361.
-
-
-Underfull \vbox (badness 1377) has occurred while \output is active [5]
-
-Package natbib Warning: Citation `norman_hippocampal_2019' on page 6 undefined 
-on input line 363.
-
-
-Package natbib Warning: Citation `norman_hippocampal_2021' on page 6 undefined 
-on input line 363.
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 363--364
-\T1/txr/m/n/10 dur-ing both base-line and SWR pe-ri-ods in a task-
-
-Package natbib Warning: Citation `liu_optogenetic_2012' on page 6 undefined on 
-input line 365.
-
-(./diff.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--14
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--22
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 1509) in paragraph at lines 24--32
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / 10 
-. 1126 / sciadv .
-
-Underfull \hbox (badness 1067) in paragraph at lines 43--51
-[]\T1/txr/m/n/8 S. Ko-rn-blith, R. Q. Quiroga, C. Koch, I. Fried, F. Mor-
-
-Underfull \hbox (badness 3679) in paragraph at lines 43--51
-\T1/txr/m/n/8 mann, []Per-sis-tent Single-Neuron Ac-tiv-ity dur-ing Work-ing
-
-Underfull \hbox (badness 2809) in paragraph at lines 43--51
-\T1/txr/m/n/8 Mem-ory in the Hu-man Me-dial Tem-po-ral Lobe[], Cur-rent
-
-Underfull \hbox (badness 3769) in paragraph at lines 43--51
-\T1/txr/m/n/8 Bi-ol-ogy 27 (7) (2017) 1026--1032, pub-lisher: El-se-vier.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--51
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . cell . com / current-[]bi
-ology /
-
-Underfull \hbox (badness 1082) in paragraph at lines 53--62
-[]\T1/txr/m/n/8 M. C. M. Fa-raut, A. A. Carl-son, S. Sul-li-van, O. Tudus-
-
-Underfull \hbox (badness 1210) in paragraph at lines 71--79
-[]\T1/txr/m/n/8 J. Li, D. Cao, S. Yu, X. Xiao, L. Im-bach, L. Stieglitz,
-
-Underfull \hbox (badness 1057) in paragraph at lines 71--79
-\T1/txr/m/n/8 J. Sarn-thein, T. Jiang, []Func-tional spe-cial-iza-tion and in-t
-er-
-
-Underfull \hbox (badness 3108) in paragraph at lines 71--79
-\T1/txr/m/n/8 2921, num-ber: 1 Pub-lisher: Na-ture Pub-lish-ing Group.
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--79
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 90--98
-[]\T1/txr/m/n/8 G. Buzs�ki, []Hip-pocam-pal sharp wave-ripple: A cog-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
-\T1/txr/m/n/8 ni-tive biomarker for episodic mem-ory and plan-ning[],
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
-\T1/txr/m/n/8 Hip-pocam-pus 25 (10) (2015) 1073--1188, _eprint:
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
-\T1/txr/m/n/8 https://onlinelibrary.wiley.com/doi/pdf/10.1002/hipo.22488.
-
-Underfull \hbox (badness 1509) in paragraph at lines 90--98
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
-oi / abs / 10 .
-
-Underfull \hbox (badness 1005) in paragraph at lines 100--104
-\T1/txr/m/n/8 pal en-sem-ble mem-o-ries dur-ing sleep, Sci-ence (New York,
-
-Underfull \hbox (badness 1924) in paragraph at lines 106--114
-\T1/txr/m/n/8 9497--9507, pub-lisher: So-ci-ety for Neu-ro-science Sec-tion:
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
- / 19 / 21 /
-
-Underfull \vbox (badness 10000) has occurred while \output is active [6]
-Underfull \hbox (badness 4569) in paragraph at lines 150--158
-[]\T1/txr/m/n/8 A. Fern�ndez-Ruiz, A. Oliva, E. Fer-mino de Oliveira,
-
-Underfull \hbox (badness 1038) in paragraph at lines 150--158
-\T1/txr/m/n/8 F. Rocha-Almeida, D. Tin-gley, G. Buzs�ki, []Long-duration
-
-Underfull \hbox (badness 4531) in paragraph at lines 150--158
-\T1/txr/m/n/8 hip-pocam-pal sharp wave rip-ples im-prove mem-ory[], Sci-
-
-Underfull \hbox (badness 4108) in paragraph at lines 150--158
-\T1/txr/m/n/8 ence (New York, N.Y.) 364 (6445) (2019) 1082--1086.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--158
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 7486) in paragraph at lines 160--167
-\T1/txr/m/n/8 cou-pling dur-ing man-i-fold ex-plo-ration in mo-tor cor-tex[],
-
-Underfull \hbox (badness 5388) in paragraph at lines 160--167
-\T1/txr/m/n/8 Na-ture (2022) 1--8Publisher: Na-ture Pub-lish-ing Group.
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--167
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--181
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencemag . org / lookup
- / doi / 10 .
-
-Underfull \hbox (badness 1616) in paragraph at lines 183--191
-\T1/txr/m/n/8 pocam-pal rip-ples and their co-or-di-nated di-a-logue with the
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--191
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . cell . com / neuron / abs
-tract /
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-Underfull \hbox (badness 1082) in paragraph at lines 216--223
-[]\T1/txr/m/n/8 J. O'Keefe, []Place units in the hip-pocam-pus of the freely
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--223
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
-ence /
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / abs
- / 10 . 1126 /
-
-Underfull \hbox (badness 2237) in paragraph at lines 254--261
-\T1/txr/m/n/8 spa-tial rep-re-sen-ta-tions ex-hibit a hy-per-bolic ge-om-e-try 
-that
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--261
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 263--272
-[]\T1/txr/m/n/8 P. A. Naber, F. H. Lopes da Silva, M. P. Wit-ter, []Re-
-
-Underfull \hbox (badness 5490) in paragraph at lines 263--272
-\T1/txr/m/n/8 cip-ro-cal con-nec-tions be-tween the en-torhi-nal cor-tex and
-
-Underfull \hbox (badness 3189) in paragraph at lines 263--272
-\T1/txr/m/n/8 hip-pocam-pal fields CA1 and the subicu-lum are in reg-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
-\T1/txr/m/n/8 is-ter with the pro-jec-tions from CA1 to the subicu-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
-\T1/txr/m/n/8 lum[], Hip-pocam-pus 11 (2) (2001) 99--104, _eprint:
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
-\T1/txr/m/n/8 https://onlinelibrary.wiley.com/doi/pdf/10.1002/hipo.1028.
-
-Underfull \hbox (badness 1509) in paragraph at lines 263--272
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
-oi / abs / 10 .
-
-Underfull \vbox (badness 10000) has occurred while \output is active [7]
-Underfull \hbox (badness 10000) in paragraph at lines 291--299
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 301--309
-[]\T1/txr/m/n/8 S. P. Jad-hav, C. Ke-mere, P. W. Ger-man, L. M. Frank,
-
-Underfull \hbox (badness 2573) in paragraph at lines 301--309
-[]\T1/txr/m/n/8 Awake Hip-pocam-pal Sharp-Wave Rip-ples Sup-port Spa-tial
-
-Underfull \hbox (badness 4416) in paragraph at lines 301--309
-\T1/txr/m/n/8 Amer-i-can As-so-ci-a-tion for the Ad-vance-ment of Sci-ence.
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / abs
- / 10 . 1126 /
-
-Underfull \hbox (badness 1270) in paragraph at lines 320--329
-[]\T1/txr/m/n/8 E. Bo-ran, T. Fedele, A. Steiner, P. Hil-fiker, L. Stieglitz,
-
-Underfull \hbox (badness 7203) in paragraph at lines 320--329
-\T1/txr/m/n/8 T. Grun-wald, J. Sarn-thein, []Dataset of hu-man me-dial
-
-Underfull \hbox (badness 2980) in paragraph at lines 320--329
-\T1/txr/m/n/8 tem-po-ral lobe neu-rons, scalp and in-tracra-nial EEG dur-
-
-Underfull \hbox (badness 1173) in paragraph at lines 320--329
-\T1/txr/m/n/8 ing a ver-bal work-ing mem-ory task[], Sci-en-tific Data 7 (1)
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--329
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 331--339
-\T1/txr/m/n/8 Shenoy, M. Sa-hani, []Gaussian-Process Fac-tor Anal-y-sis for
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--339
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--349
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / journals . plos . org / plosone
- / article ?
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--365
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-Underfull \hbox (badness 2237) in paragraph at lines 374--381
-[]\T1/txr/m/n/8 L. McInnes, J. Healy, N. Saul, L. Gro�berger, []UMAP:
-
-Underfull \hbox (badness 6047) in paragraph at lines 374--381
-\T1/txr/m/n/8 Uni-form Man-i-fold Ap-prox-i-ma-tion and Pro-jec-tion[], Jour-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--381
-\T1/txr/m/n/8 nal of Open Source Soft-ware 3 (29) (2018) 861.
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--381
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / joss . theoj . org / papers / 1
-0 . 21105 /
-
-Underfull \hbox (badness 1253) in paragraph at lines 383--390
-[]\T1/txr/m/n/8 P. J. Rousseeuw, []Sil-hou-ettes: A graph-i-cal aid to the in-
-
-Underfull \hbox (badness 1953) in paragraph at lines 383--390
-\T1/txr/m/n/8 ter-pre-ta-tion and val-i-da-tion of clus-ter anal-y-sis[], Jour-
-nal of
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
-ence /
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.395   R.~Kern, E.~Larson, C.~J. Carey, �.
-                                           ~Polat, Y.~Feng, E.~W. Moore,
-? 
-Underfull \hbox (badness 4492) in paragraph at lines 392--405
-[]\T1/txr/m/n/8 P. Vir-ta-nen, R. Gom-mers, T. E. Oliphant, M. Haber-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--405
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / ui . adsabs . harvard . edu / a
-bs /
-
-Underfull \hbox (badness 1052) in paragraph at lines 413--421
-\T1/txr/m/n/8 Wil-son, J. En-gel, []Cell Type-Specific Fir-ing dur-ing Rip-ple
-
-Underfull \hbox (badness 1308) in paragraph at lines 413--421
-\T1/txr/m/n/8 So-ci-ety for Neu-ro-science Sec-tion: Brief Com-mu-ni-ca-tions.
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--421
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
- / 28 / 24 /
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--448
-[]\T1/txr/m/n/8 E. W. Schom-burg, C. A. Anas-tas-siou, G. Buzs�ki,
-
-Underfull \hbox (badness 6412) in paragraph at lines 441--448
-\T1/txr/m/n/8 C. Koch, []The Spik-ing Com-po-nent of Os-cil-la-tory Ex-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--448
-\T1/txr/m/n/8 tra-cel-lu-lar Po-ten-tials in the Rat Hip-pocam-pus[], The
-
-Underfull \hbox (badness 6708) in paragraph at lines 441--448
-\T1/txr/m/n/8 Jour-nal of Neu-ro-science 32 (34) (2012) 11798--11811.
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--448
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \vbox (badness 10000) has occurred while \output is active [8])
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/cmtt/m/n/10 gin . g-[]node . org / 10 . 12751 / g-[]node . d76994/$[]\T1/tx
-r/m/n/10 ).
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/txr/m/n/10 The source code is avail-able on GitHub
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/txr/m/n/10 ([]$\T1/cmtt/m/n/10 https : / / github . com / yanagisawa-[]lab 
-/
-
-Overfull \hbox (87.00694pt too wide) in paragraph at lines 412--414
-\T1/cmtt/m/n/10 hippocampal-[]neural-[]fluctuation-[]during-[]a-[]WM-[]task-[]i
-n-[]humans$[]\T1/txr/m/n/10 ).
-[9]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.444 }} &
-          \\
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.446 #
-       1 & 4 & \checkmark & n.a. & \checkmark & \checkmark & \checkmark & n....
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.449 #
-       2 & 7 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.451 #
-       3 & 3 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.454 #
-       4 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.456 #
-       5 & 3 & \checkmark & n.a. & n.a. & \checkmark & n.a. & n.a. & \checkm...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.459 #
-       6 & 6 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.461 #
-       7 & 4 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.464 #
-       8 & 5 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.466 #
-       9 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? [10] [11]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.489 }} &
-          \\
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.491 #
-       1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.494 #
-       2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.496 #
-       3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.499 #
-       4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.501 #
-       5 & n.a. & n.a. & n.a. & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.504 #
-       6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.506 #
-       7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.509 #
-       8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.511 #
-       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
-? [12]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.531 }} &
-          \\
-? ! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...he initial two sessions (sessions ##
-                                                  1 and ##2) from each subje...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...al two sessions (sessions ##1 and ##
-                                                  2) from each subject were ...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...he initial two sessions (sessions ##
-                                                  1 and ##2) from each subje...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...al two sessions (sessions ##1 and ##
-                                                  2) from each subject were ...
-l.557 }
-       
-? [13] [14]
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
-n input line 581.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
-d on input line 581.
-
-
-Package natbib Warning: Citation `niediek_reliable_2016' on page 15 undefined o
-n input line 581.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 15 undefine
-d on input line 581.
-
-[15 <./src/figures/.png/Figure_ID_01.png>]
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
-d on input line 599.
-
-
-Package natbib Warning: Citation `yu_gaussian-process_2009' on page 16 undefine
-d on input line 599.
-
-[16 <./src/figures/.png/Figure_ID_02.png>] [17 <./src/figures/.png/Figure_ID_03
-.png>]
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 627.
-
-
-Package natbib Warning: Citation `mcinnes_umap_2018' on page 18 undefined on in
-put line 627.
-
-[18 <./src/figures/.png/Figure_ID_04.png>] [19 <./src/figures/.png/Figure_ID_05
-.png>] [20 <./src/figures/.png/Figure_ID_06.png>]
-! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.674 }
-       
-? ! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.674 }
-       
-? 
-Package natbib Warning: There were undefined citations.
-
-[21 <./src/figures/.png/Figure_ID_07.png>] (./diff.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )pdfTeX warning (dest): name{table.caption.8} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
- exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fo
-nts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (22 pages, 1075804 bytes).
-Transcript written on diff.log.
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
- \write18 enabled.
-entering extended mode
-(./diff.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
-Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))) (./diff.spl
-) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo))
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/bashful/bashful.sty
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/accsupp/accsupp.sty
-(/usr/share/texlive/texmf-dist/tex/latex/accsupp/accsupp-pdftex.def))
-
-! LaTeX Error: Option clash for package geometry.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \usepackage
-                {pdflscape}
-? (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/csvsimple/csvsimple.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex))) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/xltabular/xltabular.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
-Library (tcolorbox): 'tcbxparse.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
-)))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '4.22'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '4.22'
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfadings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
-.tex))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
-)) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/settobox.sty) (./diff.aux)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd)
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
-(./diff.out) (./diff.out) ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict)
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd)
-Underfull \hbox (badness 1655) in paragraph at lines 208--209
-[]\T1/txr/m/n/10 Neural tra-jec-to-ries in the hip-pocam-pus ex-hib-
-
-Underfull \hbox (badness 2073) in paragraph at lines 213--214
-[]\T1/txr/m/n/10 Hippocampal neu-ral tra-jec-to-ries fluc-tu-ated be-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 245.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 245.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[][]\T1/txr/m/n/8 Corresponding au-thor. Tel: +81-6-6879-3652 Email:
-
-! LaTeX Error: Environment wordcount* undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 \begin{wordcount*}
-                        
-? 
-! LaTeX Error: \begin{document} ended by \end{wordcount*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 \end{wordcount*}
-                      
-? 
-Underfull \vbox (badness 10000) has occurred while \output is active
-Overfull \hbox (1.90001pt too wide) has occurred while \output is active
-[] 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.278 \section
-              {Methods} [1]
-
-LaTeX Warning: Reference `fig:s01' on page 2 undefined on input line 280.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
-Underfull \hbox (badness 2253) in paragraph at lines 283--287
-[]\T1/txr/m/n/10 NTs, also re-ferred to as 'fac-tors', in the hip-
-
-Underfull \hbox (badness 2582) in paragraph at lines 283--287
-\T1/txr/m/n/10 ing GPFA [[]] ap-plied to the multi-unit ac-tiv-ity
-
-Underfull \hbox (badness 1215) in paragraph at lines 289--293
-\T1/cmtt/m/n/10 Eden-[]Kramer-[]Lab / ripple _ detection$[]\T1/txr/m/n/10 ) [[]
-], with
-
-Underfull \hbox (badness 1137) in paragraph at lines 289--293
-[]\T1/txr/m/n/10 Control events for $[][]$ can-di-dates, la-beled as
-[2]
-Underfull \hbox (badness 3009) in paragraph at lines 295--301
-\T1/txr/m/n/10 di-dates in pu-ta-tive CA1 (cornu Am-mo-nis 1) re-
-
-Underfull \hbox (badness 1910) in paragraph at lines 295--301
-[]$[][]\OML/txmi/m/it/10 =[][]$ \T1/txr/m/n/10 can-di-dates in these pre-de-ter
--mined
-
-Underfull \hbox (badness 1394) in paragraph at lines 302--307
-[]\T1/txr/m/n/10 Both the Brunner--Munzel test and the Kruskal-
-
-Underfull \vbox (badness 1377) has occurred while \output is active
-Underfull \hbox (badness 1365) in paragraph at lines 312--316
-\T1/txr/m/n/10 com-pris-ing 50 tri-als, within the three main fac-tor
-
-Underfull \hbox (badness 1028) in paragraph at lines 312--316
-\T1/txr/m/n/10 ge-o-met-ric me-di-ans of four phases, namely $[]$,
-
-Underfull \hbox (badness 1127) in paragraph at lines 317--317
-[]\T1/txr/m/it/10 Memory-Load-Dependent NT Dis-tance be-tween
-
-LaTeX Warning: Reference `fig:s02' on page 3 undefined on input line 321.
-
-[3]
-Underfull \hbox (badness 1661) in paragraph at lines 324--328
-\T1/txr/m/n/10 pu-ta-tive CA1 re-gions were la-beled as SWR$[]$ and
-
-Underfull \hbox (badness 1314) in paragraph at lines 330--334
-[]\T1/txr/m/n/10 We as-sessed the 'dis-tance' of the NT from the
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-[]\T1/txr/m/n/10 As a re-sult, $[]$[][][] ex-ceeded
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--334
-[]$[][][]\T1/txr/m/n/10 , and $[]$[][][] was larger
-[4]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.345 ...htarrow{\mathrm{rSWR}}$ in both SWR (SWR^
-                                                  +) and baseline periods (S...
-
-? ! Missing $ inserted.
-<inserted text> 
-                $
-l.348 $\overrightarrow{\mathrm{rSWR^-}}
-                                        \cdot \overrightarrow{\mathrm{g_{E}g...
-
-? 
-Underfull \hbox (badness 1546) in paragraph at lines 357--358
-[]\T1/txr/m/n/10 This study hy-poth-e-sizes that in low-dimensional
-
-Underfull \vbox (badness 1377) has occurred while \output is active [5]
-Underfull \hbox (badness 1286) in paragraph at lines 363--364
-\T1/txr/m/n/10 dur-ing both base-line and SWR pe-ri-ods in a task-
-(./diff.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--14
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--22
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 1509) in paragraph at lines 24--32
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / 10 
-. 1126 / sciadv .
-
-Underfull \hbox (badness 1067) in paragraph at lines 43--51
-[]\T1/txr/m/n/8 S. Ko-rn-blith, R. Q. Quiroga, C. Koch, I. Fried, F. Mor-
-
-Underfull \hbox (badness 3679) in paragraph at lines 43--51
-\T1/txr/m/n/8 mann, []Per-sis-tent Single-Neuron Ac-tiv-ity dur-ing Work-ing
-
-Underfull \hbox (badness 2809) in paragraph at lines 43--51
-\T1/txr/m/n/8 Mem-ory in the Hu-man Me-dial Tem-po-ral Lobe[], Cur-rent
-
-Underfull \hbox (badness 3769) in paragraph at lines 43--51
-\T1/txr/m/n/8 Bi-ol-ogy 27 (7) (2017) 1026--1032, pub-lisher: El-se-vier.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--51
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . cell . com / current-[]bi
-ology /
-
-Underfull \hbox (badness 1082) in paragraph at lines 53--62
-[]\T1/txr/m/n/8 M. C. M. Fa-raut, A. A. Carl-son, S. Sul-li-van, O. Tudus-
-
-Underfull \hbox (badness 1210) in paragraph at lines 71--79
-[]\T1/txr/m/n/8 J. Li, D. Cao, S. Yu, X. Xiao, L. Im-bach, L. Stieglitz,
-
-Underfull \hbox (badness 1057) in paragraph at lines 71--79
-\T1/txr/m/n/8 J. Sarn-thein, T. Jiang, []Func-tional spe-cial-iza-tion and in-t
-er-
-
-Underfull \hbox (badness 3108) in paragraph at lines 71--79
-\T1/txr/m/n/8 2921, num-ber: 1 Pub-lisher: Na-ture Pub-lish-ing Group.
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--79
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 90--98
-[]\T1/txr/m/n/8 G. Buzs�ki, []Hip-pocam-pal sharp wave-ripple: A cog-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
-\T1/txr/m/n/8 ni-tive biomarker for episodic mem-ory and plan-ning[],
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
-\T1/txr/m/n/8 Hip-pocam-pus 25 (10) (2015) 1073--1188, _eprint:
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--98
-\T1/txr/m/n/8 https://onlinelibrary.wiley.com/doi/pdf/10.1002/hipo.22488.
-
-Underfull \hbox (badness 1509) in paragraph at lines 90--98
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
-oi / abs / 10 .
-
-Underfull \hbox (badness 1005) in paragraph at lines 100--104
-\T1/txr/m/n/8 pal en-sem-ble mem-o-ries dur-ing sleep, Sci-ence (New York,
-
-Underfull \hbox (badness 1924) in paragraph at lines 106--114
-\T1/txr/m/n/8 9497--9507, pub-lisher: So-ci-ety for Neu-ro-science Sec-tion:
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
- / 19 / 21 /
-
-Underfull \vbox (badness 10000) has occurred while \output is active [6]
-Underfull \hbox (badness 4569) in paragraph at lines 150--158
-[]\T1/txr/m/n/8 A. Fern�ndez-Ruiz, A. Oliva, E. Fer-mino de Oliveira,
-
-Underfull \hbox (badness 1038) in paragraph at lines 150--158
-\T1/txr/m/n/8 F. Rocha-Almeida, D. Tin-gley, G. Buzs�ki, []Long-duration
-
-Underfull \hbox (badness 4531) in paragraph at lines 150--158
-\T1/txr/m/n/8 hip-pocam-pal sharp wave rip-ples im-prove mem-ory[], Sci-
-
-Underfull \hbox (badness 4108) in paragraph at lines 150--158
-\T1/txr/m/n/8 ence (New York, N.Y.) 364 (6445) (2019) 1082--1086.
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--158
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 7486) in paragraph at lines 160--167
-\T1/txr/m/n/8 cou-pling dur-ing man-i-fold ex-plo-ration in mo-tor cor-tex[],
-
-Underfull \hbox (badness 5388) in paragraph at lines 160--167
-\T1/txr/m/n/8 Na-ture (2022) 1--8Publisher: Na-ture Pub-lish-ing Group.
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--167
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--181
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencemag . org / lookup
- / doi / 10 .
-
-Underfull \hbox (badness 1616) in paragraph at lines 183--191
-\T1/txr/m/n/8 pocam-pal rip-ples and their co-or-di-nated di-a-logue with the
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--191
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . cell . com / neuron / abs
-tract /
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-Underfull \hbox (badness 1082) in paragraph at lines 216--223
-[]\T1/txr/m/n/8 J. O'Keefe, []Place units in the hip-pocam-pus of the freely
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--223
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
-ence /
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--243
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / abs
- / 10 . 1126 /
-
-Underfull \hbox (badness 2237) in paragraph at lines 254--261
-\T1/txr/m/n/8 spa-tial rep-re-sen-ta-tions ex-hibit a hy-per-bolic ge-om-e-try 
-that
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--261
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 263--272
-[]\T1/txr/m/n/8 P. A. Naber, F. H. Lopes da Silva, M. P. Wit-ter, []Re-
-
-Underfull \hbox (badness 5490) in paragraph at lines 263--272
-\T1/txr/m/n/8 cip-ro-cal con-nec-tions be-tween the en-torhi-nal cor-tex and
-
-Underfull \hbox (badness 3189) in paragraph at lines 263--272
-\T1/txr/m/n/8 hip-pocam-pal fields CA1 and the subicu-lum are in reg-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
-\T1/txr/m/n/8 is-ter with the pro-jec-tions from CA1 to the subicu-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
-\T1/txr/m/n/8 lum[], Hip-pocam-pus 11 (2) (2001) 99--104, _eprint:
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
-\T1/txr/m/n/8 https://onlinelibrary.wiley.com/doi/pdf/10.1002/hipo.1028.
-
-Underfull \hbox (badness 1509) in paragraph at lines 263--272
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / onlinelibrary . wiley . com / d
-oi / abs / 10 .
-
-Underfull \vbox (badness 10000) has occurred while \output is active [7]
-Underfull \hbox (badness 10000) in paragraph at lines 291--299
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 301--309
-[]\T1/txr/m/n/8 S. P. Jad-hav, C. Ke-mere, P. W. Ger-man, L. M. Frank,
-
-Underfull \hbox (badness 2573) in paragraph at lines 301--309
-[]\T1/txr/m/n/8 Awake Hip-pocam-pal Sharp-Wave Rip-ples Sup-port Spa-tial
-
-Underfull \hbox (badness 4416) in paragraph at lines 301--309
-\T1/txr/m/n/8 Amer-i-can As-so-ci-a-tion for the Ad-vance-ment of Sci-ence.
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . science . org / doi / abs
- / 10 . 1126 /
-
-Underfull \hbox (badness 1270) in paragraph at lines 320--329
-[]\T1/txr/m/n/8 E. Bo-ran, T. Fedele, A. Steiner, P. Hil-fiker, L. Stieglitz,
-
-Underfull \hbox (badness 7203) in paragraph at lines 320--329
-\T1/txr/m/n/8 T. Grun-wald, J. Sarn-thein, []Dataset of hu-man me-dial
-
-Underfull \hbox (badness 2980) in paragraph at lines 320--329
-\T1/txr/m/n/8 tem-po-ral lobe neu-rons, scalp and in-tracra-nial EEG dur-
-
-Underfull \hbox (badness 1173) in paragraph at lines 320--329
-\T1/txr/m/n/8 ing a ver-bal work-ing mem-ory task[], Sci-en-tific Data 7 (1)
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--329
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 331--339
-\T1/txr/m/n/8 Shenoy, M. Sa-hani, []Gaussian-Process Fac-tor Anal-y-sis for
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--339
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--349
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / journals . plos . org / plosone
- / article ?
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--365
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . nature . com / articles /
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active
-Underfull \hbox (badness 2237) in paragraph at lines 374--381
-[]\T1/txr/m/n/8 L. McInnes, J. Healy, N. Saul, L. Gro�berger, []UMAP:
-
-Underfull \hbox (badness 6047) in paragraph at lines 374--381
-\T1/txr/m/n/8 Uni-form Man-i-fold Ap-prox-i-ma-tion and Pro-jec-tion[], Jour-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--381
-\T1/txr/m/n/8 nal of Open Source Soft-ware 3 (29) (2018) 861.
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--381
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / joss . theoj . org / papers / 1
-0 . 21105 /
-
-Underfull \hbox (badness 1253) in paragraph at lines 383--390
-[]\T1/txr/m/n/8 P. J. Rousseeuw, []Sil-hou-ettes: A graph-i-cal aid to the in-
-
-Underfull \hbox (badness 1953) in paragraph at lines 383--390
-\T1/txr/m/n/8 ter-pre-ta-tion and val-i-da-tion of clus-ter anal-y-sis[], Jour-
-nal of
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--390
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . sciencedirect . com / sci
-ence /
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.395   R.~Kern, E.~Larson, C.~J. Carey, �.
-                                           ~Polat, Y.~Feng, E.~W. Moore,
-? 
-Underfull \hbox (badness 4492) in paragraph at lines 392--405
-[]\T1/txr/m/n/8 P. Vir-ta-nen, R. Gom-mers, T. E. Oliphant, M. Haber-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--405
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / ui . adsabs . harvard . edu / a
-bs /
-
-Underfull \hbox (badness 1052) in paragraph at lines 413--421
-\T1/txr/m/n/8 Wil-son, J. En-gel, []Cell Type-Specific Fir-ing dur-ing Rip-ple
-
-Underfull \hbox (badness 1308) in paragraph at lines 413--421
-\T1/txr/m/n/8 So-ci-ety for Neu-ro-science Sec-tion: Brief Com-mu-ni-ca-tions.
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--421
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . jneurosci . org / content
- / 28 / 24 /
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--448
-[]\T1/txr/m/n/8 E. W. Schom-burg, C. A. Anas-tas-siou, G. Buzs�ki,
-
-Underfull \hbox (badness 6412) in paragraph at lines 441--448
-\T1/txr/m/n/8 C. Koch, []The Spik-ing Com-po-nent of Os-cil-la-tory Ex-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--448
-\T1/txr/m/n/8 tra-cel-lu-lar Po-ten-tials in the Rat Hip-pocam-pus[], The
-
-Underfull \hbox (badness 6708) in paragraph at lines 441--448
-\T1/txr/m/n/8 Jour-nal of Neu-ro-science 32 (34) (2012) 11798--11811.
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--448
-\T1/txr/m/n/8 URL []$\T1/cmtt/m/n/8 https : / / www . ncbi . nlm . nih . gov / 
-pmc / articles /
-
-Underfull \vbox (badness 10000) has occurred while \output is active [8])
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/cmtt/m/n/10 gin . g-[]node . org / 10 . 12751 / g-[]node . d76994/$[]\T1/tx
-r/m/n/10 ).
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/txr/m/n/10 The source code is avail-able on GitHub
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-\T1/txr/m/n/10 ([]$\T1/cmtt/m/n/10 https : / / github . com / yanagisawa-[]lab 
-/
-
-Overfull \hbox (87.00694pt too wide) in paragraph at lines 412--414
-\T1/cmtt/m/n/10 hippocampal-[]neural-[]fluctuation-[]during-[]a-[]WM-[]task-[]i
-n-[]humans$[]\T1/txr/m/n/10 ).
-[9]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.444 }} &
-          \\
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.446 #
-       1 & 4 & \checkmark & n.a. & \checkmark & \checkmark & \checkmark & n....
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.449 #
-       2 & 7 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.451 #
-       3 & 3 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.454 #
-       4 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.456 #
-       5 & 3 & \checkmark & n.a. & n.a. & \checkmark & n.a. & n.a. & \checkm...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.459 #
-       6 & 6 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.461 #
-       7 & 4 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.464 #
-       8 & 5 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.466 #
-       9 & 2 & \checkmark & \checkmark & \checkmark & \checkmark & \checkmar...
-
-? [10] [11]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.489 }} &
-          \\
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.491 #
-       1 & 0.60 ± 0.14 & n.a. & n.a. & 0.1 ± 0
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.494 #
-       2 & 0.21 ± 0.16 & 0.17 ± 0.21 & 0.18 ± 0.22 & 0.20 ± 0.15
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.496 #
-       3 & 0.40 ± 0.42 & 0.83 ± 0.12 & n.a. & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.499 #
-       4 & 0.10 ± 0.00 & 0.10 ± 0.00 & 0.90 ± 0.00 & 0.10 ± 0.14
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.501 #
-       5 & n.a. & n.a. & n.a. & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.504 #
-       6 & 0.63 ± 0.06 & n.a. & n.a. & 0.27 ± 0.06
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.506 #
-       7 & 0.10 ± 0.00 & 0.35 ± 0.35 & 0.37 ± 0.47 & 0.10 ± 0.00
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.509 #
-       8 & 0.13 ± 0.10 & n.a. & 0.28 ± 0.49 & n.a.
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<recently read> ##
-                  
-l.511 #
-       9 & n.a. & 0.85 ± 0.07 & 0.15 ± 0.07 & n.a.
-? [12]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.531 }} &
-          \\
-? ! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   1
-l.557 }
-       
-? ! Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   2
-l.557 }
-       
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...he initial two sessions (sessions ##
-                                                  1 and ##2) from each subje...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...al two sessions (sessions ##1 and ##
-                                                  2) from each subject were ...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...he initial two sessions (sessions ##
-                                                  1 and ##2) from each subje...
-l.557 }
-       
-? ! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...al two sessions (sessions ##1 and ##
-                                                  2) from each subject were ...
-l.557 }
-       
-? [13] [14] [15 <./src/figures/.png/Figure_ID_01.png>] [16 <./src/figures/.png/Fi
-gure_ID_02.png>] [17 <./src/figures/.png/Figure_ID_03.png>] [18 <./src/figures/
-.png/Figure_ID_04.png>] [19 <./src/figures/.png/Figure_ID_05.png>] [20 <./src/f
-igures/.png/Figure_ID_06.png>]
-! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.674 }
-       
-? ! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.674 }
-       
-? [21 <./src/figures/.png/Figure_ID_07.png>] (./diff.aux)
-
-LaTeX Warning: There were undefined references.
-
- ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diff.pdf (22 pages, 1078213 bytes).
-Transcript written on diff.log.
-
-Compiled: ./diff.tex
+Processing ./src/styles/formatting.tex
+Processing ./src/styles/packages.tex
+Processing ./src/journal_name.tex
+Processing ./src/highlights.tex
+Processing ./src/title.tex
+Processing ./src/authors.tex
+Processing ./src/graphical_abstract.tex
+Processing ./src/abstract.tex
+Processing ./src/keywords.tex
+Processing ./src/wordcount.tex
+Processing ./src/introduction.tex
+Processing ./src/methods.tex
+Processing ./src/results.tex
+Processing ./src/discussion.tex
+Processing ./src/styles/bibliography.tex
+Processing ./src/additional_info.tex
+Processing ./src/tables/.tex/.All_Tables.tex
+Processing ./src/figures/.tex/.All_Figures.tex
+Processing ./src/tables/.tex/Table_ID_01.tex
+Processing ./src/tables/.tex/Table_ID_02.tex
+Processing ./src/tables/.tex/Table_ID_03.tex
+Processing ./src/figures/.tex/Figure_ID_01.tex
+Processing ./src/figures/.tex/Figure_ID_02.tex
+Processing ./src/figures/.tex/Figure_ID_03.tex
+Processing ./src/figures/.tex/Figure_ID_04.tex
+Processing ./src/figures/.tex/Figure_ID_05.tex
+Processing ./src/figures/.tex/Figure_ID_06.tex
+Processing ./src/figures/.tex/Figure_ID_07.tex
+Processing ./src/tables/Table_ID_01.tex
+Processing ./src/tables/Table_ID_02.tex
+Processing ./src/tables/Table_ID_03.tex
+
+Compiled: ./compiled.tex
 
 Congratulations! ./compiled.pdf is ready.
 
@@ -6969,3 +3430,20 @@ Congratulations! ./diff.pdf is ready.
 
 Log saved to ./.logs/compile.log
 
+[develop 08fa0c6] v075
+ 22 files changed, 1251 insertions(+), 19 deletions(-)
+ create mode 100644 old/compiled_v075.pdf
+ create mode 100644 old/compiled_v075.tex
+ create mode 100644 old/diff_v075.pdf
+ create mode 100644 old/diff_v075.tex
+ rewrite src/figures/Figure_ID_07.tex (83%)
+remote: warning: File src/figures/Figure_ID_03.pptx is 66.39 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: error: Trace: 998a1d1c6da97331aa7aaf0ce08969276e71e6099586fc3ecd83439081c534af        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File src/figures/Figure_ID_07.pptx is 295.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: File src/figures/Figure_ID_06.pptx is 578.25 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: File src/figures/Figure_ID_07.pptx is 295.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:ywatanabe1989/LaTeX-Scientific-Template.git
+ ! [remote rejected] develop -> develop (pre-receive hook declined)
+error: failed to push some refs to 'git@github.com:ywatanabe1989/LaTeX-Scientific-Template.git'
