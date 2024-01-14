@@ -19,4 +19,6 @@ if [ -n "$inputFilePath" ]; then
    echo -e "\nConverted: ${inputFilePath} -> ${inputFilePath%.pptx}.tif"
 fi
 
-# ## EOF
+# ./.scripts/sh/.pptx2tif.sh src/figures/Figure_ID_04.pptx
+
+## EOF

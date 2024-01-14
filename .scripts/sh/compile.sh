@@ -61,7 +61,7 @@ LOG_FILE="./.logs/compile.log"
     fi
 
     # Crop figures
-    ./.scripts/sh/.crop_figures.sh    
+    ./.scripts/sh/.crop_figures.sh
 
     # Revise tex files if requested (default: false)
     if [ "$do_revise" = true ]; then
