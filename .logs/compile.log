@@ -1,26 +1,5 @@
-./compile.sh --push --revise --terms --ppt2tif
+./compile.sh --push
 
-./src/figures/Figure_ID_01.pptx
-
-Converted: ./src/figures/Figure_ID_01.pptx -> ./src/figures/Figure_ID_01.tif
-./src/figures/Figure_ID_02.pptx
-
-Converted: ./src/figures/Figure_ID_02.pptx -> ./src/figures/Figure_ID_02.tif
-./src/figures/Figure_ID_03.pptx
-
-Converted: ./src/figures/Figure_ID_03.pptx -> ./src/figures/Figure_ID_03.tif
-./src/figures/Figure_ID_04.pptx
-
-Converted: ./src/figures/Figure_ID_04.pptx -> ./src/figures/Figure_ID_04.tif
-./src/figures/Figure_ID_05.pptx
-
-Converted: ./src/figures/Figure_ID_05.pptx -> ./src/figures/Figure_ID_05.tif
-./src/figures/Figure_ID_06.pptx
-
-Converted: ./src/figures/Figure_ID_06.pptx -> ./src/figures/Figure_ID_06.tif
-./src/figures/Figure_ID_07.pptx
-
-Converted: ./src/figures/Figure_ID_07.pptx -> ./src/figures/Figure_ID_07.tif
 
 ./src/figures/Figure_ID_01.tif was cropped.
 
@@ -35,13 +14,6 @@ Converted: ./src/figures/Figure_ID_07.pptx -> ./src/figures/Figure_ID_07.tif
 ./src/figures/Figure_ID_06.tif was cropped.
 
 ./src/figures/Figure_ID_07.tif was cropped.
-The following texfiles are being revised:
-
-
-
-Is it okay to proceed? (y/n) 
-usage: revise_by_GPT.py [-h] [--lpath LPATH]
-revise_by_GPT.py: error: argument --lpath/-l: expected one argument
 
 Compiling ./main.tex...
 convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_01.tif' @ error/cache.c/OpenPixelCache/4083.
@@ -3429,66 +3401,6 @@ Compiled: ./compiled.tex
 Congratulations! ./compiled.pdf is ready.
 
 Congratulations! ./diff.pdf is ready.
-
-Checking terms in ./compiled.tex
-- Abstract Line 5-6
-  "sharp-wave ripples (SWRs) --- transient and synchronous oscillation observed in the hippocampus" -> "sharp-wave ripples (SWRs) --- a transient and synchronous oscillation observed in the hippocampus"
-  Reason: Grammatical consistency
-
-- Introduction Line 6
-  "a transient, synchronized oscillation, called sharp-wave ripples (SWRs)" -> "a transient, synchronized oscillation called sharp-wave ripples (SWRs)"
-  Reason: Unnecessary comma
-
-- Introduction Line 29
-  "recent studies have found" -> "Recent studies have found"
-  Reason: Sentence beginning should be capitalized
-
-- Methods Line 5-6
-  "The dataset used in this study, which is publicly available, comprises nine epilepsy patients performing a modified the Sternberg task" -> "The dataset used in this study, which is publicly available, comprises nine epilepsy patients performing a modified Sternberg task"
-  Reason: Typographical error
-
-- Methods Line 30-31
-  "The bin size was set to 50 ms, without overlaps." -> "The bin size was set to 50 ms without overlaps."
-  Reason: Unnecessary comma
-
-- Methods Line 36-37
-  "An optimal GPFA dimensionality was found to be three using the elbow method obtained by examining..." -> "An optimal GPFA dimensionality was found to be three, determined using the elbow method by examining..."
-  Reason: Clarity of sentence structure
-
-- Methods Line 45-46
-  "The resulting $^+/^-$ candidates were then visually inspected." -> "The resulting $^+/$^-$ candidates were then visually inspected."
-  Reason: Consistency in notation for plus/minus candidates
-
-- Results Line 4-5
-  "during the execution of the modified Sternberg task." -> "during the execution of a modified Sternberg task."
-  Reason: Typographical error
-
-- Results Line 17-18
-  "We normalized each factor per session and region, for instance, session \#2 in AHL of subject \#1." -> "We normalized each factor for each session and region, for instance, session \#2 in AHL of subject \#1."
-  Reason: Clarity and grammatical consistency
-
-- Results Line 28-29
-  "The NT distance from the origin ($O$) --- represented as $ }$, $ }$, $ }$, and $ }$ --- in the hippocampus surpassed..." -> "The NT distance from the origin ($O$)---represented as $ }$, $ }$, $ }$, and $ }$---in the hippocampus surpassed..."
-  Reason: Formatting consistency for em dashes
-
-- Results Line 47-48
-  "We identified five putative CA1 regions, four of which were not indicated as seizure onset zones (Table~\ref{tab:01})." -> "We identified five putative CA1 regions, four of which were identified as not being seizure onset zones (Table~\ref{tab:01})."
-  Reason: Clarity and grammatical consistency
-
-- Discussion Last Paragraph Line 5
-  "opposing movements of encoding-SWR (eSWR) and retrieval-SWR (rSWR) were not observed in Match IN task but were apparent in Mismatch OUT task." -> "opposing movements of encoding-SWR (eSWR) and retrieval-SWR (rSWR) were observed not in the Match IN task but were apparent in the Mismatch OUT task."
-  Reason: Clarity and grammatical consistency
-
-- References Line 2
-  "Note Re-compile is required" -> "Note: Re-compilation is required"
-  Reason: Correction of phrase and formatting for clarity
-
-- Additional Information "Declaration_of_interest" Line 3
-  "The authors declare that they have no competing interests." -> "The authors declare no competing interests."
-  Reason: Conciseness and grammatical preference
-
-Please remember, the line numbers are estimates and should be checked within the context of the provided manuscript for accuracy.
-Results logged in ./.logs/term_check_results.txt
 
 Log saved to ./.logs/compile.log
 
