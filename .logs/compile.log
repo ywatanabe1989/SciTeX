@@ -1,33 +1,14 @@
-./compile.sh --push --ppt2tif
+./compile.sh --push --revise --terms --ppt2tif
 
 
-Converting ./src/figures/Figure_ID_01.pptx...
+Converting ./src/figures/Figure_ID_*.pptx...
+\\wsl.localhost\Ubuntu\home\ywatanabe\proj\SciTeX\.scripts\ps1\pptx2tiff.ps1 : An error occurred: The system cannot 
+find the path specified. (Exception from HRESULT: 0x80070003)
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,pptx2tiff.ps1
+ 
 
-Converted: ./src/figures/Figure_ID_01.pptx -> ./src/figures/Figure_ID_01.tif
-
-Converting ./src/figures/Figure_ID_02.pptx...
-
-Converted: ./src/figures/Figure_ID_02.pptx -> ./src/figures/Figure_ID_02.tif
-
-Converting ./src/figures/Figure_ID_03.pptx...
-
-Converted: ./src/figures/Figure_ID_03.pptx -> ./src/figures/Figure_ID_03.tif
-
-Converting ./src/figures/Figure_ID_04.pptx...
-
-Converted: ./src/figures/Figure_ID_04.pptx -> ./src/figures/Figure_ID_04.tif
-
-Converting ./src/figures/Figure_ID_05.pptx...
-
-Converted: ./src/figures/Figure_ID_05.pptx -> ./src/figures/Figure_ID_05.tif
-
-Converting ./src/figures/Figure_ID_06.pptx...
-
-Converted: ./src/figures/Figure_ID_06.pptx -> ./src/figures/Figure_ID_06.tif
-
-Converting ./src/figures/Figure_ID_07.pptx...
-
-Converted: ./src/figures/Figure_ID_07.pptx -> ./src/figures/Figure_ID_07.tif
+Converted: ./src/figures/Figure_ID_*.pptx -> ./src/figures/Figure_ID_*.tif
 
 ./src/figures/Figure_ID_01.tif was cropped.
 
@@ -42,6 +23,15 @@ Converted: ./src/figures/Figure_ID_07.pptx -> ./src/figures/Figure_ID_07.tif
 ./src/figures/Figure_ID_06.tif was cropped.
 
 ./src/figures/Figure_ID_07.tif was cropped.
+
+Based on ./configs/files_to_revise.txt, the following texfiles are being revised:
+
+./src/abstract.tex
+
+
+Revising ./src/abstract.tex ...
+Backed up: ./src/abstract.tex -> ./src/.old/abstract.tex
+Revised: ./src/abstract.tex
 
 Compiling ./main.tex...
 convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_01.tif' @ error/cache.c/OpenPixelCache/4083.
@@ -1189,18 +1179,7 @@ LaTeX Warning: Reference `tab:02' on page 15 undefined on input line 7.
 ) (./src/figures/.tex/Figure_ID_05.tex [15 <./src/figures/.png/Figure_ID_04.png
 >]) (./src/figures/.tex/Figure_ID_06.tex [16 <./src/figures/.png/Figure_ID_05.p
 ng>]) (./src/figures/.tex/Figure_ID_07.tex [17 <./src/figures/.png/Figure_ID_06
-.png>]
-! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.12 }
-      
-? ! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.12 }
-      
-? ))
+.png>]))
 
 Package natbib Warning: There were undefined citations.
 
@@ -1227,7 +1206,7 @@ dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 22587435 bytes).
+Output written on main.pdf (19 pages, 22587466 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -2419,18 +2398,7 @@ put line 7.
 ) (./src/figures/.tex/Figure_ID_05.tex [18 <./src/figures/.png/Figure_ID_04.png
 >]) (./src/figures/.tex/Figure_ID_06.tex [19 <./src/figures/.png/Figure_ID_05.p
 ng>]) (./src/figures/.tex/Figure_ID_07.tex [20 <./src/figures/.png/Figure_ID_06
-.png>]
-! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.12 }
-      
-? ! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.12 }
-      
-? ))
+.png>]))
 
 Package natbib Warning: There were undefined citations.
 
@@ -2464,7 +2432,7 @@ c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 22653260 bytes).
+Output written on main.pdf (22 pages, 22653276 bytes).
 Transcript written on main.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
  \write18 enabled.
@@ -3360,18 +3328,7 @@ l.7 }
 >]) (./src/figures/.tex/Figure_ID_05.tex [18 <./src/figures/.png/Figure_ID_04.p
 ng>]) (./src/figures/.tex/Figure_ID_06.tex [19 <./src/figures/.png/Figure_ID_05
 .png>]) (./src/figures/.tex/Figure_ID_07.tex [20 <./src/figures/.png/Figure_ID_
-06.png>]
-! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.12 }
-      
-? ! Misplaced alignment tab character &.
-<argument> ...it {E} = \textit {C} - \textit {A} &
-                                                   \textit {F} = \textit {D}...
-l.12 }
-      
-? )) [21 <./src/figures/.png/Figure_ID_07.png>] (./main.aux)
+06.png>])) [21 <./src/figures/.png/Figure_ID_07.png>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -3387,7 +3344,7 @@ lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 22655614 bytes).
+Output written on main.pdf (22 pages, 22655637 bytes).
 Transcript written on main.log.
 
 Processing ./src/styles/formatting.tex
@@ -3428,22 +3385,40 @@ Congratulations! ./compiled.pdf is ready.
 
 Congratulations! ./diff.pdf is ready.
 
+Checking terms in ./compiled.tex
+- Abstract Line 3-4
+  "sharp-wave ripples (SWRs)" -> "SWRs"
+  Reason: Already defined
+
+- Introduction Line 3
+  "sharp-wave ripples (SWRs)" -> "SWRs"
+  Reason: Already defined
+
+- Methods Section (no specific line number because there are LaTeX formula codes between the text)
+  Missing definition for "Sternberg task" at its first occurrence.
+  Suggestion: Define "Sternberg task" at its first occurrence, even if it was defined in the abstract.
+
+- Methods Section (no specific line number because there are LaTeX formula codes between the text)
+  Missing definition for "Gaussian-process factor analysis (GPFA)" at its first occurrence.
+  Suggestion: Define "Gaussian-process factor analysis (GPFA)" at its first occurrence, even if it was defined in the abstract.
+
+- Results Section (no specific line number because there are LaTeX formula codes between the text)
+  "CA1" -> "cornu Ammonis 1 (CA1)"
+  Reason: Abbreviation not defined in the main text at first occurrence.
+
+- Results Section (no specific line number because there are LaTeX formula codes between the text)
+  "sharp-wave ripples" and "SWR" usage is inconsistent.
+  Suggestion: Decide on one abbreviation/term and use it consistently throughout the section.
+
+- Discussion Line 9-10
+  "sharp-wave ripples (SWRs)" -> "SWRs"
+  Reason: Already defined
+
+- Discussion Line 16
+  "GPFA" -> "Gaussian-process factor analysis (GPFA)"
+  Reason: Abbreviation not defined in the main text at first occurrence.
+
+Results logged in ./.logs/term_check_results.txt
+
 Log saved to ./.logs/compile.log
 
-[develop 08fa0c6] v075
- 22 files changed, 1251 insertions(+), 19 deletions(-)
- create mode 100644 old/compiled_v075.pdf
- create mode 100644 old/compiled_v075.tex
- create mode 100644 old/diff_v075.pdf
- create mode 100644 old/diff_v075.tex
- rewrite src/figures/Figure_ID_07.tex (83%)
-remote: warning: File src/figures/Figure_ID_03.pptx is 66.39 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
-remote: error: Trace: 998a1d1c6da97331aa7aaf0ce08969276e71e6099586fc3ecd83439081c534af        
-remote: error: See https://gh.io/lfs for more information.        
-remote: error: File src/figures/Figure_ID_07.pptx is 295.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
-remote: error: File src/figures/Figure_ID_06.pptx is 578.25 MB; this exceeds GitHub's file size limit of 100.00 MB        
-remote: error: File src/figures/Figure_ID_07.pptx is 295.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
-remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
-To github.com:ywatanabe1989/LaTeX-Scientific-Template.git
- ! [remote rejected] develop -> develop (pre-receive hook declined)
-error: failed to push some refs to 'git@github.com:ywatanabe1989/LaTeX-Scientific-Template.git'

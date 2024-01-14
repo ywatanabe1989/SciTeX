@@ -1,57 +1,32 @@
-- Abstract Line 5-6
-  "sharp-wave ripples (SWRs) --- transient and synchronous oscillation observed in the hippocampus" -> "sharp-wave ripples (SWRs) --- a transient and synchronous oscillation observed in the hippocampus"
-  Reason: Grammatical consistency
+- Abstract Line 3-4
+  "sharp-wave ripples (SWRs)" -> "SWRs"
+  Reason: Already defined
 
-- Introduction Line 6
-  "a transient, synchronized oscillation, called sharp-wave ripples (SWRs)" -> "a transient, synchronized oscillation called sharp-wave ripples (SWRs)"
-  Reason: Unnecessary comma
+- Introduction Line 3
+  "sharp-wave ripples (SWRs)" -> "SWRs"
+  Reason: Already defined
 
-- Introduction Line 29
-  "recent studies have found" -> "Recent studies have found"
-  Reason: Sentence beginning should be capitalized
+- Methods Section (no specific line number because there are LaTeX formula codes between the text)
+  Missing definition for "Sternberg task" at its first occurrence.
+  Suggestion: Define "Sternberg task" at its first occurrence, even if it was defined in the abstract.
 
-- Methods Line 5-6
-  "The dataset used in this study, which is publicly available, comprises nine epilepsy patients performing a modified the Sternberg task" -> "The dataset used in this study, which is publicly available, comprises nine epilepsy patients performing a modified Sternberg task"
-  Reason: Typographical error
+- Methods Section (no specific line number because there are LaTeX formula codes between the text)
+  Missing definition for "Gaussian-process factor analysis (GPFA)" at its first occurrence.
+  Suggestion: Define "Gaussian-process factor analysis (GPFA)" at its first occurrence, even if it was defined in the abstract.
 
-- Methods Line 30-31
-  "The bin size was set to 50 ms, without overlaps." -> "The bin size was set to 50 ms without overlaps."
-  Reason: Unnecessary comma
+- Results Section (no specific line number because there are LaTeX formula codes between the text)
+  "CA1" -> "cornu Ammonis 1 (CA1)"
+  Reason: Abbreviation not defined in the main text at first occurrence.
 
-- Methods Line 36-37
-  "An optimal GPFA dimensionality was found to be three using the elbow method obtained by examining..." -> "An optimal GPFA dimensionality was found to be three, determined using the elbow method by examining..."
-  Reason: Clarity of sentence structure
+- Results Section (no specific line number because there are LaTeX formula codes between the text)
+  "sharp-wave ripples" and "SWR" usage is inconsistent.
+  Suggestion: Decide on one abbreviation/term and use it consistently throughout the section.
 
-- Methods Line 45-46
-  "The resulting $^+/^-$ candidates were then visually inspected." -> "The resulting $^+/$^-$ candidates were then visually inspected."
-  Reason: Consistency in notation for plus/minus candidates
+- Discussion Line 9-10
+  "sharp-wave ripples (SWRs)" -> "SWRs"
+  Reason: Already defined
 
-- Results Line 4-5
-  "during the execution of the modified Sternberg task." -> "during the execution of a modified Sternberg task."
-  Reason: Typographical error
+- Discussion Line 16
+  "GPFA" -> "Gaussian-process factor analysis (GPFA)"
+  Reason: Abbreviation not defined in the main text at first occurrence.
 
-- Results Line 17-18
-  "We normalized each factor per session and region, for instance, session \#2 in AHL of subject \#1." -> "We normalized each factor for each session and region, for instance, session \#2 in AHL of subject \#1."
-  Reason: Clarity and grammatical consistency
-
-- Results Line 28-29
-  "The NT distance from the origin ($O$) --- represented as $ }$, $ }$, $ }$, and $ }$ --- in the hippocampus surpassed..." -> "The NT distance from the origin ($O$)---represented as $ }$, $ }$, $ }$, and $ }$---in the hippocampus surpassed..."
-  Reason: Formatting consistency for em dashes
-
-- Results Line 47-48
-  "We identified five putative CA1 regions, four of which were not indicated as seizure onset zones (Table~\ref{tab:01})." -> "We identified five putative CA1 regions, four of which were identified as not being seizure onset zones (Table~\ref{tab:01})."
-  Reason: Clarity and grammatical consistency
-
-- Discussion Last Paragraph Line 5
-  "opposing movements of encoding-SWR (eSWR) and retrieval-SWR (rSWR) were not observed in Match IN task but were apparent in Mismatch OUT task." -> "opposing movements of encoding-SWR (eSWR) and retrieval-SWR (rSWR) were observed not in the Match IN task but were apparent in the Mismatch OUT task."
-  Reason: Clarity and grammatical consistency
-
-- References Line 2
-  "Note Re-compile is required" -> "Note: Re-compilation is required"
-  Reason: Correction of phrase and formatting for clarity
-
-- Additional Information "Declaration_of_interest" Line 3
-  "The authors declare that they have no competing interests." -> "The authors declare no competing interests."
-  Reason: Conciseness and grammatical preference
-
-Please remember, the line numbers are estimates and should be checked within the context of the provided manuscript for accuracy.

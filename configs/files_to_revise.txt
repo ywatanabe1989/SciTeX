@@ -1,4 +1,4 @@
-# ./src/abstract.tex
+./src/abstract.tex
 # ./src/introduction.tex
 # ./src/methods.tex
 # ./src/results.tex
