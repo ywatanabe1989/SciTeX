@@ -64,12 +64,12 @@ fi
 ./.scripts/sh/.print_success.sh
 
 # Check terms
-./.scripts/sh/.check_terms.sh
+if [ "$do_term_check" = true ]; then
+    ./.scripts/sh/.check_terms.sh 
+fi
 
 # Tree
-if [ "$do_term_check" = true ]; then
-    ./.scripts/sh/.custom_tree.sh
-fi
+./.scripts/sh/.custom_tree.sh
 
 echo -e "\nLog saved to $LOG_FILE\n"
 
@@ -80,7 +80,6 @@ fi
 } 2>&1 | tee "$LOG_FILE"
 
 
-## EOF
 
 # # Open the compiled pdf
 # if [ "$(echo $USER)" = "ywatanabe" ]; then
@@ -92,3 +91,5 @@ fi
 #     fi
 #     ./.scripts/sh/.open_pdf_or_exit.sh $PDF_PATH
 # fi
+
+## EOF
