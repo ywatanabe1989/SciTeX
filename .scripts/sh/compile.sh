@@ -13,19 +13,25 @@ LOG_FILE="./.logs/compile.log"
     do_push=false
     do_term_check=false
     do_p2t=false
-    do_yes=false    
+    # do_yes=false    
 
     # Function to display help message
     usage() {
-        echo "Usage: $0 [options]"
+        echo "Usage:"
+        echo "    $0 [options]"
+        echo
         echo "Options:"
         echo "  -p,  --push          Enables push action"
         echo "  -r,  --revise        Enables revision process with GPT"
         echo "  -t,  --terms         Enables term checking with GPT"
         echo "  -p2t, --ppt2tif      Converts Power Point to TIF (on WSL on Windows)"
         echo "  -c,  --citations     Inserts citations with GPT"
-        echo "  -nd, --no-diff       Disables taking differences with the original manuscript"
-        echo "  -y, --yes            Accepts all processes answering yes"
+        echo
+        echo "Example:"
+        echo "    yes | ./compile.sh -p -r -t -p2t -c"
+        echo
+        # echo "  -nd, --no-diff       Disables taking differences with the original manuscript"
+        # echo "  -y, --yes            Accepts all processes answering yes"
         exit 0
     }
 
@@ -37,8 +43,8 @@ LOG_FILE="./.logs/compile.log"
             -t|--terms) do_term_check=true ;;
             -p2t|--ppt2tif) do_p2t=true ;;
             -c|--citations) do_insert_citations=true ;;
-            -y|--yes) do_yes=true ;;            
-            -nd|--no-diff) do_take_diff=false ;;
+            # -y|--yes) do_yes=true ;;            
+            # -nd|--no-diff) do_take_diff=false ;;
             # *) echo "Unknown parameter passed: $1"; exit 1 ;;
         esac
         shift
@@ -51,26 +57,18 @@ LOG_FILE="./.logs/compile.log"
          $(if [ "$do_term_check" = true ]; then echo "--terms "; fi) \
          $(if [ "$do_p2t" = true ]; then echo "--ppt2tif "; fi) \
          $(if [ "$do_insert_citations" = true ]; then echo "--citations "; fi) \
-         $(if [ "$do_take_diff" != true ]; then echo "--no-diff "; fi) \
-         $(if [ "$do_yes" != true ]; then echo "--yes "; fi)
+         # $(if [ "$do_take_diff" != true ]; then echo "--no-diff "; fi) \
+         # $(if [ "$do_yes" != true ]; then echo "--yes "; fi)
     echo
     
 
-    say_yes() {
-        if [ "$do_yes" = true ]; then
-            yes | "$@"
-        else
-            "$@"
-        fi
-    }
-    
     # Checks
     ./.scripts/sh/.check.sh
 
     
     # PowerPoint to Tiff (default: false)
     if [ "$do_p2t" = true ]; then
-        say_yes ./.scripts/sh/.pptx2tif_all.sh
+        ./.scripts/sh/.pptx2tif_all.sh
         # ./.scripts/sh/.pptx2tif_all.sh
     fi
 
@@ -79,12 +77,12 @@ LOG_FILE="./.logs/compile.log"
 
     # Revise tex files if requested (default: false)
     if [ "$do_revise" = true ]; then
-        say_yes ./.scripts/sh/revise.sh
+        ./.scripts/sh/revise.sh
     fi
     
     # Insert citations if requested (default: false)
     if [ "$do_insert_citations" = true ]; then
-        say_yes ./.scripts/sh/insert_citations.sh
+        ./.scripts/sh/insert_citations.sh
     fi
 
     # Word count
@@ -94,10 +92,11 @@ LOG_FILE="./.logs/compile.log"
     ./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf, collect figures and tables
     ./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
 
-    # Take diff if requested (default: false)
-    if [ "$do__diff" = true ]; then
-        ./.scripts/sh/.gen_and_compile_diff.sh
-    fi
+    # Take diff
+    ./.scripts/sh/.gen_and_compile_diff.sh    
+    # if [ "$do__diff" = true ]; then
+    #     ./.scripts/sh/.gen_and_compile_diff.sh
+    # fi
 
     # Move unnecessary files
     ./.scripts/sh/.cleanup.sh
@@ -110,7 +109,7 @@ LOG_FILE="./.logs/compile.log"
 
     # Check terms
     if [ "$do_term_check" = true ]; then
-        say_yes ./.scripts/sh/.check_terms.sh 
+        ./.scripts/sh/.check_terms.sh 
     fi
 
     # Tree

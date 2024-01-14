@@ -1,32 +1,66 @@
-- Abstract Line 3-4
-  "sharp-wave ripples (SWRs)" -> "SWRs"
-  Reason: Already defined
+- Abstract Line 15-16
+  "the NT distance between the encoding and retrieval phases was dependent on the memory load."
+  -> "the distance of neural trajectories (NTs) between the encoding and retrieval phases was dependent on the memory load."
+  Reason: Abbreviation 'NTs' not consistently introduced; previously mentioned as 'NT'.
 
-- Introduction Line 3
-  "sharp-wave ripples (SWRs)" -> "SWRs"
-  Reason: Already defined
+- Introduction Line 10
+  "sharp-wave ripples" -> "sharp-wave ripples (SWRs)"
+  Reason: Abbreviation 'SWRs' not introduced at first occurrence in main text.
 
-- Methods Section (no specific line number because there are LaTeX formula codes between the text)
-  Missing definition for "Sternberg task" at its first occurrence.
-  Suggestion: Define "Sternberg task" at its first occurrence, even if it was defined in the abstract.
+- Introduction Line 17
+  "neural trajectories" -> "neural trajectories (NTs)"
+  Reason: Abbreviation 'NTs' not introduced at first occurrence in main text.
 
-- Methods Section (no specific line number because there are LaTeX formula codes between the text)
-  Missing definition for "Gaussian-process factor analysis (GPFA)" at its first occurrence.
-  Suggestion: Define "Gaussian-process factor analysis (GPFA)" at its first occurrence, even if it was defined in the abstract.
+- Introduction Line 36-37
+  "Gaussian-process factor analysis" -> "Gaussian-process factor analysis (GPFA)"
+  Reason: Abbreviation 'GPFA' not introduced at first occurrence in main text.
 
-- Results Section (no specific line number because there are LaTeX formula codes between the text)
-  "CA1" -> "cornu Ammonis 1 (CA1)"
-  Reason: Abbreviation not defined in the main text at first occurrence.
+- Results Line 8
+  "sharp-wave ripples (SWR$^+$)" -> "sharp-wave ripples (SWRs)"
+  Reason: Abbreviation 'SWRs' should be used after the introduction and use of 'SWR$^+$' is inconsistent.
 
-- Results Section (no specific line number because there are LaTeX formula codes between the text)
-  "sharp-wave ripples" and "SWR" usage is inconsistent.
-  Suggestion: Decide on one abbreviation/term and use it consistently throughout the section.
+- Results Line 49:
+  Replace "$^+$" with "SWR$^+$" and "$^-$" with "SWR$^-$" throughout lines where these symbols first occur.
+  Reason: Abbreviations for "sharp wave-ripple" events are inconsistent, and the symbols alone do not provide clear definition upon first use within the Results section.
 
-- Discussion Line 9-10
-  "sharp-wave ripples (SWRs)" -> "SWRs"
-  Reason: Already defined
+- Results Line 48-49
+  "sharp wave-ripple (SWR$^+$)" -> "sharp wave-ripple (SWR)"
+  Reason: In the introduction, 'SWRs' is defined; hence 'SWR$^+$' as per the instructions should be written in its abbreviated form 'SWR'.
+
+- Results Line 98-99
+  "representations or neural trajectories" -> "representations or neural trajectories (NTs)"
+  Reason: The abbreviation 'NTs' is not defined at the first mention in the Results section.
+
+- Methods Line 39-40
+  "sharp-wave ripples" -> "sharp-wave ripples (SWRs)"
+  Reason: Abbreviation 'SWRs' not introduced at the first occurrence in the Methods section.
+
+- Methods Line 47
+  "Gaussian-Process Factor Analysis" -> "Gaussian-Process Factor Analysis (GPFA)"
+  Reason: Abbreviation 'GPFA' not introduced at the first occurrence in the Methods section.
+
+- Discussion Line 14
+  "Neural trajectories" -> "Neural trajectories (NTs)"
+  Reason: Inconsistency in the use of the abbreviation 'NTs'.
+
+- Discussion Line 14-15
+  "sharp-wave ripple (SWR)" -> "sharp-wave ripple (SWRs)"
+  Reason: Inconsistent abbreviation usage; should be consistent with the introduction 'SWRs'.
 
 - Discussion Line 16
-  "GPFA" -> "Gaussian-process factor analysis (GPFA)"
-  Reason: Abbreviation not defined in the main text at first occurrence.
+  "working memory (WM)" -> "working memory"
+  Reason: Abbreviation 'WM' already introduced in the abstract and does not need to be redefined here in the Discussion.
 
+- Discussion Line 24-26
+  "putative CA1 regions (Figure~\ref{fig:04})" -> "putative CA1 regions"
+  Reason: Unnecessary detail for referencing the figure within the Discussion text regarding term consistency.
+
+- Discussion Line 37:
+  "which was found to be memory load-dependent (Figure~\ref{fig:03})" -> "which was found to be memory load-dependent"
+  Reason: Unnecessary detail for referencing the figure within the Discussion text regarding term consistency.
+
+- Discussion Line 45-46
+  Sharps should be removed from SWR$^+$ and SWR$^-$ since they represent sharp-wave ripples (SWRs) and control events, respectively.
+  Reason: Inconsistency in usage and unnecessary detail for referencing figure within the Discussion text regarding term consistency. 
+
+These are the errors noticed upon reviewing the manuscript with respect to the abbreviation and technical term rules provided. Each item refers to the first occurrence of the issue; please ensure consistent correction throughout the entire manuscript.
