@@ -15,6 +15,9 @@ jobs:
       
     - name: Install LaTeX
       run: ./.scripts/sh/install_on_ubuntu.sh
+
+    - name: Install Python
+      run: ./.scripts/sh/gen_pyenv.sh      
       
     - name: Run compile script
       run: ./compile.sh
