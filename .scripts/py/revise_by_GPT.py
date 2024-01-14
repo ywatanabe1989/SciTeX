@@ -1,6 +1,6 @@
 #./env/bin/python
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-14 11:13:05 (ywatanabe)"
+# Time-stamp: "2024-01-14 11:22:25 (ywatanabe)"
 
 
 import os
@@ -40,7 +40,7 @@ def revise_by_GPT(lpath):
     - When using --- (emdash), please add spaces on either side.
     - Terminology should be consistent throughout the manuscript.
 
-    - Titles should follow the capitalization rules for titles like this: Local Field Potentials, Multiunit Activity, and Neural Trajectories in the Hippocampus during a Modified Sternberg Task. Please note that prepositions are written in lower letters.
+    - Titles should follow the capitalization rules for titles like this: Local Field Potentials, Multiunit Activity, and Neural Trajectories in the Hippocampus during a Modified Sternberg Task. Please note that prepositions are written in lower letters. When a singular form without a preposition such as (a, an, the) is appropriate, it is preferred.
 
     - Titles of figures and tables should be the nown form
 
