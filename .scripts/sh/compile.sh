@@ -7,7 +7,6 @@ LOG_FILE="./.logs/compile.log"
     rm ./.compiled.pdf > /dev/null 2>&1
     rm ./.diff.tex > /dev/null 2>&1
 
-    do_take_diff=true
     do_insert_citations=false
     do_revise=false
     do_push=false
@@ -35,7 +34,6 @@ LOG_FILE="./.logs/compile.log"
             -t|--terms) do_term_check=true ;;
             -p2t|--ppt2tif) do_p2t=true ;;
             -c|--citations) do_insert_citations=true ;;            
-            -nd|--no-diff) do_take_diff=false ;;
             # *) echo "Unknown parameter passed: $1"; exit 1 ;;
         esac
         shift
@@ -48,7 +46,6 @@ LOG_FILE="./.logs/compile.log"
          $(if $do_term_check; then echo "--terms "; fi) \
          $(if $do_p2t; then echo "--ppt2tif "; fi) \
          $(if $do_insert_citations; then echo "--citations "; fi) \
-         $(if ! $do_take_diff; then echo "--no-diff "; fi)
     echo
     
 
@@ -81,9 +78,7 @@ LOG_FILE="./.logs/compile.log"
     ./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
 
     # Take diff if requested (default: false)
-    if [ "$do__diff" = true ]; then
-        ./.scripts/sh/.gen_and_compile_diff.sh
-    fi
+    ./.scripts/sh/.gen_and_compile_diff.sh    
 
     # Move unnecessary files
     ./.scripts/sh/.cleanup.sh
