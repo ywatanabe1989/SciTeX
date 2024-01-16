@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Time-stamp: "2024-01-13 16:02:13 (ywatanabe)"
+# Time-stamp: "2024-01-16 16:35:03 (ywatanabe)"
 
 import difflib
 import io

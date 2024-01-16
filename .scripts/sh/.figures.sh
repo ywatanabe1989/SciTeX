@@ -16,7 +16,7 @@ function cvt_tif2png() {
     mkdir -p ./src/figures/.png/
     for file in ./src/figures/*.tif; do
         if [ -f "$file" ]; then
-            convert "$file" -resample 150x150 "./src/figures/.png/$(basename "$file" .tif).png"
+            convert "$file" -resample 100x100 "./src/figures/.png/$(basename "$file" .tif).png"
         fi
     done
 }
