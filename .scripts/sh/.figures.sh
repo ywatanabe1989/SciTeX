@@ -2,14 +2,14 @@
 
 
 function hide_figures() {
-    for fig_tex in ./src/figures/.tex/*.tex; do # [REVISED]
-        sed -i 's/\\includegraphics/% \\includegraphics/g' "$fig_tex" # [REVISED]
+    for fig_tex in ./src/figures/*.tex; do
+        sed -i 's/^\\includegraphics/%\\includegraphics/g' "$fig_tex"
     done
 }
 
 function add_figures() {
-    for fig_tex in ./src/figures/.tex/*.tex; do # [REVISED]   
-        sed -i 's/% \\includegraphics/\\includegraphics/g' "$fig_tex" # [REVISED]
+    for fig_tex in ./src/figures/*.tex; do
+        sed -i 's/^% *\\includegraphics/\\includegraphics/g' "$fig_tex"
     done
 }
 
