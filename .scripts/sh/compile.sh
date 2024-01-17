@@ -12,17 +12,18 @@ LOG_FILE="./.logs/compile.log"
     do_push=false
     do_term_check=false
     do_p2t=false
+    no_figs=false    
 
     # Function to display help message
     usage() {
         echo "Usage: $0 [options]"
         echo "Options:"
-        echo "  -p,  --push          Enables push action"
-        echo "  -r,  --revise        Enables revision process with GPT"
-        echo "  -t,  --terms         Enables term checking with GPT"
-        echo "  -p2t, --ppt2tif      Converts Power Point to TIF (on WSL on Windows)"
-        echo "  -c,  --citations     Inserts citations with GPT"
-        echo "  -nd, --no-diff       Disables taking differences with the original manuscript"        
+        echo "  -p,   --push          Enables push action"
+        echo "  -r,   --revise        Enables revision process with GPT"
+        echo "  -t,   --terms         Enables term checking with GPT"
+        echo "  -p2t, --ppt2tif       Converts Power Point to TIF (on WSL on Windows)"
+        echo "  -c,   --citations     Inserts citations with GPT"
+        echo "  -nf,  --no-figs       Does not include figures"
         exit 0
     }
 
@@ -33,11 +34,14 @@ LOG_FILE="./.logs/compile.log"
             -r|--revise) do_revise=true ;;
             -t|--terms) do_term_check=true ;;
             -p2t|--ppt2tif) do_p2t=true ;;
-            -c|--citations) do_insert_citations=true ;;            
+            -c|--citations) do_insert_citations=true ;;
+            -nf|--no_figs) no_figs=true ;;                        
             # *) echo "Unknown parameter passed: $1"; exit 1 ;;
         esac
         shift
     done
+
+    options=""
 
     # for logging
     echo "./compile.sh" \
@@ -46,19 +50,21 @@ LOG_FILE="./.logs/compile.log"
          $(if $do_term_check; then echo "--terms "; fi) \
          $(if $do_p2t; then echo "--ppt2tif "; fi) \
          $(if $do_insert_citations; then echo "--citations "; fi) \
-    echo
-    
+         $(if $no_figs; then echo "--no-figs"; fi)    
+    echo    
 
     # Checks
     ./.scripts/sh/.check.sh
 
     # PowerPoint to Tiff (default: false)
-    if [ "$do_p2t" = true ]; then
-        ./.scripts/sh/.pptx2tif_all.sh
+    if [ "$do_p2t" = "true" ] && [ "$no_figs" = "false" ]; then
+    ./.scripts/sh/.pptx2tif_all.sh
     fi
 
     # Crop figures
-    ./.scripts/sh/.crop_figures.sh
+    if [ "$no_figs" = false ]; then
+        ./.scripts/sh/.crop_figures.sh
+    fi
 
     # Revise tex files if requested (default: false)
     if [ "$do_revise" = true ]; then
@@ -74,7 +80,12 @@ LOG_FILE="./.logs/compile.log"
     ./.scripts/sh/.count_words_figures_and_tables.sh
 
     # Main
-    ./.scripts/sh/.compile_main.tex.sh # -> compiled.pdf, collect figures and tables
+    if $no_figs; then
+        ./.scripts/sh/.compile_main.tex.sh --no-figs
+    else
+        ./.scripts/sh/.compile_main.tex.sh
+    fi
+        
     ./.scripts/sh/.gen_compiled.tex.sh # -> compiled.tex
 
     # Take diff if requested (default: false)

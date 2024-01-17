@@ -1,24 +1,11 @@
-./compile.sh echo
+./compile.sh --no-figs
 
-./src/figures/Figure_ID_01.tif was cropped.
-
-./src/figures/Figure_ID_02.tif was cropped.
-
-./src/figures/Figure_ID_03.tif was cropped.
-
-./src/figures/Figure_ID_04.tif was cropped.
-
-./src/figures/Figure_ID_05.tif was cropped.
-
-./src/figures/Figure_ID_06.tif was cropped.
-
-./src/figures/Figure_ID_07.tif was cropped.
 
 Compiling ./main.tex...
-convert-im6.q16: cache resources exhausted `./src/figures/Figure_ID_06.tif' @ error/cache.c/OpenPixelCache/4083.
 
-Processing ./src/styles/formatting.tex
+Processing ./src/styles/columns.tex
 Processing ./src/styles/packages.tex
+Processing ./src/styles/formatting.tex
 Processing ./src/journal_name.tex
 Processing ./src/highlights.tex
 Processing ./src/title.tex
@@ -51,7 +38,7 @@ Processing ./src/tables/Table_ID_03.tex
 
 Compiled: ./compiled.tex
 
-Taking diff between ./old/compiled_v077.tex & ./compiled.tex
+Taking diff between ./old/compiled_v082.tex & ./compiled.tex
 
 ./diff.tex was created.
 

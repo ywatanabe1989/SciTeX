@@ -1,7 +1,7 @@
 \UseRawInputEncoding
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL ./old/compiled_v077.tex   Wed Jan 17 09:10:20 2024
-%DIF ADD ./compiled.tex            Wed Jan 17 09:14:13 2024
+%DIF DEL ./old/compiled_v082.tex   Wed Jan 17 11:38:30 2024
+%DIF ADD ./compiled.tex            Wed Jan 17 11:38:39 2024
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SETTINGS
@@ -16,12 +16,7 @@
 %% \documentclass[final,3p,times,twocolumn]{elsarticle}
 %% \documentclass[final,5p,times]{elsarticle}
 %% \documentclass[final,5p,times,twocolumn]{elsarticle}
-%% \documentclass[preprint,review,12pt]{elsarticle}
-
-%% Image width
-\newlength{\imagewidth}
-\newlength{\imagescale}
-%% preamble
+%% \documentclass[preprint,review,12pt]{elsarticle}%% preamble
 \usepackage[english]{babel}
 \usepackage[table]{xcolor} % For coloring tables
 \usepackage{booktabs} % For professional quality tables
@@ -40,9 +35,6 @@
 \usepackage[utf8]{inputenc} % [REVISED]
 \usepackage{hyperref}
 \usepackage{accsupp}
-%% Line numbers
-\linespread{1.1}
-% \linenumbers
 % Tables
 \usepackage[pass]{geometry}
 \usepackage{pdflscape}
@@ -60,9 +52,16 @@
 
 %% Diff
 \usepackage{xcolor}
-% Define commands for highlighting
-% diff
 \usepackage[most]{tcolorbox} % for boxes with transparency
+
+%% Image width
+\newlength{\imagewidth}
+\newlength{\imagescale}
+
+%% Line numbers
+\linespread{1.1}
+% \linenumbers
+
 % Define colors with transparency (opacity value)
 \definecolor{GreenBG}{rgb}{0,1,0}
 \definecolor{RedBG}{rgb}{1,0,0}
@@ -106,6 +105,7 @@
   \closein\wordcount
   \thewordcount
 }
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% JOURNAL NAME
@@ -235,8 +235,7 @@ Hippocampal Neural Fluctuations Between Memory Encoding and Retrieval States Dur
 %\end{graphicalabstract}
 \begin{abstract}
   \pdfbookmark[1]{Abstract}{abstract}
-\DIFdelbegin \DIFdel{test
-  }\DIFdelend Working memory (WM) is crucial for a multitude of cognitive functions, but its underlying neural mechanisms at play remain to be fully understood. Interestingly, the hippocampus and sharp-wave ripples (SWRs)--- transient and synchronous oscillation observed in the hippocampus --- garner recognition for their significance in memory consolidation and retrieval, albeit their correlation with WM tasks remains to be elucidated. Here we show that during a WM task, multi-unit activity patterns in the hippocampus display distinctive dynamics, especially during SWR periods. This study analyzed intracranial electroencephalography data from the medial temporal lobe (MTL) of nine patients with epilepsy, recorded during an eight-second Sternberg task. Utilizing Gaussian-process factor analysis, we extracted low-dimensional neural representations or trajectories (NT) within MTL regions during the Sternberg WM task. The results revealed significant variations in NT of the hippocampus compared to those of the entorhinal cortex and the amygdala. Additionally, the distance of the NT between the encoding and retrieval phases was dependent on memory load. Crucially, hippocampal NT oscillated during the retrieval phase between encoding and retrieval states in a task-dependent manner. Notably, these fluctuations shifted from encoding to retrieval states during SWR episodes. These findings reaffirm the role of the hippocampus in WM tasks and propose a hypothesis: the hippocampus transitions its functional state from encoding to retrieval during SWRs in WM tasks.
+Working memory (WM) is crucial for a multitude of cognitive functions, but its underlying neural mechanisms at play remain to be fully understood. Interestingly, the hippocampus and sharp-wave ripples (SWRs)--- transient and synchronous oscillation observed in the hippocampus --- garner recognition for their significance in memory consolidation and retrieval, albeit their correlation with WM tasks remains to be elucidated. Here we show that during a WM task, multi-unit activity patterns in the hippocampus display distinctive dynamics, especially during SWR periods. This study analyzed intracranial electroencephalography data from the medial temporal lobe (MTL) of nine patients with epilepsy, recorded during an eight-second Sternberg task. Utilizing Gaussian-process factor analysis, we extracted low-dimensional neural representations or trajectories (NT) within MTL regions during the Sternberg WM task. The results revealed significant variations in NT of the hippocampus compared to those of the entorhinal cortex and the amygdala. Additionally, the distance of the NT between the encoding and retrieval phases was dependent on memory load. Crucially, hippocampal NT oscillated during the retrieval phase between encoding and retrieval states in a task-dependent manner. Notably, these fluctuations shifted from encoding to retrieval states during SWR episodes. These findings reaffirm the role of the hippocampus in WM tasks and propose a hypothesis: the hippocampus transitions its functional state from encoding to retrieval during SWRs in WM tasks.
 \end{abstract}
 
 % \pdfbookmark[1]{Keywords}{keywords}                
@@ -547,7 +546,8 @@ The table provides statistics of presumptive CA1 regions and SWR events. Only th
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 01}{figure_id_01}
         	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
+            %DIF <  \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
+        	%DIF >  % \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_01.png}
         	\caption{\textbf{
 Local Field Potentials, Multiunit Activity, and Neural Trajectories in the Hippocampus During a Modified Sternberg Task
 }
@@ -562,7 +562,8 @@ Local Field Potentials, Multiunit Activity, and Neural Trajectories in the Hippo
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 02}{figure_id_02}
         	\centering
-            \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_02.png}
+            %DIF <  \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_02.png}
+        	%DIF >  % \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_02.png}
         	\caption{\textbf{
 State-Dependent Neural Trajectory of Hippocampal Neurons
 }
@@ -577,7 +578,8 @@ State-Dependent Neural Trajectory of Hippocampal Neurons
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 03}{figure_id_03}
         	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_03.png}
+            %DIF <  \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_03.png}
+        	%DIF >  % \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_03.png}
         	\caption{\textbf{
 Positive Correlation between Memory Load and Neural Trajectory Distance in the Hippocampus between Encoding and Retrieval Phases
 }
@@ -592,7 +594,8 @@ Positive Correlation between Memory Load and Neural Trajectory Distance in the H
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 04}{figure_id_04}
         	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_04.png}
+            %DIF <  \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_04.png}
+        	%DIF >  % \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_04.png}
         	\caption{\textbf{Detection of SWRs in Putative CA1 Regions}\\
 \textbf{\textit{A.}} Two-dimensional UMAP \cite{mcinnes_umap_2018} projection displays multi-unit spikes during SWR$^+$ candidates (\textit{purple}) and SWR$^-$ candidates (\textit{yellow}). \textbf{\textit{B.}} A cumulative density plot indicates silhouette scores, reflecting UMAP clustering quality (see Table~\ref{tab:02}). Hippocampal regions with silhouette scores exceeding 0.60 (equivalent to the $75^{th}$ percentile) are identified as putative CA1 regions. SWR$^+$ and SWR$^-$ candidates, which were recorded from these regions, are classified as SWR$^+$ and SWR$^-$ respectively (\textit{n}s = 1,170). \textbf{\textit{C.}} Identical distributions of durations are presented for SWR$^+$ (\textit{purple}) and SWR$^-$ (\textit{yellow}), based on their definitions (93.0 [65.4] ms, median [IQR]). \textbf{\textit{D.}} SWR incidence for both SWR$^+$ (\textit{purple}) and SWR$^-$ (\textit{yellow}), relative to the probe's timing, is illustrated as a mean \textpm 95\% confidence interval. However, intervals may not be visibly apparent due to their confined ranges, be aware that a significant SWR incidence increase was detected during the initial 400 ms of the retrieval phase (0.421 [Hz], *\textit{p} $<$ 0.05, bootstrap test). \textbf{\textit{E.}} Distributions of ripple band peak amplitudes for SWR$^-$ (\textit{yellow}; 2.37 [0.33] SD of baseline, median [IQR]) and SWR$^+$ (\textit{purple}; 3.05 [0.85] SD of baseline, median [IQR]) are manifested (***\textit{p} $<$ 0.001, the Brunner--Munzel test).}
 % width=1\textwidth
@@ -602,7 +605,8 @@ Positive Correlation between Memory Load and Neural Trajectory Distance in the H
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 05}{figure_id_05}
         	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_05.png}
+            %DIF <  \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_05.png}
+        	%DIF >  % \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_05.png}
         	\caption{\textbf{Transient Change in Neural Trajectory during SWR}
 \smallskip
 \\
@@ -614,7 +618,8 @@ Positive Correlation between Memory Load and Neural Trajectory Distance in the H
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 06}{figure_id_06}
         	\centering
-            \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_06.png}
+            %DIF <  \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_06.png}
+        	%DIF >  % \includegraphics[width=1\textwidth]{./src/figures/.png/Figure_ID_06.png}
         	\caption{\textbf{
 Visualization of Neural Trajectory During SWR in Two-Dimensional Space
 }
@@ -629,7 +634,8 @@ The panels depict hippocampal neural trajectories (NTs) during SWR projected ont
         \begin{figure*}[ht]
             \pdfbookmark[2]{ID 07}{figure_id_07}
         	\centering
-            \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_07.png}
+            %DIF <  \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_07.png}
+        	%DIF >  % \includegraphics[width=0.5\textwidth]{./src/figures/.png/Figure_ID_07.png}
         	\caption{\textbf{
 Direction of Neural Trajectory During SWR Based on Encoding and Retrieval States
 }

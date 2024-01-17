@@ -31,6 +31,7 @@ $ ./compile.sh -r            # Revises with ChatGPT
 $ ./compile.sh -t            # Checks terms with ChatGPT
 $ ./compile.sh -c            # Inserts citations with ChatGPT
 $ ./compile.sh -p2t          # Converts PowerPoint to TIF
+$ ./compile.sh -nf           # Does not include figures
 $ yes | ./compile.sh -r -i -p # Executes multiple commands and automatically answers yes
 ```
 
